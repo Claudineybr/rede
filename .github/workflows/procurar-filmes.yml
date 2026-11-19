@@ -43,11 +43,6 @@ jobs:
         with:
           token: ${{ secrets.PAT_CHAIN || secrets.GITHUB_TOKEN }}
 
-      # -----------------------------------------------------------------
-      #  1) PREPARAR LOTE
-      #     (fix: usa awk NR+0 em vez de grep -c || echo 0)
-      #     (fix: usa FILENAME em vez de NR==FNR quando 1o arquivo vazio)
-      # -----------------------------------------------------------------
       - name: Preparar lote
         id: preparar
         env:
@@ -66,9 +61,6 @@ jobs:
 
           TOTAL=$(awk 'END{print NR+0}' lista.txt)
 
-          # Mantem apenas linhas cujo ttID ainda NAO esta em processados.txt.
-          # FILENAME em vez de NR==FNR: funciona mesmo se processados.txt
-          # estiver vazio (NR==FNR daria "true" na 1a linha do 2o arquivo).
           awk '
             FILENAME == "processados.txt" { p[$1]=1; next }
             match($0, /tt[0-9]{6,9}/) {
@@ -85,8 +77,8 @@ jobs:
 
           if [ "$PEND" -eq 0 ]; then
             echo "::notice::Fila vazia - todos os IDs ja foram buscados."
-            echo "VAZIO=1"          >> "$GITHUB_OUTPUT"
-            echo "FALTAM=0"         >> "$GITHUB_OUTPUT"
+            echo "VAZIO=1"        >> "$GITHUB_OUTPUT"
+            echo "FALTAM=0"       >> "$GITHUB_OUTPUT"
             echo "0" > /tmp/faltam.txt
             : > lote_atual.txt
             exit 0
@@ -98,12 +90,9 @@ jobs:
           echo "Lote atual:       $N"
           echo "Restantes apos:   $FALTAM"
           echo "$FALTAM" > /tmp/faltam.txt
-          echo "VAZIO=0"          >> "$GITHUB_OUTPUT"
-          echo "FALTAM=$FALTAM"   >> "$GITHUB_OUTPUT"
+          echo "VAZIO=0"        >> "$GITHUB_OUTPUT"
+          echo "FALTAM=$FALTAM" >> "$GITHUB_OUTPUT"
 
-      # -----------------------------------------------------------------
-      #  2) BUSCAR (log em tempo real no stderr)
-      # -----------------------------------------------------------------
       - name: Procurar cada ID em todos os servidores
         if: steps.preparar.outputs.VAZIO == '0'
         env:
@@ -122,7 +111,12 @@ jobs:
           sed -i 's/^[[:space:]]*//; s/[[:space:]]*$//' servidores.txt
           echo "Servidores: $(awk 'END{print NR+0}' servidores.txt)"
 
+          # bruto_lote.tsv: SO os achados (id<TAB>titulo<TAB>links)
+          # nao_encontrados_lote.tsv: os NAO achados (id<TAB>titulo<TAB>usados) - artifact so
+          # processados_lote.txt: TODOS os IDs (para append em processados.txt)
           : > bruto_lote.tsv
+          : > nao_encontrados_lote.tsv
+          : > processados_lote.txt
 
           TOTAL_LOTE=$(awk 'END{print NR+0}' lote_atual.txt)
           export TOTAL_LOTE
@@ -163,9 +157,18 @@ jobs:
               fi
             done < servidores.txt
 
-            printf '%s\t%s\t%s\t%s\n' \
-              "$id" "${titulo:--}" "${achou:-NENHUM}" "${usados% }" >> bruto_lote.tsv
+            # ---- persistencia ----
+            if [ -n "$achou" ]; then
+              # salva SÓ os achados (sem "usados", para economizar espaco)
+              printf '%s\t%s\t%s\n' "$id" "${titulo:--}" "${achou% }" >> bruto_lote.tsv
+            else
+              # nao achou: guarda separado (nao vai pro bruto commitado)
+              printf '%s\t%s\t%s\n' "$id" "${titulo:--}" "${usados% }" >> nao_encontrados_lote.tsv
+            fi
+            # TODOS os IDs vao para processados_lote.txt (para nao retentar)
+            printf '%s\n' "$id" >> processados_lote.txt
 
+            # ---- progresso em tempo real ----
             n=$(flock /tmp/contador.lock bash -c \
                  'n=$(( $(cat /tmp/contador.n 2>/dev/null || echo 0) + 1 )); echo "$n" > /tmp/contador.n; echo "$n"')
 
@@ -174,7 +177,7 @@ jobs:
                 "$n" "$TOTAL_LOTE" "$id" "${titulo:--}" \
                 "${achou// /=, }" >&2
             else
-              printf '[%s/%s] XX %s  %s  (nenhum servidor)\n' \
+              printf '[%s/%s] XX %s  %s  (nenhum servidor - descartado)\n' \
                 "$n" "$TOTAL_LOTE" "$id" "${titulo:--}" >&2
             fi
           }
@@ -184,20 +187,27 @@ jobs:
             | stdbuf -oL -eL xargs -0 -r -P "$PARALELO" -n 1 \
                 stdbuf -oL -eL bash -c 'procurar "$1"' _
 
+          ACHOU_LOTE=$(awk 'END{print NR+0}' bruto_lote.tsv)
+          NAO_LOTE=$(awk 'END{print NR+0}' nao_encontrados_lote.tsv)
           {
             echo "==================================================================="
-            echo " LOTE CONCLUIDO - $TOTAL_LOTE filmes processados"
+            echo " LOTE CONCLUIDO - $TOTAL_LOTE processados"
+            echo "   achados:       $ACHOU_LOTE"
+            echo "   nao achados:   $NAO_LOTE  (descartados do bruto)"
             echo "==================================================================="
           } >&2
 
+          # Acumula SO os achados no bruto commitado
           touch bruto.tsv
           cat bruto_lote.tsv >> bruto.tsv
-          awk -F'\t' '{ print $1 }' bruto_lote.tsv >> processados.txt
+
+          # processados.txt recebe TODOS (achados + nao achados)
+          cat processados_lote.txt >> processados.txt
           sort -u processados.txt -o processados.txt
 
-      # -----------------------------------------------------------------
-      #  3) RELATORIOS (streaming com python -u)
-      # -----------------------------------------------------------------
+          # (nao_encontrados_lote.tsv NAO e' acumulado nem commitado:
+          #  fica apenas como artifact desta run)
+
       - name: Gerar relatórios
         if: steps.preparar.outputs.VAZIO == '0'
         env:
@@ -206,17 +216,17 @@ jobs:
           python3 -u - <<'PY'
           import os, collections
 
-          def ler(caminho):
+          def ler_found(caminho):
+              """bruto.tsv: id<TAB>titulo<TAB>links"""
               out = []
               try:
                   with open(caminho, encoding='utf-8', errors='replace') as f:
                       for l in f:
                           p = l.rstrip('\n').split('\t')
-                          if len(p) < 4:
+                          if len(p) < 3:
                               continue
                           out.append({'id': p[0], 'titulo': p[1],
-                                      'links': [] if p[2] == 'NENHUM' else p[2].split(),
-                                      'bruto': p[3]})
+                                      'links': p[2].split()})
               except FileNotFoundError:
                   pass
               return out
@@ -227,17 +237,23 @@ jobs:
                   d[r['id']] = r
               return list(d.values())
 
-          todos = dedup(ler('bruto.tsv'))
-          lote  = dedup(ler('bruto_lote.tsv'))
+          # Total processados (para saber quantos foram descartados)
+          try:
+              processados = sum(1 for _ in open('processados.txt', encoding='utf-8'))
+          except FileNotFoundError:
+              processados = 0
 
-          def gerar(linhas, txt_path, md_path, titulo):
-              com = [r for r in linhas if r['links']]
-              sem = [r for r in linhas if not r['links']]
+          todos = dedup(ler_found('bruto.tsv'))
+          lote  = dedup(ler_found('bruto_lote.tsv'))
+
+          def gerar(linhas, txt_path, md_path, titulo, total_proc):
+              com = linhas
+              sem = max(0, total_proc - len(com))
               conta = collections.Counter(n.split('=')[0] for r in com for n in r['links'])
 
               txt = ['=' * 67,
                      f'  CLAUFLIX - {titulo}',
-                     f'  Procurados: {len(linhas)} | Achados: {len(com)} | Nao achados: {len(sem)}',
+                     f'  Processados: {total_proc} | Achados: {len(com)} | Descartados: {sem}',
                      '=' * 67, '']
               if conta:
                   txt.append('  Servidores onde apareceram:')
@@ -251,34 +267,29 @@ jobs:
                   for n in r['links']:
                       srv, link = n.split('=', 1)
                       txt.append(f'    {srv:<8} {link}')
-              txt += ['', '=' * 67, '  NAO ACHADOS', '=' * 67]
-              for r in sem:
-                  txt.append(f"  {r['id']}  {r['titulo']}   (testado: {r['bruto']})")
-              if not sem:
-                  txt.append('  (nenhum)')
+              txt.append('')
+              txt.append('  (Filmes nao encontrados foram descartados -')
+              txt.append('   a lista do lote atual esta no artifact nao_encontrados_lote.tsv)')
               open(txt_path, 'w', encoding='utf-8').write('\n'.join(txt) + '\n')
 
               md = ['# ' + titulo, '',
-                    f"**{len(linhas)} procurados - {len(com)} achados - {len(sem)} nao achados**", '',
+                    f"**{total_proc} processados - {len(com)} achados - {sem} descartados**", '',
                     '| Filme | ID | Servidor | Link |', '|---|---|---|---|']
               for r in com:
                   for n in r['links']:
                       srv, link = n.split('=', 1)
                       md.append(f"| {r['titulo'].replace('|','/')} | {r['id']} | {srv} | {link} |")
-              if sem:
-                  md += ['', '## Nao achados']
-                  for r in sem:
-                      md.append(f"- {r['titulo']} ({r['id']}) - testado: {r['bruto']}")
               open(md_path, 'w', encoding='utf-8').write('\n'.join(md) + '\n')
               return '\n'.join(md)
 
           print(">>> Gerando relatorio do LOTE ATUAL...", flush=True)
-          gerar(lote, 'resultado_lote.txt', 'resultado_lote.md', 'LOTE ATUAL')
+          n_proc_lote = sum(1 for _ in open('processados_lote.txt', encoding='utf-8'))
+          gerar(lote, 'resultado_lote.txt', 'resultado_lote.md', 'LOTE ATUAL', n_proc_lote)
 
           if os.environ.get('GERAL_ATIVO') == '1':
               print(">>> Fila zerada - gerando RELATORIO GERAL ACUMULADO...", flush=True)
               md_geral = gerar(todos, 'resultado.txt', 'resultado.md',
-                               'RELATORIO GERAL ACUMULADO')
+                               'RELATORIO GERAL ACUMULADO', processados)
               resumo = os.environ.get('GITHUB_STEP_SUMMARY')
               if resumo:
                   with open(resumo, 'a', encoding='utf-8') as f:
@@ -288,15 +299,13 @@ jobs:
               print(">>> Ainda ha fila - relatorio geral sera gerado na ultima run.", flush=True)
           PY
 
-      # -----------------------------------------------------------------
-      #  4) COMMIT DO PROGRESSO
-      # -----------------------------------------------------------------
       - name: Commit do progresso
         if: steps.preparar.outputs.VAZIO == '0'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          # SO bruto.tsv (achados) e processados.txt (todos os IDs) sao commitados
           git add processados.txt bruto.tsv
           if [ "${{ steps.preparar.outputs.FALTAM }}" = "0" ]; then
             git add resultado.txt resultado.md
@@ -317,9 +326,6 @@ jobs:
           echo "::error::Falha ao dar push apos 3 tentativas."
           exit 1
 
-      # -----------------------------------------------------------------
-      #  5) ARTIFACT
-      # -----------------------------------------------------------------
       - name: Guardar o resultado (artifact)
         if: always()
         uses: actions/upload-artifact@v4
@@ -329,14 +335,11 @@ jobs:
             resultado_lote.txt
             resultado_lote.md
             bruto_lote.tsv
+            nao_encontrados_lote.tsv
             resultado.txt
             resultado.md
-            processados.txt
           if-no-files-found: warn
 
-      # -----------------------------------------------------------------
-      #  6) DISPARAR PROXIMA RUN (auto-chain)
-      # -----------------------------------------------------------------
       - name: Disparar próxima run (se fila não vazia)
         if: |
           success() &&
