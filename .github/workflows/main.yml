@@ -1,45 +1,45 @@
 # =====================================================================
-#  CLAUFLIX - TESTADOR DE FILMES
-#  Testa uma lista de links de video e diz quais TOCAM e quais estao
-#  mortos, com o codigo exato de cada um.
+#  CLAUFLIX - PROCURAR FILMES NOS SERVIDORES (só pelo ID do IMDb)
+#  Você NÃO precisa do link. Basta o ID (tt0479952) e ele testa em
+#  TODOS os servidores conhecidos, dizendo em qual o filme existe e
+#  devolvendo o link pronto pra tocar.
 #
-#  COMO USAR (GitHub, uma vez so):
-#   1. Crie um repositorio no GitHub (pode ser privado).
-#   2. Suba 3 arquivos na raiz: este .yml (dentro de .github/workflows/
-#      com o nome testar-filmes.yml), o filmes.txt e nada mais.
-#      Caminho final: .github/workflows/testar-filmes.yml
-#   3. Aba "Actions" -> "Testar filmes" -> botao "Run workflow".
-#   4. Espera terminar e baixa o arquivo "resultado" (fica em Artifacts).
-#
-#  A lista (filmes.txt) aceita duas formas, uma por linha:
-#      Titulo do filme | http://servidor/caminho/FHD5/tt0479952.mp4
-#      http://servidor/caminho/FHD5/tt0479952.mp4
-#  Linhas em branco e linhas com # na frente sao ignoradas.
+#  COMO USAR:
+#   1. No GitHub, crie o arquivo .github/workflows/procurar-filmes.yml
+#      com o conteúdo deste arquivo.
+#   2. Crie na raiz do repositório o arquivo ids.txt, um ID por linha:
+#         tt0479952
+#         tt1325004
+#      (pode escrever "Madagascar 2 | tt0479952" também, o título é só
+#       pra ficar bonito no relatório; pode colar o link do IMDb inteiro,
+#       ele acha o tt no meio)
+#   3. Aba "Actions" -> "Procurar filmes" -> "Run workflow".
+#   4. Baixe o artifact "resultado".
 # =====================================================================
 
-name: Testar filmes
+name: Procurar filmes
 
 on:
   workflow_dispatch:
     inputs:
       arquivo:
-        description: "Arquivo com a lista (um link por linha, ou Titulo | link)"
+        description: "Arquivo com os IDs (um por linha, ex: tt0479952)"
         required: true
-        default: "filmes.txt"
+        default: "ids.txt"
       paralelo:
-        description: "Quantos testes ao mesmo tempo (1 a 30)"
+        description: "Quantos filmes testar ao mesmo tempo (1 a 30)"
         required: true
-        default: "12"
+        default: "15"
   push:
     paths:
-      - "filmes.txt"
+      - "ids.txt"
 
 permissions:
   contents: read
 
 jobs:
-  testar:
-    name: Testar links
+  procurar:
+    name: Procurar nos servidores
     runs-on: ubuntu-latest
     timeout-minutes: 180
 
@@ -47,12 +47,10 @@ jobs:
       - name: Baixar o projeto
         uses: actions/checkout@v4
 
-      - name: Testar os links
+      - name: Procurar cada ID em todos os servidores
         env:
-          ARQUIVO: ${{ github.event.inputs.arquivo || 'filmes.txt' }}
-          PARALELO: ${{ github.event.inputs.paralelo || '12' }}
-          # Seu Worker de videos (o mesmo que o site usa no player)
-          WORKER: "https://proxy-videos.claudineibu12.workers.dev/?url="
+          ARQUIVO: ${{ github.event.inputs.arquivo || 'ids.txt' }}
+          PARALELO: ${{ github.event.inputs.paralelo || '15' }}
         run: |
           set -uo pipefail
 
@@ -60,137 +58,121 @@ jobs:
             echo "::error::Nao achei o arquivo '$ARQUIVO' no repositorio."
             exit 1
           fi
+          grep -v -E '^[[:space:]]*(#([[:space:]]|$)|$)' "$ARQUIVO" > lista.txt || true
+          echo "IDs para procurar: $(grep -c . lista.txt || true)"
 
-          # tira linhas vazias e comentarios
-          grep -v -E '^[[:space:]]*(#|$)' "$ARQUIVO" > lista.txt || true
-          TOTAL=$(grep -c . lista.txt || true)
-          echo "Arquivo: $ARQUIVO  |  links para testar: $TOTAL  |  em paralelo: $PARALELO"
-          if [ "$TOTAL" -eq 0 ]; then
-            echo "::error::A lista esta vazia."
-            exit 1
-          fi
+          # ---------------------------------------------------------
+          #  SERVIDORES DE FILME (nome amigavel | url base sem o .mp4)
+          #  Todos montam o link com o ID do IMDb:
+          #     <base><ttID>.mp4
+          # ---------------------------------------------------------
+          cat > servidores.txt <<'SRV'
+          fhd4 | http://fhd4.oneplayer.site/343rt342wtg34wetg34retg4rgh5kh4/FHD4/
+          fhd4-b | http://fhd4.oneplayer.site/343rt342wtg34wetg34retg4rghy5rh/FHD4/
+          hd5 | http://hd5.oneplayer.site/token/FHD5/
+          hd5-b | http://hd5.oneplayer.site/343rt342wtg34wetg34retghksi68ssk/FHD5/
+          fhd1 | http://fhd1.oneplayer.site/ertg43r5g34ty34yt543t43wer234t34y3s7/FHD3/
+          fhd10 | http://fhd1.oneplayer.site/ertg43r5g34ty34yt543t43wer234t34y3s7/FHD10/
+          SRV
+          sed -i 's/^[[:space:]]*//; s/[[:space:]]*$//' servidores.txt
+          echo "Servidores testados por filme: $(grep -c . servidores.txt)"
 
-          : > resultado.tsv
+          : > bruto.tsv
 
-          testar() {
-            local linha="$1" titulo url enc code code1 size via usada
+          procurar() {
+            local linha="$1" titulo id achou nome base url code usados
+            titulo=""
             if [[ "$linha" == *"|"* ]]; then
               titulo="${linha%%|*}"
-              url="${linha#*|}"
-            else
-              titulo=""
-              url="$linha"
+              linha="${linha#*|}"
             fi
             titulo="$(printf '%s' "$titulo" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')"
-            url="$(printf '%s' "$url" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')"
-            [ -z "$url" ] && return 0
+            id="$(printf '%s' "$linha" | grep -o -E 'tt[0-9]{6,9}' | head -1 || true)"
+            [ -z "$id" ] && return 0
 
-            # 1o teste: direto no servidor
-            read -r code size < <(curl -sL -o /dev/null -m 30 --range 0-255 \
-              -A "Mozilla/5.0" -H "Referer: https://api-pobreflix-filmes.pages.dev/" \
-              -w '%{http_code} %{size_download}' "$url" 2>/dev/null) || true
-            via="direto"
-            usada="$url"
-            code1="$code"
-
-            # se o servidor barrou, tenta pelo Worker (como o player faz).
-            # So troca a resposta se o Worker conseguir abrir o video; se ele
-            # tambem falhar, vale o codigo do servidor (o link esta morto).
-            if [ "$code" != "200" ] && [ "$code" != "206" ]; then
-              enc=$(python3 -c 'import sys,urllib.parse;print(urllib.parse.quote(sys.argv[1],safe=""))' "$url")
-              read -r code size < <(curl -s -o /dev/null -m 30 --range 0-255 \
-                -w '%{http_code} %{size_download}' "${WORKER}${enc}" 2>/dev/null) || true
+            achou=""
+            usados=""
+            while IFS='|' read -r nome base; do
+              nome="$(printf '%s' "${nome:-}" | tr -d '[:space:]')"
+              base="$(printf '%s' "${base:-}" | tr -d '[:space:]')"
+              [ -z "$nome" ] && continue
+              url="${base}${id}.mp4"
+              code=$(curl -s -o /dev/null -m 15 --range 0-255 -A "Mozilla/5.0" \
+                -H "Referer: https://api-pobreflix-filmes.pages.dev/" -w '%{http_code}' "$url" 2>/dev/null) || true
+              [ -z "$code" ] && code="000"
+              usados="${usados}${nome}:${code} "
               if [ "$code" = "200" ] || [ "$code" = "206" ]; then
-                via="worker"
-                usada="${WORKER}${enc}"
-              else
-                code="$code1"
-                size="0"
+                achou="${achou}${nome}=${url} "
               fi
-            fi
+            done < servidores.txt
 
-            printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$code" "${size:-0}" "$via" "$titulo" "$url" "$usada" >> resultado.tsv
+            printf '%s\t%s\t%s\t%s\n' "$id" "${titulo:--}" "${achou:-NENHUM}" "${usados% }" >> bruto.tsv
           }
-          export -f testar
-          export WORKER
+          export -f procurar
 
-          tr '\n' '\0' < lista.txt | xargs -0 -r -P "$PARALELO" -n 1 bash -c 'testar "$1"' _
+          tr '\n' '\0' < lista.txt | xargs -0 -r -P "$PARALELO" -n 1 bash -c 'procurar "$1"' _
 
-          # Monta o relatorio (txt + md) e a tabela que aparece na tela do GitHub
           python3 - <<'PY'
           import os, collections
           linhas = []
-          for l in open('resultado.tsv', encoding='utf-8', errors='replace'):
+          for l in open('bruto.tsv', encoding='utf-8', errors='replace'):
               p = l.rstrip('\n').split('\t')
-              if len(p) < 6:
+              if len(p) < 4:
                   continue
-              linhas.append(p)
+              achou = [] if p[2] == 'NENHUM' else p[2].split()
+              linhas.append({'id': p[0], 'titulo': p[1], 'links': achou, 'bruto': p[3]})
+          linhas.sort(key=lambda r: (not r['links'], r['titulo'].lower()))
 
-          def veredito(code):
-              if code in ('200', '206'):
-                  return 'TEM'
-              if code in ('404', '410'):
-                  return 'NAO TEM'
-              if code in ('403', '401', '451'):
-                  return 'BLOQUEADO'
-              if code in ('000', ''):
-                  return 'SEM RESPOSTA'
-              return 'ERRO ' + code
-
-          linhas.sort(key=lambda p: (veredito(p[0]) != 'TEM', (p[3] or p[4]).lower()))
-          conta = collections.Counter(veredito(p[0]) for p in linhas)
-
-          def tamanho(b):
-              try:
-                  b = int(b)
-              except Exception:
-                  return '-'
-              for u, n in (('GB', 1024**3), ('MB', 1024**2), ('KB', 1024)):
-                  if b >= n:
-                      return '%.1f %s' % (b / n, u)
-              return '%d B' % b
+          com = [r for r in linhas if r['links']]
+          sem = [r for r in linhas if not r['links']]
+          conta = collections.Counter(nome.split('=')[0] for r in com for nome in r['links'])
 
           txt = []
-          md = []
           txt.append('=' * 67)
-          txt.append('  CLAUFLIX - RESULTADO DO TESTE DE LINKS')
-          txt.append('  Total testado: %d' % len(linhas))
+          txt.append('  CLAUFLIX - ONDE ESTAO OS FILMES (busca por ID do IMDb)')
+          txt.append('  Procurados: %d   |   Achados: %d   |   Nao achados: %d'
+                     % (len(linhas), len(com), len(sem)))
           txt.append('=' * 67)
           txt.append('')
-          for k in ('TEM', 'NAO TEM', 'BLOQUEADO', 'SEM RESPOSTA'):
-              if conta.get(k):
-                  txt.append('  %-13s %5d' % (k, conta[k]))
-          for k in sorted(conta):
-              if k.startswith('ERRO'):
-                  txt.append('  %-13s %5d' % (k, conta[k]))
-          txt.append('')
-          txt.append('=' * 67)
-          txt.append('  DETALHE')
-          txt.append('=' * 67)
-          for code, size, via, titulo, url, usada in linhas:
-              v = veredito(code)
+          if conta:
+              txt.append('  Em quais servidores apareceram:')
+              for k, v in conta.most_common():
+                  txt.append('    %-8s %4d filmes' % (k, v))
               txt.append('')
-              txt.append('[%s] %s' % (v, titulo or '(sem titulo)'))
-              txt.append('    link : %s' % url)
-              txt.append('    resposta: %s  (%s)  arquivo: %s  via %s' % (code, v, tamanho(size), via))
-              if usada != url:
-                  txt.append('    funcionou so pelo Worker: %s' % usada)
+          txt.append('=' * 67)
+          txt.append('  ACHADOS (link pronto pra usar no player)')
+          txt.append('=' * 67)
+          for r in com:
+              txt.append('')
+              txt.append('- %s  [%s]' % (r['titulo'], r['id']))
+              for nome in r['links']:
+                  srv, link = nome.split('=', 1)
+                  txt.append('    %-8s %s' % (srv, link))
           txt.append('')
-          txt.append('Tudo que respondeu 200/206 tem o video no servidor.')
-          txt.append('NAO TEM = o servidor respondeu que o arquivo nao existe (404).')
-          txt.append('BLOQUEADO/ERRO = o problema e no servidor de origem, nao no site.')
+          txt.append('=' * 67)
+          txt.append('  NAO ACHADOS EM NENHUM SERVIDOR')
+          txt.append('=' * 67)
+          for r in sem:
+              txt.append('  %s  %s   (testado: %s)' % (r['id'], r['titulo'], r['bruto']))
+          if not sem:
+              txt.append('  (nenhum)')
+          txt.append('')
+          txt.append('206/200 = o arquivo existe naquele servidor.')
+          txt.append('404 = o servidor nao tem esse filme.')
+          txt.append('403/530/000 = servidor fora do ar ou bloqueando (nao quer dizer que nao tem).')
 
-          md.append('# Resultado do teste de links')
-          md.append('')
-          md.append('**%d links testados** - ' % len(linhas) + ' - '.join(
-              '%s: **%d**' % (k, conta[k]) for k in ('TEM', 'NAO TEM', 'BLOQUEADO', 'SEM RESPOSTA') if conta.get(k)))
-          md.append('')
-          md.append('| Veredito | Filme | Resposta | Tamanho | Link |')
-          md.append('|---|---|---|---|---|')
-          for code, size, via, titulo, url, usada in linhas:
-              v = veredito(code)
-              nome = (titulo or '(sem titulo)').replace('|', '/')
-              md.append('| %s | %s | %s | %s | %s |' % (v, nome, code, tamanho(size), url.replace('|', '%7C')))
+          md = ['# Onde estao os filmes', '',
+                '**%d procurados - %d achados - %d nao achados**' % (len(linhas), len(com), len(sem)), '',
+                '| Filme | ID | Servidor | Link |', '|---|---|---|---|']
+          for r in com:
+              for nome in r['links']:
+                  srv, link = nome.split('=', 1)
+                  md.append('| %s | %s | %s | %s |' % (r['titulo'].replace('|', '/'), r['id'], srv, link))
+          if sem:
+              md.append('')
+              md.append('## Nao achados')
+              for r in sem:
+                  md.append('- %s (%s) - testado: %s' % (r['titulo'], r['id'], r['bruto']))
           md.append('')
 
           open('resultado.txt', 'w', encoding='utf-8').write('\n'.join(txt) + '\n')
@@ -200,7 +182,6 @@ jobs:
           if resumo:
               with open(resumo, 'a', encoding='utf-8') as f:
                   f.write('\n'.join(md) + '\n')
-
           print('\n'.join(txt))
           PY
 
@@ -212,5 +193,5 @@ jobs:
           path: |
             resultado.txt
             resultado.md
-            resultado.tsv
+            bruto.tsv
           if-no-files-found: warn
