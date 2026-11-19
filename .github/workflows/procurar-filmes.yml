@@ -44,7 +44,9 @@ jobs:
           token: ${{ secrets.PAT_CHAIN || secrets.GITHUB_TOKEN }}
 
       # -----------------------------------------------------------------
-      #  1) PREPARAR LOTE (filtra o que já foi processado em runs anteriores)
+      #  1) PREPARAR LOTE
+      #     (fix: usa awk NR+0 em vez de grep -c || echo 0)
+      #     (fix: usa FILENAME em vez de NR==FNR quando 1o arquivo vazio)
       # -----------------------------------------------------------------
       - name: Preparar lote
         id: preparar
@@ -60,19 +62,22 @@ jobs:
           fi
 
           grep -v -E '^[[:space:]]*(#([[:space:]]|$)|$)' "$ARQ" > lista.txt || true
-          TOTAL=$(grep -c . lista.txt || echo 0)
           touch processados.txt
 
-          # Mantem apenas linhas cujo ttID ainda NAO esta em processados.txt
+          TOTAL=$(awk 'END{print NR+0}' lista.txt)
+
+          # Mantem apenas linhas cujo ttID ainda NAO esta em processados.txt.
+          # FILENAME em vez de NR==FNR: funciona mesmo se processados.txt
+          # estiver vazio (NR==FNR daria "true" na 1a linha do 2o arquivo).
           awk '
-            NR==FNR { p[$1]=1; next }
+            FILENAME == "processados.txt" { p[$1]=1; next }
             match($0, /tt[0-9]{6,9}/) {
               id = substr($0, RSTART, RLENGTH)
               if (!(id in p)) print $0
             }
           ' processados.txt lista.txt > pendentes.txt
 
-          PEND=$(grep -c . pendentes.txt || echo 0)
+          PEND=$(awk 'END{print NR+0}' pendentes.txt)
           echo "Total no arquivo: $TOTAL"
           echo "Ja processados:   $((TOTAL - PEND))"
           echo "Pendentes:        $PEND"
@@ -88,7 +93,7 @@ jobs:
           fi
 
           head -n "$LOTE" pendentes.txt > lote_atual.txt
-          N=$(grep -c . lote_atual.txt || echo 0)
+          N=$(awk 'END{print NR+0}' lote_atual.txt)
           FALTAM=$((PEND - N))
           echo "Lote atual:       $N"
           echo "Restantes apos:   $FALTAM"
@@ -97,7 +102,7 @@ jobs:
           echo "FALTAM=$FALTAM"   >> "$GITHUB_OUTPUT"
 
       # -----------------------------------------------------------------
-      #  2) BUSCAR EM TODOS OS SERVIDORES (log em tempo real no stderr)
+      #  2) BUSCAR (log em tempo real no stderr)
       # -----------------------------------------------------------------
       - name: Procurar cada ID em todos os servidores
         if: steps.preparar.outputs.VAZIO == '0'
@@ -115,21 +120,20 @@ jobs:
           fhd10 | http://fhd1.oneplayer.site/ertg43r5g34ty34yt543t43wer234t34y3s7/FHD10/
           SRV
           sed -i 's/^[[:space:]]*//; s/[[:space:]]*$//' servidores.txt
-          echo "Servidores: $(grep -c . servidores.txt)"
+          echo "Servidores: $(awk 'END{print NR+0}' servidores.txt)"
 
           : > bruto_lote.tsv
 
-          TOTAL_LOTE=$(grep -c . lote_atual.txt || echo 0)
+          TOTAL_LOTE=$(awk 'END{print NR+0}' lote_atual.txt)
           export TOTAL_LOTE
 
-          # Contador atomico + lock
           : > /tmp/contador.n
           : > /tmp/contador.lock
 
           {
             echo "==================================================================="
             echo " INICIANDO BUSCA - LOTE DE $TOTAL_LOTE FILMES - PARALELO=$PARALELO"
-            echo " Progresso em tempo real: [n/total] tick=achou X=nao"
+            echo " Progresso em tempo real: [n/total] OK=achou XX=nao"
             echo "==================================================================="
           } >&2
 
@@ -162,7 +166,6 @@ jobs:
             printf '%s\t%s\t%s\t%s\n' \
               "$id" "${titulo:--}" "${achou:-NENHUM}" "${usados% }" >> bruto_lote.tsv
 
-            # progresso em tempo real (stderr = unbuffered)
             n=$(flock /tmp/contador.lock bash -c \
                  'n=$(( $(cat /tmp/contador.n 2>/dev/null || echo 0) + 1 )); echo "$n" > /tmp/contador.n; echo "$n"')
 
@@ -187,7 +190,6 @@ jobs:
             echo "==================================================================="
           } >&2
 
-          # Acumula no bruto geral + processados
           touch bruto.tsv
           cat bruto_lote.tsv >> bruto.tsv
           awk -F'\t' '{ print $1 }' bruto_lote.tsv >> processados.txt
@@ -316,7 +318,7 @@ jobs:
           exit 1
 
       # -----------------------------------------------------------------
-      #  5) ARTIFACT (log do lote + relatorios)
+      #  5) ARTIFACT
       # -----------------------------------------------------------------
       - name: Guardar o resultado (artifact)
         if: always()
