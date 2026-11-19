@@ -1,0 +1,49 @@
+name: Atualizar ids.txt com filmes IMDb
+
+on:
+  workflow_dispatch:        # permite rodar manualmente
+  schedule:
+    - cron: '0 3 * * *'     # todo dia às 03:00 UTC
+
+permissions:
+  contents: write           # necessário para commitar ids.txt
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Baixar dataset público do IMDb
+        run: |
+          curl -sL https://datasets.imdbws.com/title.basics.tsv.gz -o title.basics.tsv.gz
+          gunzip -f title.basics.tsv.gz
+
+      - name: Extrair IDs (tt*****) e nomes -> append em ids.txt
+        run: |
+          # Garante que o arquivo já exista (não apaga nada)
+          touch ids.txt
+
+          # Filtra: apenas linhas com type = "movie" e id no formato tt + 7 dígitos
+          # Saída: tt1234567<TAB>Nome do Filme
+          awk -F'\t' '
+            NR > 1 && $2 == "movie" && $1 ~ /^tt[0-9]{7}$/ {
+              print $1 "\t" $3
+            }
+          ' title.basics.tsv >> ids.txt
+
+          # Remove duplicatas MANTENDO o que já existia (ordem preservada)
+          awk -F'\t' '!seen[$1]++' ids.txt > ids.tmp && mv ids.tmp ids.txt
+
+      - name: Commit e push (se houver mudanças)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ids.txt
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: adiciona novos IDs de filmes em ids.txt"
+            git push
+          else
+            echo "Nada novo para commitar."
+          fi
