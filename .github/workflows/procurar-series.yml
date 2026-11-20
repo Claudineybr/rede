@@ -127,29 +127,24 @@ jobs:
 
           TOTAL=$(awk 'END{print NR+0}' lista.txt)
 
-          _extrair_id='
-            function pega_id(line) {
-              if (index(line, "|") > 0) sub(/^[^|]*\|[[:space:]]*/, "", line)
-              if (match(line, /[0-9]+/)) return substr(line, RSTART, RLENGTH)
-              return ""
-            }
-          '
-
+          # Monta a lista de pendentes sem usar "eval" (o awk do GitHub nao tem).
           MODO="PROCURAR"
           if [ "$RETENTAR" = "true" ]; then
             MODO="RETENTAR"
-            awk -v prog="$_extrair_id" '
-              BEGIN { eval(prog) }
-              FILENAME == "series_bruto.tsv" { p[$1]=1; next }
-              { id = pega_id($0); if (id != "" && !(id in p)) print $0 }
-            ' series_bruto.tsv lista.txt > pendentes.txt
+            BASE="series_bruto.tsv"
           else
-            awk -v prog="$_extrair_id" '
-              BEGIN { eval(prog) }
-              FILENAME == "series_processadas.txt" { p[$1]=1; next }
-              { id = pega_id($0); if (id != "" && !(id in p)) print $0 }
-            ' series_processadas.txt lista.txt > pendentes.txt
+            BASE="series_processadas.txt"
           fi
+
+          awk -v base="$BASE" '
+            FILENAME == base { p[$1]=1; next }
+            {
+              linha = $0
+              if (index(linha, "|") > 0) sub(/^[^|]*[|][[:space:]]*/, "", linha)
+              if (match(linha, /[0-9]+/)) id = substr(linha, RSTART, RLENGTH); else id = ""
+              if (id != "" && !(id in p)) print $0
+            }
+          ' "$BASE" lista.txt > pendentes.txt
 
           PEND=$(awk 'END{print NR+0}' pendentes.txt)
           JA=$((TOTAL - PEND))
