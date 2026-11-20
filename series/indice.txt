@@ -387,7 +387,7 @@ LISTA DAS SERIES PROCURADAS
 22945  Mayor of the Town  ->  NAO ACHEI
 13568  Medic  ->  NAO ACHEI
 24533  Modern Romances  ->  NAO ACHEI
-90282  The Morning Show  ->  NAO ACHEI
+90282  The Morning Show  ->  30 episodios
 132637  The New Adventures of China Smith  ->  NAO ACHEI
 58519  Night Editor  ->  NAO ACHEI
 59519  On the Boardwalk with Paul Whiteman  ->  NAO ACHEI
@@ -447,7 +447,7 @@ LISTA DAS SERIES PROCURADAS
 121702  Do It Yourself  ->  NAO ACHEI
 287265  The Eddie Cantor Comedy Theater  ->  NAO ACHEI
 1249  Ford Star Jubilee  ->  NAO ACHEI
-64555  Frontier  ->  NAO ACHEI
+64555  Frontier  ->  18 episodios
 3232  Fury  ->  NAO ACHEI
 28784  The Great Gildersleeve  ->  NAO ACHEI
 3713  Gunsmoke  ->  NAO ACHEI
@@ -594,7 +594,7 @@ LISTA DAS SERIES PROCURADAS
 8447  The O. Henry Playhouse  ->  NAO ACHEI
 12017  O.S.S.  ->  NAO ACHEI
 25757  Official Detective  ->  NAO ACHEI
-122530  Panic!  ->  NAO ACHEI
+122530  Panic!  ->  10 episodios
 34511  The Pat Boone-Chevy Showroom  ->  NAO ACHEI
 4177  Perry Mason  ->  NAO ACHEI
 35072  The Polly Bergen Show  ->  NAO ACHEI
@@ -699,7 +699,7 @@ LISTA DAS SERIES PROCURADAS
 15668  The Betty Hutton Show  ->  NAO ACHEI
 13815  Black Saddle  ->  NAO ACHEI
 23239  Bold Venture  ->  NAO ACHEI
-1018  Bonanza  ->  NAO ACHEI
+1018  Bonanza  ->  59 episodios
 19910  Border Patrol  ->  NAO ACHEI
 1030  Bourbon Street Beat  ->  NAO ACHEI
 22542  Brenner  ->  NAO ACHEI
@@ -792,7 +792,7 @@ LISTA DAS SERIES PROCURADAS
 18169  Johnny Midnight  ->  NAO ACHEI
 30078  The Kate Smith Show  ->  NAO ACHEI
 15085  King Leonardo and His Short Subjects  ->  NAO ACHEI
-57389  Klondike  ->  NAO ACHEI
+57389  Klondike  ->  6 episodios
 8480  The Law and Mr. Jones  ->  NAO ACHEI
 25802  The Love of Mike  ->  NAO ACHEI
 13750  Make That Spare  ->  NAO ACHEI
@@ -829,10 +829,10 @@ LISTA DAS SERIES PROCURADAS
 13363  1, 2, 3 Go  ->  NAO ACHEI
 7472  87th Precinct  ->  NAO ACHEI
 11433  A for Andromeda  ->  NAO ACHEI
-133727  Acapulco  ->  NAO ACHEI
+133727  Acapulco  ->  38 episodios
 21598  Alcoa Premiere  ->  NAO ACHEI
 1842  The Alvin Show  ->  NAO ACHEI
-46533  The Americans  ->  NAO ACHEI
+46533  The Americans  ->  62 episodios
 22607  The Asphalt Jungle  ->  NAO ACHEI
 2473  The Avengers  ->  NAO ACHEI
 13897  Ben Casey  ->  NAO ACHEI
@@ -896,7 +896,7 @@ LISTA DAS SERIES PROCURADAS
 5090  The Andromeda Breakthrough  ->  NAO ACHEI
 8975  The Beachcomber  ->  NAO ACHEI
 1930  The Beverly Hillbillies  ->  NAO ACHEI
-61733  Empire  ->  NAO ACHEI
+61733  Empire  ->  102 episodios
 28427  Bulldog Breed  ->  NAO ACHEI
 29346  City Beneath the Sea  ->  NAO ACHEI
 4316  Combat!  ->  NAO ACHEI
@@ -946,7 +946,7 @@ LISTA DAS SERIES PROCURADAS
 13866  The Dakotas  ->  NAO ACHEI
 12928  The Danny Kaye Show  ->  NAO ACHEI
 26459  The Dick Emery Show  ->  NAO ACHEI
-57243  Doctor Who  ->  NAO ACHEI
+57243  Doctor Who  ->  183 episodios
 7425  The Doctors  ->  NAO ACHEI
 10992  East Side/West Side  ->  NAO ACHEI
 12030  Espionage  ->  NAO ACHEI
@@ -986,7 +986,7 @@ LISTA DAS SERIES PROCURADAS
 2705  The Travels of Jaimie McPheeters  ->  NAO ACHEI
 24608  Vacation Playhouse  ->  NAO ACHEI
 14009  The Addams Family  ->  NAO ACHEI
-962  Jonny Quest  ->  NAO ACHEI
+962  Jonny Quest  ->  39 episodios
 4547  Another World  ->  NAO ACHEI
 14122  The Baileys of Balboa  ->  NAO ACHEI
 4482  Bewitched  ->  NAO ACHEI
@@ -1058,16 +1058,16 @@ LISTA DAS SERIES PROCURADAS
 1062  F Troop  ->  NAO ACHEI
 2223  The F.B.I.  ->  NAO ACHEI
 26582  The Flying Swan  ->  NAO ACHEI
-71766  For the People  ->  NAO ACHEI
+71766  For the People  ->  10 episodios
 4455  Get Smart  ->  NAO ACHEI
 1580  Gidget  ->  NAO ACHEI
 609  Green Acres  ->  NAO ACHEI
-66939  Gypsy  ->  NAO ACHEI
+66939  Gypsy  ->  10 episodios
 14458  Hank  ->  NAO ACHEI
 4068  Hogan's Heroes  ->  NAO ACHEI
 24543  Hollywood Talent Scouts  ->  NAO ACHEI
 14404  Honey West  ->  NAO ACHEI
-1660  I Dream of Jeannie  ->  NAO ACHEI
+1660  I Dream of Jeannie  ->  140 episodios
 16204  The John Forsythe Show  ->  NAO ACHEI
 7017  Laredo  ->  NAO ACHEI
 16246  The Legend of Jesse James  ->  NAO ACHEI
@@ -1106,7 +1106,7 @@ LISTA DAS SERIES PROCURADAS
 122  Adam Adamant Lives!  ->  NAO ACHEI
 22904  All Square  ->  NAO ACHEI
 6234  The Baron  ->  NAO ACHEI
-2287  Batman  ->  NAO ACHEI
+2287  Batman  ->  105 episodios
 31073  The Beagles  ->  NAO ACHEI
 30084  Blue Light  ->  NAO ACHEI
 13341  Camberwick Green  ->  NAO ACHEI
@@ -1150,7 +1150,7 @@ LISTA DAS SERIES PROCURADAS
 5404  Shane  ->  NAO ACHEI
 291637  Space Ghost  ->  NAO ACHEI
 28629  The Space Kidettes  ->  NAO ACHEI
-253  Star Trek  ->  NAO ACHEI
+253  Star Trek  ->  80 episodios
 14603  The Super 6  ->  NAO ACHEI
 13823  T.H.E. Cat  ->  NAO ACHEI
 28058  The Tammy Grimes Show  ->  NAO ACHEI
@@ -1273,7 +1273,7 @@ LISTA DAS SERIES PROCURADAS
 20072  Oh Brother!  ->  NAO ACHEI
 874  One Life to Live  ->  NAO ACHEI
 11996  The Outcasts  ->  NAO ACHEI
-84661  The Outsider  ->  NAO ACHEI
+84661  The Outsider  ->  10 episodios
 10748  Pippi Longstocking  ->  NAO ACHEI
 327565  Premiere  ->  NAO ACHEI
 9895  Rowan & Martin's Laugh-In  ->  NAO ACHEI
