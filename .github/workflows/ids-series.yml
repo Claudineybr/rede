@@ -19,43 +19,177 @@ jobs:
         with:
           token: ${{ secrets.PAT_CHAIN || secrets.GITHUB_TOKEN }}
 
-      - name: Baixar dataset do IMDb e extrair series -> series.txt
+      - name: Baixar dataset do IMDb -> /tmp/imdb.tsv (tt + nome)
         run: |
           set -uo pipefail
 
           # Garante que o arquivo exista (nunca apaga o que ja tem)
           touch series.txt
-
           ANTES=$(awk 'END{print NR+0}' series.txt)
+          echo "Linhas no series.txt antes: $ANTES"
 
           # Baixa + descompacta + filtra EM STREAM (nao grava o .tsv de 1GB no disco)
           # titleType == "tvSeries"   -> series de TV
-          # id no formato tt + 7 digitos
+          # id no formato tt + digitos (IMDb ja tem IDs de 8 digitos, entao nao
+          # fixamos 7 digitos senao perde as series mais novas)
           curl -sL https://datasets.imdbws.com/title.basics.tsv.gz \
             | gunzip -c \
             | awk -F'\t' '
-                NR > 1 && $2 == "tvSeries" && $1 ~ /^tt[0-9]{7}$/ {
+                NR > 1 && $2 == "tvSeries" && $1 ~ /^tt[0-9]+$/ {
                   print $1 "\t" $3
                 }
-              ' >> series.txt
+              ' > /tmp/imdb.tsv
 
-          # Dedup por ID (mantem a 1a ocorrencia, preserva o que ja existia)
-          awk -F'\t' '!seen[$1]++' series.txt > series.tmp && mv series.tmp series.txt
+          echo "Series de TV no dataset do IMDb: $(awk 'END{print NR+0}' /tmp/imdb.tsv)"
+          echo "ANTES=$ANTES" >> "$GITHUB_ENV"
 
-          DEPOIS=$(awk 'END{print NR+0}' series.txt)
-          NOVAS=$(( DEPOIS - ANTES ))
-          echo "Series antes:    $ANTES"
-          echo "Series depois:   $DEPOIS"
-          echo "Series novas:    $NOVAS"
+      # -----------------------------------------------------------------
+      #  CONVERSAO: "tt0000000 + nome" -> "Nome | numero do TMDB"
+      #  Usa a lista diaria gratuita do TMDB (tv_series_ids_MM_DD_AAAA).
+      #  Nada de consultar serie por serie: casa o nome e pega o numero.
+      # -----------------------------------------------------------------
+      - name: Converter para o numero do TMDB -> series.txt
+        run: |
+          set -uo pipefail
+          python3 -u - <<'PY'
+          import gzip, json, re, sys, unicodedata, datetime, urllib.request
 
-          echo "::notice::series.txt agora tem $DEPOIS series (foram adicionadas $NOVAS)."
+          def norm(s):
+              s = unicodedata.normalize('NFKD', s or '')
+              s = ''.join(c for c in s if not unicodedata.combining(c))
+              return re.sub(r'[^a-z0-9]+', ' ', s.lower()).strip()
+
+          # ---------- 1) lista do TMDB (numero da serie + nome) ----------
+          mapa = {}
+          hoje = datetime.datetime.now(datetime.timezone.utc)
+          for d in range(0, 5):
+              dia = (hoje - datetime.timedelta(days=d)).strftime('%m_%d_%Y')
+              url = f'http://files.tmdb.org/p/exports/tv_series_ids_{dia}.json.gz'
+              try:
+                  bruto = urllib.request.urlopen(url, timeout=180).read()
+                  texto = gzip.decompress(bruto).decode('utf-8', 'replace')
+              except Exception as e:
+                  print(f'sem lista do TMDB em {dia}: {e}', flush=True)
+                  continue
+              for linha in texto.splitlines():
+                  linha = linha.strip()
+                  if not linha:
+                      continue
+                  try:
+                      o = json.loads(linha)
+                  except Exception:
+                      continue
+                  nome = (o.get('original_name') or o.get('name') or '').strip()
+                  try:
+                      tid = int(o.get('id') or 0)
+                  except Exception:
+                      tid = 0
+                  if not nome or not tid:
+                      continue
+                  k = norm(nome)
+                  if not k:
+                      continue
+                  pop = float(o.get('popularity') or 0)
+                  # nome repetido: fica a serie mais popular
+                  if k not in mapa or pop > mapa[k][0]:
+                      mapa[k] = (pop, tid, nome)
+              print(f'lista do TMDB {dia}: {len(mapa)} series conhecidas', flush=True)
+              break
+
+          if not mapa:
+              sys.exit('Nao consegui baixar a lista do TMDB. Tente de novo mais tarde.')
+
+          # numero -> nome (pra dar nome a quem estava so com o numero)
+          nome_por_id = {str(v[1]): v[2] for v in mapa.values()}
+
+          # ---------- 2) o que ja estava no series.txt ----------
+          # ja convertido ("Nome | numero") fica como esta
+          # ainda em tt (de runs antigas) e reconvertido
+          ja_convertidas = {}     # numero -> nome   (ordem preservada)
+          tt_antigas = []         # (tt, nome)
+          try:
+              antigas = open('series.txt', encoding='utf-8', errors='replace').read().splitlines()
+          except FileNotFoundError:
+              antigas = []
+
+          for l in antigas:
+              l = l.strip()
+              if not l or l.startswith('#'):
+                  continue
+              if '|' in l:
+                  nome, num = l.split('|', 1)
+                  m = re.search(r'\d+', num)
+                  if m:
+                      ja_convertidas.setdefault(m.group(), nome.strip() or '-')
+                  continue
+              if l.startswith('tt'):
+                  p = l.split('\t')
+                  tt_antigas.append((p[0].strip(), p[1].strip() if len(p) > 1 else ''))
+                  continue
+              m = re.search(r'\d{1,9}', l)
+              if m:
+                  ja_convertidas.setdefault(m.group(), '-')
+
+          for tid in list(ja_convertidas):
+              if ja_convertidas[tid] in ('-', ''):
+                  ja_convertidas[tid] = nome_por_id.get(tid, '-')
+
+          # ---------- 3) series do IMDb -> numero do TMDB ----------
+          novas_tt = []
+          try:
+              for l in open('/tmp/imdb.tsv', encoding='utf-8', errors='replace'):
+                  p = l.rstrip('\n').split('\t')
+                  if len(p) < 2:
+                      continue
+                  novas_tt.append((p[0].strip(), p[1].strip()))
+          except FileNotFoundError:
+              sys.exit('Nao achei /tmp/imdb.tsv (o download do IMDb falhou?).')
+
+          convertidas = dict(ja_convertidas)
+          sem_numero = []
+          vistos_tt = set()
+          achou_por_nome = 0
+
+          for cod, nome in tt_antigas + novas_tt:
+              if not cod or cod in vistos_tt:
+                  continue
+              vistos_tt.add(cod)
+              alvo = mapa.get(norm(nome)) if nome else None
+              if alvo:
+                  tid = str(alvo[1])
+                  if tid not in convertidas:
+                      convertidas[tid] = nome or alvo[2]
+                      achou_por_nome += 1
+              else:
+                  sem_numero.append(f'{cod}\t{nome or "-"}')
+
+          # ---------- 4) gravar ----------
+          with open('series.txt', 'w', encoding='utf-8') as f:
+              for tid, nome in convertidas.items():
+                  f.write(f'{nome} | {tid}\n')
+
+          with open('sem_numero.txt', 'w', encoding='utf-8') as f:
+              for l in sem_numero:
+                  f.write(l + '\n')
+
+          antes = int(__import__('os').environ.get('ANTES', '0') or 0)
+          depois = len(convertidas)
+          print('')
+          print(f'Series no series.txt:  {depois}')
+          print(f'Convertidas agora:     {achou_por_nome}')
+          print(f'Sem numero no TMDB:    {len(sem_numero)}  (veja sem_numero.txt)')
+          print(f'Linhas antes:          {antes}')
+          print(f'Series novas:          {max(0, depois - antes)}')
+          print('')
+          print('Formato do series.txt agora: Nome | numero')
+          PY
 
       - name: Commit (se houver mudancas)
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add series.txt
+          git add series.txt sem_numero.txt
           if git diff --staged --quiet; then
             echo "Sem mudancas para commitar."
             exit 0
