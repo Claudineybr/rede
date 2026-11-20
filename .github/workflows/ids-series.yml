@@ -1,0 +1,72 @@
+name: Baixar IDs de series do IMDb
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * *'   # todo dia as 04:00 UTC (opcional, pode remover)
+
+permissions:
+  contents: write
+
+jobs:
+  series:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Baixar o projeto
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_CHAIN || secrets.GITHUB_TOKEN }}
+
+      - name: Baixar dataset do IMDb e extrair series -> series.txt
+        run: |
+          set -uo pipefail
+
+          # Garante que o arquivo exista (nunca apaga o que ja tem)
+          touch series.txt
+
+          ANTES=$(awk 'END{print NR+0}' series.txt)
+
+          # Baixa + descompacta + filtra EM STREAM (nao grava o .tsv de 1GB no disco)
+          # titleType == "tvSeries"   -> series de TV
+          # id no formato tt + 7 digitos
+          curl -sL https://datasets.imdbws.com/title.basics.tsv.gz \
+            | gunzip -c \
+            | awk -F'\t' '
+                NR > 1 && $2 == "tvSeries" && $1 ~ /^tt[0-9]{7}$/ {
+                  print $1 "\t" $3
+                }
+              ' >> series.txt
+
+          # Dedup por ID (mantem a 1a ocorrencia, preserva o que ja existia)
+          awk -F'\t' '!seen[$1]++' series.txt > series.tmp && mv series.tmp series.txt
+
+          DEPOIS=$(awk 'END{print NR+0}' series.txt)
+          NOVAS=$(( DEPOIS - ANTES ))
+          echo "Series antes:    $ANTES"
+          echo "Series depois:   $DEPOIS"
+          echo "Series novas:    $NOVAS"
+
+          echo "::notice::series.txt agora tem $DEPOIS series (foram adicionadas $NOVAS)."
+
+      - name: Commit (se houver mudancas)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add series.txt
+          if git diff --staged --quiet; then
+            echo "Sem mudancas para commitar."
+            exit 0
+          fi
+
+          git commit -m "chore: atualiza series.txt com IDs do IMDb ($(date -u +%Y%m%d)) [skip ci]"
+
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase origin main || true
+            sleep 5
+          done
+          echo "::error::Falha ao dar push."
+          exit 1
