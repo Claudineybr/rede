@@ -547,9 +547,13 @@ jobs:
       # -----------------------------------------------------------------
       - name: Commit do progresso
         if: steps.preparar.outputs.VAZIO == '0'
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
+          set -uo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config pull.rebase true
 
           # estado da fila
           git add series_processadas.txt series_bruto.tsv
@@ -560,20 +564,28 @@ jobs:
 
           if git diff --staged --quiet; then
             echo "Sem mudancas para commitar."
-            exit 0
+          else
+            ARQS=$(git diff --staged --name-only | wc -l)
+            echo "Arquivos alterados: $ARQS"
+            git commit -m "chore: series ${{ steps.preparar.outputs.MODO }} lote $(date -u +%Y%m%dT%H%MZ) - $ARQS arquivo(s) [skip ci]"
           fi
 
-          ARQS=$(git diff --staged --name-only | wc -l)
-          echo "Arquivos alterados: $ARQS"
-
-          git commit -m "chore: series ${{ steps.preparar.outputs.MODO }} lote $(date -u +%Y%m%dT%H%MZ) - $ARQS arquivo(s) [skip ci]"
-
-          for i in 1 2 3; do
-            if git push; then exit 0; fi
-            git pull --rebase origin "${{ github.ref_name }}" || true
-            sleep 5
+          # O servidor pode ter recebido outra rodada no meio do caminho.
+          # Guarda o que sobrou no disco, junta o que veio de la e tenta de novo.
+          for i in 1 2 3 4 5; do
+            if git push origin "HEAD:$BRANCH"; then
+              echo "Enviado para o GitHub (tentativa $i)."
+              exit 0
+            fi
+            echo "Envio recusado (tentativa $i). Juntando com o que ja esta no GitHub..."
+            git stash push --include-untracked -m "auto-$i" >/dev/null 2>&1 || true
+            if git fetch origin "$BRANCH"; then
+              git rebase "origin/$BRANCH" || { git rebase --abort || true; }
+            fi
+            git stash pop >/dev/null 2>&1 || true
+            sleep 10
           done
-          echo "::error::Falha ao dar push apos 3 tentativas."
+          echo "::error::Falha ao dar push apos 5 tentativas."
           exit 1
 
       # -----------------------------------------------------------------
