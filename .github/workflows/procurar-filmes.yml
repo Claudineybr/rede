@@ -15,6 +15,11 @@ on:
         description: "Quantos filmes testar ao mesmo tempo (1 a 30)"
         required: true
         default: "15"
+      retentar:
+        description: "RETENTAR os nao achados (ignora processados.txt, usa bruto.tsv)"
+        type: boolean
+        required: false
+        default: false
       auto_run:
         description: "Disparar automaticamente a próxima run quando ainda houver fila?"
         type: boolean
@@ -43,11 +48,15 @@ jobs:
         with:
           token: ${{ secrets.PAT_CHAIN || secrets.GITHUB_TOKEN }}
 
+      # -----------------------------------------------------------------
+      #  1) PREPARAR LOTE (normal: pula processados | retry: pula bruto)
+      # -----------------------------------------------------------------
       - name: Preparar lote
         id: preparar
         env:
-          ARQUIVO: ${{ github.event.inputs.arquivo || 'ids.txt' }}
-          LOTE: ${{ github.event.inputs.lote || '10000' }}
+          ARQUIVO:  ${{ github.event.inputs.arquivo || 'ids.txt' }}
+          LOTE:     ${{ github.event.inputs.lote    || '10000' }}
+          RETENTAR: ${{ github.event.inputs.retentar || 'false' }}
         run: |
           set -uo pipefail
           ARQ="$ARQUIVO"
@@ -56,29 +65,87 @@ jobs:
             exit 1
           fi
 
-          grep -v -E '^[[:space:]]*(#([[:space:]]|$)|$)' "$ARQ" > lista.txt || true
-          touch processados.txt
+          # Garante que ambos existam para o awk nao reclamar
+          touch processados.txt bruto.tsv
 
+          grep -v -E '^[[:space:]]*(#([[:space:]]|$)|$)' "$ARQ" > lista.txt || true
           TOTAL=$(awk 'END{print NR+0}' lista.txt)
 
-          awk '
-            FILENAME == "processados.txt" { p[$1]=1; next }
-            match($0, /tt[0-9]{6,9}/) {
-              id = substr($0, RSTART, RLENGTH)
-              if (!(id in p)) print $0
-            }
-          ' processados.txt lista.txt > pendentes.txt
+          MODO="PROCURAR"
+          if [ "$RETENTAR" = "true" ]; then
+            MODO="RETENTAR"
+            # Retry: pendentes = IDs no arquivo que NAO estao em bruto.tsv
+            awk '
+              FILENAME == "bruto.tsv" { p[$1]=1; next }
+              match($0, /tt[0-9]{6,9}/) {
+                id = substr($0, RSTART, RLENGTH)
+                if (!(id in p)) print $0
+              }
+            ' bruto.tsv lista.txt > pendentes.txt
+          else
+            # Normal: pendentes = IDs que NAO estao em processados.txt
+            awk '
+              FILENAME == "processados.txt" { p[$1]=1; next }
+              match($0, /tt[0-9]{6,9}/) {
+                id = substr($0, RSTART, RLENGTH)
+                if (!(id in p)) print $0
+              }
+            ' processados.txt lista.txt > pendentes.txt
+          fi
 
           PEND=$(awk 'END{print NR+0}' pendentes.txt)
-          echo "Total no arquivo: $TOTAL"
-          echo "Ja processados:   $((TOTAL - PEND))"
-          echo "Pendentes:        $PEND"
-          echo "Tamanho do lote:  $LOTE"
+          JA_FEITOS=$((TOTAL - PEND))
+
+          if [ "$TOTAL" -gt 0 ]; then
+            PCT=$(awk -v p="$JA_FEITOS" -v t="$TOTAL" 'BEGIN{ printf "%.1f", p*100/t }')
+          else
+            PCT="0.0"
+          fi
+
+          if [ "$PEND" -lt "$LOTE" ]; then
+            LOTE_EFETIVO=$PEND
+          else
+            LOTE_EFETIVO=$LOTE
+          fi
+          DEPOIS=$(( PEND - LOTE_EFETIVO ))
+
+          # ---- banner de fila no inicio da run ----
+          {
+            echo "###################################################################"
+            if [ "$MODO" = "RETENTAR" ]; then
+              echo "#  FILA DE PROCESSAMENTO   [MODO: RETENTAR NAO ACHADOS]"
+            else
+              echo "#  FILA DE PROCESSAMENTO   [MODO: PROCURAR]"
+            fi
+            echo "#  -----------------------------------------------------------------"
+            echo "#  Total de IDs no arquivo:     $TOTAL"
+            if [ "$MODO" = "RETENTAR" ]; then
+              echo "#  Ja ENCONTRADOS antes:        $JA_FEITOS"
+              echo "#  FALTAM RETENTAR (nao achados): $PEND"
+            else
+              echo "#  Ja processados antes:        $JA_FEITOS  (${PCT}%)"
+              echo "#  FALTAM PROCESSAR agora:      $PEND"
+            fi
+            echo "#  Este lote vai processar:     $LOTE_EFETIVO"
+            echo "#  Vai faltar depois deste:     $DEPOIS"
+            echo "###################################################################"
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+
+          if [ "$MODO" = "RETENTAR" ]; then
+            echo "::notice::[RETENTAR] Faltam $PEND nao-achados de $TOTAL. Este lote: $LOTE_EFETIVO. Apos este: $DEPOIS."
+          else
+            echo "::notice::[PROCURAR] Faltam $PEND filmes de $TOTAL (${PCT}% concluido). Este lote: $LOTE_EFETIVO. Apos este: $DEPOIS."
+          fi
 
           if [ "$PEND" -eq 0 ]; then
-            echo "::notice::Fila vazia - todos os IDs ja foram buscados."
+            if [ "$MODO" = "RETENTAR" ]; then
+              echo "::notice::Nada para retentar - todos os $TOTAL IDs ja estao em bruto.tsv (encontrados)."
+            else
+              echo "::notice::Fila vazia - todos os $TOTAL IDs ja foram processados."
+            fi
             echo "VAZIO=1"        >> "$GITHUB_OUTPUT"
             echo "FALTAM=0"       >> "$GITHUB_OUTPUT"
+            echo "MODO=$MODO"     >> "$GITHUB_OUTPUT"
             echo "0" > /tmp/faltam.txt
             : > lote_atual.txt
             exit 0
@@ -87,16 +154,19 @@ jobs:
           head -n "$LOTE" pendentes.txt > lote_atual.txt
           N=$(awk 'END{print NR+0}' lote_atual.txt)
           FALTAM=$((PEND - N))
-          echo "Lote atual:       $N"
-          echo "Restantes apos:   $FALTAM"
           echo "$FALTAM" > /tmp/faltam.txt
           echo "VAZIO=0"        >> "$GITHUB_OUTPUT"
           echo "FALTAM=$FALTAM" >> "$GITHUB_OUTPUT"
+          echo "MODO=$MODO"     >> "$GITHUB_OUTPUT"
 
+      # -----------------------------------------------------------------
+      #  2) BUSCAR (log em tempo real)
+      # -----------------------------------------------------------------
       - name: Procurar cada ID em todos os servidores
         if: steps.preparar.outputs.VAZIO == '0'
         env:
           PARALELO: ${{ github.event.inputs.paralelo || '15' }}
+          MODO:     ${{ steps.preparar.outputs.MODO }}
         run: |
           set -uo pipefail
 
@@ -111,22 +181,19 @@ jobs:
           sed -i 's/^[[:space:]]*//; s/[[:space:]]*$//' servidores.txt
           echo "Servidores: $(awk 'END{print NR+0}' servidores.txt)"
 
-          # bruto_lote.tsv: SO os achados (id<TAB>titulo<TAB>links)
-          # nao_encontrados_lote.tsv: os NAO achados (id<TAB>titulo<TAB>usados) - artifact so
-          # processados_lote.txt: TODOS os IDs (para append em processados.txt)
           : > bruto_lote.tsv
           : > nao_encontrados_lote.tsv
           : > processados_lote.txt
 
           TOTAL_LOTE=$(awk 'END{print NR+0}' lote_atual.txt)
-          export TOTAL_LOTE
+          export TOTAL_LOTE MODO
 
           : > /tmp/contador.n
           : > /tmp/contador.lock
 
           {
             echo "==================================================================="
-            echo " INICIANDO BUSCA - LOTE DE $TOTAL_LOTE FILMES - PARALELO=$PARALELO"
+            echo " INICIANDO BUSCA [$MODO] - LOTE DE $TOTAL_LOTE - PARALELO=$PARALELO"
             echo " Progresso em tempo real: [n/total] OK=achou XX=nao"
             echo "==================================================================="
           } >&2
@@ -157,18 +224,13 @@ jobs:
               fi
             done < servidores.txt
 
-            # ---- persistencia ----
             if [ -n "$achou" ]; then
-              # salva SÓ os achados (sem "usados", para economizar espaco)
               printf '%s\t%s\t%s\n' "$id" "${titulo:--}" "${achou% }" >> bruto_lote.tsv
             else
-              # nao achou: guarda separado (nao vai pro bruto commitado)
               printf '%s\t%s\t%s\n' "$id" "${titulo:--}" "${usados% }" >> nao_encontrados_lote.tsv
             fi
-            # TODOS os IDs vao para processados_lote.txt (para nao retentar)
             printf '%s\n' "$id" >> processados_lote.txt
 
-            # ---- progresso em tempo real ----
             n=$(flock /tmp/contador.lock bash -c \
                  'n=$(( $(cat /tmp/contador.n 2>/dev/null || echo 0) + 1 )); echo "$n" > /tmp/contador.n; echo "$n"')
 
@@ -177,7 +239,7 @@ jobs:
                 "$n" "$TOTAL_LOTE" "$id" "${titulo:--}" \
                 "${achou// /=, }" >&2
             else
-              printf '[%s/%s] XX %s  %s  (nenhum servidor - descartado)\n' \
+              printf '[%s/%s] XX %s  %s  (nenhum servidor)\n' \
                 "$n" "$TOTAL_LOTE" "$id" "${titulo:--}" >&2
             fi
           }
@@ -191,53 +253,50 @@ jobs:
           NAO_LOTE=$(awk 'END{print NR+0}' nao_encontrados_lote.tsv)
           {
             echo "==================================================================="
-            echo " LOTE CONCLUIDO - $TOTAL_LOTE processados"
+            echo " LOTE CONCLUIDO [$MODO] - $TOTAL_LOTE processados"
             echo "   achados:       $ACHOU_LOTE"
-            echo "   nao achados:   $NAO_LOTE  (descartados do bruto)"
+            echo "   nao achados:   $NAO_LOTE"
             echo "==================================================================="
           } >&2
 
-          # Acumula SO os achados no bruto commitado
+          # bruto.tsv: append dos achados + dedup por ID (preserva o 1o)
           touch bruto.tsv
           cat bruto_lote.tsv >> bruto.tsv
+          awk -F'\t' '!seen[$1]++' bruto.tsv > bruto.tmp && mv bruto.tmp bruto.tsv
 
-          # processados.txt recebe TODOS (achados + nao achados)
+          # processados.txt: append de todos + dedup
           cat processados_lote.txt >> processados.txt
           sort -u processados.txt -o processados.txt
 
-          # (nao_encontrados_lote.tsv NAO e' acumulado nem commitado:
-          #  fica apenas como artifact desta run)
-
+      # -----------------------------------------------------------------
+      #  3) RELATORIOS
+      # -----------------------------------------------------------------
       - name: Gerar relatórios
         if: steps.preparar.outputs.VAZIO == '0'
         env:
           GERAL_ATIVO: ${{ steps.preparar.outputs.FALTAM == '0' && '1' || '0' }}
+          MODO:        ${{ steps.preparar.outputs.MODO }}
         run: |
           python3 -u - <<'PY'
           import os, collections
 
           def ler_found(caminho):
-              """bruto.tsv: id<TAB>titulo<TAB>links"""
               out = []
               try:
                   with open(caminho, encoding='utf-8', errors='replace') as f:
                       for l in f:
                           p = l.rstrip('\n').split('\t')
-                          if len(p) < 3:
-                              continue
-                          out.append({'id': p[0], 'titulo': p[1],
-                                      'links': p[2].split()})
+                          if len(p) < 3: continue
+                          out.append({'id': p[0], 'titulo': p[1], 'links': p[2].split()})
               except FileNotFoundError:
                   pass
               return out
 
           def dedup(linhas):
               d = {}
-              for r in linhas:
-                  d[r['id']] = r
+              for r in linhas: d[r['id']] = r
               return list(d.values())
 
-          # Total processados (para saber quantos foram descartados)
           try:
               processados = sum(1 for _ in open('processados.txt', encoding='utf-8'))
           except FileNotFoundError:
@@ -269,7 +328,7 @@ jobs:
                       txt.append(f'    {srv:<8} {link}')
               txt.append('')
               txt.append('  (Filmes nao encontrados foram descartados -')
-              txt.append('   a lista do lote atual esta no artifact nao_encontrados_lote.tsv)')
+              txt.append('   lista do lote atual no artifact nao_encontrados_lote.tsv)')
               open(txt_path, 'w', encoding='utf-8').write('\n'.join(txt) + '\n')
 
               md = ['# ' + titulo, '',
@@ -282,9 +341,11 @@ jobs:
               open(md_path, 'w', encoding='utf-8').write('\n'.join(md) + '\n')
               return '\n'.join(md)
 
-          print(">>> Gerando relatorio do LOTE ATUAL...", flush=True)
+          modo = os.environ.get('MODO', 'PROCURAR')
+          print(f">>> Gerando relatorio do LOTE ATUAL [{modo}]...", flush=True)
           n_proc_lote = sum(1 for _ in open('processados_lote.txt', encoding='utf-8'))
-          gerar(lote, 'resultado_lote.txt', 'resultado_lote.md', 'LOTE ATUAL', n_proc_lote)
+          gerar(lote, 'resultado_lote.txt', 'resultado_lote.md',
+                f'LOTE ATUAL [{modo}]', n_proc_lote)
 
           if os.environ.get('GERAL_ATIVO') == '1':
               print(">>> Fila zerada - gerando RELATORIO GERAL ACUMULADO...", flush=True)
@@ -299,13 +360,15 @@ jobs:
               print(">>> Ainda ha fila - relatorio geral sera gerado na ultima run.", flush=True)
           PY
 
+      # -----------------------------------------------------------------
+      #  4) COMMIT
+      # -----------------------------------------------------------------
       - name: Commit do progresso
         if: steps.preparar.outputs.VAZIO == '0'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # SO bruto.tsv (achados) e processados.txt (todos os IDs) sao commitados
           git add processados.txt bruto.tsv
           if [ "${{ steps.preparar.outputs.FALTAM }}" = "0" ]; then
             git add resultado.txt resultado.md
@@ -316,7 +379,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore: lote processado $(date -u +%Y%m%dT%H%MZ) [skip ci]"
+          git commit -m "chore: ${{ steps.preparar.outputs.MODO }} lote $(date -u +%Y%m%dT%H%MZ) [skip ci]"
 
           for i in 1 2 3; do
             if git push; then exit 0; fi
@@ -326,6 +389,9 @@ jobs:
           echo "::error::Falha ao dar push apos 3 tentativas."
           exit 1
 
+      # -----------------------------------------------------------------
+      #  5) ARTIFACT
+      # -----------------------------------------------------------------
       - name: Guardar o resultado (artifact)
         if: always()
         uses: actions/upload-artifact@v4
@@ -340,6 +406,9 @@ jobs:
             resultado.md
           if-no-files-found: warn
 
+      # -----------------------------------------------------------------
+      #  6) DISPARAR PROXIMA RUN (auto-chain) — preserva o modo
+      # -----------------------------------------------------------------
       - name: Disparar próxima run (se fila não vazia)
         if: |
           success() &&
@@ -356,6 +425,7 @@ jobs:
           LOTE_IN: ${{ github.event.inputs.lote || '10000' }}
           ARQ_IN:  ${{ github.event.inputs.arquivo || 'ids.txt' }}
           PAR_IN:  ${{ github.event.inputs.paralelo || '15' }}
+          RET_IN:  ${{ github.event.inputs.retentar || 'false' }}
         run: |
           if [ -z "$GH_TOKEN" ]; then
             echo "PAT_CHAIN nao configurado: sem auto-chain."
@@ -363,7 +433,7 @@ jobs:
           fi
 
           FALTAM=$(cat /tmp/faltam.txt 2>/dev/null || echo 0)
-          echo "Faltam: $FALTAM"
+          echo "Faltam: $FALTAM (retentar=$RET_IN)"
           if [ "${FALTAM:-0}" -le 0 ]; then
             echo "Fila vazia, encerrando."
             exit 0
@@ -383,4 +453,5 @@ jobs:
 
           sleep 30
           gh workflow run "procurar-filmes.yml" --repo "$REPO" --ref main \
-            -f auto_run=true -f lote="$LOTE_IN" -f arquivo="$ARQ_IN" -f paralelo="$PAR_IN"
+            -f auto_run=true -f lote="$LOTE_IN" -f arquivo="$ARQ_IN" \
+            -f paralelo="$PAR_IN" -f retentar="$RET_IN"
