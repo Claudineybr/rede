@@ -58,7 +58,7 @@ jobs:
           token: ${{ secrets.PAT_CHAIN || secrets.GITHUB_TOKEN }}
 
       # -----------------------------------------------------------------
-      #  1) PREPARAR A FILA (banner + seleção do lote)
+      #  1) PREPARAR A FILA
       # -----------------------------------------------------------------
       - name: Preparar lote
         id: preparar
@@ -77,19 +77,60 @@ jobs:
           touch series_processadas.txt series_bruto.tsv
 
           grep -v -E '^[[:space:]]*(#([[:space:]]|$)|$)' "$ARQ" > lista.txt || true
+
+          # -----------------------------------------------------------------
+          #  CONVERSAO DO NOME: "tt0000000<TAB>Nome" (codigo do IMDb)
+          #  vira "Nome | numero" (o numero que os servidores usam = TMDB).
+          #  Linhas que ja estao em "Nome | numero" ou so com o numero
+          #  passam direto, sem mexer.
+          # -----------------------------------------------------------------
+          UA_TMDB="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+          : > sem_numero.txt
+          if grep -q -E '^[[:space:]]*tt[0-9]+' lista.txt; then
+            : > convertidas.txt
+            CONV=0
+            SEM=0
+            while IFS= read -r linha; do
+              [ -z "$linha" ] && continue
+
+              if ! printf '%s' "$linha" | grep -q -E '^[[:space:]]*tt[0-9]+'; then
+                printf '%s\n' "$linha" >> convertidas.txt
+                continue
+              fi
+
+              cod=$(printf '%s' "$linha" | grep -o -E '^[[:space:]]*tt[0-9]+' | tr -d '[:space:]')
+              nome=$(printf '%s' "$linha" | sed -E 's/^[[:space:]]*tt[0-9]+[[:space:]]*//' | sed -E 's/^[[:space:]]+//; s/[[:space:]]+$//')
+              num=""
+              if [ -n "$nome" ]; then
+                num=$(curl -s -m 25 -A "$UA_TMDB" -G --data-urlencode "query=$nome" \
+                        "https://www.themoviedb.org/search/tv" 2>/dev/null \
+                      | grep -o -E '/tv/[0-9]+-' | head -1 | grep -o -E '[0-9]+' || true)
+                sleep 1
+              fi
+
+              if [ -n "$num" ]; then
+                printf '%s | %s\n' "$nome" "$num" >> convertidas.txt
+                CONV=$((CONV + 1))
+                echo "[convertido] $cod -> $num  $nome"
+              else
+                printf '%s\t%s\n' "$cod" "$nome" >> sem_numero.txt
+                SEM=$((SEM + 1))
+                echo "[SEM NUMERO] $cod  $nome  (nao achei no TMDB)"
+              fi
+            done < lista.txt
+            mv convertidas.txt lista.txt
+            echo "Convertidas: $CONV   |   sem numero: $SEM"
+            if [ "$SEM" -gt 0 ]; then
+              echo "::notice::$SEM serie(s) ficaram sem numero (veja sem_numero.txt no artifact)."
+            fi
+          fi
+
           TOTAL=$(awk 'END{print NR+0}' lista.txt)
 
-          # Extrai o numero da serie de uma linha:
-          #  "1418"             -> 1418
-          #  "Nome da serie|1418" -> 1418
           _extrair_id='
-            function pega_id(line,   pos) {
-              if (index(line, "|") > 0) {
-                sub(/^[^|]*\|[[:space:]]*/, "", line)
-              }
-              if (match(line, /[0-9]+/)) {
-                return substr(line, RSTART, RLENGTH)
-              }
+            function pega_id(line) {
+              if (index(line, "|") > 0) sub(/^[^|]*\|[[:space:]]*/, "", line)
+              if (match(line, /[0-9]+/)) return substr(line, RSTART, RLENGTH)
               return ""
             }
           '
@@ -100,19 +141,13 @@ jobs:
             awk -v prog="$_extrair_id" '
               BEGIN { eval(prog) }
               FILENAME == "series_bruto.tsv" { p[$1]=1; next }
-              {
-                id = pega_id($0)
-                if (id != "" && !(id in p)) print $0
-              }
+              { id = pega_id($0); if (id != "" && !(id in p)) print $0 }
             ' series_bruto.tsv lista.txt > pendentes.txt
           else
             awk -v prog="$_extrair_id" '
               BEGIN { eval(prog) }
               FILENAME == "series_processadas.txt" { p[$1]=1; next }
-              {
-                id = pega_id($0)
-                if (id != "" && !(id in p)) print $0
-              }
+              { id = pega_id($0); if (id != "" && !(id in p)) print $0 }
             ' series_processadas.txt lista.txt > pendentes.txt
           fi
 
@@ -156,11 +191,7 @@ jobs:
           fi
 
           if [ "$PEND" -eq 0 ]; then
-            if [ "$MODO" = "RETENTAR" ]; then
-              echo "::notice::Nada para retentar - todas as $TOTAL series ja foram encontradas."
-            else
-              echo "::notice::Fila vazia - todas as $TOTAL series ja foram processadas."
-            fi
+            echo "::notice::Fila vazia - todas as $TOTAL series ja foram processadas."
             echo "VAZIO=1"        >> "$GITHUB_OUTPUT"
             echo "FALTAM=0"       >> "$GITHUB_OUTPUT"
             echo "MODO=$MODO"     >> "$GITHUB_OUTPUT"
@@ -178,8 +209,7 @@ jobs:
           echo "MODO=$MODO"     >> "$GITHUB_OUTPUT"
 
       # -----------------------------------------------------------------
-      #  2) BUSCAR CADA SERIE (log em tempo real, sem gravar "nao achado"
-      #     no estado - so os episodios encontrados vao pro bruto)
+      #  2) BUSCAR CADA SERIE (log em tempo real)
       # -----------------------------------------------------------------
       - name: Procurar cada serie em todos os servidores
         if: steps.preparar.outputs.VAZIO == '0'
@@ -228,11 +258,10 @@ jobs:
           existe() { [ "$1" = "200" ] || [ "$1" = "206" ]; }
 
           procurar() {
-            local linha="$1" titulo id nome base url code s e falhas_s falhas_e achou_algum eps n
+            local linha="$1" titulo id nome base url code s e falhas_s falhas_e achou_algum n
             titulo=""
             if [[ "$linha" == *"|"* ]]; then
-              titulo="${linha%%|*}"
-              linha="${linha#*|}"
+              titulo="${linha%%|*}"; linha="${linha#*|}"
             fi
             titulo="$(printf '%s' "$titulo" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')"
             id="$(printf '%s' "$linha" | grep -o -E '[0-9]{1,9}' | head -1 || true)"
@@ -245,25 +274,20 @@ jobs:
               [ -z "$nome" ] && continue
 
               code=$(pede "${base}${id}/1x1.mp4")
-              if ! existe "$code"; then
-                continue
-              fi
+              existe "$code" || continue
               achou_algum="sim"
 
-              falhas_s=0
-              s=1
+              falhas_s=0; s=1
               while [ "$s" -le "$MAXT" ]; do
                 code=$(pede "${base}${id}/${s}x1.mp4")
                 if ! existe "$code"; then
                   falhas_s=$((falhas_s + 1))
                   [ "$falhas_s" -ge 2 ] && break
-                  s=$((s + 1))
-                  continue
+                  s=$((s + 1)); continue
                 fi
                 falhas_s=0
 
-                e=1
-                falhas_e=0
+                e=1; falhas_e=0
                 while [ "$e" -le "$MAXE" ]; do
                   url="${base}${id}/${s}x${e}.mp4"
                   code=$(pede "$url")
@@ -280,12 +304,8 @@ jobs:
               done
             done < servidores.txt
 
-            # ---- estado: TODA serie processada entra (achada ou nao) ----
             printf '%s\n' "$id" >> processadas_lote.txt
-            # ---- artifact de debug: so as nao achadas ----
-            if [ -z "$achou_algum" ]; then
-              printf '%s\t%s\n' "$id" "${titulo:--}" >> nao_encontrados_lote.tsv
-            fi
+            [ -z "$achou_algum" ] && printf '%s\t%s\n' "$id" "${titulo:--}" >> nao_encontrados_lote.tsv
 
             n=$(flock /tmp/contador.lock bash -c \
                  'n=$(( $(cat /tmp/contador.n 2>/dev/null || echo 0) + 1 )); echo "$n" > /tmp/contador.n; echo "$n"')
@@ -313,32 +333,23 @@ jobs:
             echo "==================================================================="
           } >&2
 
-          # ---- consolida no estado persistente ----
-          # bruto: append + dedup por (id, servidor, temporada, episodio)
-          awk -F'\t' '
-            {
-              key = $1 "|" $3 "|" $4 "|" $5
-              if (!(key in seen)) { seen[key]=1; print }
-            }
-          ' series_bruto.tsv bruto_lote.tsv > merged.tmp && mv merged.tmp series_bruto.tsv
+          awk -F'\t' '{ key=$1"|"$3"|"$4"|"$5; if (!(key in seen)) { seen[key]=1; print } }' \
+            series_bruto.tsv bruto_lote.tsv > merged.tmp && mv merged.tmp series_bruto.tsv
 
-          # processadas: append + dedup por ID
           cat processadas_lote.txt >> series_processadas.txt
           awk '!seen[$0]++' series_processadas.txt > p.tmp && mv p.tmp series_processadas.txt
 
       # -----------------------------------------------------------------
-      #  3) RELATORIOS (a partir do ESTADO ACUMULADO, nao do lote)
+      #  3) RELATORIOS + UM TXT POR SERIE  ->  pasta series/
       # -----------------------------------------------------------------
-      - name: Montar relatorios
+      - name: Montar relatorios e TXTs por serie (pasta series/)
         if: steps.preparar.outputs.VAZIO == '0'
         run: |
           python3 -u - <<'PY'
           import os, re
 
           def ler_titulos(caminho):
-              """series.txt -> {id: titulo}. Ordem de entrada preservada."""
-              titulos = {}
-              ordem_input = []
+              titulos, ordem_input = {}, []
               try:
                   for l in open(caminho, encoding='utf-8', errors='replace'):
                       l = l.rstrip('\n')
@@ -346,11 +357,10 @@ jobs:
                           continue
                       if '|' in l:
                           titulo, num = l.split('|', 1)
-                          titulo = titulo.strip()
                           m = re.search(r'\d+', num)
                           if m:
                               sid = m.group()
-                              titulos[sid] = titulo
+                              titulos[sid] = titulo.strip()
                               ordem_input.append(sid)
                       else:
                           m = re.search(r'\d+', l)
@@ -363,21 +373,21 @@ jobs:
               return titulos, ordem_input
 
           def ler_encontradas(caminho):
-              """series_bruto.tsv -> {id: {servidor: {temporada: {ep: url}}}}"""
-              series = {}
+              series, titulos_bruto = {}, {}
               try:
                   for l in open(caminho, encoding='utf-8', errors='replace'):
                       p = l.rstrip('\n').split('\t')
-                      if len(p) < 6:
-                          continue
+                      if len(p) < 6: continue
                       try:
                           sid, titulo, srv, s, e, url = p[0], p[1], p[2], int(p[3]), int(p[4]), p[5]
                       except ValueError:
                           continue
                       series.setdefault(sid, {}).setdefault(srv, {}).setdefault(s, {})[e] = url
+                      if titulo not in ('-', ''):
+                          titulos_bruto.setdefault(sid, titulo)
               except FileNotFoundError:
                   pass
-              return series
+              return series, titulos_bruto
 
           def ler_processadas(caminho):
               try:
@@ -387,48 +397,45 @@ jobs:
 
           def faixa(nums):
               nums = sorted(nums)
-              if not nums:
-                  return ''
+              if not nums: return ''
               partes, ini, ant = [], nums[0], nums[0]
               for n in nums[1:]:
-                  if n == ant + 1:
-                      ant = n
-                      continue
+                  if n == ant + 1: ant = n; continue
                   partes.append(str(ini) if ini == ant else f'{ini}-{ant}')
                   ini = ant = n
               partes.append(str(ini) if ini == ant else f'{ini}-{ant}')
               return ', '.join(partes)
 
           titulos, ordem_input = ler_titulos('series.txt')
-          series = ler_encontradas('series_bruto.tsv')
+          series, titulos_bruto = ler_encontradas('series_bruto.tsv')
           processadas = ler_processadas('series_processadas.txt')
 
           def titulo_de(sid):
-              if sid in series and titulos.get(sid, '-') == '-':
-                  # fallback: titulo gravado no bruto (1a ocorrencia)
-                  for srv in series[sid].values():
-                      pass
-              return titulos.get(sid, '-')
+              t = titulos.get(sid, '-')
+              return t if t not in ('-', '') else titulos_bruto.get(sid, '-')
 
           achadas = set(series.keys())
           nao_achadas = processadas - achadas
           todas = achadas | processadas | set(titulos.keys())
 
-          # Ordem final: series.txt primeiro, depois alfabetico
-          ordem = []
-          vistas = set()
+          ordem, vistas = [], set()
           for sid in ordem_input:
               if sid not in vistas:
-                  vistas.add(sid)
-                  ordem.append(sid)
+                  vistas.add(sid); ordem.append(sid)
           for sid in sorted(todas - vistas, key=lambda x: (titulo_de(x).lower(), x)):
               ordem.append(sid)
 
           total_eps = sum(len(eps) for sid in series for srv in series[sid] for eps in series[sid][srv].values())
 
-          os.makedirs('series-txt', exist_ok=True)
+          # ---------- pasta series/ (vai pro repo) ----------
+          os.makedirs('series', exist_ok=True)
+          # so ficam os txt das series que foram achadas
+          for arq in os.listdir('series'):
+              if arq == 'indice.txt': continue
+              if arq.endswith('.txt') and arq[:-4] not in achadas:
+                  try: os.remove(os.path.join('series', arq))
+                  except OSError: pass
 
-          # ---------- UM TXT POR SERIE ----------
           indice = ['LISTA DAS SERIES PROCURADAS', '=' * 40, '']
           for sid in ordem:
               t = titulo_de(sid)
@@ -457,16 +464,19 @@ jobs:
                   linhas.append(f'Episodios encontrados: {eps_serie}')
                   linhas.extend(blocos)
                   indice.append(f'{sid}{"  " + t if t not in ("-", "") else ""}  ->  {eps_serie} episodios')
+              # serie NAO achada: nao salva o txt (so aparece no indice)
+              if not tem:
+                  continue
               linhas.append('')
               linhas.append('206/200 = o arquivo do episodio existe. 404 = nao existe.')
-              with open(f'series-txt/{sid}.txt', 'w', encoding='utf-8') as f:
+              with open(f'series/{sid}.txt', 'w', encoding='utf-8') as f:
                   f.write('\n'.join(linhas) + '\n')
-              print(f'   txt pronto: series-txt/{sid}.txt', flush=True)
+              print(f'   txt pronto: series/{sid}.txt', flush=True)
 
-          with open('series-txt/indice.txt', 'w', encoding='utf-8') as f:
+          with open('series/indice.txt', 'w', encoding='utf-8') as f:
               f.write('\n'.join(indice) + '\n')
 
-          # ---------- RELATORIO GERAL ----------
+          # ---------- relatorio geral (artifact) ----------
           txt = []
           txt.append('=' * 67)
           txt.append('  CLAUFLIX - ONDE ESTAO AS SERIES')
@@ -491,7 +501,7 @@ jobs:
                       txt.append(f'           T{s} -> episodios {faixa(eps.keys())}')
                       for e in sorted(eps):
                           links.append(eps[e])
-              txt.append(f'           arquivo: series-txt/{sid}.txt')
+              txt.append(f'           arquivo: series/{sid}.txt')
 
           txt.append('')
           txt.append('=' * 67)
@@ -538,7 +548,7 @@ jobs:
           PY
 
       # -----------------------------------------------------------------
-      #  4) COMMIT (race-safe)
+      #  4) COMMIT (estado da fila + estado dos achados + pasta series/)
       # -----------------------------------------------------------------
       - name: Commit do progresso
         if: steps.preparar.outputs.VAZIO == '0'
@@ -546,25 +556,33 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          # estado da fila
           git add series_processadas.txt series_bruto.tsv
+          # pasta com um txt por serie (vai pro repo!)
+          if [ -d series ]; then
+            git add -A series/
+          fi
 
           if git diff --staged --quiet; then
             echo "Sem mudancas para commitar."
             exit 0
           fi
 
-          git commit -m "chore: series ${{ steps.preparar.outputs.MODO }} lote $(date -u +%Y%m%dT%H%MZ) [skip ci]"
+          ARQS=$(git diff --staged --name-only | wc -l)
+          echo "Arquivos alterados: $ARQS"
+
+          git commit -m "chore: series ${{ steps.preparar.outputs.MODO }} lote $(date -u +%Y%m%dT%H%MZ) - $ARQS arquivo(s) [skip ci]"
 
           for i in 1 2 3; do
             if git push; then exit 0; fi
-            git pull --rebase origin main || true
+            git pull --rebase origin "${{ github.ref_name }}" || true
             sleep 5
           done
           echo "::error::Falha ao dar push apos 3 tentativas."
           exit 1
 
       # -----------------------------------------------------------------
-      #  5) ARTIFACT
+      #  5) ARTIFACT (mesma pasta series/ + relatorios)
       # -----------------------------------------------------------------
       - name: Guardar o resultado (artifact)
         if: always()
@@ -575,15 +593,16 @@ jobs:
             resultado-series.txt
             resultado-series.md
             links-series.txt
-            series-txt/
+            series/
             bruto_lote.tsv
             nao_encontrados_lote.tsv
             series_processadas.txt
             series_bruto.tsv
+            sem_numero.txt
           if-no-files-found: warn
 
       # -----------------------------------------------------------------
-      #  6) DISPARAR PROXIMA RUN (auto-chain preservando o modo)
+      #  6) DISPARAR PROXIMA RUN
       # -----------------------------------------------------------------
       - name: Disparar proxima run
         if: |
@@ -607,7 +626,6 @@ jobs:
         run: |
           if [ -z "$GH_TOKEN" ]; then
             echo "Sem o segredo PAT_CHAIN: nao consigo me chamar de novo."
-            echo "Rode manualmente que a fila continua de onde parou."
             exit 0
           fi
 
@@ -627,7 +645,6 @@ jobs:
           echo "Encadeamentos na ultima hora: $RECENTES"
           if [ "${RECENTES:-0}" -ge 20 ]; then
             echo "Muitas runs na ultima hora, esperando a proxima janela."
-            echo "Rode manualmente de novo que a fila continua."
             exit 0
           fi
 
