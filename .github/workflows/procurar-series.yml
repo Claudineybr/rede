@@ -1,0 +1,511 @@
+# =====================================================================
+#  CLAUFLIX - PROCURAR SERIES NOS SERVIDORES (só pelo número da série)
+#
+#  NOVIDADES DESTA VERSAO:
+#   - Gera UM ARQUIVO TXT POR SERIE (pasta series-txt/): 1418.txt, 615.txt...
+#     Cada um tem as temporadas, os episodios e todos os links daquela serie.
+#   - AUTO-RUN: se a lista for maior que o "lote", ele MESMO dispara a
+#     proxima run continuando de onde parou. Voce dispara uma vez e ele
+#     vai ate o fim sozinho.
+#   - LOG EM TEMPO REAL: cada serie aparece no log na hora que termina.
+#
+#  COMO USAR:
+#   1. No GitHub, crie .github/workflows/procurar-series.yml com este texto.
+#   2. Crie na raiz do repositorio o series.txt, uma por linha:
+#         1418
+#         615
+#      (pode escrever "Nome da serie | 1418")
+#   3. Actions -> "Procurar series" -> Run workflow.
+#   4. Baixe o artifact "resultado-series" (tem a pasta series-txt/).
+#
+#  PARA O AUTO-RUN FUNCIONAR (ele se chama sozinho):
+#   - Crie o segredo PAT_CHAIN em Settings -> Secrets -> Actions, com um
+#     token do GitHub (classic) com os poderes "repo" e "workflow".
+#   - Sem esse segredo nada quebra: ele so para no fim do lote e avisa
+#     em qual numero voce deve continuar.
+# =====================================================================
+
+name: Procurar series
+
+on:
+  workflow_dispatch:
+    inputs:
+      arquivo:
+        description: "Arquivo com os numeros das series (um por linha, ex: 1418)"
+        required: true
+        default: "series.txt"
+      paralelo:
+        description: "Quantas series testar ao mesmo tempo (1 a 15)"
+        required: true
+        default: "6"
+      max_temporadas:
+        description: "Até qual temporada procurar"
+        required: true
+        default: "25"
+      max_episodios:
+        description: "Até qual episódio procurar em cada temporada"
+        required: true
+        default: "45"
+      inicio:
+        description: "Comecar a partir da linha (deixe 1)"
+        required: false
+        default: "1"
+      lote:
+        description: "Quantas series por run (0 = todas de uma vez)"
+        required: false
+        default: "0"
+      auto_run:
+        description: "Continuar sozinho na proxima run (true/false)"
+        required: false
+        default: "false"
+  push:
+    paths:
+      - "series.txt"
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  procurar:
+    name: Procurar series nos servidores
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+
+    steps:
+      # -----------------------------------------------------------------
+      #  1) PREPARAR A FILA (quais series esta run vai fazer)
+      # -----------------------------------------------------------------
+      - name: Baixar o projeto
+        uses: actions/checkout@v4
+
+      - name: Preparar a fila
+        id: preparar
+        env:
+          ARQUIVO: ${{ github.event.inputs.arquivo || 'series.txt' }}
+          INICIO: ${{ github.event.inputs.inicio || '1' }}
+          LOTE: ${{ github.event.inputs.lote || '0' }}
+        run: |
+          set -uo pipefail
+
+          if [ ! -f "$ARQUIVO" ]; then
+            echo "::error::Nao achei o arquivo '$ARQUIVO' no repositorio."
+            exit 1
+          fi
+
+          # tira comentarios e linhas vazias
+          grep -v -E '^[[:space:]]*(#([[:space:]]|$)|$)' "$ARQUIVO" > todas.txt || true
+          total=$(grep -c . todas.txt || true)
+          total=${total:-0}
+
+          ini=${INICIO:-1}
+          [ "$ini" -ge 1 ] 2>/dev/null || ini=1
+          lote=${LOTE:-0}
+          [ "$lote" -ge 0 ] 2>/dev/null || lote=0
+
+          if [ "$lote" -eq 0 ]; then
+            fim=$total
+          else
+            fim=$((ini + lote - 1))
+          fi
+          [ "$fim" -gt "$total" ] && fim=$total
+
+          if [ "$total" -eq 0 ] || [ "$ini" -gt "$total" ]; then
+            : > lista.txt
+            faltam=0
+            proximo=$((total + 1))
+          else
+            sed -n "${ini},${fim}p" todas.txt > lista.txt
+            faltam=$((total - fim))
+            proximo=$((fim + 1))
+          fi
+          [ "$faltam" -lt 0 ] && faltam=0
+
+          echo "Lista tem $total series."
+          echo "Esta run faz as linhas $ini ate $fim ($(grep -c . lista.txt || true) series)."
+          echo "Depois desta run ainda faltam $faltam."
+
+          {
+            echo "vazio=$([ -s lista.txt ] && echo 0 || echo 1)"
+            echo "faltam=$faltam"
+            echo "proximo=$proximo"
+            echo "fim=$fim"
+            echo "total=$total"
+          } >> "$GITHUB_OUTPUT"
+
+      # -----------------------------------------------------------------
+      #  2) PROCURAR (log em tempo real, um aviso por serie)
+      # -----------------------------------------------------------------
+      - name: Procurar cada serie em todos os servidores
+        if: steps.preparar.outputs.vazio == '0'
+        env:
+          PARALELO: ${{ github.event.inputs.paralelo || '6' }}
+          MAXT: ${{ github.event.inputs.max_temporadas || '25' }}
+          MAXE: ${{ github.event.inputs.max_episodios || '45' }}
+        run: |
+          set -uo pipefail
+
+          # ---------------------------------------------------------
+          #  SERVIDORES DE SERIE (nome amigavel | url base)
+          #  Todos montam o link assim:
+          #     <base><numero-da-serie>/<temporada>x<episodio>.mp4
+          # ---------------------------------------------------------
+          cat > servidores.txt <<'SRV'
+          shd0 | http://shd0.oneplayer.site/rfg54ry435y45y45y45y45y45rt23w4r324wt34tr34t3e4wtf582/SHD0/
+          shd1 | http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/
+          shd2 | http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/
+          shd11 | http://shd11.oneplayer.site/token/SHD11/
+          shd12 | http://shd12.oneplayer.site/token/SHD12/
+          SRV
+          sed -i 's/^[[:space:]]*//; s/[[:space:]]*$//' servidores.txt
+          echo "Servidores testados por serie: $(grep -c . servidores.txt)"
+          : > bruto.tsv
+
+          # devolve o codigo HTTP de um arquivo (206/200 = existe)
+          pede() {
+            local code
+            code=$(curl -s -o /dev/null -m 12 --range 0-255 -A "Mozilla/5.0" \
+              -H "Referer: https://api-pobreflix-filmes.pages.dev/" -w '%{http_code}' "$1" 2>/dev/null) || true
+            [ -z "$code" ] && code="000"
+            printf '%s' "$code"
+          }
+          existe() { [ "$1" = "200" ] || [ "$1" = "206" ]; }
+
+          procurar() {
+            local linha="$1" titulo id nome base url code s e falhas_s falhas_e achou_algum eps
+            titulo=""
+            if [[ "$linha" == *"|"* ]]; then
+              titulo="${linha%%|*}"
+              linha="${linha#*|}"
+            fi
+            titulo="$(printf '%s' "$titulo" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')"
+            id="$(printf '%s' "$linha" | grep -o -E '[0-9]{2,9}' | head -1 || true)"
+            [ -z "$id" ] && return 0
+
+            echo ">> serie $id ${titulo:+($titulo)} - comecando..."
+
+            achou_algum=""
+            while IFS='|' read -r nome base; do
+              nome="$(printf '%s' "${nome:-}" | tr -d '[:space:]')"
+              base="$(printf '%s' "${base:-}" | tr -d '[:space:]')"
+              [ -z "$nome" ] && continue
+
+              # 1) essa serie existe nesse servidor? (procurando pelo 1x1)
+              code=$(pede "${base}${id}/1x1.mp4")
+              if ! existe "$code"; then
+                printf '%s\t%s\t%s\tSEM\t%s\n' "$id" "${titulo:--}" "$nome" "$code" >> bruto.tsv
+                continue
+              fi
+              achou_algum="sim"
+              echo "   [$id] achada em $nome"
+
+              # 2) temporada por temporada
+              eps=0
+              falhas_s=0
+              s=1
+              while [ "$s" -le "$MAXT" ]; do
+                code=$(pede "${base}${id}/${s}x1.mp4")
+                if ! existe "$code"; then
+                  falhas_s=$((falhas_s + 1))
+                  [ "$falhas_s" -ge 2 ] && break
+                  s=$((s + 1))
+                  continue
+                fi
+                falhas_s=0
+
+                # 3) episodio por episodio (para quando erra 2 seguidos)
+                e=1
+                falhas_e=0
+                while [ "$e" -le "$MAXE" ]; do
+                  url="${base}${id}/${s}x${e}.mp4"
+                  code=$(pede "$url")
+                  if existe "$code"; then
+                    falhas_e=0
+                    eps=$((eps + 1))
+                    printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$id" "${titulo:--}" "$nome" "$s" "$e" "$url" >> bruto.tsv
+                  else
+                    falhas_e=$((falhas_e + 1))
+                    [ "$falhas_e" -ge 2 ] && break
+                  fi
+                  e=$((e + 1))
+                done
+                s=$((s + 1))
+              done
+              echo "   [$id] $nome: $eps episodios"
+            done < servidores.txt
+
+            if [ -z "$achou_algum" ]; then
+              printf '%s\t%s\tNENHUM\tSEM\t-1\n' "$id" "${titulo:--}" >> bruto.tsv
+              echo "   [$id] nao esta em nenhum servidor"
+            else
+              echo "ok $id" >> prontas.txt
+            fi
+          }
+          export -f procurar pede existe
+          export MAXT MAXE
+
+          tr '\n' '\0' < lista.txt | xargs -0 -r -P "$PARALELO" -n 1 bash -c 'procurar "$1"' _
+
+          echo "Busca terminada: $(grep -c . prontas.txt 2>/dev/null || echo 0) series encontradas."
+
+      # -----------------------------------------------------------------
+      #  3) MONTAR O RELATORIO + UM TXT POR SERIE
+      # -----------------------------------------------------------------
+      - name: Montar o relatorio e um txt por serie
+        if: steps.preparar.outputs.vazio == '0'
+        run: |
+          set -uo pipefail
+          python3 -u - <<'PY'
+          import os, re
+
+          series = {}
+          sem_servidor = {}
+
+          if not os.path.exists('bruto.tsv'):
+              open('bruto.tsv', 'w').close()
+
+          for linha in open('bruto.tsv', encoding='utf-8', errors='replace'):
+              p = linha.rstrip('\n').split('\t')
+              if len(p) < 4:
+                  continue
+              sid, titulo, servidor = p[0], p[1], p[2]
+              if servidor == 'NENHUM':
+                  sem_servidor.setdefault(sid, {'titulo': titulo, 'detalhe': p[4] if len(p) > 4 else ''})
+                  continue
+              item = series.setdefault(sid, {'titulo': titulo, 'servidores': {}})
+              if p[3] == 'SEM':
+                  item['servidores'].setdefault(servidor, {'tem': False, 'code': p[4] if len(p) > 4 else '',
+                                                           'seasons': {}})
+                  continue
+              s, e, url = int(p[3]), int(p[4]), p[5]
+              srv = item['servidores'].setdefault(servidor, {'tem': True, 'seasons': {}})
+              srv['tem'] = True
+              srv['seasons'].setdefault(s, {})[e] = url
+
+          def faixa(nums):
+              nums = sorted(nums)
+              if not nums:
+                  return ''
+              partes, ini, ant = [], nums[0], nums[0]
+              for n in nums[1:]:
+                  if n == ant + 1:
+                      ant = n
+                      continue
+                  partes.append(str(ini) if ini == ant else '%d-%d' % (ini, ant))
+                  ini = ant = n
+              partes.append(str(ini) if ini == ant else '%d-%d' % (ini, ant))
+              return ', '.join(partes)
+
+          def nome_de(i):
+              return series.get(i, sem_servidor.get(i, {})).get('titulo', '-')
+
+          ids = sorted(series)
+          achadas = [i for i in ids if any(v['tem'] for v in series[i]['servidores'].values())]
+          todos = set(list(sem_servidor) + ids)
+          nenhuma = sorted(i for i in todos if i not in achadas)
+
+          total_eps = sum(len(sv['seasons'][s]) for i in achadas for sv in series[i]['servidores'].values()
+                          if sv['tem'] for s in sv['seasons'])
+
+          os.makedirs('series-txt', exist_ok=True)
+
+          # ---------- UM TXT POR SERIE ----------
+          indice = ['LISTA DAS SERIES PROCURADAS', '=' * 40, '']
+          for i in sorted(todos, key=lambda x: (x not in achadas, nome_de(x).lower())):
+              t = nome_de(i)
+              nome_curto = '' if t in ('-', '') else '  ' + t
+              linhas = []
+              tem = i in achadas
+              if t not in ('-', ''):
+                  linhas.append('SERIE: %s' % t)
+              linhas.append('NUMERO DA SERIE: %s' % i)
+              linhas.append('=' * 67)
+              if not tem:
+                  linhas.append('')
+                  linhas.append('NAO ACHEI essa serie em nenhum dos servidores testados.')
+                  if i in sem_servidor and sem_servidor[i]['detalhe']:
+                      linhas.append('(ultimo codigo recebido: %s)' % sem_servidor[i]['detalhe'])
+                  indice.append('%s%s  ->  NAO ACHEI' % (i, nome_curto))
+              else:
+                  eps_serie = 0
+                  blocos = []
+                  for srv_nome in sorted(series[i]['servidores']):
+                      sv = series[i]['servidores'][srv_nome]
+                      if not sv['tem'] or not sv['seasons']:
+                          continue
+                      blocos.append('')
+                      blocos.append('SERVIDOR: %s' % srv_nome)
+                      for s in sorted(sv['seasons']):
+                          eps = sv['seasons'][s]
+                          eps_serie += len(eps)
+                          blocos.append('  Temporada %d (%d episodios): %s' % (s, len(eps), faixa(eps.keys())))
+                          for e in sorted(eps):
+                              blocos.append('    %s' % eps[e])
+                  linhas.append('Episodios encontrados: %d' % eps_serie)
+                  linhas.extend(blocos)
+                  indice.append('%s%s  ->  %d episodios' % (i, nome_curto, eps_serie))
+              linhas.append('')
+              linhas.append('206/200 = o arquivo do episodio existe. 404 = nao existe.')
+              with open(os.path.join('series-txt', '%s.txt' % i), 'w', encoding='utf-8') as f:
+                  f.write('\n'.join(linhas) + '\n')
+              print('   txt pronto: series-txt/%s.txt' % i, flush=True)
+
+          with open(os.path.join('series-txt', 'indice.txt'), 'w', encoding='utf-8') as f:
+              f.write('\n'.join(indice) + '\n')
+
+          # ---------- RELATORIO GERAL ----------
+          txt, links, md = [], [], []
+          txt.append('=' * 67)
+          txt.append('  CLAUFLIX - ONDE ESTAO AS SERIES (por numero da serie)')
+          txt.append('  Procuradas: %d   |   Achadas: %d   |   Nao achadas: %d'
+                     % (len(todos), len(achadas), len(nenhuma)))
+          txt.append('  Episodios encontrados no total: %d' % total_eps)
+          txt.append('=' * 67)
+          txt.append('')
+          txt.append('=' * 67)
+          txt.append('  ACHADAS')
+          txt.append('=' * 67)
+          for i in sorted(achadas, key=lambda x: nome_de(x).lower()):
+              item = series[i]
+              txt.append('')
+              if item['titulo'] in ('-', ''):
+                  txt.append('- %s' % i)
+              else:
+                  txt.append('- %s  [%s]' % (item['titulo'], i))
+              for srv_nome in sorted(item['servidores']):
+                  sv = item['servidores'][srv_nome]
+                  if not sv['tem'] or not sv['seasons']:
+                      continue
+                  temporadas = ', '.join('T%d (%d eps)' % (s, len(sv['seasons'][s]))
+                                         for s in sorted(sv['seasons']))
+                  txt.append('    %-6s %s' % (srv_nome, temporadas))
+                  for s in sorted(sv['seasons']):
+                      eps = sv['seasons'][s]
+                      txt.append('           T%d -> episodios %s' % (s, faixa(eps.keys())))
+                      for e in sorted(eps):
+                          links.append(eps[e])
+                  primeiro = sv['seasons'][sorted(sv['seasons'])[0]]
+                  pe = sorted(primeiro)[0]
+                  txt.append('           exemplo: %s' % primeiro[pe])
+              txt.append('           arquivo: series-txt/%s.txt' % i)
+
+          txt.append('')
+          txt.append('=' * 67)
+          txt.append('  NAO ACHADAS EM NENHUM SERVIDOR')
+          txt.append('=' * 67)
+          if nenhuma:
+              for i in nenhuma:
+                  t = nome_de(i)
+                  txt.append('  %s' % i if t in ('-', '') else '  %s  %s' % (i, t))
+          else:
+              txt.append('  (nenhuma)')
+          txt.append('')
+          txt.append('206/200 = o arquivo daquele episodio existe no servidor.')
+          txt.append('404 = o servidor nao tem aquela temporada/episodio.')
+          txt.append('Uma pasta chamada series-txt tem um arquivo por serie,')
+          txt.append('com os links dela. A lista geral de links esta em links-series.txt.')
+
+          md.append('# Onde estao as series')
+          md.append('')
+          md.append('**%d procuradas - %d achadas - %d nao achadas - %d episodios no total**'
+                    % (len(todos), len(achadas), len(nenhuma), total_eps))
+          md.append('')
+          md.append('| Serie | ID | Servidor | Temporadas | Episodios | Link do 1o episodio |')
+          md.append('|---|---|---|---|---|---|')
+          for i in sorted(achadas, key=lambda x: nome_de(x).lower()):
+              item = series[i]
+              for srv_nome in sorted(item['servidores']):
+                  sv = item['servidores'][srv_nome]
+                  if not sv['tem'] or not sv['seasons']:
+                      continue
+                  temporadas = '<br>'.join('T%d' % s for s in sorted(sv['seasons']))
+                  episodios = '<br>'.join(faixa(sv['seasons'][s].keys()) for s in sorted(sv['seasons']))
+                  s0 = sorted(sv['seasons'])[0]
+                  e0 = sorted(sv['seasons'][s0])[0]
+                  nome_serie = i if item['titulo'] in ('-', '') else item['titulo'].replace('|', '/')
+                  md.append('| %s | %s | %s | %s | %s | %s |' % (
+                      nome_serie, i, srv_nome, temporadas, episodios,
+                      sv['seasons'][s0][e0]))
+          if nenhuma:
+              md.append('')
+              md.append('## Nao achadas')
+              for i in nenhuma:
+                  t = nome_de(i)
+                  md.append('- %s' % i if t in ('-', '') else '- %s (%s)' % (t, i))
+          md.append('')
+
+          open('resultado-series.txt', 'w', encoding='utf-8').write('\n'.join(txt) + '\n')
+          open('resultado-series.md', 'w', encoding='utf-8').write('\n'.join(md) + '\n')
+          open('links-series.txt', 'w', encoding='utf-8').write('\n'.join(links) + ('\n' if links else ''))
+
+          resumo = os.environ.get('GITHUB_STEP_SUMMARY')
+          if resumo:
+              with open(resumo, 'a', encoding='utf-8') as f:
+                  f.write('\n'.join(md) + '\n')
+          print('')
+          print('\n'.join(txt))
+          PY
+
+      - name: Guardar o resultado
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultado-series
+          path: |
+            resultado-series.txt
+            resultado-series.md
+            links-series.txt
+            series-txt/
+            bruto.tsv
+          if-no-files-found: warn
+
+      # -----------------------------------------------------------------
+      #  4) DISPARAR A PROXIMA RUN (auto-chain) — continua de onde parou
+      # -----------------------------------------------------------------
+      - name: Disparar proxima run (se ainda faltam series)
+        if: |
+          success() &&
+          steps.preparar.outputs.vazio == '0' &&
+          steps.preparar.outputs.faltam != '0' &&
+          (
+            github.event_name == 'push' ||
+            inputs.auto_run == true ||
+            github.event.inputs.auto_run == 'true'
+          )
+        env:
+          GH_TOKEN: ${{ secrets.PAT_CHAIN }}
+          REPO: ${{ github.repository }}
+          PROX_IN: ${{ steps.preparar.outputs.proximo }}
+          ARQ_IN:  ${{ github.event.inputs.arquivo || 'series.txt' }}
+          PAR_IN:  ${{ github.event.inputs.paralelo || '6' }}
+          MAXT_IN: ${{ github.event.inputs.max_temporadas || '25' }}
+          MAXE_IN: ${{ github.event.inputs.max_episodios || '45' }}
+          LOTE_IN: ${{ github.event.inputs.lote || '0' }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "Sem o segredo PAT_CHAIN: nao consigo me chamar de novo."
+            echo "Rode manualmente de novo com inicio=$PROX_IN que ele continua daqui."
+            exit 0
+          fi
+
+          echo "Fila: ainda faltam series. Proxima run comeca na linha $PROX_IN."
+
+          LIMITE_ISO=$(date -u -d '60 minutes ago' +%Y-%m-%dT%H:%M:%SZ)
+          RECENTES=$(gh run list --workflow="procurar-series.yml" \
+            --event workflow_dispatch --limit 100 \
+            --json createdAt \
+            --jq "[.[] | select(.createdAt > \"$LIMITE_ISO\")] | length" \
+            --repo "$REPO" 2>/dev/null || echo 0)
+          echo "Encadeamentos na ultima hora: $RECENTES"
+          if [ "${RECENTES:-0}" -ge 20 ]; then
+            echo "Muitas runs na ultima hora, esperando a proxima janela."
+            echo "Rode manualmente com inicio=$PROX_IN para continuar."
+            exit 0
+          fi
+
+          sleep 20
+          gh workflow run "procurar-series.yml" --repo "$REPO" --ref "${{ github.ref_name }}" \
+            -f auto_run=true -f inicio="$PROX_IN" -f lote="$LOTE_IN" \
+            -f arquivo="$ARQ_IN" -f paralelo="$PAR_IN" \
+            -f max_temporadas="$MAXT_IN" -f max_episodios="$MAXE_IN"
+          echo "Proxima run disparada (a partir da linha $PROX_IN)."
