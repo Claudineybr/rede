@@ -7,7 +7,7 @@ on:
         description: "Pasta com os .txt das séries"
         default: "series"
       arquivo_unico:
-        description: "Só uma série? (nome do .txt, ex: tt0944947.txt). Vazio = todas"
+        description: "Só uma série? (ex: 100010.txt). Vazio = todas"
         default: ""
       pasta_saida:
         description: "Pasta onde os .html serão salvos"
@@ -39,7 +39,7 @@ jobs:
           REFAZER: ${{ inputs.refazer }}
         run: |
           python3 - <<'PY'
-          import os, re, json, time, glob, html, urllib.request, urllib.parse
+          import os, re, json, time, glob, html, urllib.request, urllib.parse, urllib.error
 
           KEY          = os.environ["TMDB_API_KEY"]
           PASTA_SERIES = os.environ.get("PASTA_SERIES") or "series"
@@ -48,6 +48,7 @@ jobs:
           REFAZER      = os.environ.get("REFAZER") == "true"
           SUFIXO       = "🍿Clau"
           IMG          = "https://image.tmdb.org/t/p/w500"
+          OVERRIDES    = "series_tmdb.txt"
 
           MODELO = '''<!DOCTYPE html>
           <html lang="pt-BR">
@@ -118,57 +119,46 @@ jobs:
                   time.sleep(2)
               return None
 
-          def achar_serie(stem, conteudo):
-              m = re.search(r'tt\d+', stem) or re.search(r'tt\d+', conteudo)
-              if m:
-                  d = api("/find/" + m.group(0), external_source="imdb_id")
-                  r = (d or {}).get("tv_results") or []
-                  if r:
-                      return r[0]
-              nome = re.sub(r'[_\-\.]+', ' ', stem).strip()
-              d = api("/search/tv", query=nome)
-              r = (d or {}).get("results") or []
-              return r[0] if r else None
+          def norm(s):
+              return re.sub(r'[^a-z0-9]', '', (s or "").lower())
 
-          def parse_linhas(texto):
-              """Devolve lista de (temporada, episodio, link)."""
-              eps = []
-              temp = 1
-              ultimo = {}          # último episódio por temporada (para contagem)
-              for bruto in texto.splitlines():
-                  linha = bruto.strip()
-                  if not linha:
-                      continue
-                  urls = re.findall(r'https?://\S+', linha)
-                  resto = re.sub(r'https?://\S+', ' ', linha)
-                  resto = re.sub(r'\b\w+=', ' ', resto)
-                  resto = re.sub(r'\btt\d+\b', ' ', resto)
+          def parse_txt(texto):
+              m = re.search(r'^\s*SERIE:\s*(.+?)\s*$', texto, re.M)
+              nome = m.group(1) if m else ""
+              m = re.search(r'NUMERO DA SERIE:\s*(\d+)', texto)
+              numero = m.group(1) if m else ""
+              eps = {}
+              for url in re.findall(r'https?://\S+', texto):
+                  mm = re.search(r'/(\d+)x(\d+)\.\w+$', url)
+                  if mm:
+                      eps.setdefault((int(mm.group(1)), int(mm.group(2))), url)
+              return nome, numero, eps
 
-                  if not urls:
-                      h = re.match(r'^\W*(?:temporada|season|temp|t)\s*\.?\s*(\d+)', resto, re.I)
-                      if h:
-                          temp = int(h.group(1))
-                      continue
-
-                  s = e = None
-                  m = re.search(r'[Ss](\d{1,2})\s*[._-]?\s*[Ee](\d{1,3})', resto)
-                  if m:
-                      s, e = int(m.group(1)), int(m.group(2))
-                  else:
-                      m = re.search(r'\b(\d{1,2})x(\d{1,3})\b', resto, re.I)
+          def carregar_overrides():
+              d = {}
+              if os.path.exists(OVERRIDES):
+                  for l in open(OVERRIDES, encoding="utf-8"):
+                      m = re.match(r'^\s*(\d+)\s*=\s*(\d+)', l)
                       if m:
-                          s, e = int(m.group(1)), int(m.group(2))
-                      else:
-                          m = re.search(r'\b(?:ep|epis[oó]dio|e)\s*\.?\s*(\d{1,3})\b', resto, re.I)
-                          if m:
-                              s, e = temp, int(m.group(1))
-                  if s is None:
-                      s = temp
-                      e = ultimo.get(s, 0) + 1
-                  temp = s
-                  ultimo[s] = e
-                  eps.append((s, e, urls[0]))
-              return eps
+                          d[m.group(1)] = int(m.group(2))
+              return d
+
+          def achar_serie(nome, max_temp, tmdb_id=None):
+              if tmdb_id:
+                  return api(f"/tv/{tmdb_id}")
+              d = api("/search/tv", query=nome)
+              res = (d or {}).get("results") or []
+              if not res:
+                  return None
+              alvo = norm(nome)
+              exatos = [r for r in res if norm(r.get("name")) == alvo or norm(r.get("original_name")) == alvo]
+              ordem = exatos + [r for r in res if r not in exatos]
+              for r in ordem[:5]:
+                  det = api(f"/tv/{r['id']}")
+                  time.sleep(0.1)
+                  if det and (det.get("number_of_seasons") or 0) >= max_temp:
+                      return det
+              return api(f"/tv/{ordem[0]['id']}")
 
           cache_temp = {}
           def dados_temporada(tv_id, s):
@@ -179,42 +169,60 @@ jobs:
                   time.sleep(0.15)
               return cache_temp[k]
 
+          overrides = carregar_overrides()
+          os.makedirs(PASTA, exist_ok=True)
+
           if UNICO:
               arquivos = [os.path.join(PASTA_SERIES, UNICO)]
           else:
-              arquivos = sorted(glob.glob(os.path.join(PASTA_SERIES, "*.txt")))
+              arquivos = sorted(f for f in glob.glob(os.path.join(PASTA_SERIES, "*.txt"))
+                                if not os.path.basename(f).startswith("_"))
 
           total = pulados = 0
           problemas = []
+          relatorio = []
 
           for arq in arquivos:
               stem = os.path.splitext(os.path.basename(arq))[0]
-              print(f"\n=== {stem} ===")
               with open(arq, encoding="utf-8", errors="ignore") as f:
                   texto = f.read()
 
-              serie = achar_serie(stem, texto)
-              if not serie:
-                  print("  série não encontrada no TMDB")
-                  problemas.append(f"{stem}: série não encontrada")
+              nome, numero, eps = parse_txt(texto)
+              numero = numero or stem
+              print(f"\n=== {numero} | {nome} | {len(eps)} episódios ===")
+
+              if not eps:
+                  problemas.append(f"{stem}: nenhum episódio encontrado")
+                  continue
+              if not nome and numero not in overrides:
+                  problemas.append(f"{stem}: sem 'SERIE:' no arquivo")
                   continue
 
-              nome_serie = serie.get("name") or serie.get("original_name") or stem
+              # se todos os episódios já existem e não é para refazer, nem consulta o TMDB
+              if not REFAZER and all(
+                  os.path.exists(os.path.join(PASTA, f"{numero}s{s:02d}e{e:02d}.html"))
+                  for (s, e) in eps
+              ):
+                  pulados += len(eps)
+                  print("  tudo já existe, pulando")
+                  continue
+
+              max_temp = max(s for s, _ in eps)
+              serie = achar_serie(nome, max_temp, overrides.get(numero))
+              if not serie:
+                  print("  série não encontrada no TMDB")
+                  problemas.append(f"{stem}: '{nome}' não encontrada no TMDB")
+                  continue
+
+              nome_serie = serie.get("name") or serie.get("original_name") or nome
               ano = (serie.get("first_air_date") or "")[:4]
               nome_serie_ano = f"{nome_serie} ({ano})" if ano else nome_serie
               capa_serie = (IMG + serie["poster_path"]) if serie.get("poster_path") else ""
+              relatorio.append(f"{numero} | {nome} -> TMDB {serie['id']} | {nome_serie_ano} | "
+                               f"{serie.get('number_of_seasons')} temp. no TMDB, {max_temp} no txt")
 
-              episodios = parse_linhas(texto)
-              if not episodios:
-                  print("  nenhum link encontrado")
-                  problemas.append(f"{stem}: nenhum link encontrado")
-                  continue
-
-              saida_dir = os.path.join(PASTA, stem)
-              os.makedirs(saida_dir, exist_ok=True)
-
-              for s, e, link in episodios:
-                  destino = os.path.join(saida_dir, f"s{s:02d}e{e:02d}.html")
+              for (s, e), link in sorted(eps.items()):
+                  destino = os.path.join(PASTA, f"{numero}s{s:02d}e{e:02d}.html")
                   if os.path.exists(destino) and not REFAZER:
                       pulados += 1
                       continue
@@ -242,11 +250,13 @@ jobs:
 
                   with open(destino, "w", encoding="utf-8") as out:
                       out.write(pagina)
-                  print(f"  {titulo}")
                   total += 1
+              print(f"  {nome_serie_ano}: ok")
 
+          if relatorio:
+              with open(os.path.join(PASTA, "_relatorio.txt"), "w", encoding="utf-8") as f:
+                  f.write("\n".join(relatorio) + "\n")
           if problemas:
-              os.makedirs(PASTA, exist_ok=True)
               with open(os.path.join(PASTA, "_problemas.txt"), "w", encoding="utf-8") as f:
                   f.write("\n".join(problemas) + "\n")
 
@@ -263,7 +273,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nada novo para commitar."
           else
-            git commit -m "Gerar HTMLs das séries (oneplayer)"
+            git commit -m "Gerar HTMLs das séries (oneplayer) [skip ci]"
             git pull --rebase origin "${GITHUB_REF_NAME}" || true
             git push
           fi
