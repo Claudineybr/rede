@@ -20,9 +20,13 @@ on:
         required: true
         default: "25"
       max_episodios:
-        description: "Ate qual episodio procurar em cada temporada"
+        description: "Teto de episodios por temporada (so um freio; a busca para antes se der erro)"
         required: true
-        default: "45"
+        default: "1000"
+      max_falhas:
+        description: "Desiste da temporada apos quantos episodios seguidos inexistentes"
+        required: true
+        default: "10"
       retentar:
         description: "RETENTAR os nao achados (ignora series_processadas.txt)"
         type: boolean
@@ -211,7 +215,8 @@ jobs:
         env:
           PARALELO: ${{ github.event.inputs.paralelo || '6' }}
           MAXT:     ${{ github.event.inputs.max_temporadas || '25' }}
-          MAXE:     ${{ github.event.inputs.max_episodios || '45' }}
+          MAXE:     ${{ github.event.inputs.max_episodios || '1000' }}
+          MAXF:     ${{ github.event.inputs.max_falhas || '10' }}
           MODO:     ${{ steps.preparar.outputs.MODO }}
         run: |
           set -uo pipefail
@@ -231,7 +236,7 @@ jobs:
           : > processadas_lote.txt
 
           TOTAL_LOTE=$(awk 'END{print NR+0}' lote_atual.txt)
-          export TOTAL_LOTE MODO MAXT MAXE
+          export TOTAL_LOTE MODO MAXT MAXE MAXF
 
           : > /tmp/contador.n
           : > /tmp/contador.lock
@@ -239,6 +244,7 @@ jobs:
           {
             echo "==================================================================="
             echo " INICIANDO BUSCA [SERIES][$MODO] - LOTE DE $TOTAL_LOTE - PARALELO=$PARALELO"
+            echo " Teto: $MAXE eps/temporada | desiste apos $MAXF inexistentes seguidos"
             echo " Progresso em tempo real: [n/total] OK=achou XX=nao"
             echo "==================================================================="
           } >&2
@@ -291,7 +297,7 @@ jobs:
                     printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$id" "${titulo:--}" "$nome" "$s" "$e" "$url" >> bruto_lote.tsv
                   else
                     falhas_e=$((falhas_e + 1))
-                    [ "$falhas_e" -ge 2 ] && break
+                    [ "$falhas_e" -ge "$MAXF" ] && break
                   fi
                   e=$((e + 1))
                 done
@@ -628,7 +634,8 @@ jobs:
           LOTE_IN: ${{ github.event.inputs.lote || '100' }}
           PAR_IN:  ${{ github.event.inputs.paralelo || '6' }}
           MAXT_IN: ${{ github.event.inputs.max_temporadas || '25' }}
-          MAXE_IN: ${{ github.event.inputs.max_episodios || '45' }}
+          MAXE_IN: ${{ github.event.inputs.max_episodios || '1000' }}
+          MAXF_IN: ${{ github.event.inputs.max_falhas || '10' }}
           RET_IN:  ${{ github.event.inputs.retentar || 'false' }}
         run: |
           if [ -z "$GH_TOKEN" ]; then
@@ -659,5 +666,5 @@ jobs:
           gh workflow run "procurar-series.yml" --repo "$REPO" --ref "${{ github.ref_name }}" \
             -f auto_run=true -f arquivo="$ARQ_IN" -f lote="$LOTE_IN" \
             -f paralelo="$PAR_IN" -f max_temporadas="$MAXT_IN" -f max_episodios="$MAXE_IN" \
-            -f retentar="$RET_IN"
+            -f max_falhas="$MAXF_IN" -f retentar="$RET_IN"
           echo "Proxima run disparada."
