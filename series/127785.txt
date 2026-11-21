@@ -1,0 +1,15 @@
+SERIE: Expedição Extrema
+NUMERO DA SERIE: 127785
+===================================================================
+Episodios encontrados: 6
+
+SERVIDOR: shd11
+  Temporada 1 (6 episodios): 1-6
+    http://shd11.oneplayer.site/token/SHD11/127785/1x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/127785/1x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/127785/1x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/127785/1x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/127785/1x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/127785/1x6.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

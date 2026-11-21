@@ -1,0 +1,77 @@
+SERIE: Mickey Mouse Funhouse
+NUMERO DA SERIE: 127633
+===================================================================
+Episodios encontrados: 66
+
+SERVIDOR: shd12
+  Temporada 1 (26 episodios): 1-26
+    http://shd12.oneplayer.site/token/SHD12/127633/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x18.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x19.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x20.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x21.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x22.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x23.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x24.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x25.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/1x26.mp4
+  Temporada 2 (30 episodios): 1-30
+    http://shd12.oneplayer.site/token/SHD12/127633/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x18.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x19.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x20.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x21.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x22.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x23.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x24.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x25.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x26.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x27.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x28.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x29.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/2x30.mp4
+  Temporada 3 (10 episodios): 1-10
+    http://shd12.oneplayer.site/token/SHD12/127633/3x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/3x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/3x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/3x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/3x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/3x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/3x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/3x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/3x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/127633/3x10.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

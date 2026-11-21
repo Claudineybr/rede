@@ -1,0 +1,24 @@
+SERIE: Mean Girl Murders
+NUMERO DA SERIE: 221121
+===================================================================
+Episodios encontrados: 14
+
+SERVIDOR: shd12
+  Temporada 1 (8 episodios): 1-8
+    http://shd12.oneplayer.site/token/SHD12/221121/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/221121/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/221121/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/221121/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/221121/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/221121/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/221121/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/221121/1x8.mp4
+  Temporada 2 (6 episodios): 1-6
+    http://shd12.oneplayer.site/token/SHD12/221121/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/221121/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/221121/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/221121/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/221121/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/221121/2x6.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

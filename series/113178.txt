@@ -1,0 +1,13 @@
+SERIE: A Vida em Outros Planetas
+NUMERO DA SERIE: 113178
+===================================================================
+Episodios encontrados: 4
+
+SERVIDOR: shd2
+  Temporada 1 (4 episodios): 1-4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/113178/1x1.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/113178/1x2.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/113178/1x3.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/113178/1x4.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

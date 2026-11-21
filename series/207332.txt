@@ -1,0 +1,30 @@
+SERIE: Sakamoto Days
+NUMERO DA SERIE: 207332
+===================================================================
+Episodios encontrados: 21
+
+SERVIDOR: shd12
+  Temporada 1 (21 episodios): 1-21
+    http://shd12.oneplayer.site/token/SHD12/207332/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x18.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x19.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x20.mp4
+    http://shd12.oneplayer.site/token/SHD12/207332/1x21.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

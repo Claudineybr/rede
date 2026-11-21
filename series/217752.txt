@@ -1,0 +1,15 @@
+SERIE: Os Reis do Esgoto
+NUMERO DA SERIE: 217752
+===================================================================
+Episodios encontrados: 6
+
+SERVIDOR: shd12
+  Temporada 1 (6 episodios): 1-6
+    http://shd12.oneplayer.site/token/SHD12/217752/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/217752/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/217752/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/217752/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/217752/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/217752/1x6.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

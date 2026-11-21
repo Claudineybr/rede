@@ -1,0 +1,13 @@
+SERIE: The Bond
+NUMERO DA SERIE: 125573
+===================================================================
+Episodios encontrados: 4
+
+SERVIDOR: shd11
+  Temporada 1 (4 episodios): 1-4
+    http://shd11.oneplayer.site/token/SHD11/125573/1x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/125573/1x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/125573/1x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/125573/1x4.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

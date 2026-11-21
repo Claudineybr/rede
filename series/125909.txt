@@ -1,0 +1,30 @@
+SERIE: Batman: Cruzado Encapuzado
+NUMERO DA SERIE: 125909
+===================================================================
+Episodios encontrados: 20
+
+SERVIDOR: shd12
+  Temporada 1 (10 episodios): 1-10
+    http://shd12.oneplayer.site/token/SHD12/125909/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/1x10.mp4
+  Temporada 2 (10 episodios): 1-10
+    http://shd12.oneplayer.site/token/SHD12/125909/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/2x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/2x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/2x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/2x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/125909/2x10.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

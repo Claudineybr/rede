@@ -1,0 +1,13 @@
+SERIE: Hillsong: O Escândalo por Trás da Megaigreja
+NUMERO DA SERIE: 157829
+===================================================================
+Episodios encontrados: 4
+
+SERVIDOR: shd12
+  Temporada 1 (4 episodios): 1-4
+    http://shd12.oneplayer.site/token/SHD12/157829/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/157829/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/157829/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/157829/1x4.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

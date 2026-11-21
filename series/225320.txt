@@ -1,0 +1,50 @@
+SERIE: LEGO® DreamZzz
+NUMERO DA SERIE: 225320
+===================================================================
+Episodios encontrados: 40
+
+SERVIDOR: shd12
+  Temporada 1 (20 episodios): 1-20
+    http://shd12.oneplayer.site/token/SHD12/225320/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x18.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x19.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/1x20.mp4
+  Temporada 2 (20 episodios): 1-20
+    http://shd12.oneplayer.site/token/SHD12/225320/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x18.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x19.mp4
+    http://shd12.oneplayer.site/token/SHD12/225320/2x20.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

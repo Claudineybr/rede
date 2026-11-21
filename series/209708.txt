@@ -1,0 +1,56 @@
+SERIE: Poder de Princesa
+NUMERO DA SERIE: 209708
+===================================================================
+Episodios encontrados: 45
+
+SERVIDOR: shd11
+  Temporada 1 (14 episodios): 1-14
+    http://shd11.oneplayer.site/token/SHD11/209708/1x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/1x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/1x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/1x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/1x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/1x6.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/1x7.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/1x8.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/1x9.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/1x10.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/1x11.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/1x12.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/1x13.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/1x14.mp4
+  Temporada 2 (20 episodios): 1-20
+    http://shd11.oneplayer.site/token/SHD11/209708/2x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x6.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x7.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x8.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x9.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x10.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x11.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x12.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x13.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x14.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x15.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x16.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x17.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x18.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x19.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/2x20.mp4
+  Temporada 3 (11 episodios): 1-11
+    http://shd11.oneplayer.site/token/SHD11/209708/3x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/3x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/3x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/3x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/3x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/3x6.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/3x7.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/3x8.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/3x9.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/3x10.mp4
+    http://shd11.oneplayer.site/token/SHD11/209708/3x11.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.
