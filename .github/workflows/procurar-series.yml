@@ -32,6 +32,15 @@ on:
         type: boolean
         required: false
         default: false
+      reprocessar_truncadas:
+        description: "REPROCESSAR series que bateram no teto antigo (so vale para esta run)"
+        type: boolean
+        required: false
+        default: false
+      teto_antigo:
+        description: "Teto antigo de episodios usado para detectar series truncadas"
+        required: false
+        default: "45"
       auto_run:
         description: "Continuar sozinho na proxima run"
         type: boolean
@@ -70,6 +79,8 @@ jobs:
           ARQUIVO:  ${{ github.event.inputs.arquivo || 'series.txt' }}
           LOTE:     ${{ github.event.inputs.lote || '100' }}
           RETENTAR: ${{ github.event.inputs.retentar || 'false' }}
+          REPROC:   ${{ github.event.inputs.reprocessar_truncadas || 'false' }}
+          TETO_ANT: ${{ github.event.inputs.teto_antigo || '45' }}
         run: |
           set -uo pipefail
           ARQ="$ARQUIVO"
@@ -79,6 +90,25 @@ jobs:
           fi
 
           touch series_processadas.txt series_bruto.tsv
+
+          # -----------------------------------------------------------------
+          #  REPROCESSAR TRUNCADAS: series que tem algum episodio exatamente
+          #  igual ao teto antigo (ex: 45) voltam para a fila. So vale nesta
+          #  run: a proxima run encadeada NAO repete isso (evita loop).
+          # -----------------------------------------------------------------
+          if [ "$REPROC" = "true" ]; then
+            if [ -s series_bruto.tsv ]; then
+              awk -F'\t' -v t="$TETO_ANT" '$5 == t { print $1 }' series_bruto.tsv | sort -u > truncadas.txt
+              NT=$(awk 'END{print NR+0}' truncadas.txt)
+              if [ "$NT" -gt 0 ]; then
+                grep -v -x -F -f truncadas.txt series_processadas.txt > p.tmp || true
+                mv p.tmp series_processadas.txt
+              fi
+              echo "::notice::Reprocessar truncadas: $NT serie(s) com episodio $TETO_ANT voltaram para a fila."
+            else
+              echo "::notice::Reprocessar truncadas: series_bruto.tsv esta vazio, nada a fazer."
+            fi
+          fi
 
           grep -v -E '^[[:space:]]*(#([[:space:]]|$)|$)' "$ARQ" > lista.txt || true
 
