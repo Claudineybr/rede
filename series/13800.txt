@@ -1,4 +1,4 @@
-SERIE: Thundarr the Barbarian
+SERIE: Os Bárbaros
 NUMERO DA SERIE: 13800
 ===================================================================
 Episodios encontrados: 16

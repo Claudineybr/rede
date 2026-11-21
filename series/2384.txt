@@ -1,4 +1,4 @@
-SERIE: Knight Rider
+SERIE: A Super Máquina
 NUMERO DA SERIE: 2384
 ===================================================================
 Episodios encontrados: 41

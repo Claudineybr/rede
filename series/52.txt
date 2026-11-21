@@ -1,4 +1,4 @@
-SERIE: That '70s Show
+SERIE: De Volta aos Anos 70
 NUMERO DA SERIE: 52
 ===================================================================
 Episodios encontrados: 200

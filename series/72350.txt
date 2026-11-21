@@ -1,4 +1,4 @@
-SERIE: DuckTales
+SERIE: DuckTales: Os Caçadores de Aventuras
 NUMERO DA SERIE: 72350
 ===================================================================
 Episodios encontrados: 34

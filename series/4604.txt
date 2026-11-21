@@ -1,4 +1,4 @@
-SERIE: Smallville
+SERIE: Smallville: As Aventuras do Superboy
 NUMERO DA SERIE: 4604
 ===================================================================
 Episodios encontrados: 216

@@ -1,4 +1,4 @@
-SERIE: Star Trek: The Next Generation
+SERIE: Jornada nas Estrelas: A Nova Geração
 NUMERO DA SERIE: 655
 ===================================================================
 Episodios encontrados: 177

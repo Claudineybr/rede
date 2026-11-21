@@ -1,4 +1,4 @@
-SERIE: El Chapulín Colorado
+SERIE: Chapolin
 NUMERO DA SERIE: 13023
 ===================================================================
 Episodios encontrados: 249

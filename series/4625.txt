@@ -1,4 +1,4 @@
-SERIE: The New Batman Adventures
+SERIE: As Novas Aventuras do Batman
 NUMERO DA SERIE: 4625
 ===================================================================
 Episodios encontrados: 24

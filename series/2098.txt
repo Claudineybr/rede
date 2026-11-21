@@ -1,4 +1,4 @@
-SERIE: Batman: The Animated Series
+SERIE: Batman: A Série Animada
 NUMERO DA SERIE: 2098
 ===================================================================
 Episodios encontrados: 70

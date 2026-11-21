@@ -1,4 +1,4 @@
-SERIE: NCIS
+SERIE: NCIS: Investigação Naval
 NUMERO DA SERIE: 4614
 ===================================================================
 Episodios encontrados: 506

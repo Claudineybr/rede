@@ -1,4 +1,4 @@
-SERIE: Andromeda
+SERIE: Andrômeda
 NUMERO DA SERIE: 2985
 ===================================================================
 Episodios encontrados: 109

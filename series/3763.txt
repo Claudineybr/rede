@@ -1,4 +1,4 @@
-SERIE: Dinosaurs
+SERIE: Família Dinossauros
 NUMERO DA SERIE: 3763
 ===================================================================
 Episodios encontrados: 65

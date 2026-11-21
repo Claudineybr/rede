@@ -1,4 +1,4 @@
-SERIE: Batman
+SERIE: Batman e Robin
 NUMERO DA SERIE: 2287
 ===================================================================
 Episodios encontrados: 105

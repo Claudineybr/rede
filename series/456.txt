@@ -1,4 +1,4 @@
-SERIE: The Simpsons
+SERIE: Os Simpsons
 NUMERO DA SERIE: 456
 ===================================================================
 Episodios encontrados: 552

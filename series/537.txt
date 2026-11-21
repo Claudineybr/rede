@@ -1,4 +1,4 @@
-SERIE: Hey Arnold!
+SERIE: Ei Arnold!
 NUMERO DA SERIE: 537
 ===================================================================
 Episodios encontrados: 100

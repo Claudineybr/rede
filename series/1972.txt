@@ -1,4 +1,4 @@
-SERIE: Battlestar Galactica
+SERIE: Galactica: Astronave de Combate
 NUMERO DA SERIE: 1972
 ===================================================================
 Episodios encontrados: 73

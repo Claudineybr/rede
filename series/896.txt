@@ -1,4 +1,4 @@
-SERIE: The Lost World
+SERIE: O Mundo Perdido
 NUMERO DA SERIE: 896
 ===================================================================
 Episodios encontrados: 65

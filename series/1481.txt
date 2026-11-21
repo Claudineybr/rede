@@ -1,4 +1,4 @@
-SERIE: The 4400
+SERIE: Os 4400
 NUMERO DA SERIE: 1481
 ===================================================================
 Episodios encontrados: 44

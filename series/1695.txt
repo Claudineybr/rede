@@ -1,4 +1,4 @@
-SERIE: Monk
+SERIE: Monk: Um Detetive Diferente
 NUMERO DA SERIE: 1695
 ===================================================================
 Episodios encontrados: 125

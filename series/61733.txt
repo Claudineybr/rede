@@ -1,4 +1,4 @@
-SERIE: Empire
+SERIE: Império
 NUMERO DA SERIE: 61733
 ===================================================================
 Episodios encontrados: 102

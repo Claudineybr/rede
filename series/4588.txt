@@ -1,4 +1,4 @@
-SERIE: ER
+SERIE: ER: Plantão Médico
 NUMERO DA SERIE: 4588
 ===================================================================
 Episodios encontrados: 331

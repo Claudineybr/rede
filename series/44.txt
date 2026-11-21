@@ -1,4 +1,4 @@
-SERIE: Adventures of Sonic the Hedgehog
+SERIE: As Aventuras de Sonic
 NUMERO DA SERIE: 44
 ===================================================================
 Episodios encontrados: 23

@@ -1,4 +1,4 @@
-SERIE: Teen Titans
+SERIE: Os Jovens Titãs
 NUMERO DA SERIE: 604
 ===================================================================
 Episodios encontrados: 65

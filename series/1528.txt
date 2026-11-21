@@ -1,4 +1,4 @@
-SERIE: Phil of the Future
+SERIE: Phil do Futuro
 NUMERO DA SERIE: 1528
 ===================================================================
 Episodios encontrados: 43

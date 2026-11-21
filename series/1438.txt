@@ -1,4 +1,4 @@
-SERIE: The Wire
+SERIE: A Escuta
 NUMERO DA SERIE: 1438
 ===================================================================
 Episodios encontrados: 60

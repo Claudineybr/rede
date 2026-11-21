@@ -1,4 +1,4 @@
-SERIE: Iron Man
+SERIE: Homem de Ferro
 NUMERO DA SERIE: 3097
 ===================================================================
 Episodios encontrados: 26

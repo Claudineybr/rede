@@ -1,4 +1,4 @@
-SERIE: Mundo da Lua
+SERIE: Moon World
 NUMERO DA SERIE: 65302
 ===================================================================
 Episodios encontrados: 45

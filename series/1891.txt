@@ -1,4 +1,4 @@
-SERIE: Rome
+SERIE: Roma
 NUMERO DA SERIE: 1891
 ===================================================================
 Episodios encontrados: 22

@@ -1,4 +1,4 @@
-SERIE: Taboo
+SERIE: Tabu
 NUMERO DA SERIE: 65708
 ===================================================================
 Episodios encontrados: 8

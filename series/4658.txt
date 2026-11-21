@@ -1,4 +1,4 @@
-SERIE: ALF
+SERIE: ALF, o Eteimoso
 NUMERO DA SERIE: 4658
 ===================================================================
 Episodios encontrados: 100

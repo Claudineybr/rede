@@ -1,4 +1,4 @@
-SERIE: Yogi's Space Race
+SERIE: A Corrida Espacial do Zé Colméia
 NUMERO DA SERIE: 12266
 ===================================================================
 Episodios encontrados: 13

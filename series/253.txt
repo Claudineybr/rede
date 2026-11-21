@@ -1,4 +1,4 @@
-SERIE: Star Trek
+SERIE: Jornada nas Estrelas
 NUMERO DA SERIE: 253
 ===================================================================
 Episodios encontrados: 80

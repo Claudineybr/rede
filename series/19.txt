@@ -1,4 +1,4 @@
-SERIE: Planet of the Apes
+SERIE: Planeta dos Macacos
 NUMERO DA SERIE: 19
 ===================================================================
 Episodios encontrados: 14

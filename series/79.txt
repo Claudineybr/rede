@@ -1,4 +1,4 @@
-SERIE: Dora the Explorer
+SERIE: Dora, a Aventureira
 NUMERO DA SERIE: 79
 ===================================================================
 Episodios encontrados: 74

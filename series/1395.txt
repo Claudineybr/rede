@@ -1,4 +1,4 @@
-SERIE: Gossip Girl
+SERIE: Gossip Girl: A Garota do Blog
 NUMERO DA SERIE: 1395
 ===================================================================
 Episodios encontrados: 121

@@ -1,4 +1,4 @@
-SERIE: Star Trek: Deep Space Nine
+SERIE: Jornada nas Estrelas: Deep Space Nine
 NUMERO DA SERIE: 580
 ===================================================================
 Episodios encontrados: 173

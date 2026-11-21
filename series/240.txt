@@ -1,4 +1,4 @@
-SERIE: Jackie Chan Adventures
+SERIE: As Aventuras de Jackie Chan
 NUMERO DA SERIE: 240
 ===================================================================
 Episodios encontrados: 94

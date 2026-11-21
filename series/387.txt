@@ -1,4 +1,4 @@
-SERIE: SpongeBob SquarePants
+SERIE: Bob Esponja
 NUMERO DA SERIE: 387
 ===================================================================
 Episodios encontrados: 551

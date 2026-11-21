@@ -1,4 +1,4 @@
-SERIE: The X-Files
+SERIE: Arquivo X
 NUMERO DA SERIE: 4087
 ===================================================================
 Episodios encontrados: 217

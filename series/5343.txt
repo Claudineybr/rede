@@ -1,4 +1,4 @@
-SERIE: Beakman's World
+SERIE: O Mundo de Beakman
 NUMERO DA SERIE: 5343
 ===================================================================
 Episodios encontrados: 180

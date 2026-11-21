@@ -1,4 +1,4 @@
-SERIE: Star Trek: Voyager
+SERIE: Jornada nas Estrelas: Voyager
 NUMERO DA SERIE: 1855
 ===================================================================
 Episodios encontrados: 168

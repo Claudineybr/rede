@@ -1,4 +1,4 @@
-SERIE: CSI: Crime Scene Investigation
+SERIE: CSI: Investigação Criminal
 NUMERO DA SERIE: 1431
 ===================================================================
 Episodios encontrados: 319

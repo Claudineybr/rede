@@ -1,4 +1,4 @@
-SERIE: Land of the Lost
+SERIE: O Elo Perdido
 NUMERO DA SERIE: 2177
 ===================================================================
 Episodios encontrados: 43

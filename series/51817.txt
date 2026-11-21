@@ -1,4 +1,4 @@
-SERIE: Teenage Mutant Ninja Turtles
+SERIE: As Tartarugas Ninja
 NUMERO DA SERIE: 51817
 ===================================================================
 Episodios encontrados: 123

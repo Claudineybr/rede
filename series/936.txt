@@ -1,4 +1,4 @@
-SERIE: Super Friends
+SERIE: O Desafio dos Super Amigos
 NUMERO DA SERIE: 936
 ===================================================================
 Episodios encontrados: 57

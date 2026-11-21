@@ -1,4 +1,4 @@
-SERIE: Buffy the Vampire Slayer
+SERIE: Buffy, the Hunt-Vampires
 NUMERO DA SERIE: 95
 ===================================================================
 Episodios encontrados: 144

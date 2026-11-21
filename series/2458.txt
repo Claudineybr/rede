@@ -1,4 +1,4 @@
-SERIE: CSI: NY
+SERIE: CSI: Nova York
 NUMERO DA SERIE: 2458
 ===================================================================
 Episodios encontrados: 197

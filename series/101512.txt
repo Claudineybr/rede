@@ -1,4 +1,4 @@
-SERIE: Felix the Cat
+SERIE: O Gato Félix
 NUMERO DA SERIE: 101512
 ===================================================================
 Episodios encontrados: 45

@@ -1,4 +1,4 @@
-SERIE: The Avengers: United They Stand
+SERIE: Os Vingadores
 NUMERO DA SERIE: 1300
 ===================================================================
 Episodios encontrados: 13

@@ -1,4 +1,4 @@
-SERIE: 24
+SERIE: 24 Horas
 NUMERO DA SERIE: 1973
 ===================================================================
 Episodios encontrados: 204
