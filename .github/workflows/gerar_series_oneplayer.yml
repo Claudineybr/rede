@@ -145,8 +145,14 @@ jobs:
               return d
 
           def achar_serie(nome, max_temp, tmdb_id=None):
+              # 1) o número do arquivo é o ID da série no TMDB
               if tmdb_id:
-                  return api(f"/tv/{tmdb_id}")
+                  det = api(f"/tv/{tmdb_id}")
+                  if det:
+                      return det
+              # 2) reserva: busca pelo nome
+              if not nome:
+                  return None
               d = api("/search/tv", query=nome)
               res = (d or {}).get("results") or []
               if not res:
@@ -177,7 +183,8 @@ jobs:
               arquivos = [os.path.join(PASTA_SERIES, UNICO)]
           else:
               arquivos = sorted(f for f in glob.glob(os.path.join(PASTA_SERIES, "*.txt"))
-                                if not os.path.basename(f).startswith("_"))
+                                if not os.path.basename(f).startswith("_")
+                                and os.path.basename(f) != "indice.txt")
 
           total = pulados = 0
           problemas = []
@@ -195,15 +202,11 @@ jobs:
 
               nome, numero, eps = parse_txt(texto)
               numero = numero or stem
-              print(f"\n[{idx}/{len(arquivos)}] {numero} | {nome} | {len(eps)} episódios")
+              print(f"\n[{idx}/{len(arquivos)}] {numero} | {nome or '(sem nome)'} | {len(eps)} episódios")
 
               if not eps:
                   print("  ✗ nenhum episódio encontrado")
                   problemas.append(f"{stem}: nenhum episódio encontrado")
-                  continue
-              if not nome and numero not in overrides:
-                  print("  ✗ sem 'SERIE:' no arquivo")
-                  problemas.append(f"{stem}: sem 'SERIE:' no arquivo")
                   continue
 
               # se todos os episódios já existem e não é para refazer, nem consulta o TMDB
@@ -216,7 +219,8 @@ jobs:
                   continue
 
               max_temp = max(s for s, _ in eps)
-              serie = achar_serie(nome, max_temp, overrides.get(numero))
+              tmdb_id = overrides.get(numero) or (int(numero) if numero.isdigit() else None)
+              serie = achar_serie(nome, max_temp, tmdb_id)
               if not serie:
                   print("  ✗ série não encontrada no TMDB")
                   problemas.append(f"{stem}: '{nome}' não encontrada no TMDB")
@@ -227,7 +231,7 @@ jobs:
               nome_serie_ano = f"{nome_serie} ({ano})" if ano else nome_serie
               capa_serie = (IMG + serie["poster_path"]) if serie.get("poster_path") else ""
               print(f"  TMDB: {nome_serie_ano} (id {serie['id']}, {serie.get('number_of_seasons')} temp.)")
-              relatorio.append(f"{numero} | {nome} -> TMDB {serie['id']} | {nome_serie_ano} | "
+              relatorio.append(f"{numero} | {nome or '-'} -> TMDB {serie['id']} | {nome_serie_ano} | "
                                f"{serie.get('number_of_seasons')} temp. no TMDB, {max_temp} no txt")
 
               gerados_serie = 0
