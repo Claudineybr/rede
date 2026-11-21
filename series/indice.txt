@@ -12326,7 +12326,7 @@ LISTA DAS SERIES PROCURADAS
 11824  The Metric Marvels  ->  NAO ACHEI
 4857  My Dad's the Prime Minister  ->  NAO ACHEI
 56747  Nangoku shônen Papuwa-kun  ->  NAO ACHEI
-44549  Nashville  ->  NAO ACHEI
+44549  Nashville  ->  124 episodios
 11360  The National Lottery: In It to Win It  ->  NAO ACHEI
 14360  Newsweek Views the News  ->  NAO ACHEI
 277304  On a tout essayé  ->  NAO ACHEI
@@ -12367,7 +12367,7 @@ LISTA DAS SERIES PROCURADAS
 395  WWE Bottom Line  ->  NAO ACHEI
 33  What I Like About You  ->  NAO ACHEI
 8827  Wild America  ->  NAO ACHEI
-2593  Without a Trace  ->  NAO ACHEI
+2593  Without a Trace  ->  10 episodios
 5263  Crashbox  ->  NAO ACHEI
 283160  Hello Hello Hello  ->  NAO ACHEI
 4306  Oliver Beene  ->  NAO ACHEI
@@ -12411,7 +12411,7 @@ LISTA DAS SERIES PROCURADAS
 16220  Country Style  ->  NAO ACHEI
 34867  Creature Comforts  ->  NAO ACHEI
 316464  Cuatro en la trampa  ->  NAO ACHEI
-5459  Cuidado con el angel  ->  NAO ACHEI
+5459  Cuidado con el angel  ->  45 episodios
 316508  Culpas ajenas  ->  NAO ACHEI
 44003  The Hotel  ->  NAO ACHEI
 5962  Dark of Night  ->  NAO ACHEI
@@ -12560,10 +12560,10 @@ LISTA DAS SERIES PROCURADAS
 10947  The Anna Nicole Show  ->  NAO ACHEI
 7465  Breeze Block  ->  NAO ACHEI
 321620  Ha llegado un extraño  ->  NAO ACHEI
-73554  Liar  ->  NAO ACHEI
+73554  Liar  ->  12 episodios
 115646  Lisa  ->  NAO ACHEI
 21953  Love Shack  ->  NAO ACHEI
-13093  La madrastra  ->  NAO ACHEI
+13093  La madrastra  ->  45 episodios
 315892  El manantial del milagro  ->  NAO ACHEI
 76559  El mariachi  ->  NAO ACHEI
 43395  Mañana será otro día  ->  NAO ACHEI
@@ -12624,7 +12624,7 @@ LISTA DAS SERIES PROCURADAS
 21223  Windy City Jamboree  ->  NAO ACHEI
 3475  The L Word  ->  NAO ACHEI
 100174  Human Instinct  ->  NAO ACHEI
-65708  Taboo  ->  NAO ACHEI
+65708  Taboo  ->  8 episodios
 52444  Det drejer sig om -  ->  NAO ACHEI
 11947  Having It Off  ->  NAO ACHEI
 13581  La hora chanante  ->  NAO ACHEI
@@ -12866,7 +12866,7 @@ LISTA DAS SERIES PROCURADAS
 9248  tlc  ->  NAO ACHEI
 40886  Ugo  ->  NAO ACHEI
 6587  My Big Fat Greek Life  ->  NAO ACHEI
-1528  Phil of the Future  ->  NAO ACHEI
+1528  Phil of the Future  ->  43 episodios
 30094  Rank  ->  NAO ACHEI
 31100  Insides Out  ->  NAO ACHEI
 221486  Bookie  ->  NAO ACHEI
@@ -12880,7 +12880,7 @@ LISTA DAS SERIES PROCURADAS
 107631  Lørdagshjørnet  ->  NAO ACHEI
 51671  Na i efkairia  ->  NAO ACHEI
 12383  Snow Job  ->  NAO ACHEI
-13027  Amor real  ->  NAO ACHEI
+13027  Amor real  ->  45 episodios
 22052  A Go Go '66  ->  NAO ACHEI
 28334  According to Dora  ->  NAO ACHEI
 21795  The Adventures of Chich  ->  NAO ACHEI
@@ -13003,7 +13003,7 @@ LISTA DAS SERIES PROCURADAS
 20063  The Silver Brumby  ->  NAO ACHEI
 17840  Skippy: Adventures in Bushtown  ->  NAO ACHEI
 16657  TV Heaven  ->  NAO ACHEI
-604  Teen Titans  ->  NAO ACHEI
+604  Teen Titans  ->  65 episodios
 2483  Today with Des and Mel  ->  NAO ACHEI
 59019  The Toothbrush Family  ->  NAO ACHEI
 298768  The Track  ->  NAO ACHEI
@@ -13012,7 +13012,7 @@ LISTA DAS SERIES PROCURADAS
 27047  The Yellow House  ->  NAO ACHEI
 3757  Latin Lover  ->  NAO ACHEI
 251673  Opinions  ->  NAO ACHEI
-203492  Pequena Travessa  ->  NAO ACHEI
+203492  Pequena Travessa  ->  45 episodios
 203835  Tales of Mystery and Imagination  ->  NAO ACHEI
 91892  Alex Santana, négociateur  ->  NAO ACHEI
 9303  The American Sportsman  ->  NAO ACHEI
@@ -13116,7 +13116,7 @@ LISTA DAS SERIES PROCURADAS
 23857  TV Tales  ->  NAO ACHEI
 53538  Talkshowet  ->  NAO ACHEI
 16740  That's My Baby  ->  NAO ACHEI
-82104  The Order  ->  NAO ACHEI
+82104  The Order  ->  20 episodios
 329840  Tomtefamiljen i Storskogen  ->  NAO ACHEI
 10898  ToonHeads  ->  NAO ACHEI
 115525  Tricet návratu  ->  NAO ACHEI
@@ -13143,7 +13143,7 @@ LISTA DAS SERIES PROCURADAS
 157232  Bestseller  ->  NAO ACHEI
 9931  Celebrity Fit Club  ->  NAO ACHEI
 11150  Cram  ->  NAO ACHEI
-2566  Dead Like Me  ->  NAO ACHEI
+2566  Dead Like Me  ->  29 episodios
 1406  Deadwood  ->  NAO ACHEI
 301675  Debatten  ->  NAO ACHEI
 48683  Entertainment USA  ->  NAO ACHEI
@@ -13285,7 +13285,7 @@ LISTA DAS SERIES PROCURADAS
 320287  Dock 13  ->  NAO ACHEI
 293861  Ellington  ->  NAO ACHEI
 16446  Estefanía  ->  NAO ACHEI
-89785  Family Business  ->  NAO ACHEI
+89785  Family Business  ->  18 episodios
 7320  Gimik  ->  NAO ACHEI
 50950  Hjerner i spil  ->  NAO ACHEI
 76611  Hríchy pro pátera Knoxe  ->  NAO ACHEI
