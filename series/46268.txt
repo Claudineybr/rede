@@ -1,0 +1,56 @@
+SERIE: Destiladores
+NUMERO DA SERIE: 46268
+===================================================================
+Episodios encontrados: 44
+
+SERVIDOR: shd11
+  Temporada 1 (5 episodios): 1-5
+    http://shd11.oneplayer.site/token/SHD11/46268/1x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/1x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/1x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/1x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/1x5.mp4
+  Temporada 2 (10 episodios): 1-10
+    http://shd11.oneplayer.site/token/SHD11/46268/2x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/2x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/2x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/2x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/2x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/2x6.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/2x7.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/2x8.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/2x9.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/2x10.mp4
+  Temporada 3 (25 episodios): 1-25
+    http://shd11.oneplayer.site/token/SHD11/46268/3x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x6.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x7.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x8.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x9.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x10.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x11.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x12.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x13.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x14.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x15.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x16.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x17.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x18.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x19.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x20.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x21.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x22.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x23.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x24.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/3x25.mp4
+  Temporada 4 (4 episodios): 1-4
+    http://shd11.oneplayer.site/token/SHD11/46268/4x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/4x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/4x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/46268/4x4.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

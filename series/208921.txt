@@ -1,0 +1,26 @@
+SERIE: Rivals
+NUMERO DA SERIE: 208921
+===================================================================
+Episodios encontrados: 16
+
+SERVIDOR: shd12
+  Temporada 1 (8 episodios): 1-8
+    http://shd12.oneplayer.site/token/SHD12/208921/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/208921/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/208921/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/208921/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/208921/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/208921/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/208921/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/208921/1x8.mp4
+  Temporada 2 (8 episodios): 1-8
+    http://shd12.oneplayer.site/token/SHD12/208921/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/208921/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/208921/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/208921/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/208921/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/208921/2x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/208921/2x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/208921/2x8.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.
