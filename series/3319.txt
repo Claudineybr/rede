@@ -1,0 +1,82 @@
+SERIE: Darkwing Duck
+NUMERO DA SERIE: 3319
+===================================================================
+Episodios encontrados: 71
+
+SERVIDOR: shd12
+  Temporada 1 (45 episodios): 1-45
+    http://shd12.oneplayer.site/token/SHD12/3319/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x18.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x19.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x20.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x21.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x22.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x23.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x24.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x25.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x26.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x27.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x28.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x29.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x30.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x31.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x32.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x33.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x34.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x35.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x36.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x37.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x38.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x39.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x40.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x41.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x42.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x43.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x44.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/1x45.mp4
+  Temporada 2 (13 episodios): 1-13
+    http://shd12.oneplayer.site/token/SHD12/3319/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/2x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/2x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/2x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/2x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/2x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/2x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/2x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/2x13.mp4
+  Temporada 3 (13 episodios): 1-13
+    http://shd12.oneplayer.site/token/SHD12/3319/3x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/3x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/3x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/3x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/3x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/3x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/3x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/3x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/3x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/3x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/3x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/3x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/3319/3x13.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.
