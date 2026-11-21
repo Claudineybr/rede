@@ -1,0 +1,26 @@
+SERIE: Depois do Acidente
+NUMERO DA SERIE: 259730
+===================================================================
+Episodios encontrados: 16
+
+SERVIDOR: shd12
+  Temporada 1 (10 episodios): 1-10
+    http://shd12.oneplayer.site/token/SHD12/259730/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/259730/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/259730/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/259730/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/259730/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/259730/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/259730/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/259730/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/259730/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/259730/1x10.mp4
+  Temporada 2 (6 episodios): 1-6
+    http://shd12.oneplayer.site/token/SHD12/259730/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/259730/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/259730/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/259730/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/259730/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/259730/2x6.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

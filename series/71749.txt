@@ -1,0 +1,11 @@
+SERIE: Rivers of Fire
+NUMERO DA SERIE: 71749
+===================================================================
+Episodios encontrados: 2
+
+SERVIDOR: shd11
+  Temporada 1 (2 episodios): 1-2
+    http://shd11.oneplayer.site/token/SHD11/71749/1x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/71749/1x2.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

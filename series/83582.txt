@@ -1,0 +1,59 @@
+SERIE: Chegou o Amor
+NUMERO DA SERIE: 83582
+===================================================================
+Episodios encontrados: 50
+
+SERVIDOR: shd12
+  Temporada 1 (50 episodios): 1-50
+    http://shd12.oneplayer.site/token/SHD12/83582/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x18.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x19.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x20.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x21.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x22.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x23.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x24.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x25.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x26.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x27.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x28.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x29.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x30.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x31.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x32.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x33.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x34.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x35.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x36.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x37.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x38.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x39.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x40.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x41.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x42.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x43.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x44.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x45.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x46.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x47.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x48.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x49.mp4
+    http://shd12.oneplayer.site/token/SHD12/83582/1x50.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

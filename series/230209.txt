@@ -1,0 +1,18 @@
+SERIE: Ilha da tentação: Brasil
+NUMERO DA SERIE: 230209
+===================================================================
+Episodios encontrados: 9
+
+SERVIDOR: shd12
+  Temporada 1 (9 episodios): 1-9
+    http://shd12.oneplayer.site/token/SHD12/230209/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/230209/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/230209/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/230209/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/230209/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/230209/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/230209/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/230209/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/230209/1x9.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

@@ -1,0 +1,36 @@
+SERIE: De Férias com o Ex Diretoria
+NUMERO DA SERIE: 238597
+===================================================================
+Episodios encontrados: 26
+
+SERVIDOR: shd11
+  Temporada 1 (13 episodios): 1-13
+    http://shd11.oneplayer.site/token/SHD11/238597/1x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/1x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/1x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/1x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/1x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/1x6.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/1x7.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/1x8.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/1x9.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/1x10.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/1x11.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/1x12.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/1x13.mp4
+  Temporada 2 (13 episodios): 1-13
+    http://shd11.oneplayer.site/token/SHD11/238597/2x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/2x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/2x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/2x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/2x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/2x6.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/2x7.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/2x8.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/2x9.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/2x10.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/2x11.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/2x12.mp4
+    http://shd11.oneplayer.site/token/SHD11/238597/2x13.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

@@ -1,0 +1,10 @@
+SERIE: Amor até o Fim
+NUMERO DA SERIE: 230365
+===================================================================
+Episodios encontrados: 1
+
+SERVIDOR: shd12
+  Temporada 1 (1 episodios): 1
+    http://shd12.oneplayer.site/token/SHD12/230365/1x1.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.
