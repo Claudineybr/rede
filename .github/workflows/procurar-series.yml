@@ -20,27 +20,14 @@ on:
         required: true
         default: "25"
       max_episodios:
-        description: "Teto de episodios por temporada (so um freio; a busca para antes se der erro)"
+        description: "Ate qual episodio procurar em cada temporada"
         required: true
-        default: "1000"
-      max_falhas:
-        description: "Desiste da temporada apos quantos episodios seguidos inexistentes"
-        required: true
-        default: "10"
+        default: "45"
       retentar:
         description: "RETENTAR os nao achados (ignora series_processadas.txt)"
         type: boolean
         required: false
         default: false
-      reprocessar_truncadas:
-        description: "REPROCESSAR series que bateram no teto antigo (so vale para esta run)"
-        type: boolean
-        required: false
-        default: false
-      teto_antigo:
-        description: "Teto antigo de episodios usado para detectar series truncadas"
-        required: false
-        default: "45"
       auto_run:
         description: "Continuar sozinho na proxima run"
         type: boolean
@@ -79,8 +66,6 @@ jobs:
           ARQUIVO:  ${{ github.event.inputs.arquivo || 'series.txt' }}
           LOTE:     ${{ github.event.inputs.lote || '100' }}
           RETENTAR: ${{ github.event.inputs.retentar || 'false' }}
-          REPROC:   ${{ github.event.inputs.reprocessar_truncadas || 'false' }}
-          TETO_ANT: ${{ github.event.inputs.teto_antigo || '45' }}
         run: |
           set -uo pipefail
           ARQ="$ARQUIVO"
@@ -90,25 +75,6 @@ jobs:
           fi
 
           touch series_processadas.txt series_bruto.tsv
-
-          # -----------------------------------------------------------------
-          #  REPROCESSAR TRUNCADAS: series que tem algum episodio exatamente
-          #  igual ao teto antigo (ex: 45) voltam para a fila. So vale nesta
-          #  run: a proxima run encadeada NAO repete isso (evita loop).
-          # -----------------------------------------------------------------
-          if [ "$REPROC" = "true" ]; then
-            if [ -s series_bruto.tsv ]; then
-              awk -F'\t' -v t="$TETO_ANT" '$5 == t { print $1 }' series_bruto.tsv | sort -u > truncadas.txt
-              NT=$(awk 'END{print NR+0}' truncadas.txt)
-              if [ "$NT" -gt 0 ]; then
-                grep -v -x -F -f truncadas.txt series_processadas.txt > p.tmp || true
-                mv p.tmp series_processadas.txt
-              fi
-              echo "::notice::Reprocessar truncadas: $NT serie(s) com episodio $TETO_ANT voltaram para a fila."
-            else
-              echo "::notice::Reprocessar truncadas: series_bruto.tsv esta vazio, nada a fazer."
-            fi
-          fi
 
           grep -v -E '^[[:space:]]*(#([[:space:]]|$)|$)' "$ARQ" > lista.txt || true
 
@@ -245,8 +211,7 @@ jobs:
         env:
           PARALELO: ${{ github.event.inputs.paralelo || '6' }}
           MAXT:     ${{ github.event.inputs.max_temporadas || '25' }}
-          MAXE:     ${{ github.event.inputs.max_episodios || '1000' }}
-          MAXF:     ${{ github.event.inputs.max_falhas || '10' }}
+          MAXE:     ${{ github.event.inputs.max_episodios || '45' }}
           MODO:     ${{ steps.preparar.outputs.MODO }}
         run: |
           set -uo pipefail
@@ -255,8 +220,12 @@ jobs:
           shd0 | http://shd0.oneplayer.site/rfg54ry435y45y45y45y45y45rt23w4r324wt34tr34t3e4wtf582/SHD0/
           shd1 | http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/
           shd2 | http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/
+          shd7 | http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/
+          shd8 | http://shd8.oneplayer.site/67i567uyh56r4tgyh54rteh45yhg465uhy456ju56l2q/SHD8/
+          shd9 | http://shd9.oneplayer.site/y456y654uj54tyg34gfwer45r3hj465yh354rtgfwe4rfgtwku51/SHD9/
           shd11 | http://shd11.oneplayer.site/token/SHD11/
           shd12 | http://shd12.oneplayer.site/token/SHD12/
+          shd13 | http://shd13.oneplayer.site/SHD13/
           SRV
           sed -i 's/^[[:space:]]*//; s/[[:space:]]*$//' servidores.txt
           echo "Servidores testados por serie: $(awk 'END{print NR+0}' servidores.txt)"
@@ -266,7 +235,7 @@ jobs:
           : > processadas_lote.txt
 
           TOTAL_LOTE=$(awk 'END{print NR+0}' lote_atual.txt)
-          export TOTAL_LOTE MODO MAXT MAXE MAXF
+          export TOTAL_LOTE MODO MAXT MAXE
 
           : > /tmp/contador.n
           : > /tmp/contador.lock
@@ -274,7 +243,6 @@ jobs:
           {
             echo "==================================================================="
             echo " INICIANDO BUSCA [SERIES][$MODO] - LOTE DE $TOTAL_LOTE - PARALELO=$PARALELO"
-            echo " Teto: $MAXE eps/temporada | desiste apos $MAXF inexistentes seguidos"
             echo " Progresso em tempo real: [n/total] OK=achou XX=nao"
             echo "==================================================================="
           } >&2
@@ -327,7 +295,7 @@ jobs:
                     printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$id" "${titulo:--}" "$nome" "$s" "$e" "$url" >> bruto_lote.tsv
                   else
                     falhas_e=$((falhas_e + 1))
-                    [ "$falhas_e" -ge "$MAXF" ] && break
+                    [ "$falhas_e" -ge 2 ] && break
                   fi
                   e=$((e + 1))
                 done
@@ -664,8 +632,7 @@ jobs:
           LOTE_IN: ${{ github.event.inputs.lote || '100' }}
           PAR_IN:  ${{ github.event.inputs.paralelo || '6' }}
           MAXT_IN: ${{ github.event.inputs.max_temporadas || '25' }}
-          MAXE_IN: ${{ github.event.inputs.max_episodios || '1000' }}
-          MAXF_IN: ${{ github.event.inputs.max_falhas || '10' }}
+          MAXE_IN: ${{ github.event.inputs.max_episodios || '45' }}
           RET_IN:  ${{ github.event.inputs.retentar || 'false' }}
         run: |
           if [ -z "$GH_TOKEN" ]; then
@@ -696,5 +663,5 @@ jobs:
           gh workflow run "procurar-series.yml" --repo "$REPO" --ref "${{ github.ref_name }}" \
             -f auto_run=true -f arquivo="$ARQ_IN" -f lote="$LOTE_IN" \
             -f paralelo="$PAR_IN" -f max_temporadas="$MAXT_IN" -f max_episodios="$MAXE_IN" \
-            -f max_falhas="$MAXF_IN" -f retentar="$RET_IN"
+            -f retentar="$RET_IN"
           echo "Proxima run disparada."
