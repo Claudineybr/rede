@@ -14558,7 +14558,7 @@ LISTA DAS SERIES PROCURADAS
 124130  Más allá  ->  NAO ACHEI
 48184  Perihan Abla  ->  NAO ACHEI
 114004  Rocca  ->  NAO ACHEI
-1891  Rome  ->  NAO ACHEI
+1891  Rome  ->  22 episodios
 12664  Sell This House  ->  NAO ACHEI
 35137  Snatky z rozumu  ->  NAO ACHEI
 27383  Stage Moms  ->  NAO ACHEI
@@ -14745,7 +14745,7 @@ LISTA DAS SERIES PROCURADAS
 38185  France Five  ->  NAO ACHEI
 82674  Inside Eddie Johnson  ->  NAO ACHEI
 208120  Jungle  ->  NAO ACHEI
-1481  The 4400  ->  NAO ACHEI
+1481  The 4400  ->  44 episodios
 24091  Achmea kennisquiz  ->  NAO ACHEI
 11823  Alegrijes y rebujos  ->  NAO ACHEI
 27841  Ana e os Sete  ->  NAO ACHEI
@@ -14944,7 +14944,7 @@ LISTA DAS SERIES PROCURADAS
 327664  Big Show SIC  ->  NAO ACHEI
 121147  Le bleu du ciel  ->  NAO ACHEI
 5115  Les Bougon: C'est aussi ça la vie  ->  NAO ACHEI
-2458  CSI: NY  ->  NAO ACHEI
+2458  CSI: NY  ->  197 episodios
 17901  Chunauti  ->  NAO ACHEI
 19067  The Dooley and Pals Show  ->  NAO ACHEI
 235724  De dyre drenge  ->  NAO ACHEI
@@ -15021,7 +15021,7 @@ LISTA DAS SERIES PROCURADAS
 29822  Evans Abode  ->  NAO ACHEI
 72424  Floodtide  ->  NAO ACHEI
 19286  Good Dog U  ->  NAO ACHEI
-1894  LazyTown  ->  NAO ACHEI
+1894  LazyTown  ->  78 episodios
 6554  Murder in Suburbia  ->  NAO ACHEI
 6017  Mysterious Journeys  ->  NAO ACHEI
 42177  A Night with...  ->  NAO ACHEI
@@ -15051,8 +15051,8 @@ LISTA DAS SERIES PROCURADAS
 112350  Vishnu Puran  ->  NAO ACHEI
 5379  alt.news 26:46  ->  NAO ACHEI
 19578  Ángel Rebelde  ->  NAO ACHEI
-1433  American Dad!  ->  NAO ACHEI
-1395  Gossip Girl  ->  NAO ACHEI
+1433  American Dad!  ->  284 episodios
+1395  Gossip Girl  ->  121 episodios
 72082  Le proc  ->  NAO ACHEI
 16957  10 Things Every Guy Should Experience  ->  NAO ACHEI
 11880  55 Degrees North  ->  NAO ACHEI
@@ -15258,7 +15258,7 @@ LISTA DAS SERIES PROCURADAS
 71303  Tulipan  ->  NAO ACHEI
 121211  La vie rêvée de Mario Jean  ->  NAO ACHEI
 28395  Who Needs Hollywood?  ->  NAO ACHEI
-15851  Wicked Science  ->  NAO ACHEI
+15851  Wicked Science  ->  25 episodios
 56078  Zycie na goraco  ->  NAO ACHEI
 300854  ¡Qué buena se puso Lola!  ->  NAO ACHEI
 39373  Red vs. Blue  ->  NAO ACHEI
