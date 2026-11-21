@@ -1,0 +1,542 @@
+name: Procurar filmes (cnvods)
+
+# ---------------------------------------------------------------------------
+#  POR QUE ESTE YML EXISTE
+#
+#  No catalogo, os servidores de "nome aleatorio" tem dois tipos:
+#
+#  1) HASH de verdade (awnagk.gviudclrb.com, fcoidok.cisantkdh.com):
+#     ex: /vod/4661114E67114899B9E5401CCB3A045C_media.mp4
+#     Esse codigo e aleatorio. NAO da pra descobrir filme novo por fora.
+#     Nesses dois, o catalogo e o teto.
+#
+#  2) NOME PREVISIVEL (play-1.cnvods.com):
+#     ex: /m/Clube%20da%20Luta_1999_tt0137523.mp4
+#     Formato: <Titulo em portugues>_<ano>_<ID do IMDb>.mp4
+#     ESSE DA PRA GERAR! Testado em 21/11/2026: de 25 filmes populares
+#     sorteados, 13 existiam no servidor (52%) - e a maioria nao estava
+#     no catalogo.
+#
+#  Este yml faz isso: baixa as listas do IMDb, pega o titulo em portugues
+#  de cada filme (lista oficial, gratis), monta o nome do arquivo e testa
+#  no servidor. O que responder 200/206 existe e vira link pronto.
+# ---------------------------------------------------------------------------
+
+on:
+  workflow_dispatch:
+    inputs:
+      min_votos:
+        description: "So filmes com pelo menos X votos no IMDb (5000 = recomendado)"
+        required: true
+        default: "5000"
+      ano_min:
+        description: "So filmes do ano X em diante (0 = todos)"
+        required: true
+        default: "0"
+      lote:
+        description: "Quantos filmes testar nesta run (0 = todos)"
+        required: true
+        default: "0"
+      paralelo:
+        description: "Quantos testar ao mesmo tempo (1 a 20)"
+        required: true
+        default: "12"
+      tentar_original:
+        description: "Se o titulo em portugues falhar, tentar o titulo original"
+        type: boolean
+        required: false
+        default: true
+      retentar:
+        description: "RETENTAR os que ja foram testados"
+        type: boolean
+        required: false
+        default: false
+      auto_run:
+        description: "Continuar sozinho na proxima run"
+        type: boolean
+        required: false
+        default: true
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: procurar-cnvods
+  cancel-in-progress: false
+
+jobs:
+  procurar:
+    name: Procurar filmes no cnvods
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+
+    steps:
+      - name: Baixar o projeto
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_CHAIN || secrets.GITHUB_TOKEN }}
+
+      # -----------------------------------------------------------------
+      #  1) BAIXAR AS LISTAS DO IMDB E MONTAR A FILA
+      # -----------------------------------------------------------------
+      - name: Preparar lote
+        id: preparar
+        env:
+          MIN_VOTOS:  ${{ github.event.inputs.min_votos || '5000' }}
+          ANO_MIN:    ${{ github.event.inputs.ano_min || '0' }}
+          LOTE:       ${{ github.event.inputs.lote || '0' }}
+          RETENTAR:   ${{ github.event.inputs.retentar || 'false' }}
+        run: |
+          set -uo pipefail
+
+          # Se o arquivo ja estiver baixado (mesma run), nao baixa de novo.
+          echo "Baixando as listas do IMDb (basics, ratings, akas)..."
+          [ -s /tmp/basics.tsv.gz ]  || curl -fsSL -m 900 -o /tmp/basics.tsv.gz  https://datasets.imdbws.com/title.basics.tsv.gz  || { echo "::error::Nao consegui baixar o title.basics do IMDb."; exit 1; }
+          [ -s /tmp/ratings.tsv.gz ] || curl -fsSL -m 900 -o /tmp/ratings.tsv.gz https://datasets.imdbws.com/title.ratings.tsv.gz || { echo "::error::Nao consegui baixar o title.ratings do IMDb."; exit 1; }
+          [ -s /tmp/akas.tsv.gz ]    || curl -fsSL -m 900 -o /tmp/akas.tsv.gz    https://datasets.imdbws.com/title.akas.tsv.gz    || { echo "::error::Nao consegui baixar o title.akas do IMDb."; exit 1; }
+          ls -lh /tmp/basics.tsv.gz /tmp/ratings.tsv.gz /tmp/akas.tsv.gz
+
+          MIN_VOTOS="${MIN_VOTOS:-5000}" ANO_MIN="${ANO_MIN:-0}" python3 -u - <<'PY'
+          import csv, gzip, sys
+
+          csv.field_size_limit(10 ** 7)
+
+          def inteiro(nome, padrao=0):
+              import os
+              try:
+                  return int(str(os.environ.get(nome, padrao)).strip())
+              except ValueError:
+                  return padrao
+
+          min_votos = inteiro('MIN_VOTOS', 5000)
+          ano_min = inteiro('ANO_MIN', 0)
+
+          # ---- notas (so entra filme que tem voto) ----
+          votos = {}
+          with gzip.open('/tmp/ratings.tsv.gz', 'rt', encoding='utf-8') as f:
+              leitor = csv.reader(f, delimiter='\t')
+              next(leitor, None)
+              for linha in leitor:
+                  if len(linha) >= 3:
+                      try:
+                          votos[linha[0]] = int(linha[2])
+                      except ValueError:
+                          pass
+
+          # ---- filmes ----
+          filmes = {}
+          with gzip.open('/tmp/basics.tsv.gz', 'rt', encoding='utf-8') as f:
+              leitor = csv.reader(f, delimiter='\t')
+              next(leitor, None)
+              for linha in leitor:
+                  if len(linha) < 9:
+                      continue
+                  tconst, tipo, titulo, titulo_orig = linha[0], linha[1], linha[2], linha[3]
+                  adulto, ano = linha[4], linha[5]
+                  if tipo not in ('movie', 'tvMovie') or adulto == '1':
+                      continue
+                  if votos.get(tconst, 0) < min_votos:
+                      continue
+                  if ano == '\\N':
+                      continue
+                  if ano_min > 0:
+                      try:
+                          if int(ano) < ano_min:
+                              continue
+                      except ValueError:
+                          continue
+                  filmes[tconst] = (titulo, titulo_orig, ano)
+          print(f'Filmes com {min_votos}+ votos (e com ano): {len(filmes)}')
+
+          # ---- titulo do Brasil (o que o servidor usa no nome do arquivo) ----
+          titulo_br = {}
+          with gzip.open('/tmp/akas.tsv.gz', 'rt', encoding='utf-8', errors='replace') as f:
+              leitor = csv.reader(f, delimiter='\t')
+              next(leitor, None)
+              for linha in leitor:
+                  if len(linha) < 8 or linha[3] != 'BR':
+                      continue
+                  tconst = linha[0]
+                  if tconst not in filmes:
+                      continue
+                  nome = linha[2].strip()
+                  if not nome:
+                      continue
+                  original = 1 if linha[7] == '1' else 0
+                  if tconst not in titulo_br or original > titulo_br[tconst][1]:
+                      titulo_br[tconst] = (nome, original)
+          print(f'Com titulo do Brasil: {len(titulo_br)} '
+                f'({len(titulo_br) / len(filmes) * 100:.1f}%)')
+
+          # ---- fila (o mais popular primeiro) ----
+          fila = []
+          for tconst, (titulo, titulo_orig, ano) in filmes.items():
+              br = titulo_br.get(tconst, (None, 0))[0]
+              br = br or titulo
+              if titulo_orig == '\\N':
+                  titulo_orig = titulo
+              fila.append((votos.get(tconst, 0), tconst, br, titulo_orig, ano))
+          fila.sort(key=lambda x: (-x[0], x[1]))
+
+          with open('cnvods_candidatos.tsv', 'w', encoding='utf-8') as f:
+              for v, tconst, br, orig, ano in fila:
+                  f.write('\t'.join([tconst, br, orig, ano]) + '\n')
+          print(f'Candidatos gravados: {len(fila)}')
+          print('Primeiros 3:')
+          for v, tconst, br, orig, ano in fila[:3]:
+              print(f'  {br} ({ano}) -> {tconst}  [{v} votos]')
+          PY
+
+          TOTAL=$(awk 'END{print NR+0}' cnvods_candidatos.tsv)
+
+          touch cnvods_testados.tsv
+          MODO="PROCURAR"
+          if [ "$RETENTAR" = "true" ]; then
+            MODO="RETENTAR"
+            cp cnvods_candidatos.tsv pendentes.tsv
+          else
+            awk -F'\t' -v base=cnvods_testados.tsv \
+              'FILENAME == base { feito[$1]=1; next } !($1 in feito)' \
+              cnvods_testados.tsv cnvods_candidatos.tsv > pendentes.tsv
+          fi
+
+          PEND=$(awk 'END{print NR+0}' pendentes.tsv)
+          JA=$((TOTAL - PEND))
+          if [ "$TOTAL" -gt 0 ]; then
+            PCT=$(awk -v p="$JA" -v t="$TOTAL" 'BEGIN{ printf "%.1f", p*100/t }')
+          else
+            PCT="0.0"
+          fi
+
+          if [ "$LOTE" = "0" ] || [ "$LOTE" = "" ] || [ "$PEND" -lt "$LOTE" ]; then
+            LOTE_EF=$PEND
+          else
+            LOTE_EF=$LOTE
+          fi
+          DEPOIS=$(( PEND - LOTE_EF ))
+
+          {
+            echo "###################################################################"
+            echo "#  FILA DO CNVODS   [MODO: $MODO]"
+            echo "#  -----------------------------------------------------------------"
+            echo "#  Filmes candidatos:        $TOTAL"
+            echo "#  Ja testados antes:        $JA  (${PCT}%)"
+            echo "#  FALTAM TESTAR agora:      $PEND"
+            echo "#  Este lote vai testar:     $LOTE_EF"
+            echo "#  Vai faltar depois deste:  $DEPOIS"
+            echo "###################################################################"
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+
+          if [ "$PEND" -eq 0 ]; then
+            echo "::notice::Nada para testar - todos os $TOTAL filmes ja foram testados."
+            echo "VAZIO=1" >> "$GITHUB_OUTPUT"
+            echo "0" > /tmp/faltam.txt
+            : > lote_atual.tsv
+            exit 0
+          fi
+
+          head -n "$LOTE_EF" pendentes.tsv > lote_atual.tsv
+          N=$(awk 'END{print NR+0}' lote_atual.tsv)
+          FALTAM=$((PEND - N))
+          echo "$FALTAM" > /tmp/faltam.txt
+          echo "VAZIO=0"       >> "$GITHUB_OUTPUT"
+          echo "FALTAM=$FALTAM" >> "$GITHUB_OUTPUT"
+          echo "MODO=$MODO"     >> "$GITHUB_OUTPUT"
+
+      # -----------------------------------------------------------------
+      #  2) TESTAR CADA FILME NO SERVIDOR
+      # -----------------------------------------------------------------
+      - name: Testar os nomes no cnvods
+        if: steps.preparar.outputs.VAZIO == '0'
+        env:
+          PARALELO: ${{ github.event.inputs.paralelo || '12' }}
+          TENTAR_ORIG: ${{ github.event.inputs.tentar_original || 'true' }}
+        run: |
+          set -uo pipefail
+
+          # Servidores que usam o padrao  <Titulo>_<ano>_<ttID>.mp4
+          cat > servidores.txt <<'SRV'
+          play-1.cnvods.com | https://play-1.cnvods.com/m/
+          SRV
+          sed -i 's/^[[:space:]]*//; s/[[:space:]]*$//' servidores.txt
+          echo "Servidores testados por filme: $(awk 'END{print NR+0}' servidores.txt)"
+
+          : > cnvods_bruto.tsv
+          : > cnvods_testados_lote.tsv
+          TOTAL_LOTE=$(awk 'END{print NR+0}' lote_atual.tsv)
+          export TOTAL_LOTE TENTAR_ORIG
+
+          : > /tmp/contador.n
+          : > /tmp/contador.lock
+
+          {
+            echo "==================================================================="
+            echo " TESTANDO $TOTAL_LOTE FILMES NO CNVODS - PARALELO=$PARALELO"
+            echo " Monta o nome: Titulo_em_portugues_ANO_ttID.mp4"
+            echo "==================================================================="
+          } >&2
+
+          pede() {
+            local code
+            code=$(curl -s -o /dev/null -m 20 --range 0-255 \
+              -A "Mozilla/5.0" -H "Referer: https://api-pobreflix-filmes.pages.dev/" \
+              -w '%{http_code}' "$1" 2>/dev/null) || true
+            printf '%s' "${code:-000}"
+          }
+          existe() { [ "$1" = "200" ] || [ "$1" = "206" ]; }
+
+          procurar() {
+            local linha="$1" tconst br orig ano srv base arq url code achou usado
+            tconst="$(printf '%s' "$linha" | cut -f1)"
+            br="$(printf '%s' "$linha" | cut -f2)"
+            orig="$(printf '%s' "$linha" | cut -f3)"
+            ano="$(printf '%s' "$linha" | cut -f4)"
+            [ -z "$tconst" ] && return 0
+
+            achou=""
+            usado=""
+            while IFS='|' read -r srv base; do
+              srv="$(printf '%s' "${srv:-}" | tr -d '[:space:]')"
+              base="$(printf '%s' "${base:-}" | tr -d '[:space:]')"
+              [ -z "$srv" ] && continue
+
+              # 1o: titulo em portugues
+              arq=$(printf '%s_%s_%s.mp4' "$br" "$ano" "$tconst" | python3 -c \
+                    'import sys,urllib.parse; print(urllib.parse.quote(sys.stdin.read().strip()))')
+              url="${base}${arq}"
+              code=$(pede "$url")
+              usado="${usado}${srv}:${code} "
+              if existe "$code"; then
+                achou="${srv}|${br}|${ano}|${url}"
+                printf '%s\t%s\t%s\t%s\t%s\t%s\n' \
+                  "$tconst" "$br" "$ano" "$srv" "$url" "BR" >> cnvods_bruto.tsv
+                usado="${usado}"
+              elif [ "$TENTAR_ORIG" = "true" ] && [ "$orig" != "$br" ]; then
+                # 2o: titulo original (ingles)
+                arq=$(printf '%s_%s_%s.mp4' "$orig" "$ano" "$tconst" | python3 -c \
+                      'import sys,urllib.parse; print(urllib.parse.quote(sys.stdin.read().strip()))')
+                url="${base}${arq}"
+                code=$(pede "$url")
+                usado="${usado}${srv}(orig):${code} "
+                if existe "$code"; then
+                  achou="${srv}|${orig}|${ano}|${url}"
+                  printf '%s\t%s\t%s\t%s\t%s\t%s\n' \
+                    "$tconst" "$orig" "$ano" "$srv" "$url" "ORIG" >> cnvods_bruto.tsv
+                fi
+              fi
+            done < servidores.txt
+
+            printf '%s\t%s\t%s\n' "$tconst" "${achou:+ACHOU}" "${usado% }" >> cnvods_testados_lote.tsv
+
+            local n
+            n=$(flock /tmp/contador.lock bash -c \
+                 'n=$(( $(cat /tmp/contador.n 2>/dev/null || echo 0) + 1 )); echo "$n" > /tmp/contador.n; echo "$n"')
+            if [ -n "$achou" ]; then
+              printf '[%s/%s] OK  %s  %s (%s)\n' "$n" "$TOTAL_LOTE" "$tconst" "$br" "$ano" >&2
+            else
+              printf '[%s/%s] --  %s  %s (%s)\n' "$n" "$TOTAL_LOTE" "$tconst" "$br" "$ano" >&2
+            fi
+          }
+          export -f procurar pede existe
+
+          tr '\n' '\0' < lote_atual.tsv \
+            | stdbuf -oL -eL xargs -0 -r -P "$PARALELO" -n 1 \
+                stdbuf -oL -eL bash -c 'procurar "$1"' _
+
+          ACHOU_LOTE=$(awk 'END{print NR+0}' cnvods_bruto.tsv)
+          {
+            echo "==================================================================="
+            echo " LOTE CONCLUIDO - $TOTAL_LOTE filmes testados"
+            echo "   arquivos achados neste lote: $ACHOU_LOTE"
+            echo "==================================================================="
+          } >&2
+
+          cat cnvods_testados_lote.tsv >> cnvods_testados.tsv
+          awk -F'\t' '!visto[$1]++' cnvods_testados.tsv > t.tmp && mv t.tmp cnvods_testados.tsv
+
+      # -----------------------------------------------------------------
+      #  3) MONTAR OS TXTS
+      # -----------------------------------------------------------------
+      - name: Montar os resultados
+        if: steps.preparar.outputs.VAZIO == '0'
+        run: |
+          python3 -u - <<'PY'
+          import collections, os
+
+          achados = {}
+          for l in open('cnvods_bruto.tsv', encoding='utf-8', errors='replace'):
+              p = l.rstrip('\n').split('\t')
+              if len(p) < 6:
+                  continue
+              tconst, titulo, ano, srv, url, tipo = p[:6]
+              achados[url] = (tconst, titulo, ano, srv, tipo)
+
+          testados = {}
+          for l in open('cnvods_testados.tsv', encoding='utf-8', errors='replace'):
+              p = l.rstrip('\n').split('\t')
+              if not p or not p[0]:
+                  continue
+              testados[p[0]] = p[1] if len(p) > 1 else ''
+
+          print(f'Testados ate agora: {len(testados)}   |   Achados (links): {len(achados)}')
+
+          com = sorted(achados.values(), key=lambda x: x[1].lower())
+          sem = [t for t, marca in testados.items() if marca != 'ACHOU']
+
+          txt = []
+          txt.append('=' * 67)
+          txt.append('  CLAUFLIX - FILMES NO CNVODS (descobertos pelo nome do arquivo)')
+          txt.append(f'  Filmes testados: {len(testados)}   |   Arquivos achados: {len(achados)}')
+          txt.append(f'  Filmes sem resultado: {len(sem)}')
+          txt.append('=' * 67)
+          txt.append('')
+          txt.append('  Como funciona: o servidor guarda os filmes como')
+          txt.append('  <Titulo em portugues>_<ano>_<ID do IMDb>.mp4, entao da pra')
+          txt.append('  montar o nome e testar. 200/206 = o filme esta la.')
+          txt.append('')
+          txt.append('=' * 67)
+          txt.append('  ACHADOS (link pronto)')
+          txt.append('=' * 67)
+          for tconst, titulo, ano, srv, tipo in com:
+              url = next(u for u, v in achados.items() if v == (tconst, titulo, ano, srv, tipo))
+              txt.append('')
+              txt.append(f'- {titulo} ({ano})  [{tconst}]')
+              txt.append(f'    {srv} {url}')
+          txt.append('')
+
+          md = ['# Filmes no cnvods (achados pelo nome)', '',
+                f'**{len(testados)} testados - {len(achados)} achados - {len(sem)} sem resultado**', '',
+                '| Filme | Ano | ID | Link |', '|---|---|---|---|']
+          for tconst, titulo, ano, srv, tipo in com:
+              url = next(u for u, v in achados.items() if v == (tconst, titulo, ano, srv, tipo))
+              md.append(f'| {titulo.replace("|", "/")} | {ano} | {tconst} | {url} |')
+          md.append('')
+
+          with open('resultado-cnvods.txt', 'w', encoding='utf-8') as f:
+              f.write('\n'.join(txt) + '\n')
+          with open('resultado-cnvods.md', 'w', encoding='utf-8') as f:
+              f.write('\n'.join(md) + '\n')
+          with open('links-cnvods.txt', 'w', encoding='utf-8') as f:
+              for url in sorted(achados):
+                  f.write(url + '\n')
+
+          resumo = os.environ.get('GITHUB_STEP_SUMMARY')
+          if resumo:
+              with open(resumo, 'a', encoding='utf-8') as f:
+                  f.write('\n'.join(md) + '\n')
+          print('')
+          print('\n'.join(txt[:60]))
+          PY
+
+      # -----------------------------------------------------------------
+      #  4) COMMIT DO PROGRESSO
+      # -----------------------------------------------------------------
+      - name: Commit do progresso
+        if: steps.preparar.outputs.VAZIO == '0'
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -uo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config pull.rebase true
+
+          git add cnvods_testados.tsv
+          for arq in resultado-cnvods.txt resultado-cnvods.md links-cnvods.txt; do
+            [ -f "$arq" ] && git add "$arq"
+          done
+
+          if git diff --staged --quiet; then
+            echo "Sem mudancas para commitar."
+          else
+            ARQS=$(git diff --staged --name-only | wc -l)
+            echo "Arquivos alterados: $ARQS"
+            git commit -m "chore: filmes cnvods ${{ steps.preparar.outputs.MODO }} lote $(date -u +%Y%m%dT%H%MZ) - $ARQS arquivo(s) [skip ci]"
+          fi
+
+          for i in 1 2 3 4 5; do
+            if git push origin "HEAD:$BRANCH"; then
+              echo "Enviado para o GitHub (tentativa $i)."
+              exit 0
+            fi
+            echo "Envio recusado (tentativa $i). Juntando com o que ja esta no GitHub..."
+            git stash push --include-untracked -m "auto-$i" >/dev/null 2>&1 || true
+            if git fetch origin "$BRANCH"; then
+              git rebase "origin/$BRANCH" || { git rebase --abort || true; }
+            fi
+            git stash pop >/dev/null 2>&1 || true
+            sleep 10
+          done
+          echo "::error::Falha ao dar push apos 5 tentativas."
+          exit 1
+
+      # -----------------------------------------------------------------
+      #  5) ARTIFACT
+      # -----------------------------------------------------------------
+      - name: Guardar o resultado (artifact)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultado-cnvods-${{ github.run_number }}
+          path: |
+            resultado-cnvods.txt
+            resultado-cnvods.md
+            links-cnvods.txt
+            cnvods_bruto.tsv
+            cnvods_testados.tsv
+          if-no-files-found: warn
+
+      # -----------------------------------------------------------------
+      #  6) DISPARAR PROXIMA RUN
+      # -----------------------------------------------------------------
+      - name: Disparar proxima run
+        if: |
+          success() &&
+          steps.preparar.outputs.VAZIO == '0' &&
+          steps.preparar.outputs.FALTAM != '0' &&
+          (
+            github.event_name == 'push' ||
+            inputs.auto_run == true ||
+            github.event.inputs.auto_run == 'true'
+          )
+        env:
+          GH_TOKEN: ${{ secrets.PAT_CHAIN }}
+          REPO: ${{ github.repository }}
+          MV_IN:   ${{ github.event.inputs.min_votos || '5000' }}
+          AM_IN:   ${{ github.event.inputs.ano_min || '0' }}
+          LOTE_IN: ${{ github.event.inputs.lote || '0' }}
+          PAR_IN:  ${{ github.event.inputs.paralelo || '12' }}
+          ORIG_IN: ${{ github.event.inputs.tentar_original || 'true' }}
+          RET_IN:  ${{ github.event.inputs.retentar || 'false' }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "Sem o segredo PAT_CHAIN: nao consigo me chamar de novo."
+            exit 0
+          fi
+
+          FALTAM=$(cat /tmp/faltam.txt 2>/dev/null || echo 0)
+          echo "Faltam: $FALTAM"
+          if [ "${FALTAM:-0}" -le 0 ]; then
+            echo "Fila vazia, encerrando."
+            exit 0
+          fi
+
+          LIMITE_ISO=$(date -u -d '60 minutes ago' +%Y-%m-%dT%H:%M:%SZ)
+          RECENTES=$(gh run list --workflow="procurar-cnvods.yml" \
+            --event workflow_dispatch --limit 100 \
+            --json createdAt \
+            --jq "[.[] | select(.createdAt > \"$LIMITE_ISO\")] | length" \
+            --repo "$REPO" 2>/dev/null || echo 0)
+          echo "Encadeamentos na ultima hora: $RECENTES"
+          if [ "${RECENTES:-0}" -ge 20 ]; then
+            echo "Muitas runs na ultima hora, esperando a proxima janela."
+            exit 0
+          fi
+
+          sleep 30
+          gh workflow run "procurar-cnvods.yml" --repo "$REPO" --ref "${{ github.ref_name }}" \
+            -f auto_run=true -f min_votos="$MV_IN" -f ano_min="$AM_IN" \
+            -f lote="$LOTE_IN" -f paralelo="$PAR_IN" \
+            -f tentar_original="$ORIG_IN" -f retentar="$RET_IN"
+          echo "Proxima run disparada."
