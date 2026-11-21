@@ -1,0 +1,74 @@
+SERIE: O Rancho
+NUMERO DA SERIE: 65493
+===================================================================
+Episodios encontrados: 60
+
+SERVIDOR: shd12
+  Temporada 1 (10 episodios): 1-10
+    http://shd12.oneplayer.site/token/SHD12/65493/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/1x10.mp4
+  Temporada 2 (10 episodios): 1-10
+    http://shd12.oneplayer.site/token/SHD12/65493/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/2x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/2x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/2x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/2x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/2x10.mp4
+  Temporada 3 (10 episodios): 1-10
+    http://shd12.oneplayer.site/token/SHD12/65493/3x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/3x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/3x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/3x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/3x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/3x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/3x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/3x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/3x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/3x10.mp4
+  Temporada 4 (10 episodios): 1-10
+    http://shd12.oneplayer.site/token/SHD12/65493/4x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/4x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/4x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/4x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/4x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/4x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/4x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/4x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/4x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/4x10.mp4
+  Temporada 5 (10 episodios): 1-10
+    http://shd12.oneplayer.site/token/SHD12/65493/5x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/5x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/5x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/5x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/5x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/5x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/5x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/5x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/5x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/5x10.mp4
+  Temporada 6 (10 episodios): 1-10
+    http://shd12.oneplayer.site/token/SHD12/65493/6x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/6x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/6x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/6x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/6x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/6x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/6x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/6x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/6x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/65493/6x10.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

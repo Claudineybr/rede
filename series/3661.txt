@@ -1,0 +1,33 @@
+SERIE: Team Galaxy
+NUMERO DA SERIE: 3661
+===================================================================
+Episodios encontrados: 24
+
+SERVIDOR: shd12
+  Temporada 1 (24 episodios): 1-24
+    http://shd12.oneplayer.site/token/SHD12/3661/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x18.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x19.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x20.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x21.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x22.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x23.mp4
+    http://shd12.oneplayer.site/token/SHD12/3661/1x24.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

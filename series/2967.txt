@@ -1,0 +1,22 @@
+SERIE: Normal Demais
+NUMERO DA SERIE: 2967
+===================================================================
+Episodios encontrados: 13
+
+SERVIDOR: shd12
+  Temporada 1 (13 episodios): 1-13
+    http://shd12.oneplayer.site/token/SHD12/2967/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/2967/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/2967/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/2967/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/2967/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/2967/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/2967/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/2967/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/2967/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/2967/1x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/2967/1x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/2967/1x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/2967/1x13.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.
