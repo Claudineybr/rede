@@ -1,1 +1,250 @@
-1434 | Uma Família da Pesada -> TMDB 1434 | Uma Família da Pesada (1999) | 24 temp. no TMDB, 22 no txt
+100010 | Big Sky -> TMDB 100010 | Big Sky (2020) | 3 temp. no TMDB, 3 no txt
+100412 | The Baby-Sitters Club -> TMDB 100412 | O Clube das Babás (2020) | 2 temp. no TMDB, 2 no txt
+101512 | O Gato Félix -> TMDB 101512 | O Gato Félix (1958) | 3 temp. no TMDB, 1 no txt
+1018 | Bonanza -> TMDB 1018 | Bonanza (1959) | 14 temp. no TMDB, 2 no txt
+101918 | Valeria -> TMDB 101918 | Valéria (2020) | 4 temp. no TMDB, 3 no txt
+102596 | Todas as Mulheres do Mundo -> TMDB 102596 | Todas as Mulheres do Mundo (2020) | 1 temp. no TMDB, 1 no txt
+10444 | Shazam! -> TMDB 10444 | Shazam (1974) | 3 temp. no TMDB, 1 no txt
+105 | Sex and the City -> TMDB 105 | Sexo e a Cidade (1998) | 6 temp. no TMDB, 6 no txt
+112945 | The Hardy Boys -> TMDB 112945 | The Hardy Boys (2021) | 3 temp. no TMDB, 2 no txt
+113600 | Equinox -> TMDB 113600 | Equinox (2020) | 1 temp. no TMDB, 1 no txt
+114165 | Kung Fu -> TMDB 114165 | Kung Fu (2021) | 3 temp. no TMDB, 3 no txt
+117928 | Pérola Negra -> TMDB 117928 | Pérola Negra (1998) | 1 temp. no TMDB, 1 no txt
+120462 | Them -> TMDB 120462 | ELES (2021) | 2 temp. no TMDB, 2 no txt
+122530 | Panic! -> TMDB 25643 | Panic! (1957) | 2 temp. no TMDB, 1 no txt
+12266 | A Corrida Espacial do Zé Colméia -> TMDB 12266 | A Corrida Espacial do Zé Colmeia (1978) | 1 temp. no TMDB, 1 no txt
+12504 | Silverhawks -> TMDB 12504 | SilverHawks (1986) | 1 temp. no TMDB, 1 no txt
+12592 | O Privilégio de Amar -> TMDB 12592 | O Privilégio de Amar (1998) | 1 temp. no TMDB, 1 no txt
+126280 | Sex/Life -> TMDB 126280 | Sex/Life (2021) | 2 temp. no TMDB, 2 no txt
+12637 | Rebelde -> TMDB 12637 | Rebelde (2004) | 3 temp. no TMDB, 3 no txt
+12656 | Rosalinda -> TMDB 12656 | Rosalinda (1999) | 1 temp. no TMDB, 1 no txt
+12688 | O Diário de Daniela -> TMDB 12688 | O Diário de Daniela (1998) | 1 temp. no TMDB, 1 no txt
+127041 | Eden -> TMDB 127041 | Éden (2021) | 1 temp. no TMDB, 1 no txt
+1274 | A Sete Palmos -> TMDB 1274 | A Sete Palmos (2001) | 5 temp. no TMDB, 5 no txt
+12826 | Bicudo, o Lobisomem -> TMDB 12826 | Bicudo, o Lobisomem (1978) | 2 temp. no TMDB, 1 no txt
+1300 | Os Vingadores -> TMDB 2473 | Os Vingadores (1961) | 6 temp. no TMDB, 1 no txt
+13023 | Chapolin -> TMDB 13023 | Chapolin Colorado (1973) | 7 temp. no TMDB, 7 no txt
+13027 | Amor Real -> TMDB 13027 | Amor Real (2003) | 1 temp. no TMDB, 1 no txt
+13093 | La madrastra -> TMDB 13093 | A Madrastra (2005) | 1 temp. no TMDB, 1 no txt
+133727 | Acapulco -> TMDB 133727 | Acapulco (2021) | 4 temp. no TMDB, 4 no txt
+134365 | Insiders -> TMDB 134365 | Insiders (2021) | 2 temp. no TMDB, 2 no txt
+13800 | Os Bárbaros -> TMDB 13800 | Thundarr, O bárbaro (1980) | 2 temp. no TMDB, 1 no txt
+1398 | Família Soprano -> TMDB 1398 | Família Soprano (1999) | 6 temp. no TMDB, 6 no txt
+1400 | Seinfeld -> TMDB 1400 | Seinfeld (1989) | 9 temp. no TMDB, 9 no txt
+1410 | Revolution -> TMDB 1410 | Revolução (2012) | 2 temp. no TMDB, 1 no txt
+1414 | The Shield: Acima da Lei -> TMDB 1414 | The Shield: Acima da Lei (2002) | 7 temp. no TMDB, 7 no txt
+1431 | CSI: Investigação Criminal -> TMDB 1431 | CSI: Investigação Criminal (2000) | 15 temp. no TMDB, 16 no txt
+1438 | A Escuta -> TMDB 1438 | A Escuta (2002) | 5 temp. no TMDB, 5 no txt
+1450 | The Closer -> TMDB 1450 | Divisão Criminal (2005) | 7 temp. no TMDB, 7 no txt
+1475 | O Vidente -> TMDB 1475 | O Vidente (2002) | 6 temp. no TMDB, 6 no txt
+1487 | Super Choque -> TMDB 1487 | Super Choque (2000) | 4 temp. no TMDB, 4 no txt
+1528 | Phil do Futuro -> TMDB 1528 | Phil do Futuro (2004) | 2 temp. no TMDB, 2 no txt
+153666 | A Dona -> TMDB 32218 | A Dona (2010) | 1 temp. no TMDB, 1 no txt
+1546 | Hora do Recreio -> TMDB 1546 | Hora do Recreio (1997) | 6 temp. no TMDB, 3 no txt
+1558 | Família em Obras -> TMDB 1558 | Família em Obras (1991) | 8 temp. no TMDB, 8 no txt
+15621 | The Newsroom -> TMDB 15621 | The Newsroom (2012) | 3 temp. no TMDB, 3 no txt
+156902 | Kaleidoscope -> TMDB 156902 | Caleidoscópio (2023) | 1 temp. no TMDB, 1 no txt
+157231 | Fascinação -> TMDB 157231 | Fascinação (1998) | 1 temp. no TMDB, 1 no txt
+1618 | Liga da Justiça -> TMDB 1618 | Liga da Justiça (2001) | 2 temp. no TMDB, 2 no txt
+16183 | A Grande Família -> TMDB 16183 | A Grande Família (2001) | 14 temp. no TMDB, 10 no txt
+1620 | CSI: Miami -> TMDB 1620 | CSI: Miami (2002) | 10 temp. no TMDB, 10 no txt
+1639 | Heroes -> TMDB 1639 | Heroes (2006) | 4 temp. no TMDB, 4 no txt
+1660 | Jeannie é um Gênio -> TMDB 1660 | Jeannie É um Gênio (1965) | 5 temp. no TMDB, 5 no txt
+1668 | Friends -> TMDB 1668 | Friends (1994) | 10 temp. no TMDB, 10 no txt
+1695 | Monk: Um Detetive Diferente -> TMDB 1695 | Monk: Um Detetive Diferente (2002) | 8 temp. no TMDB, 8 no txt
+1718 | Guerreiros Esqueletos -> TMDB 1718 | Guerreiros Esqueletos (1994) | 1 temp. no TMDB, 1 no txt
+1719 | Gárgulas -> TMDB 1719 | Gárgulas (1994) | 3 temp. no TMDB, 3 no txt
+1739 | O Jim é Assim -> TMDB 1739 | O Jim é Assim (2001) | 8 temp. no TMDB, 8 no txt
+1767 | O Fantástico Mundo de Bobby -> TMDB 1767 | O Fantástico Mundo de Bobby (1990) | 7 temp. no TMDB, 7 no txt
+177 | Eu Sou o Máximo -> TMDB 177 | Eu Sou o Máximo (1997) | 5 temp. no TMDB, 5 no txt
+1777 | O Mundo é dos Jovens -> TMDB 1777 | O Mundo é dos Jovens (1993) | 7 temp. no TMDB, 7 no txt
+1794 | Defensores da Terra -> TMDB 1794 | Defensores da Terra (1986) | 1 temp. no TMDB, 1 no txt
+185 | Carnivale -> TMDB 185 | Carnivàle (2003) | 2 temp. no TMDB, 2 no txt
+1855 | Jornada nas Estrelas: Voyager -> TMDB 1855 | Jornada nas Estrelas: Voyager (1995) | 7 temp. no TMDB, 7 no txt
+1892 | Um Maluco no Pedaço -> TMDB 1892 | Um Maluco no Pedaço (1990) | 6 temp. no TMDB, 6 no txt
+19 | Planeta dos Macacos -> TMDB 19 | Planeta dos Macacos (1974) | 1 temp. no TMDB, 1 no txt
+1920 | Twin Peaks -> TMDB 1920 | Twin Peaks (1990) | 3 temp. no TMDB, 3 no txt
+1950 | Everwood: Uma Segunda Chance -> TMDB 1950 | Everwood: Uma Segunda Chance (2002) | 4 temp. no TMDB, 4 no txt
+19515 | Joana, a Virgem -> TMDB 19515 | Joana, a Virgem (2002) | 1 temp. no TMDB, 1 no txt
+1972 | Galactica: Astronave de Combate -> TMDB 501 | Galactica: Astronave de Combate (1978) | 1 temp. no TMDB, 4 no txt
+1973 | 24 Horas -> TMDB 1973 | 24 Horas (2001) | 9 temp. no TMDB, 9 no txt
+1981 | Charmed: Jovens Bruxas -> TMDB 1981 | Charmed: Jovens Bruxas (1998) | 8 temp. no TMDB, 8 no txt
+1988 | Thundercats -> TMDB 1988 | ThunderCats (1985) | 4 temp. no TMDB, 4 no txt
+1998 | A Gata e o Rato -> TMDB 1998 | A Gata e o Rato (1985) | 5 temp. no TMDB, 3 no txt
+2004 | Malcolm -> TMDB 2004 | Malcolm (2000) | 7 temp. no TMDB, 6 no txt
+2025 | Barrados no Baile -> TMDB 2025 | Barrados no Baile (1990) | 10 temp. no TMDB, 4 no txt
+2027 | Mysterious Ways -> TMDB 2027 | Histórias Misteriosas (2000) | 2 temp. no TMDB, 1 no txt
+2046 | Alias: Codinome Perigo -> TMDB 2046 | Alias: Codinome Perigo (2001) | 5 temp. no TMDB, 5 no txt
+2073 | Mission Hill -> TMDB 2073 | Mission Hill (1999) | 1 temp. no TMDB, 1 no txt
+207334 | The Veil -> TMDB 207334 | O Véu (2024) | 1 temp. no TMDB, 1 no txt
+2085 | Coragem, o Cão Covarde -> TMDB 2085 | Coragem, o Cão Covarde (1999) | 4 temp. no TMDB, 2 no txt
+2098 | Batman: A Série Animada -> TMDB 2098 | Batman: A Série Animada (1992) | 4 temp. no TMDB, 4 no txt
+20992 | Sonic Underground -> TMDB 20992 | Sonic Underground (1999) | 1 temp. no TMDB, 1 no txt
+210232 | The Watcher -> TMDB 210232 | Bem-Vindos à Vizinhança (2022) | 1 temp. no TMDB, 1 no txt
+211288 | Tracker -> TMDB 211288 | O Rastreador (2024) | 4 temp. no TMDB, 3 no txt
+2129 | As Aventuras de Jimmy Neutron: O Menino Gênio -> TMDB 2129 | As Aventuras de Jimmy Neutron, O Menino Gênio (2002) | 3 temp. no TMDB, 3 no txt
+2140 | Raymond e Companhia -> TMDB 2140 | Raymond e Companhia (1996) | 9 temp. no TMDB, 9 no txt
+21494 | V: Os Extraterrestres no Planeta Terra -> TMDB 75893 | V: Os Extraterrestres no Planeta Terra (1984) | 1 temp. no TMDB, 2 no txt
+217667 | Eric -> TMDB 217667 | Eric (2024) | 1 temp. no TMDB, 1 no txt
+2177 | O Elo Perdido -> TMDB 2177 | O Elo Perdido (1974) | 3 temp. no TMDB, 3 no txt
+2190 | South Park -> TMDB 2190 | South Park (1997) | 29 temp. no TMDB, 22 no txt
+219971 | The Agency -> TMDB 219971 | A Agência (2024) | 2 temp. no TMDB, 2 no txt
+2204 | Brotherhood -> TMDB 2204 | Brotherhood (2006) | 3 temp. no TMDB, 3 no txt
+2228 | Pinky e o Cérebro -> TMDB 2228 | Pinky e o Cérebro (1995) | 4 temp. no TMDB, 4 no txt
+2287 | Batman e Robin -> TMDB 2287 | Batman e Robin (1966) | 3 temp. no TMDB, 3 no txt
+2291 | Gênio do Barulho -> TMDB 2291 | Gênio do Barulho (1997) | 3 temp. no TMDB, 3 no txt
+2297 | Dupla do Barulho -> TMDB 2297 | Dupla do Barulho (1995) | 5 temp. no TMDB, 5 no txt
+2316 | The Office -> TMDB 2316 | The Office (2005) | 9 temp. no TMDB, 9 no txt
+2327 | Dawson's Creek -> TMDB 2327 | Dawson's Creek (1998) | 6 temp. no TMDB, 6 no txt
+2345 | Kim Possible -> TMDB 2345 | Kim Possible (2002) | 4 temp. no TMDB, 4 no txt
+2384 | A Super Máquina -> TMDB 2384 | A Super Máquina (1982) | 4 temp. no TMDB, 2 no txt
+240 | As Aventuras de Jackie Chan -> TMDB 240 | As Aventuras de Jackie Chan (2000) | 5 temp. no TMDB, 5 no txt
+242102 | Insomnia -> TMDB 242102 | Insônia (2024) | 2 temp. no TMDB, 1 no txt
+245927 | Paradise -> TMDB 245927 | Paradise (2025) | 2 temp. no TMDB, 2 no txt
+25 | Star Wars: Droids -> TMDB 25 | Star Wars: Droids (1985) | 1 temp. no TMDB, 1 no txt
+252100 | Postcards -> TMDB 252100 | Cartões-postais (2024) | 1 temp. no TMDB, 1 no txt
+253 | Jornada nas Estrelas -> TMDB 253 | Jornada nas Estrelas (1966) | 3 temp. no TMDB, 3 no txt
+2530 | Mr. Bean: A Série Animada -> TMDB 2530 | Mr. Bean: A Série Animada (2002) | 7 temp. no TMDB, 3 no txt
+2568 | Os Oblongs -> TMDB 2568 | Os Oblongs (2001) | 2 temp. no TMDB, 1 no txt
+2585 | Heartbeat -> TMDB 2585 | Heartbeat (1992) | 18 temp. no TMDB, 5 no txt
+2593 | Desaparecidos -> TMDB 2593 | Desaparecidos (2002) | 7 temp. no TMDB, 1 no txt
+259883 | Marcas da Paixão -> TMDB 259883 | Marcas da Paixão (2000) | 1 temp. no TMDB, 1 no txt
+26101 | The Keepers -> TMDB 26101 | The Keepers (2017) | 1 temp. no TMDB, 1 no txt
+26453 | Trigun -> TMDB 26453 | Trigun (1998) | 1 temp. no TMDB, 1 no txt
+2692 | Eu, a Patroa e as Crianças -> TMDB 2692 | Eu, a Patroa e as Crianças (2001) | 5 temp. no TMDB, 5 no txt
+2723 | Samurai Jack -> TMDB 2723 | Samurai Jack (2001) | 5 temp. no TMDB, 4 no txt
+2734 | Lei & Ordem: Investigação Especial -> TMDB 2734 | Lei & Ordem: Unidade de Vítimas Especiais (1999) | 28 temp. no TMDB, 25 no txt
+2808 | Três Espiãs Demais -> TMDB 2808 | Três Espiãs Demais! (2002) | 8 temp. no TMDB, 7 no txt
+2822 | Felicity -> TMDB 2822 | Felicity (1998) | 4 temp. no TMDB, 4 no txt
+2875 | MacGyver - Profissão: Perigo -> TMDB 2875 | MacGyver - Profissão: Perigo (1985) | 7 temp. no TMDB, 7 no txt
+2913 | Clube do Terror -> TMDB 93693 | Clube do Terror (2019) | 3 temp. no TMDB, 3 no txt
+2936 | Tutubarão -> TMDB 2936 | Tutubarão (1976) | 1 temp. no TMDB, 1 no txt
+2985 | Andrômeda -> TMDB 2985 | Andrômeda (2000) | 5 temp. no TMDB, 5 no txt
+3097 | Homem de Ferro -> TMDB 3097 | Homem de Ferro (1994) | 2 temp. no TMDB, 2 no txt
+314 | Star Trek: Enterprise -> TMDB 314 | Jornada nas Estrelas: Enterprise (2001) | 4 temp. no TMDB, 4 no txt
+3291 | Manimal -> TMDB 3291 | Manimal (1983) | 1 temp. no TMDB, 1 no txt
+3319 | Darkwing Duck -> TMDB 3319 | Darkwing Duck (1991) | 3 temp. no TMDB, 3 no txt
+3322 | OZ -> TMDB 3322 | Oz (1997) | 6 temp. no TMDB, 6 no txt
+33960 | Gotinha de Amor -> TMDB 33960 | Gotinha de Amor (1998) | 1 temp. no TMDB, 1 no txt
+34524 | O Garoto do Futuro -> TMDB 10823 | O Garoto do Futuro (1986) | 2 temp. no TMDB, 6 no txt
+36 | Medium -> TMDB 36 | A Paranormal (2005) | 7 temp. no TMDB, 7 no txt
+3763 | Família Dinossauros -> TMDB 3763 | Família Dinossauros (1991) | 4 temp. no TMDB, 4 no txt
+3772 | Chuck Norris: O Homem da Lei -> TMDB 3772 | Chuck Norris: O Homem da Lei (1993) | 9 temp. no TMDB, 8 no txt
+38207 | The Lying Game -> TMDB 38207 | Jogo de Mentiras (2011) | 2 temp. no TMDB, 1 no txt
+384 | Doug -> TMDB 384 | Doug (1991) | 7 temp. no TMDB, 4 no txt
+387 | Bob Esponja -> TMDB 387 | Bob Esponja (1999) | 18 temp. no TMDB, 15 no txt
+38974 | Jessie -> TMDB 38974 | Jessie (2011) | 4 temp. no TMDB, 4 no txt
+39269 | Scandal! -> TMDB 39269 | Scandal: Os Bastidores do Poder (2012) | 7 temp. no TMDB, 7 no txt
+39336 | The River -> TMDB 39336 | The River (2012) | 1 temp. no TMDB, 1 no txt
+39510 | Touch -> TMDB 39510 | Touch - Visões do Futuro (2012) | 2 temp. no TMDB, 2 no txt
+40 | Dallas -> TMDB 40 | Dallas (1978) | 14 temp. no TMDB, 7 no txt
+4087 | Arquivo X -> TMDB 4087 | Arquivo X (1993) | 11 temp. no TMDB, 11 no txt
+416 | Harvey, o Advogado -> TMDB 416 | Harvey, O Advogado (2000) | 4 temp. no TMDB, 3 no txt
+4238 | O Rei do Bairro -> TMDB 4238 | O Rei do Bairro (1998) | 9 temp. no TMDB, 9 no txt
+4239 | Um Amor de Família -> TMDB 4239 | Um Amor de Familia (1987) | 11 temp. no TMDB, 8 no txt
+4241 | 8 Regrinhas Básicas -> TMDB 4241 | 8 Regrinhas Básicas... para Namorar Minhas Filhas Adolescentes (2002) | 3 temp. no TMDB, 2 no txt
+4266 | O Quinteto -> TMDB 4266 | O Quinteto (1994) | 6 temp. no TMDB, 6 no txt
+42680 | Sítio do Picapau Amarelo -> TMDB 42680 | Sítio do Picapau Amarelo (2001) | 7 temp. no TMDB, 6 no txt
+4313 | Três é Demais -> TMDB 4313 | Três é Demais (1987) | 8 temp. no TMDB, 8 no txt
+44 | As Aventuras de Sonic -> TMDB 44 | As Aventuras de Sonic the Hedgehog (1993) | 1 temp. no TMDB, 1 no txt
+4454 | Will & Grace -> TMDB 4454 | Will e Grace (1998) | 8 temp. no TMDB, 11 no txt
+44549 | Nashville -> TMDB 44549 | Nashville: No Ritmo da Fama (2012) | 6 temp. no TMDB, 6 no txt
+44606 | A Bela e a Fera -> TMDB 44606 | A Bela e a Fera (2012) | 4 temp. no TMDB, 4 no txt
+4500 | Anos Incríveis -> TMDB 4500 | Anos Incríveis (1988) | 6 temp. no TMDB, 6 no txt
+456 | Os Simpsons -> TMDB 456 | Os Simpsons (1989) | 38 temp. no TMDB, 25 no txt
+4568 | Ana Pimentinha -> TMDB 4568 | Ana Pimentinha (1997) | 5 temp. no TMDB, 3 no txt
+4574 | X-Men -> TMDB 4574 | X-Men (1992) | 5 temp. no TMDB, 5 no txt
+4575 | Lizzie McGuire -> TMDB 4575 | Lizzie McGuire (2001) | 2 temp. no TMDB, 2 no txt
+4586 | Gilmore Girls: Tal Mãe, Tal Filha -> TMDB 4586 | Tal Mãe, Tal Filha (2000) | 7 temp. no TMDB, 7 no txt
+4588 | ER: Plantão Médico -> TMDB 4588 | ER: Plantão Médico (1994) | 15 temp. no TMDB, 15 no txt
+4601 | Lei & Ordem: Crimes Premeditados -> TMDB 4601 | Lei & Ordem: Crimes Premeditados (2001) | 10 temp. no TMDB, 10 no txt
+4602 | As Visões da Raven -> TMDB 4602 | As Visões da Raven (2003) | 4 temp. no TMDB, 4 no txt
+4604 | Smallville: As Aventuras do Superboy -> TMDB 4604 | Smallville: As Aventuras do Superboy (2001) | 10 temp. no TMDB, 10 no txt
+4607 | Lost -> TMDB 4607 | Lost (2004) | 6 temp. no TMDB, 6 no txt
+4615 | Hércules: A Lendária Jornada -> TMDB 4615 | Hércules: A Lendária Jornada (1995) | 6 temp. no TMDB, 6 no txt
+4616 | Xena: A Princesa Guerreira -> TMDB 4616 | Xena: A Princesa Guerreira (1995) | 6 temp. no TMDB, 6 no txt
+4620 | Eureka -> TMDB 4620 | Eureka (2006) | 5 temp. no TMDB, 3 no txt
+4625 | As Novas Aventuras do Batman -> TMDB 4625 | As Novas Aventuras do Batman (1997) | 2 temp. no TMDB, 2 no txt
+4629 | Stargate SG-1 -> TMDB 4629 | Stargate SG-1 (1997) | 10 temp. no TMDB, 10 no txt
+4630 | Os Padrinhos Mágicos -> TMDB 4630 | Os Padrinhos Mágicos (2001) | 10 temp. no TMDB, 9 no txt
+46533 | The Americans -> TMDB 46533 | The Americans (2013) | 6 temp. no TMDB, 6 no txt
+4658 | ALF, o Eteimoso -> TMDB 4658 | ALF, o ETeimoso (1986) | 4 temp. no TMDB, 4 no txt
+46650 | Marisol -> TMDB 46650 | Marisol (2002) | 1 temp. no TMDB, 1 no txt
+46881 | Corona de lágrimas -> TMDB 46881 | Lágrimas de amor (2012) | 2 temp. no TMDB, 1 no txt
+46956 | Dads -> TMDB 46956 | Dads (2013) | 1 temp. no TMDB, 1 no txt
+4793 | Os Novos Caça-Fantasmas -> TMDB 4793 | Os Novos Caça-Fantasmas (1997) | 1 temp. no TMDB, 1 no txt
+500 | Louco por Você -> TMDB 500 | Louco por Você (1992) | 7 temp. no TMDB, 7 no txt
+50007 | Maria Belém -> TMDB 50007 | Maria Belém (2001) | 1 temp. no TMDB, 1 no txt
+513 | Batman do Futuro -> TMDB 513 | Batman do Futuro (1999) | 3 temp. no TMDB, 3 no txt
+51675 | Black Box -> TMDB 51675 | Black Box (2014) | 1 temp. no TMDB, 1 no txt
+51817 | As Tartarugas Ninja -> TMDB 160 | As Tartarugas Ninja (1987) | 10 temp. no TMDB, 5 no txt
+52 | De Volta aos Anos 70 -> TMDB 52 | De Volta aos Anos 70 (1998) | 8 temp. no TMDB, 8 no txt
+5343 | O Mundo de Beakman -> TMDB 5343 | Beakman's World: O Mundo de Beakman (1992) | 4 temp. no TMDB, 4 no txt
+537 | Ei Arnold! -> TMDB 537 | Ei Arnold! (1996) | 5 temp. no TMDB, 5 no txt
+5459 | Cuidado con el angel -> TMDB 5459 | Cuidado com o Anjo (2008) | 1 temp. no TMDB, 1 no txt
+553 | Caverna do Dragão -> TMDB 553 | Caverna do Dragão (1983) | 3 temp. no TMDB, 3 no txt
+5687 | Os Smurfs -> TMDB 5687 | Os Smurfs (1981) | 9 temp. no TMDB, 6 no txt
+57243 | Doctor Who -> TMDB 121 | Doctor Who (1963) | 26 temp. no TMDB, 14 no txt
+57389 | Klondike -> TMDB 57389 | Klondike (2014) | 1 temp. no TMDB, 1 no txt
+580 | Jornada nas Estrelas: Deep Space Nine -> TMDB 580 | Jornada nas Estrelas: A Nova Missão (1993) | 7 temp. no TMDB, 7 no txt
+58710 | Carinha de Anjo -> TMDB 95532 | Carinha de Anjo (2016) | 1 temp. no TMDB, 1 no txt
+605 | A Bruxinha Sabrina -> TMDB 605 | Sabrina, a Aprendiz de Feiticeira (1996) | 7 temp. no TMDB, 7 no txt
+606 | Du, Dudu e Edu -> TMDB 606 | Du, Dudu e Edu (1999) | 6 temp. no TMDB, 6 no txt
+60640 | La gata -> TMDB 60640 | A Gata (2014) | 1 temp. no TMDB, 1 no txt
+60705 | Faking It -> TMDB 60705 | Faking It (2014) | 3 temp. no TMDB, 3 no txt
+60735 | The Flash -> TMDB 60735 | Flash (2014) | 9 temp. no TMDB, 9 no txt
+61239 | Aquarius -> TMDB 61239 | Aquarius (2015) | 2 temp. no TMDB, 2 no txt
+615 | Futurama -> TMDB 615 | Futurama (1999) | 11 temp. no TMDB, 11 no txt
+61733 | Império -> TMDB 64500 | Império (2014) | 1 temp. no TMDB, 6 no txt
+62084 | Poldark -> TMDB 62084 | Poldark: Herói de Guerra (2015) | 5 temp. no TMDB, 5 no txt
+63109 | Os dez Mandamentos -> TMDB 63109 | Os Dez Mandamentos (2015) | 2 temp. no TMDB, 2 no txt
+64435 | Teachers -> TMDB 64435 | Teachers (2016) | 3 temp. no TMDB, 3 no txt
+64555 | Frontier -> TMDB 64555 | Frontier (2016) | 3 temp. no TMDB, 3 no txt
+652 | O Que Há de Novo, Scooby-Doo? -> TMDB 652 | O Que Há de Novo, Scooby-Doo? (2002) | 3 temp. no TMDB, 3 no txt
+65302 | Moon World -> TMDB 111819 | TSUKIMICHI -Moonlit Fantasy- (2021) | 3 temp. no TMDB, 1 no txt
+6547 | Maria Mercedes -> TMDB 6547 | Maria Mercedes (1992) | 1 temp. no TMDB, 2 no txt
+655 | Jornada nas Estrelas: A Nova Geração -> TMDB 655 | Jornada nas Estrelas: A Nova Geração (1987) | 7 temp. no TMDB, 7 no txt
+657 | A Vida Moderna de Rocko -> TMDB 657 | A Vida Moderna de Rocko (1993) | 4 temp. no TMDB, 4 no txt
+65708 | Tabu -> TMDB 316148 | Tabu (1986) | 1 temp. no TMDB, 1 no txt
+6616 | Bonkers! -> TMDB 6616 | Bonkers: De Astro a Tira (1993) | 1 temp. no TMDB, 1 no txt
+66344 | Paixão e Poder -> TMDB 66344 | Paixão E Poder (2016) | 1 temp. no TMDB, 1 no txt
+668 | X-Men: Evolution -> TMDB 668 | X-Men: Evolution (2000) | 4 temp. no TMDB, 4 no txt
+66840 | Bull -> TMDB 66840 | Bull (2016) | 6 temp. no TMDB, 6 no txt
+66939 | Gypsy -> TMDB 66939 | Gypsy (2017) | 1 temp. no TMDB, 1 no txt
+67419 | Victoria -> TMDB 67419 | Vitória: A Vida de uma Rainha (2016) | 3 temp. no TMDB, 2 no txt
+67697 | Search Party -> TMDB 67697 | Search Party (2016) | 5 temp. no TMDB, 4 no txt
+68002 | Time After Time -> TMDB 68002 | Time After Time (2017) | 1 temp. no TMDB, 1 no txt
+68324 | The Lodge -> TMDB 68324 | The Lodge: Música e Segredos (2016) | 2 temp. no TMDB, 2 no txt
+69050 | Riverdale -> TMDB 69050 | Riverdale (2017) | 7 temp. no TMDB, 7 no txt
+71766 | For the People -> TMDB 71766 | For the People (2018) | 2 temp. no TMDB, 1 no txt
+71790 | S.W.A.T. -> TMDB 71790 | S.W.A.T.: Força de Intervenção (2017) | 8 temp. no TMDB, 8 no txt
+7225 | Merlin -> TMDB 7225 | As Aventuras de Merlin (2008) | 5 temp. no TMDB, 5 no txt
+72340 | Little Women -> TMDB 24924 | Little Women (2004) | 1 temp. no TMDB, 1 no txt
+72350 | DuckTales: Os Caçadores de Aventuras -> TMDB 720 | DuckTales: Os Caçadores de Aventuras (1987) | 4 temp. no TMDB, 3 no txt
+733 | A Bruxinha Sabrina -> TMDB 25641 | A Bruxinha Sabrina (1969) | 2 temp. no TMDB, 1 no txt
+73554 | Liar -> TMDB 73554 | Liar: Rede de Mentiras (2017) | 2 temp. no TMDB, 2 no txt
+73816 | Jenny -> TMDB 73816 | Jenny (2017) | 3 temp. no TMDB, 2 no txt
+75450 | Titans -> TMDB 75450 | Titãs (2018) | 4 temp. no TMDB, 4 no txt
+76479 | The Boys -> TMDB 76479 | The Boys (2019) | 5 temp. no TMDB, 5 no txt
+79 | Dora, a Aventureira -> TMDB 79 | Dora, a Aventureira (2000) | 8 temp. no TMDB, 3 no txt
+79130 | Another Life -> TMDB 79130 | Outra Vida (2019) | 2 temp. no TMDB, 2 no txt
+79593 | Magnum -> TMDB 734 | Magnum (1980) | 8 temp. no TMDB, 5 no txt
+80748 | FBi -> TMDB 80748 | FBI (2018) | 9 temp. no TMDB, 8 no txt
+80795 | Ultraman -> TMDB 80795 | Ultraman (2019) | 3 temp. no TMDB, 3 no txt
+81946 | The Enemy Within -> TMDB 81946 | Inimigo Interno (2019) | 1 temp. no TMDB, 1 no txt
+82728 | Bluey -> TMDB 82728 | Bluey (2018) | 4 temp. no TMDB, 3 no txt
+83125 | Cursed -> TMDB 83125 | Cursed - A Lenda do Lago (2020) | 1 temp. no TMDB, 1 no txt
+84469 | Cowboy Bebop -> TMDB 30991 | Cowboy Bebop (1998) | 1 temp. no TMDB, 1 no txt
+84661 | The Outsider -> TMDB 84661 | The Outsider (2020) | 1 temp. no TMDB, 1 no txt
+89499 | Filthy Rich -> TMDB 89499 | Filthy Rich (2020) | 1 temp. no TMDB, 1 no txt
+89572 | Nancy Drew -> TMDB 89572 | Nancy Drew (2019) | 4 temp. no TMDB, 4 no txt
+896 | O Mundo Perdido -> TMDB 896 | O Mundo Perdido (1999) | 3 temp. no TMDB, 3 no txt
+89905 | Normal People -> TMDB 89905 | Pessoas Normais (2020) | 1 temp. no TMDB, 1 no txt
+90282 | The Morning Show -> TMDB 90282 | The Morning Show (2019) | 5 temp. no TMDB, 3 no txt
+931 | He-Man e os Defensores do Universo -> TMDB 931 | He-Man e Os Defensores do Universo (1983) | 2 temp. no TMDB, 2 no txt
+93288 | Starstruck -> TMDB 93288 | Starstruck (2021) | 3 temp. no TMDB, 2 no txt
+936 | O Desafio dos Super Amigos -> TMDB 10610 | O Desafio dos Super Amigos (1978) | 2 temp. no TMDB, 4 no txt
+95205 | O Justiceiro -> TMDB 2384 | A Super Máquina (1982) | 4 temp. no TMDB, 4 no txt
+962 | Jonny Quest -> TMDB 1168 | As Incríveis Aventuras do Jonny Quest (1996) | 2 temp. no TMDB, 2 no txt
+9834 | O Pequeno Urso -> TMDB 9834 | O Pequeno Urso (1995) | 5 temp. no TMDB, 1 no txt
+99657 | The Chair -> TMDB 99657 | The Chair (2021) | 1 temp. no TMDB, 1 no txt
