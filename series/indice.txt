@@ -387,7 +387,7 @@ LISTA DAS SERIES PROCURADAS
 22945  Mayor of the Town  ->  NAO ACHEI
 13568  Medic  ->  NAO ACHEI
 24533  Modern Romances  ->  NAO ACHEI
-90282  The Morning Show  ->  NAO ACHEI
+90282  The Morning Show  ->  30 episodios
 132637  The New Adventures of China Smith  ->  NAO ACHEI
 58519  Night Editor  ->  NAO ACHEI
 59519  On the Boardwalk with Paul Whiteman  ->  NAO ACHEI
@@ -447,7 +447,7 @@ LISTA DAS SERIES PROCURADAS
 121702  Do It Yourself  ->  NAO ACHEI
 287265  The Eddie Cantor Comedy Theater  ->  NAO ACHEI
 1249  Ford Star Jubilee  ->  NAO ACHEI
-64555  Frontier  ->  NAO ACHEI
+64555  Frontier  ->  18 episodios
 3232  Fúria: O Cavalo Selvagem  ->  NAO ACHEI
 28784  The Great Gildersleeve  ->  NAO ACHEI
 3713  Gunsmoke  ->  NAO ACHEI
@@ -594,7 +594,7 @@ LISTA DAS SERIES PROCURADAS
 8447  The O. Henry Playhouse  ->  NAO ACHEI
 12017  O.S.S.  ->  NAO ACHEI
 25757  Official Detective  ->  NAO ACHEI
-122530  Panic!  ->  NAO ACHEI
+122530  Panic!  ->  10 episodios
 34511  The Pat Boone-Chevy Showroom  ->  NAO ACHEI
 4177  Perry Mason  ->  NAO ACHEI
 35072  The Polly Bergen Show  ->  NAO ACHEI
@@ -699,7 +699,7 @@ LISTA DAS SERIES PROCURADAS
 15668  The Betty Hutton Show  ->  NAO ACHEI
 13815  Black Saddle  ->  NAO ACHEI
 23239  Bold Venture  ->  NAO ACHEI
-1018  Bonanza  ->  NAO ACHEI
+1018  Bonanza  ->  59 episodios
 19910  Border Patrol  ->  NAO ACHEI
 1030  Bourbon Street Beat  ->  NAO ACHEI
 22542  Brenner  ->  NAO ACHEI
@@ -792,7 +792,7 @@ LISTA DAS SERIES PROCURADAS
 18169  Johnny Midnight  ->  NAO ACHEI
 30078  The Kate Smith Show  ->  NAO ACHEI
 15085  Rei Leonardo e seus Curtas-Metragens  ->  NAO ACHEI
-57389  Klondike  ->  NAO ACHEI
+57389  Klondike  ->  6 episodios
 8480  The Law and Mr. Jones  ->  NAO ACHEI
 25802  The Love of Mike  ->  NAO ACHEI
 13750  Make That Spare  ->  NAO ACHEI
@@ -829,10 +829,10 @@ LISTA DAS SERIES PROCURADAS
 13363  1, 2, 3 Go  ->  NAO ACHEI
 7472  Distrito 87  ->  NAO ACHEI
 11433  A for Andromeda  ->  NAO ACHEI
-133727  Acapulco  ->  NAO ACHEI
+133727  Acapulco  ->  38 episodios
 21598  Fred Astaire  ->  NAO ACHEI
 1842  Alvin Show  ->  NAO ACHEI
-46533  The Americans  ->  NAO ACHEI
+46533  The Americans  ->  62 episodios
 22607  The Asphalt Jungle  ->  NAO ACHEI
 2473  Os Vingadores  ->  NAO ACHEI
 13897  Ben Casey  ->  NAO ACHEI
@@ -896,7 +896,7 @@ LISTA DAS SERIES PROCURADAS
 5090  The Andromeda Breakthrough  ->  NAO ACHEI
 8975  O Vagabundo da Praia  ->  NAO ACHEI
 1930  A Família Buscapé  ->  NAO ACHEI
-61733  Império  ->  NAO ACHEI
+61733  Império  ->  102 episodios
 28427  Bulldog Breed  ->  NAO ACHEI
 29346  City Beneath the Sea  ->  NAO ACHEI
 4316  Combate  ->  NAO ACHEI
@@ -946,7 +946,7 @@ LISTA DAS SERIES PROCURADAS
 13866  The Dakotas  ->  NAO ACHEI
 12928  The Danny Kaye Show  ->  NAO ACHEI
 26459  The Dick Emery Show  ->  NAO ACHEI
-57243  Doctor Who  ->  NAO ACHEI
+57243  Doctor Who  ->  183 episodios
 7425  The Doctors  ->  NAO ACHEI
 10992  East Side/West Side  ->  NAO ACHEI
 12030  Espionagem  ->  NAO ACHEI
@@ -986,7 +986,7 @@ LISTA DAS SERIES PROCURADAS
 2705  As Viagens de Jaimie  ->  NAO ACHEI
 24608  Vacation Playhouse  ->  NAO ACHEI
 14009  A Família Addams  ->  NAO ACHEI
-962  Jonny Quest  ->  NAO ACHEI
+962  Jonny Quest  ->  39 episodios
 4547  Outro Mundo  ->  NAO ACHEI
 14122  The Baileys of Balboa  ->  NAO ACHEI
 4482  A Feiticeira  ->  NAO ACHEI
