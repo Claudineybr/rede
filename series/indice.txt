@@ -6328,7 +6328,7 @@ LISTA DAS SERIES PROCURADAS
 47265  P.S.  ->  NAO ACHEI
 86864  Real TV  ->  NAO ACHEI
 12188  The Ruth Rendell Mysteries  ->  NAO ACHEI
-39269  Scandal!  ->  NAO ACHEI
+39269  Scandal!  ->  124 episodios
 3005  Squirt  ->  NAO ACHEI
 30565  Super Adventure Team  ->  NAO ACHEI
 247956  Szerencsekerék  ->  NAO ACHEI
@@ -6626,7 +6626,7 @@ LISTA DAS SERIES PROCURADAS
 16434  Magic Shadows  ->  NAO ACHEI
 326270  Malaventure  ->  NAO ACHEI
 100476  Le manège de Port-Barcarès  ->  NAO ACHEI
-46650  Marisol  ->  NAO ACHEI
+46650  Marisol  ->  45 episodios
 10536  The Mike Douglas Show  ->  NAO ACHEI
 237  Mortal Kombat: Conquest  ->  NAO ACHEI
 41752  Der Nachtkurier meldet...  ->  NAO ACHEI
@@ -6685,7 +6685,7 @@ LISTA DAS SERIES PROCURADAS
 100684  Premiers baisers  ->  NAO ACHEI
 2641  Rolie Polie Olie  ->  NAO ACHEI
 204840  S. O. S.  ->  NAO ACHEI
-733  Sabrina: The Animated Series  ->  NAO ACHEI
+733  Sabrina: The Animated Series  ->  44 episodios
 86323  So ein Zirkus  ->  NAO ACHEI
 230175  Under the Sun  ->  NAO ACHEI
 3093  Space Island One  ->  NAO ACHEI
@@ -6791,7 +6791,7 @@ LISTA DAS SERIES PROCURADAS
 14623  The Catlins  ->  NAO ACHEI
 11450  Crapston Villas  ->  NAO ACHEI
 223193  Les enfants des autres  ->  NAO ACHEI
-157231  Fascinação  ->  NAO ACHEI
+157231  Fascinação  ->  45 episodios
 12080  Het klokhuis  ->  NAO ACHEI
 1538  Malibu, CA  ->  NAO ACHEI
 31500  Miranda  ->  NAO ACHEI
@@ -6812,7 +6812,7 @@ LISTA DAS SERIES PROCURADAS
 11100  Godzilla: The Series  ->  NAO ACHEI
 3107  Gullah, Gullah Island  ->  NAO ACHEI
 10871  Hotel Cæsar  ->  NAO ACHEI
-2936  Jabberjaw  ->  NAO ACHEI
+2936  Jabberjaw  ->  16 episodios
 8861  Jackanory  ->  NAO ACHEI
 63108  Lisa Falk - Eine Frau für alle Fälle  ->  NAO ACHEI
 62587  Mordkommission  ->  NAO ACHEI
@@ -6823,7 +6823,7 @@ LISTA DAS SERIES PROCURADAS
 25630  Safari to Adventure  ->  NAO ACHEI
 16615  Treasure  ->  NAO ACHEI
 5266  University Challenge  ->  NAO ACHEI
-12266  Yogi's Space Race  ->  NAO ACHEI
+12266  Yogi's Space Race  ->  13 episodios
 50934  Az öt zsaru  ->  NAO ACHEI
 11762  Codco  ->  NAO ACHEI
 5246  Godzilla  ->  NAO ACHEI
@@ -6874,7 +6874,7 @@ LISTA DAS SERIES PROCURADAS
 203260  Vivere  ->  NAO ACHEI
 36076  Vreemde praktijken  ->  NAO ACHEI
 38630  De weg  ->  NAO ACHEI
-69581  The Worst Witch  ->  NAO ACHEI
+69581  The Worst Witch  ->  51 episodios
 23270  Chicken Soup for the Soul  ->  NAO ACHEI
 1570  The Adventures of Tintin  ->  NAO ACHEI
 10129  The Alan Thicke Show  ->  NAO ACHEI
@@ -6901,7 +6901,7 @@ LISTA DAS SERIES PROCURADAS
 33809  People and Places  ->  NAO ACHEI
 974  Raw Toonage  ->  NAO ACHEI
 29861  Scene at 6:30  ->  NAO ACHEI
-126280  Sex/Life  ->  NAO ACHEI
+126280  Sex/Life  ->  14 episodios
 1657  Te Karere  ->  NAO ACHEI
 11608  Thank Your Lucky Stars  ->  NAO ACHEI
 33278  A Third Testament  ->  NAO ACHEI
@@ -6971,7 +6971,7 @@ LISTA DAS SERIES PROCURADAS
 14300  So Graham Norton  ->  NAO ACHEI
 16686  Spatz  ->  NAO ACHEI
 766  This Morning  ->  NAO ACHEI
-13800  Thundarr the Barbarian  ->  NAO ACHEI
+13800  Thundarr the Barbarian  ->  16 episodios
 57749  Village Hall  ->  NAO ACHEI
 69162  Vinterbyøster  ->  NAO ACHEI
 1584  What a Cartoon!  ->  NAO ACHEI
@@ -7001,7 +7001,7 @@ LISTA DAS SERIES PROCURADAS
 227441  Cilla  ->  NAO ACHEI
 33479  Down Home Country  ->  NAO ACHEI
 29393  Exhibit A: Secrets of Forensic Science  ->  NAO ACHEI
-1434  Family Guy  ->  NAO ACHEI
+1434  Family Guy  ->  407 episodios
 251979  Food for Thought  ->  NAO ACHEI
 301282  Galton and Simpson Comedy  ->  NAO ACHEI
 25307  The Galton & Simpson Playhouse  ->  NAO ACHEI
@@ -7039,7 +7039,7 @@ LISTA DAS SERIES PROCURADAS
 9641  Beat the Crusher  ->  NAO ACHEI
 41251  Berliner Weiße mit Schuß  ->  NAO ACHEI
 113932  Brigade spéciale  ->  NAO ACHEI
-606  Ed, Edd n Eddy  ->  NAO ACHEI
+606  Ed, Edd n Eddy  ->  66 episodios
 22285  Frankie's On...  ->  NAO ACHEI
 62941  Från A till Ö  ->  NAO ACHEI
 41196  Hausmeister Krause - Ordnung muss sein  ->  NAO ACHEI
