@@ -1,0 +1,37 @@
+SERIE: Red Oaks
+NUMERO DA SERIE: 63130
+===================================================================
+Episodios encontrados: 26
+
+SERVIDOR: shd12
+  Temporada 1 (10 episodios): 1-10
+    http://shd12.oneplayer.site/token/SHD12/63130/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/1x10.mp4
+  Temporada 2 (10 episodios): 1-10
+    http://shd12.oneplayer.site/token/SHD12/63130/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/2x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/2x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/2x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/2x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/2x10.mp4
+  Temporada 3 (6 episodios): 1-6
+    http://shd12.oneplayer.site/token/SHD12/63130/3x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/3x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/3x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/3x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/3x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/63130/3x6.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

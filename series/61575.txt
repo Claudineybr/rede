@@ -1,0 +1,150 @@
+SERIE: 90 Dias Para Casar
+NUMERO DA SERIE: 61575
+===================================================================
+Episodios encontrados: 132
+
+SERVIDOR: shd12
+  Temporada 1 (6 episodios): 1-6
+    http://shd12.oneplayer.site/token/SHD12/61575/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/1x6.mp4
+  Temporada 2 (11 episodios): 1-11
+    http://shd12.oneplayer.site/token/SHD12/61575/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/2x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/2x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/2x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/2x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/2x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/2x11.mp4
+  Temporada 3 (11 episodios): 1-11
+    http://shd12.oneplayer.site/token/SHD12/61575/3x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/3x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/3x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/3x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/3x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/3x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/3x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/3x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/3x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/3x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/3x11.mp4
+  Temporada 4 (14 episodios): 1-14
+    http://shd12.oneplayer.site/token/SHD12/61575/4x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/4x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/4x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/4x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/4x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/4x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/4x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/4x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/4x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/4x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/4x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/4x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/4x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/4x14.mp4
+  Temporada 5 (13 episodios): 1-13
+    http://shd12.oneplayer.site/token/SHD12/61575/5x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/5x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/5x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/5x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/5x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/5x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/5x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/5x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/5x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/5x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/5x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/5x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/5x13.mp4
+  Temporada 6 (13 episodios): 1-13
+    http://shd12.oneplayer.site/token/SHD12/61575/6x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/6x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/6x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/6x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/6x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/6x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/6x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/6x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/6x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/6x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/6x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/6x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/6x13.mp4
+  Temporada 7 (15 episodios): 1-15
+    http://shd12.oneplayer.site/token/SHD12/61575/7x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/7x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/7x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/7x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/7x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/7x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/7x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/7x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/7x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/7x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/7x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/7x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/7x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/7x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/7x15.mp4
+  Temporada 8 (19 episodios): 1-19
+    http://shd12.oneplayer.site/token/SHD12/61575/8x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x18.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/8x19.mp4
+  Temporada 9 (19 episodios): 1-19
+    http://shd12.oneplayer.site/token/SHD12/61575/9x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x18.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/9x19.mp4
+  Temporada 10 (11 episodios): 1-11
+    http://shd12.oneplayer.site/token/SHD12/61575/10x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/10x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/10x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/10x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/10x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/10x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/10x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/10x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/10x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/10x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/61575/10x11.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

@@ -1,0 +1,29 @@
+SERIE: Mary Kills People
+NUMERO DA SERIE: 69480
+===================================================================
+Episodios encontrados: 18
+
+SERVIDOR: shd12
+  Temporada 1 (6 episodios): 1-6
+    http://shd12.oneplayer.site/token/SHD12/69480/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/69480/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/69480/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/69480/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/69480/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/69480/1x6.mp4
+  Temporada 2 (6 episodios): 1-6
+    http://shd12.oneplayer.site/token/SHD12/69480/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/69480/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/69480/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/69480/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/69480/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/69480/2x6.mp4
+  Temporada 3 (6 episodios): 1-6
+    http://shd12.oneplayer.site/token/SHD12/69480/3x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/69480/3x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/69480/3x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/69480/3x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/69480/3x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/69480/3x6.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

@@ -1,0 +1,47 @@
+SERIE: Shades of Blue: Segredos Policiais
+NUMERO DA SERIE: 64433
+===================================================================
+Episodios encontrados: 36
+
+SERVIDOR: shd12
+  Temporada 1 (13 episodios): 1-13
+    http://shd12.oneplayer.site/token/SHD12/64433/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/1x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/1x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/1x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/1x13.mp4
+  Temporada 2 (13 episodios): 1-13
+    http://shd12.oneplayer.site/token/SHD12/64433/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/2x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/2x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/2x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/2x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/2x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/2x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/2x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/2x13.mp4
+  Temporada 3 (10 episodios): 1-10
+    http://shd12.oneplayer.site/token/SHD12/64433/3x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/3x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/3x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/3x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/3x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/3x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/3x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/3x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/3x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/64433/3x10.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

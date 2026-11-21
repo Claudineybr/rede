@@ -1,0 +1,26 @@
+SERIE: Dra. Sandra Lee: A Rainha dos Cravos
+NUMERO DA SERIE: 80991
+===================================================================
+Episodios encontrados: 16
+
+SERVIDOR: shd11
+  Temporada 1 (6 episodios): 1-6
+    http://shd11.oneplayer.site/token/SHD11/80991/1x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/80991/1x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/80991/1x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/80991/1x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/80991/1x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/80991/1x6.mp4
+  Temporada 2 (10 episodios): 1-10
+    http://shd11.oneplayer.site/token/SHD11/80991/2x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/80991/2x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/80991/2x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/80991/2x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/80991/2x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/80991/2x6.mp4
+    http://shd11.oneplayer.site/token/SHD11/80991/2x7.mp4
+    http://shd11.oneplayer.site/token/SHD11/80991/2x8.mp4
+    http://shd11.oneplayer.site/token/SHD11/80991/2x9.mp4
+    http://shd11.oneplayer.site/token/SHD11/80991/2x10.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

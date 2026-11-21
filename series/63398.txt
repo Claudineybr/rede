@@ -1,0 +1,91 @@
+SERIE: Life in Pieces
+NUMERO DA SERIE: 63398
+===================================================================
+Episodios encontrados: 79
+
+SERVIDOR: shd12
+  Temporada 1 (22 episodios): 1-22
+    http://shd12.oneplayer.site/token/SHD12/63398/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x18.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x19.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x20.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x21.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/1x22.mp4
+  Temporada 2 (22 episodios): 1-22
+    http://shd12.oneplayer.site/token/SHD12/63398/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x18.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x19.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x20.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x21.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/2x22.mp4
+  Temporada 3 (22 episodios): 1-22
+    http://shd12.oneplayer.site/token/SHD12/63398/3x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x18.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x19.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x20.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x21.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/3x22.mp4
+  Temporada 4 (13 episodios): 1-13
+    http://shd12.oneplayer.site/token/SHD12/63398/4x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/4x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/4x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/4x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/4x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/4x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/4x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/4x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/4x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/4x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/4x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/4x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/63398/4x13.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.
