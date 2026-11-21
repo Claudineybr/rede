@@ -1,0 +1,265 @@
+name: Gerar HTML Filmes CNVods
+
+on:
+  workflow_dispatch:
+    inputs:
+      arquivo_lista:
+        description: "Arquivo com os links"
+        default: "links-cnvods.txt"
+      pasta_saida:
+        description: "Pasta dos filmes (a mesma do outro yml de filmes)"
+        default: "oneplayer"
+      pastas_extras:
+        description: "Outras pastas de filmes para checar duplicados (separe por vírgula, opcional)"
+        default: ""
+      commit_a_cada:
+        description: "Commitar a cada quantos filmes gerados"
+        default: "200"
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Configurar git
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Gerar HTMLs
+        env:
+          PYTHONUNBUFFERED: "1"
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          ARQUIVO: ${{ inputs.arquivo_lista }}
+          PASTA: ${{ inputs.pasta_saida }}
+          EXTRAS: ${{ inputs.pastas_extras }}
+          COMMIT_N: ${{ inputs.commit_a_cada }}
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          python3 -u - <<'PY'
+          import os, re, json, time, html, subprocess, urllib.request, urllib.parse, urllib.error
+
+          KEY      = os.environ["TMDB_API_KEY"]
+          ARQUIVO  = os.environ.get("ARQUIVO") or "links-cnvods.txt"
+          PASTA    = os.environ.get("PASTA") or "oneplayer"
+          EXTRAS   = [p.strip() for p in (os.environ.get("EXTRAS") or "").split(",") if p.strip()]
+          COMMIT_N = int(os.environ.get("COMMIT_N") or 200)
+          BRANCH   = os.environ.get("BRANCH") or "main"
+          SUFIXO   = "🍿Clau"
+          IMG      = "https://image.tmdb.org/t/p/w500"
+
+          MODELO = '''<!DOCTYPE html>
+          <html lang="pt-BR">
+          <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="icon" type="image/svg+xml" href="/icones/favicon.svg?v=2">
+          <link rel="icon" type="image/png" sizes="32x32" href="/icones/favicon-32.png?v=2">
+          <link rel="apple-touch-icon" href="/icones/apple-touch-icon.png?v=2">
+          <script type="application/ld+json">{
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            "supportPlatform": [
+              "https://schema.org/IOSPlatform",
+              "https://schema.org/AndroidPlatform"
+            ],
+            "name": @@TITULO_JSON@@,
+            "description": @@DESC_JSON@@,
+            "thumbnailUrl": [
+              @@CAPA_JSON@@
+            ],
+            "contentUrl": @@LINK_JSON@@
+          }</script>
+          <title>@@TITULO@@</title>
+          <style>
+            body { background: #000; color: #fff; font-family: sans-serif; margin: 0; padding: 20px; }
+            h1 { font-size: 24px; text-align: center; margin-bottom: 30px; }
+          </style>
+          </head>
+          <body>
+
+          <a href="/" style="display:inline-block; margin:0 0 18px; padding:10px 18px; border-radius:999px; background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.2); color:#fff; font-size:14px; font-weight:600; text-decoration:none;">← Voltar ao início</a>
+
+          <h1>@@TITULO@@</h1>
+
+          <div style="background: #0b0b12; border-radius:20px; overflow:hidden; box-shadow:0 25px 60px rgba(0,0,0,.8); margin:25px 0; border:1px solid rgba(255,255,255,.06);">
+
+            <a href="@@LINK@@" target="_blank" style="display: block; position: relative; text-decoration: none;">
+
+              <img src="@@CAPA@@" style="width:100%; display:block;">
+
+              <div style="position:absolute; inset:0; background:linear-gradient(to top, rgba(0,0,0,0.7), transparent);"></div>
+
+              <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:70px; height:70px; background:linear-gradient(135deg,#7a00ff,#c000ff); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 0 20px rgba(120,0,255,.6); color:white; font-size:26px; border:2px solid rgba(255,255,255,.2);">▶</div>
+
+              <div style="position:absolute; top:12px; right:12px; background:#ff003c; padding:6px 12px; border-radius:20px; font-size:11px; color:#fff; font-weight:bold;">HD</div>
+            </a>
+
+          </div>
+
+          </body>
+          </html>
+          '''
+
+          def api(caminho, **params):
+              params.update({"api_key": KEY, "language": "pt-BR"})
+              url = "https://api.themoviedb.org/3" + caminho + "?" + urllib.parse.urlencode(params)
+              for t in range(3):
+                  try:
+                      with urllib.request.urlopen(url, timeout=20) as r:
+                          return json.load(r)
+                  except urllib.error.HTTPError as e:
+                      if e.code == 404:
+                          return None
+                      print(f"  ! tentativa {t+1} falhou: {e}")
+                  except Exception as e:
+                      print(f"  ! tentativa {t+1} falhou: {e}")
+                  time.sleep(2)
+              return None
+
+          def git(*args):
+              return subprocess.run(["git", *args], capture_output=True, text=True)
+
+          def commitar(msg):
+              git("add", PASTA)
+              if git("diff", "--cached", "--quiet").returncode == 0:
+                  return
+              git("commit", "-m", msg + " [skip ci]")
+              for i in range(4):
+                  git("pull", "--rebase", "origin", BRANCH)
+                  if git("push", "origin", f"HEAD:{BRANCH}").returncode == 0:
+                      print(f"  >> commit enviado ({msg})")
+                      return
+                  time.sleep(5)
+              print("  !! não consegui dar push neste commit (continuando)")
+
+          # ---- nomes já existentes (para não duplicar) ----
+          existentes = set()
+          for pasta in [PASTA] + EXTRAS:
+              for raiz, _, arqs in os.walk(pasta):
+                  for a in arqs:
+                      if a.lower().endswith(".html"):
+                          existentes.add(os.path.splitext(a)[0].lower())
+          print(f"Arquivos .html já existentes (checagem de duplicados): {len(existentes)}")
+
+          os.makedirs(PASTA, exist_ok=True)
+
+          with open(ARQUIVO, encoding="utf-8", errors="ignore") as f:
+              links = [l.strip() for l in f if l.strip().startswith("http")]
+
+          print(f"Links na lista: {len(links)}")
+          print("-" * 60)
+
+          total = pulados = 0
+          problemas = []
+          desde_commit = 0
+          inicio = time.time()
+
+          for idx, link in enumerate(links, 1):
+              arq = urllib.parse.unquote(os.path.basename(link.split("?")[0]))
+              base = re.sub(r'\.\w{2,4}$', '', arq)
+              m = re.search(r'_(tt\d+)$', base)
+              if not m:
+                  print(f"[{idx}/{len(links)}] ✗ sem id tt no nome: {base}")
+                  problemas.append(f"{link} (sem id tt)")
+                  continue
+              tt = m.group(1)
+              resto = base[:m.start()]
+              m2 = re.search(r'^(.*)_(\d{4})$', resto)
+              nome_arq, ano_arq = (m2.group(1), m2.group(2)) if m2 else (resto, "")
+
+              # já existe um arquivo com o id tt? pula sem gastar API
+              if tt.lower() in existentes:
+                  pulados += 1
+                  print(f"[{idx}/{len(links)}] = já existe ({tt}): {nome_arq}")
+                  continue
+
+              # 1) acha o filme no TMDB pelo id do IMDb
+              d = api(f"/find/{tt}", external_source="imdb_id")
+              res = (d or {}).get("movie_results") or []
+              r = res[0] if res else None
+
+              # 2) reserva: busca pelo nome e ano
+              if not r and nome_arq:
+                  params = {"query": nome_arq}
+                  if ano_arq:
+                      params["year"] = ano_arq
+                  d = api("/search/movie", **params)
+                  res = (d or {}).get("results") or []
+                  r = res[0] if res else None
+                  if r:
+                      print(f"  (reserva por nome) {nome_arq} -> {r.get('title')}")
+
+              if not r:
+                  print(f"[{idx}/{len(links)}] ✗ não achei no TMDB: {tt} {nome_arq}")
+                  problemas.append(f"{tt} | {nome_arq} | {link}")
+                  time.sleep(0.1)
+                  continue
+
+              tmdb_id = str(r["id"])
+
+              # já existe um arquivo com o id TMDB? pula
+              if tmdb_id in existentes:
+                  pulados += 1
+                  print(f"[{idx}/{len(links)}] = já existe (tmdb {tmdb_id}): {r.get('title')}")
+                  time.sleep(0.1)
+                  continue
+
+              nome = r.get("title") or r.get("original_title") or nome_arq
+              ano = (r.get("release_date") or "")[:4] or ano_arq
+              titulo = f"{nome} ({ano}) - {SUFIXO}" if ano else f"{nome} - {SUFIXO}"
+              capa = (IMG + r["poster_path"]) if r.get("poster_path") else ""
+
+              pagina = (MODELO
+                  .replace("@@TITULO_JSON@@", json.dumps(titulo, ensure_ascii=False))
+                  .replace("@@DESC_JSON@@", json.dumps("Assista " + titulo, ensure_ascii=False))
+                  .replace("@@CAPA_JSON@@", json.dumps(capa))
+                  .replace("@@LINK_JSON@@", json.dumps(link))
+                  .replace("@@TITULO@@", html.escape(titulo))
+                  .replace("@@LINK@@", html.escape(link, quote=True))
+                  .replace("@@CAPA@@", html.escape(capa, quote=True)))
+
+              destino = os.path.join(PASTA, f"{tmdb_id}.html")
+              with open(destino, "w", encoding="utf-8") as out:
+                  out.write(pagina)
+              existentes.add(tmdb_id)
+              existentes.add(tt.lower())
+              total += 1
+              desde_commit += 1
+              print(f"[{idx}/{len(links)}] ✓ {tmdb_id}.html | {titulo} | gerados: {total} | {int(time.time()-inicio)}s")
+
+              if desde_commit >= COMMIT_N:
+                  commitar(f"Gerar filmes cnvods ({total} até agora)")
+                  desde_commit = 0
+              time.sleep(0.1)
+
+          if problemas:
+              with open(os.path.join(PASTA, "_cnvods_problemas.txt"), "w", encoding="utf-8") as f:
+                  f.write("\n".join(problemas) + "\n")
+
+          print("\n" + "=" * 60)
+          print(f"Gerados: {total} | Pulados (já existiam): {pulados} | Problemas: {len(problemas)} "
+                f"| Tempo: {int(time.time()-inicio)}s")
+          PY
+
+      - name: Commit final
+        env:
+          PASTA: ${{ inputs.pasta_saida }}
+        run: |
+          git add "${PASTA:-oneplayer}"
+          if git diff --cached --quiet; then
+            echo "Nada novo para commitar."
+          else
+            git commit -m "Gerar filmes cnvods (final) [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}" || true
+            git push
+          fi
