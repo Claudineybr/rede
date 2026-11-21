@@ -1,10 +1,10 @@
 SERIE: Bluey
 NUMERO DA SERIE: 82728
 ===================================================================
-Episodios encontrados: 135
+Episodios encontrados: 151
 
 SERVIDOR: shd11
-  Temporada 1 (45 episodios): 1-45
+  Temporada 1 (50 episodios): 1-50
     http://shd11.oneplayer.site/token/SHD11/82728/1x1.mp4
     http://shd11.oneplayer.site/token/SHD11/82728/1x2.mp4
     http://shd11.oneplayer.site/token/SHD11/82728/1x3.mp4
@@ -50,7 +50,12 @@ SERVIDOR: shd11
     http://shd11.oneplayer.site/token/SHD11/82728/1x43.mp4
     http://shd11.oneplayer.site/token/SHD11/82728/1x44.mp4
     http://shd11.oneplayer.site/token/SHD11/82728/1x45.mp4
-  Temporada 2 (45 episodios): 1-45
+    http://shd11.oneplayer.site/token/SHD11/82728/1x46.mp4
+    http://shd11.oneplayer.site/token/SHD11/82728/1x47.mp4
+    http://shd11.oneplayer.site/token/SHD11/82728/1x48.mp4
+    http://shd11.oneplayer.site/token/SHD11/82728/1x49.mp4
+    http://shd11.oneplayer.site/token/SHD11/82728/1x50.mp4
+  Temporada 2 (51 episodios): 1-51
     http://shd11.oneplayer.site/token/SHD11/82728/2x1.mp4
     http://shd11.oneplayer.site/token/SHD11/82728/2x2.mp4
     http://shd11.oneplayer.site/token/SHD11/82728/2x3.mp4
@@ -96,7 +101,13 @@ SERVIDOR: shd11
     http://shd11.oneplayer.site/token/SHD11/82728/2x43.mp4
     http://shd11.oneplayer.site/token/SHD11/82728/2x44.mp4
     http://shd11.oneplayer.site/token/SHD11/82728/2x45.mp4
-  Temporada 3 (45 episodios): 1-45
+    http://shd11.oneplayer.site/token/SHD11/82728/2x46.mp4
+    http://shd11.oneplayer.site/token/SHD11/82728/2x47.mp4
+    http://shd11.oneplayer.site/token/SHD11/82728/2x48.mp4
+    http://shd11.oneplayer.site/token/SHD11/82728/2x49.mp4
+    http://shd11.oneplayer.site/token/SHD11/82728/2x50.mp4
+    http://shd11.oneplayer.site/token/SHD11/82728/2x51.mp4
+  Temporada 3 (50 episodios): 1-50
     http://shd11.oneplayer.site/token/SHD11/82728/3x1.mp4
     http://shd11.oneplayer.site/token/SHD11/82728/3x2.mp4
     http://shd11.oneplayer.site/token/SHD11/82728/3x3.mp4
@@ -142,5 +153,10 @@ SERVIDOR: shd11
     http://shd11.oneplayer.site/token/SHD11/82728/3x43.mp4
     http://shd11.oneplayer.site/token/SHD11/82728/3x44.mp4
     http://shd11.oneplayer.site/token/SHD11/82728/3x45.mp4
+    http://shd11.oneplayer.site/token/SHD11/82728/3x46.mp4
+    http://shd11.oneplayer.site/token/SHD11/82728/3x47.mp4
+    http://shd11.oneplayer.site/token/SHD11/82728/3x48.mp4
+    http://shd11.oneplayer.site/token/SHD11/82728/3x49.mp4
+    http://shd11.oneplayer.site/token/SHD11/82728/3x50.mp4
 
 206/200 = o arquivo do episodio existe. 404 = nao existe.
