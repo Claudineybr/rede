@@ -1,0 +1,23 @@
+SERIE: Murder in a Small Town
+NUMERO DA SERIE: 241549
+===================================================================
+Episodios encontrados: 13
+
+SERVIDOR: shd12
+  Temporada 1 (8 episodios): 1-8
+    http://shd12.oneplayer.site/token/SHD12/241549/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/241549/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/241549/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/241549/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/241549/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/241549/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/241549/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/241549/1x8.mp4
+  Temporada 2 (5 episodios): 1-2, 4-6
+    http://shd12.oneplayer.site/token/SHD12/241549/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/241549/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/241549/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/241549/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/241549/2x6.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

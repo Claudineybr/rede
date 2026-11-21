@@ -1,0 +1,41 @@
+SERIE: Big Nate
+NUMERO DA SERIE: 153528
+===================================================================
+Episodios encontrados: 31
+
+SERVIDOR: shd12
+  Temporada 1 (21 episodios): 1-21
+    http://shd12.oneplayer.site/token/SHD12/153528/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x18.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x19.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x20.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/1x21.mp4
+  Temporada 2 (10 episodios): 1-10
+    http://shd12.oneplayer.site/token/SHD12/153528/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/2x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/2x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/2x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/2x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/153528/2x10.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

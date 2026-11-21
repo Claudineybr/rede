@@ -1,0 +1,26 @@
+SERIE: Tender Touches
+NUMERO DA SERIE: 104868
+===================================================================
+Episodios encontrados: 15
+
+SERVIDOR: shd12
+  Temporada 1 (5 episodios): 1-5
+    http://shd12.oneplayer.site/token/SHD12/104868/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/104868/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/104868/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/104868/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/104868/1x5.mp4
+  Temporada 2 (5 episodios): 1-5
+    http://shd12.oneplayer.site/token/SHD12/104868/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/104868/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/104868/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/104868/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/104868/2x5.mp4
+  Temporada 3 (5 episodios): 1-5
+    http://shd12.oneplayer.site/token/SHD12/104868/3x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/104868/3x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/104868/3x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/104868/3x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/104868/3x5.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

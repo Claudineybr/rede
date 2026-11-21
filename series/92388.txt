@@ -1,0 +1,15 @@
+SERIE: Total Control
+NUMERO DA SERIE: 92388
+===================================================================
+Episodios encontrados: 6
+
+SERVIDOR: shd1
+  Temporada 1 (6 episodios): 1-6
+    http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/92388/1x1.mp4
+    http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/92388/1x2.mp4
+    http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/92388/1x3.mp4
+    http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/92388/1x4.mp4
+    http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/92388/1x5.mp4
+    http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/92388/1x6.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

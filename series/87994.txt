@@ -1,0 +1,42 @@
+SERIE: Vale dos Reis: Tesouros do Egito
+NUMERO DA SERIE: 87994
+===================================================================
+Episodios encontrados: 30
+
+SERVIDOR: shd11
+  Temporada 1 (6 episodios): 1-6
+    http://shd11.oneplayer.site/token/SHD11/87994/1x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/1x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/1x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/1x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/1x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/1x6.mp4
+  Temporada 2 (8 episodios): 1-8
+    http://shd11.oneplayer.site/token/SHD11/87994/2x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/2x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/2x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/2x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/2x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/2x6.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/2x7.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/2x8.mp4
+  Temporada 3 (8 episodios): 1-8
+    http://shd11.oneplayer.site/token/SHD11/87994/3x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/3x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/3x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/3x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/3x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/3x6.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/3x7.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/3x8.mp4
+  Temporada 4 (8 episodios): 1-8
+    http://shd11.oneplayer.site/token/SHD11/87994/4x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/4x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/4x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/4x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/4x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/4x6.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/4x7.mp4
+    http://shd11.oneplayer.site/token/SHD11/87994/4x8.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

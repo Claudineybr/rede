@@ -1,0 +1,14 @@
+SERIE: A Maldição de Akakor
+NUMERO DA SERIE: 126477
+===================================================================
+Episodios encontrados: 5
+
+SERVIDOR: shd11
+  Temporada 1 (5 episodios): 1-5
+    http://shd11.oneplayer.site/token/SHD11/126477/1x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/126477/1x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/126477/1x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/126477/1x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/126477/1x5.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

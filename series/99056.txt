@@ -1,0 +1,56 @@
+SERIE: Vencer o Medo
+NUMERO DA SERIE: 99056
+===================================================================
+Episodios encontrados: 47
+
+SERVIDOR: shd12
+  Temporada 1 (47 episodios): 1-47
+    http://shd12.oneplayer.site/token/SHD12/99056/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x18.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x19.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x20.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x21.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x22.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x23.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x24.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x25.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x26.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x27.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x28.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x29.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x30.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x31.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x32.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x33.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x34.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x35.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x36.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x37.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x38.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x39.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x40.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x41.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x42.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x43.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x44.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x45.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x46.mp4
+    http://shd12.oneplayer.site/token/SHD12/99056/1x47.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

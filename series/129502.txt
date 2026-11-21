@@ -1,0 +1,37 @@
+SERIE: Welcome to Flatch
+NUMERO DA SERIE: 129502
+===================================================================
+Episodios encontrados: 27
+
+SERVIDOR: shd12
+  Temporada 1 (14 episodios): 1-14
+    http://shd12.oneplayer.site/token/SHD12/129502/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/1x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/1x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/1x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/1x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/1x14.mp4
+  Temporada 2 (13 episodios): 1-13
+    http://shd12.oneplayer.site/token/SHD12/129502/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/2x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/2x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/2x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/2x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/2x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/2x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/2x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/129502/2x13.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.
