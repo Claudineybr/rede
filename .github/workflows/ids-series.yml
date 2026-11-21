@@ -3,15 +3,20 @@ name: Baixar IDs de series do IMDb
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 * * *'   # todo dia as 04:00 UTC (opcional, pode remover)
+    - cron: '0 10 * * *'   # todo dia as 10:00 UTC (a lista do TMDB sai ~08:00 UTC)
 
 permissions:
   contents: write
 
+# evita dois runs ao mesmo tempo brigando pelo push
+concurrency:
+  group: baixar-series
+  cancel-in-progress: false
+
 jobs:
   series:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Baixar o projeto
@@ -19,52 +24,71 @@ jobs:
         with:
           token: ${{ secrets.PAT_CHAIN || secrets.GITHUB_TOKEN }}
 
-      - name: Baixar dataset do IMDb -> /tmp/imdb.tsv (tt + nome)
+      - name: Baixar datasets do IMDb (series + titulos em portugues)
         run: |
-          set -uo pipefail
+          set -eo pipefail
 
-          # Garante que o arquivo exista (nunca apaga o que ja tem)
           touch series.txt
           ANTES=$(awk 'END{print NR+0}' series.txt)
           echo "Linhas no series.txt antes: $ANTES"
+          echo "ANTES=$ANTES" >> "$GITHUB_ENV"
 
-          # Baixa + descompacta + filtra EM STREAM (nao grava o .tsv de 1GB no disco)
-          # titleType == "tvSeries"   -> series de TV
-          # id no formato tt + digitos (IMDb ja tem IDs de 8 digitos, entao nao
-          # fixamos 7 digitos senao perde as series mais novas)
-          curl -sL https://datasets.imdbws.com/title.basics.tsv.gz \
+          # 1) Series de TV: tt, titulo principal, titulo original (em stream, sem gravar o 1GB)
+          #    colunas do title.basics: 1=tconst 2=titleType 3=primaryTitle 4=originalTitle 5=isAdult
+          curl -fsSL --retry 5 --retry-delay 10 https://datasets.imdbws.com/title.basics.tsv.gz \
             | gunzip -c \
             | awk -F'\t' '
-                NR > 1 && $2 == "tvSeries" && $1 ~ /^tt[0-9]+$/ {
-                  print $1 "\t" $3
+                NR > 1 && $2 == "tvSeries" && $5 == "0" && $1 ~ /^tt[0-9]+$/ {
+                  orig = ($4 == "\\N" || $4 == "") ? $3 : $4
+                  print $1 "\t" $3 "\t" orig
                 }
               ' > /tmp/imdb.tsv
 
-          echo "Series de TV no dataset do IMDb: $(awk 'END{print NR+0}' /tmp/imdb.tsv)"
-          echo "ANTES=$ANTES" >> "$GITHUB_ENV"
+          TOTAL=$(awk 'END{print NR+0}' /tmp/imdb.tsv)
+          echo "Series de TV no dataset do IMDb: $TOTAL"
+          if [ "$TOTAL" -lt 1000 ]; then
+            echo "::error::Dataset do IMDb veio vazio ou incompleto."
+            exit 1
+          fi
+
+          # 2) Titulos alternativos: so regioes BR e PT, so das series acima
+          #    colunas do title.akas: 1=titleId 2=ordering 3=title 4=region 5=language
+          curl -fsSL --retry 5 --retry-delay 10 https://datasets.imdbws.com/title.akas.tsv.gz \
+            | gunzip -c \
+            | awk -F'\t' '
+                NR == FNR { ids[$1] = 1; next }
+                ($4 == "BR" || $4 == "PT") && ($1 in ids) && $3 != "\\N" {
+                  print $1 "\t" $4 "\t" $3
+                }
+              ' /tmp/imdb.tsv - > /tmp/pt.tsv
+
+          echo "Titulos em portugues (BR/PT) encontrados: $(awk 'END{print NR+0}' /tmp/pt.tsv)"
 
       # -----------------------------------------------------------------
-      #  CONVERSAO: "tt0000000 + nome" -> "Nome | numero do TMDB"
+      #  CONVERSAO: "tt0000000 + nome" -> "Nome em portugues | numero do TMDB"
       #  Usa a lista diaria gratuita do TMDB (tv_series_ids_MM_DD_AAAA).
-      #  Nada de consultar serie por serie: casa o nome e pega o numero.
       # -----------------------------------------------------------------
       - name: Converter para o numero do TMDB -> series.txt
         run: |
-          set -uo pipefail
+          set -eo pipefail
           python3 -u - <<'PY'
-          import gzip, json, re, sys, unicodedata, datetime, urllib.request
+          import gzip, json, os, re, sys, unicodedata, datetime, urllib.request
 
           def norm(s):
               s = unicodedata.normalize('NFKD', s or '')
               s = ''.join(c for c in s if not unicodedata.combining(c))
               return re.sub(r'[^a-z0-9]+', ' ', s.lower()).strip()
 
+          def limpa(nome):
+              # o separador do arquivo e "|", entao nao pode existir dentro do nome
+              return re.sub(r'\s+', ' ', (nome or '').replace('|', '-')).strip()
+
           # ---------- 1) lista do TMDB (numero da serie + nome) ----------
           mapa = {}
           hoje = datetime.datetime.now(datetime.timezone.utc)
           for d in range(0, 5):
               dia = (hoje - datetime.timedelta(days=d)).strftime('%m_%d_%Y')
-              url = f'http://files.tmdb.org/p/exports/tv_series_ids_{dia}.json.gz'
+              url = f'https://files.tmdb.org/p/exports/tv_series_ids_{dia}.json.gz'
               try:
                   bruto = urllib.request.urlopen(url, timeout=180).read()
                   texto = gzip.decompress(bruto).decode('utf-8', 'replace')
@@ -99,14 +123,25 @@ jobs:
           if not mapa:
               sys.exit('Nao consegui baixar a lista do TMDB. Tente de novo mais tarde.')
 
-          # numero -> nome (pra dar nome a quem estava so com o numero)
           nome_por_id = {str(v[1]): v[2] for v in mapa.values()}
 
-          # ---------- 2) o que ja estava no series.txt ----------
-          # ja convertido ("Nome | numero") fica como esta
-          # ainda em tt (de runs antigas) e reconvertido
-          ja_convertidas = {}     # numero -> nome   (ordem preservada)
-          tt_antigas = []         # (tt, nome)
+          # ---------- 2) titulos em portugues (BR tem prioridade sobre PT) ----------
+          pt = {}   # tt -> (prioridade, titulo)
+          try:
+              for l in open('/tmp/pt.tsv', encoding='utf-8', errors='replace'):
+                  p = l.rstrip('\n').split('\t')
+                  if len(p) < 3:
+                      continue
+                  tt, regiao, titulo = p[0].strip(), p[1], p[2].strip()
+                  prio = 0 if regiao == 'BR' else 1
+                  if titulo and (tt not in pt or prio < pt[tt][0]):
+                      pt[tt] = (prio, titulo)
+          except FileNotFoundError:
+              print('aviso: /tmp/pt.tsv nao encontrado, usando titulos originais', flush=True)
+          print(f'titulos em portugues carregados: {len(pt)}', flush=True)
+
+          # ---------- 3) o que ja estava no series.txt ----------
+          ja_convertidas = {}     # numero -> nome (ordem preservada)
           try:
               antigas = open('series.txt', encoding='utf-8', errors='replace').read().splitlines()
           except FileNotFoundError:
@@ -117,71 +152,88 @@ jobs:
               if not l or l.startswith('#'):
                   continue
               if '|' in l:
-                  nome, num = l.split('|', 1)
+                  nome, num = l.rsplit('|', 1)
                   m = re.search(r'\d+', num)
                   if m:
-                      ja_convertidas.setdefault(m.group(), nome.strip() or '-')
+                      ja_convertidas.setdefault(m.group(), limpa(nome) or '-')
                   continue
               if l.startswith('tt'):
-                  p = l.split('\t')
-                  tt_antigas.append((p[0].strip(), p[1].strip() if len(p) > 1 else ''))
-                  continue
+                  continue          # sobra de runs antigas (so IMDb): descartada
               m = re.search(r'\d{1,9}', l)
               if m:
                   ja_convertidas.setdefault(m.group(), '-')
 
           for tid in list(ja_convertidas):
               if ja_convertidas[tid] in ('-', ''):
-                  ja_convertidas[tid] = nome_por_id.get(tid, '-')
+                  ja_convertidas[tid] = limpa(nome_por_id.get(tid, '-'))
 
-          # ---------- 3) series do IMDb -> numero do TMDB ----------
-          novas_tt = []
+          # ---------- 4) series do IMDb -> numero do TMDB ----------
+          lista = []   # (tt, titulo principal, titulo original)
           try:
               for l in open('/tmp/imdb.tsv', encoding='utf-8', errors='replace'):
                   p = l.rstrip('\n').split('\t')
                   if len(p) < 2:
                       continue
-                  novas_tt.append((p[0].strip(), p[1].strip()))
+                  prim = p[1].strip()
+                  orig = p[2].strip() if len(p) > 2 else prim
+                  lista.append((p[0].strip(), prim, orig or prim))
           except FileNotFoundError:
               sys.exit('Nao achei /tmp/imdb.tsv (o download do IMDb falhou?).')
 
           convertidas = dict(ja_convertidas)
-          sem_numero = []
+          sem_numero = 0
           vistos_tt = set()
-          achou_por_nome = 0
+          vistos_tid = set()
+          novas = 0
+          com_pt = 0
 
-          for cod, nome in tt_antigas + novas_tt:
+          for cod, prim, orig in lista:
               if not cod or cod in vistos_tt:
                   continue
               vistos_tt.add(cod)
-              alvo = mapa.get(norm(nome)) if nome else None
-              if alvo:
-                  tid = str(alvo[1])
-                  if tid not in convertidas:
-                      convertidas[tid] = nome or alvo[2]
-                      achou_por_nome += 1
-              else:
-                  sem_numero.append(f'{cod}\t{nome or "-"}')
 
-          # ---------- 4) gravar ----------
+              alvo = None
+              for cand in (orig, prim):
+                  if cand:
+                      alvo = mapa.get(norm(cand))
+                      if alvo:
+                          break
+
+              if not alvo:
+                  sem_numero += 1
+                  continue
+
+              tid = str(alvo[1])
+              if tid in vistos_tid:
+                  continue          # outro tt ja ficou com esse numero
+              vistos_tid.add(tid)
+
+              if cod in pt:
+                  nome = pt[cod][1]
+                  com_pt += 1
+              else:
+                  nome = prim or alvo[2]    # sem traducao: fica o titulo principal
+
+              nome = limpa(nome) or '-'
+              if tid not in ja_convertidas:
+                  novas += 1
+              convertidas[tid] = nome       # sobrescreve o nome antigo
+
+          # ---------- 5) gravar ----------
           with open('series.txt', 'w', encoding='utf-8') as f:
               for tid, nome in convertidas.items():
                   f.write(f'{nome} | {tid}\n')
 
-          with open('sem_numero.txt', 'w', encoding='utf-8') as f:
-              for l in sem_numero:
-                  f.write(l + '\n')
-
-          antes = int(__import__('os').environ.get('ANTES', '0') or 0)
+          antes = int(os.environ.get('ANTES', '0') or 0)
           depois = len(convertidas)
           print('')
-          print(f'Series no series.txt:  {depois}')
-          print(f'Convertidas agora:     {achou_por_nome}')
-          print(f'Sem numero no TMDB:    {len(sem_numero)}  (veja sem_numero.txt)')
-          print(f'Linhas antes:          {antes}')
-          print(f'Series novas:          {max(0, depois - antes)}')
+          print(f'Series no series.txt:     {depois}')
+          print(f'Com titulo em portugues:  {com_pt}')
+          print(f'Series novas:             {novas}')
+          print(f'Ignoradas (sem TMDB):     {sem_numero}')
+          print(f'Linhas antes:             {antes}')
           print('')
-          print('Formato do series.txt agora: Nome | numero')
+          print('Formato do series.txt: Nome em portugues | numero')
           PY
 
       - name: Commit (se houver mudancas)
@@ -189,7 +241,8 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add series.txt sem_numero.txt
+          git rm -q -f --ignore-unmatch sem_numero.txt   # nao e mais gerado
+          git add series.txt
           if git diff --staged --quiet; then
             echo "Sem mudancas para commitar."
             exit 0
@@ -197,9 +250,10 @@ jobs:
 
           git commit -m "chore: atualiza series.txt com IDs do IMDb ($(date -u +%Y%m%d)) [skip ci]"
 
+          BRANCH="${GITHUB_REF_NAME:-main}"
           for i in 1 2 3; do
-            if git push; then exit 0; fi
-            git pull --rebase origin main || true
+            if git push origin "HEAD:${BRANCH}"; then exit 0; fi
+            git pull --rebase origin "${BRANCH}" || true
             sleep 5
           done
           echo "::error::Falha ao dar push."
