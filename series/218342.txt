@@ -1,0 +1,22 @@
+SERIE: Manual de Assassinato para Boas Garotas
+NUMERO DA SERIE: 218342
+===================================================================
+Episodios encontrados: 12
+
+SERVIDOR: shd12
+  Temporada 1 (6 episodios): 1-6
+    http://shd12.oneplayer.site/token/SHD12/218342/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/218342/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/218342/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/218342/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/218342/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/218342/1x6.mp4
+  Temporada 2 (6 episodios): 1-6
+    http://shd12.oneplayer.site/token/SHD12/218342/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/218342/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/218342/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/218342/2x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/218342/2x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/218342/2x6.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

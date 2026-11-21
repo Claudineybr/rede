@@ -1,0 +1,17 @@
+SERIE: Baby Bandito
+NUMERO DA SERIE: 241480
+===================================================================
+Episodios encontrados: 8
+
+SERVIDOR: shd11
+  Temporada 1 (8 episodios): 1-8
+    http://shd11.oneplayer.site/token/SHD11/241480/1x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/241480/1x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/241480/1x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/241480/1x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/241480/1x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/241480/1x6.mp4
+    http://shd11.oneplayer.site/token/SHD11/241480/1x7.mp4
+    http://shd11.oneplayer.site/token/SHD11/241480/1x8.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

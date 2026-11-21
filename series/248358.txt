@@ -1,0 +1,11 @@
+SERIE: Bail Jumpers
+NUMERO DA SERIE: 248358
+===================================================================
+Episodios encontrados: 2
+
+SERVIDOR: shd12
+  Temporada 1 (2 episodios): 1-2
+    http://shd12.oneplayer.site/token/SHD12/248358/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/248358/1x2.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

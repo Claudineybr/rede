@@ -1,0 +1,27 @@
+SERIE: Doctor Odyssey
+NUMERO DA SERIE: 249695
+===================================================================
+Episodios encontrados: 18
+
+SERVIDOR: shd12
+  Temporada 1 (18 episodios): 1-18
+    http://shd12.oneplayer.site/token/SHD12/249695/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x10.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x11.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x12.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x13.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x14.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x15.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x16.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x17.mp4
+    http://shd12.oneplayer.site/token/SHD12/249695/1x18.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

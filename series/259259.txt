@@ -1,0 +1,18 @@
+SERIE: Os Piores Ex
+NUMERO DA SERIE: 259259
+===================================================================
+Episodios encontrados: 8
+
+SERVIDOR: shd12
+  Temporada 1 (4 episodios): 1-4
+    http://shd12.oneplayer.site/token/SHD12/259259/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/259259/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/259259/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/259259/1x4.mp4
+  Temporada 2 (4 episodios): 1-4
+    http://shd12.oneplayer.site/token/SHD12/259259/2x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/259259/2x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/259259/2x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/259259/2x4.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

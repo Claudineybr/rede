@@ -1,0 +1,25 @@
+SERIE: Hot Wheels: Velocidade Máxima!
+NUMERO DA SERIE: 235995
+===================================================================
+Episodios encontrados: 15
+
+SERVIDOR: shd11
+  Temporada 1 (10 episodios): 1-10
+    http://shd11.oneplayer.site/token/SHD11/235995/1x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/235995/1x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/235995/1x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/235995/1x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/235995/1x5.mp4
+    http://shd11.oneplayer.site/token/SHD11/235995/1x6.mp4
+    http://shd11.oneplayer.site/token/SHD11/235995/1x7.mp4
+    http://shd11.oneplayer.site/token/SHD11/235995/1x8.mp4
+    http://shd11.oneplayer.site/token/SHD11/235995/1x9.mp4
+    http://shd11.oneplayer.site/token/SHD11/235995/1x10.mp4
+  Temporada 2 (5 episodios): 1-5
+    http://shd11.oneplayer.site/token/SHD11/235995/2x1.mp4
+    http://shd11.oneplayer.site/token/SHD11/235995/2x2.mp4
+    http://shd11.oneplayer.site/token/SHD11/235995/2x3.mp4
+    http://shd11.oneplayer.site/token/SHD11/235995/2x4.mp4
+    http://shd11.oneplayer.site/token/SHD11/235995/2x5.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

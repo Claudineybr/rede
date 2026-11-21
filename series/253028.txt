@@ -1,0 +1,19 @@
+SERIE: Casamento às Cegas: México
+NUMERO DA SERIE: 253028
+===================================================================
+Episodios encontrados: 10
+
+SERVIDOR: shd12
+  Temporada 1 (10 episodios): 1-10
+    http://shd12.oneplayer.site/token/SHD12/253028/1x1.mp4
+    http://shd12.oneplayer.site/token/SHD12/253028/1x2.mp4
+    http://shd12.oneplayer.site/token/SHD12/253028/1x3.mp4
+    http://shd12.oneplayer.site/token/SHD12/253028/1x4.mp4
+    http://shd12.oneplayer.site/token/SHD12/253028/1x5.mp4
+    http://shd12.oneplayer.site/token/SHD12/253028/1x6.mp4
+    http://shd12.oneplayer.site/token/SHD12/253028/1x7.mp4
+    http://shd12.oneplayer.site/token/SHD12/253028/1x8.mp4
+    http://shd12.oneplayer.site/token/SHD12/253028/1x9.mp4
+    http://shd12.oneplayer.site/token/SHD12/253028/1x10.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.
