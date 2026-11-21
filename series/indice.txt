@@ -3025,7 +3025,7 @@ LISTA DAS SERIES PROCURADAS
 17344  A Mansão Marblehead  ->  NAO ACHEI
 26505  Mariah  ->  NAO ACHEI
 329562  Marias barn  ->  NAO ACHEI
-4239  Um Amor de Família  ->  NAO ACHEI
+4239  Um Amor de Família  ->  177 episodios
 40173  Mathnet  ->  NAO ACHEI
 4617  Terminal Max  ->  NAO ACHEI
 71628  Mensch Hermann  ->  NAO ACHEI
@@ -3062,7 +3062,7 @@ LISTA DAS SERIES PROCURADAS
 9958  The Slap Maxwell Story  ->  NAO ACHEI
 19231  A Small Problem  ->  NAO ACHEI
 26606  Spies  ->  NAO ACHEI
-655  Jornada nas Estrelas: A Nova Geração  ->  NAO ACHEI
+655  Jornada nas Estrelas: A Nova Geração  ->  177 episodios
 10255  Super Dave  ->  NAO ACHEI
 301975  Super Sloppy Double Dare  ->  NAO ACHEI
 220136  Svenska hjärtan  ->  NAO ACHEI
@@ -3140,9 +3140,9 @@ LISTA DAS SERIES PROCURADAS
 1923  First of the Summer Wine  ->  NAO ACHEI
 4346  A Hora do Pesadelo: O Terror de Freddy Krueger  ->  NAO ACHEI
 4606  Garfield e Seus Amigos  ->  NAO ACHEI
-245927  Paradise  ->  NAO ACHEI
+245927  Paradise  ->  16 episodios
 4799  Hannay  ->  NAO ACHEI
-2585  Heartbeat  ->  NAO ACHEI
+2585  Heartbeat  ->  24 episodios
 10188  Comando da Montanha  ->  NAO ACHEI
 10233  High Risk  ->  NAO ACHEI
 3802  O Guerreiro do Futuro  ->  NAO ACHEI
@@ -3209,7 +3209,7 @@ LISTA DAS SERIES PROCURADAS
 14757  The Van Dyke Show  ->  NAO ACHEI
 2255  A Guerra dos Mundos  ->  NAO ACHEI
 64978  Whose Line Is It Anyway?  ->  NAO ACHEI
-4500  Anos Incríveis  ->  NAO ACHEI
+4500  Anos Incríveis  ->  115 episodios
 1504  Wyatt's Watchdogs  ->  NAO ACHEI
 11651  Zardip's Search for Healthy Wellness  ->  NAO ACHEI
 49847  House Rules  ->  NAO ACHEI
@@ -3323,11 +3323,11 @@ LISTA DAS SERIES PROCURADAS
 319412  Reporter  ->  NAO ACHEI
 10477  Rescue 911  ->  NAO ACHEI
 18181  Rivalen der Rennbahn  ->  NAO ACHEI
-39336  The River  ->  NAO ACHEI
+39336  The River  ->  8 episodios
 11664  The Robert Guillaume Show  ->  NAO ACHEI
 4345  Uma Galera do Barulho  ->  NAO ACHEI
 41080  Die schnelle Gerdi  ->  NAO ACHEI
-456  Os Simpsons  ->  NAO ACHEI
+456  Os Simpsons  ->  552 episodios
 10075  A Irmã Kate  ->  NAO ACHEI
 23676  Smith and Jones in Small Doses  ->  NAO ACHEI
 29087  Snakes and Ladders  ->  NAO ACHEI
@@ -3368,7 +3368,7 @@ LISTA DAS SERIES PROCURADAS
 21499  Bagdad Café  ->  NAO ACHEI
 40491  Baldur Blauzahn  ->  NAO ACHEI
 737  The Ben Stiller Show  ->  NAO ACHEI
-2025  Barrados no Baile  ->  NAO ACHEI
+2025  Barrados no Baile  ->  112 episodios
 4339  Big Break  ->  NAO ACHEI
 22466  Big Brother Jake  ->  NAO ACHEI
 35006  As Aventuras de Bill & Ted  ->  NAO ACHEI
@@ -3403,9 +3403,9 @@ LISTA DAS SERIES PROCURADAS
 70217  Farmácia de Serviço  ->  NAO ACHEI
 10446  Ferris Bueller  ->  NAO ACHEI
 76181  Émilie  ->  NAO ACHEI
-60735  The Flash  ->  NAO ACHEI
+60735  The Flash  ->  317 episodios
 27974  Freddie and Max  ->  NAO ACHEI
-1892  Um Maluco no Pedaço  ->  NAO ACHEI
+1892  Um Maluco no Pedaço  ->  148 episodios
 938  Anjo Maldito  ->  NAO ACHEI
 5030  Get a Life  ->  NAO ACHEI
 681  A Menina do Futuro  ->  NAO ACHEI
@@ -3474,7 +3474,7 @@ LISTA DAS SERIES PROCURADAS
 22092  Rita Rudner  ->  NAO ACHEI
 40796  Ein Schloß am Wörthersee  ->  NAO ACHEI
 13591  Scientific American Frontiers  ->  NAO ACHEI
-1400  Seinfeld  ->  NAO ACHEI
+1400  Seinfeld  ->  171 episodios
 11780  Jogo Limpo  ->  NAO ACHEI
 12676  She-Wolf of London  ->  NAO ACHEI
 540  Shining Time Station  ->  NAO ACHEI
@@ -3498,7 +3498,7 @@ LISTA DAS SERIES PROCURADAS
 10758  Os Julgamentos de Rosie O'Neill  ->  NAO ACHEI
 3130  True Colors  ->  NAO ACHEI
 245712  True Detectives  ->  NAO ACHEI
-1920  Twin Peaks  ->  NAO ACHEI
+1920  Twin Peaks  ->  48 episodios
 66722  Uncle Buck  ->  NAO ACHEI
 42242  Up the Garden Path  ->  NAO ACHEI
 2272  The Upper Hand  ->  NAO ACHEI
@@ -3551,13 +3551,13 @@ LISTA DAS SERIES PROCURADAS
 6294  Dangerous Women  ->  NAO ACHEI
 11741  Justiça Final  ->  NAO ACHEI
 3418  Dark Season  ->  NAO ACHEI
-3319  Darkwing Duck  ->  NAO ACHEI
+3319  Darkwing Duck  ->  91 episodios
 2062  The Darling Buds of May  ->  NAO ACHEI
 5450  Davis Rules  ->  NAO ACHEI
-3763  Família Dinossauros  ->  NAO ACHEI
+3763  Família Dinossauros  ->  65 episodios
 11047  As 100 Vidas do Pirata Negro  ->  NAO ACHEI
 29218  Doctor at the Top  ->  NAO ACHEI
-384  Doug  ->  NAO ACHEI
+384  Doug  ->  83 episodios
 9959  Drexell's Class  ->  NAO ACHEI
 29912  Eddie Dodd  ->  NAO ACHEI
 4045  Cidade Misteriosa  ->  NAO ACHEI
@@ -3577,7 +3577,7 @@ LISTA DAS SERIES PROCURADAS
 22893  The Hidden Room  ->  NAO ACHEI
 249293  O Detective de Hollywood  ->  NAO ACHEI
 333860  Hollywood Stuntmakers  ->  NAO ACHEI
-1558  Família em Obras  ->  NAO ACHEI
+1558  Família em Obras  ->  204 episodios
 2722  Outras Guerras  ->  NAO ACHEI
 24788  Hope It Rains  ->  NAO ACHEI
 3188  A Casa de Eliott  ->  NAO ACHEI
@@ -3674,11 +3674,11 @@ LISTA DAS SERIES PROCURADAS
 10043  The Amazing Live Sea-Monkeys  ->  NAO ACHEI
 13042  American Justice  ->  NAO ACHEI
 28727  Angel Street  ->  NAO ACHEI
-2913  Clube do Terror  ->  NAO ACHEI
+2913  Clube do Terror  ->  39 episodios
 6897  Around the World in Eighty Dreams  ->  NAO ACHEI
 16580  Arresting Behavior  ->  NAO ACHEI
 35150  Bassie & Adriaan  ->  NAO ACHEI
-2098  Batman: A Série Animada  ->  NAO ACHEI
+2098  Batman: A Série Animada  ->  85 episodios
 329729  Berlin Break  ->  NAO ACHEI
 2997  Nas Entrelinhas  ->  NAO ACHEI
 10737  The Big Breakfast  ->  NAO ACHEI
@@ -3686,7 +3686,7 @@ LISTA DAS SERIES PROCURADAS
 26475  Bingles  ->  NAO ACHEI
 36973  Bligh  ->  NAO ACHEI
 13169  Bob  ->  NAO ACHEI
-1767  O Fantástico Mundo de Bobby  ->  NAO ACHEI
+1767  O Fantástico Mundo de Bobby  ->  78 episodios
 42252  Bodies of Evidence  ->  NAO ACHEI
 4292  Bottom  ->  NAO ACHEI
 22943  The Boys of Twilight  ->  NAO ACHEI
@@ -3704,7 +3704,7 @@ LISTA DAS SERIES PROCURADAS
 24506  Don't Tell Father  ->  NAO ACHEI
 6761  Down the Shore  ->  NAO ACHEI
 4324  Dra. Quinn - A Mulher Que Cura  ->  NAO ACHEI
-127041  Eden  ->  NAO ACHEI
+127041  Eden  ->  8 episodios
 3351  The Edge  ->  NAO ACHEI
 3370  Eek! O Gato  ->  NAO ACHEI
 19084  Uma Fenda Na Muralha  ->  NAO ACHEI
@@ -3734,7 +3734,7 @@ LISTA DAS SERIES PROCURADAS
 62048  Home Fires  ->  NAO ACHEI
 24267  Howie  ->  NAO ACHEI
 28417  O Factor Humano  ->  NAO ACHEI
-18653  O Alvo Humano  ->  NAO ACHEI
+18653  O Alvo Humano  ->  25 episodios
 43202  I Witness Video  ->  NAO ACHEI
 34178  O Bar de Jack  ->  NAO ACHEI
 30950  The Jackie Thomas Show  ->  NAO ACHEI
@@ -3760,7 +3760,7 @@ LISTA DAS SERIES PROCURADAS
 70280  Lotta på Bråkmakargatan  ->  NAO ACHEI
 9240  Amor e Guerra  ->  NAO ACHEI
 18208  MTV Sports  ->  NAO ACHEI
-500  Louco por Você  ->  NAO ACHEI
+500  Louco por Você  ->  164 episodios
 12485  Mann & Machine  ->  NAO ACHEI
 8346  Marienhof  ->  NAO ACHEI
 171  Martin  ->  NAO ACHEI
@@ -3833,12 +3833,12 @@ LISTA DAS SERIES PROCURADAS
 26454  Whoopi Goldberg  ->  NAO ACHEI
 119465  Wie bitte?!  ->  NAO ACHEI
 1730  Woops!  ->  NAO ACHEI
-4574  X-Men  ->  NAO ACHEI
+4574  X-Men  ->  76 episodios
 661  O Jovem Indiana Jones  ->  NAO ACHEI
 62719  Zwei Schlitzohren in Antalya  ->  NAO ACHEI
 61231  Intruders - Geração Alien  ->  NAO ACHEI
 12156  Les intrépides  ->  NAO ACHEI
-3322  OZ  ->  NAO ACHEI
+3322  OZ  ->  56 episodios
 15535  Seekers  ->  NAO ACHEI
 154066  Sempre a Melhor  ->  NAO ACHEI
 15121  Truckers  ->  NAO ACHEI
@@ -3868,8 +3868,8 @@ LISTA DAS SERIES PROCURADAS
 26835  Black Tie Affair  ->  NAO ACHEI
 38455  Blanche  ->  NAO ACHEI
 20167  Bonjour la Classe  ->  NAO ACHEI
-1777  O Mundo é dos Jovens  ->  NAO ACHEI
-76479  The Boys  ->  NAO ACHEI
+1777  O Mundo é dos Jovens  ->  158 episodios
+76479  The Boys  ->  40 episodios
 23460  Brighton Belles  ->  NAO ACHEI
 327545  A Bruma da Memória  ->  NAO ACHEI
 27118  The Building  ->  NAO ACHEI
@@ -3973,7 +3973,7 @@ LISTA DAS SERIES PROCURADAS
 9765  Tudo em Cima  ->  NAO ACHEI
 12937  Real Stories of the Highway Patrol  ->  NAO ACHEI
 1587  Ricki Lake  ->  NAO ACHEI
-657  A Vida Moderna de Rocko  ->  NAO ACHEI
+657  A Vida Moderna de Rocko  ->  98 episodios
 2219  Jovens Universitários  ->  NAO ACHEI
 63996  Salzburger Nockerln  ->  NAO ACHEI
 2014  Já Tocou Na Faculdade  ->  NAO ACHEI
@@ -3992,7 +3992,7 @@ LISTA DAS SERIES PROCURADAS
 6590  South of Sunset  ->  NAO ACHEI
 217661  Sozinhos em Casa  ->  NAO ACHEI
 5026  Space Rangers  ->  NAO ACHEI
-580  Jornada nas Estrelas: Deep Space Nine  ->  NAO ACHEI
+580  Jornada nas Estrelas: Deep Space Nine  ->  173 episodios
 5372  Talk Soup  ->  NAO ACHEI
 29747  Tall Hopes  ->  NAO ACHEI
 9853  Thea  ->  NAO ACHEI
@@ -4006,15 +4006,15 @@ LISTA DAS SERIES PROCURADAS
 41186  Unter einer Decke  ->  NAO ACHEI
 62825  Vater braucht eine Frau  ->  NAO ACHEI
 26996  Vrouwenvleugel  ->  NAO ACHEI
-3772  Chuck Norris: O Homem da Lei  ->  NAO ACHEI
+3772  Chuck Norris: O Homem da Lei  ->  338 episodios
 2716  A Minha Gente  ->  NAO ACHEI
 965  Where in the World Is Carmen Sandiego?  ->  NAO ACHEI
 256002  Wie Pech und Schwefel  ->  NAO ACHEI
 38100  Justiça Selvagem  ->  NAO ACHEI
 40881  Wildbach  ->  NAO ACHEI
-4087  Arquivo X  ->  NAO ACHEI
+4087  Arquivo X  ->  217 episodios
 222507  Xou da Xuxa  ->  NAO ACHEI
-5343  O Mundo de Beakman  ->  NAO ACHEI
+5343  O Mundo de Beakman  ->  180 episodios
 279052  Comics  ->  NAO ACHEI
 699  Exosquad  ->  NAO ACHEI
 26992  Comissário Maigret  ->  NAO ACHEI
@@ -4067,7 +4067,7 @@ LISTA DAS SERIES PROCURADAS
 11416  Dressing for Breakfast  ->  NAO ACHEI
 2034  Drive  ->  NAO ACHEI
 1527  Rumo ao Sul  ->  NAO ACHEI
-4588  ER: Plantão Médico  ->  NAO ACHEI
+4588  ER: Plantão Médico  ->  331 episodios
 1473  A Terra 2  ->  NAO ACHEI
 63118  Einsatz für Lohbeck  ->  NAO ACHEI
 40985  Elbflorenz  ->  NAO ACHEI
@@ -4086,7 +4086,7 @@ LISTA DAS SERIES PROCURADAS
 41272  Frauenarzt Dr. Markus Merthin  ->  NAO ACHEI
 10728  Últimas Notícias  ->  NAO ACHEI
 26784  Gagtag  ->  NAO ACHEI
-1719  Gárgulas  ->  NAO ACHEI
+1719  Gárgulas  ->  78 episodios
 5186  The George Carlin Show  ->  NAO ACHEI
 63371  Die Gerichtsreporterin  ->  NAO ACHEI
 3925  O Fantasma Escritor  ->  NAO ACHEI
@@ -4096,7 +4096,7 @@ LISTA DAS SERIES PROCURADAS
 41039  Hallo, Onkel Doc!  ->  NAO ACHEI
 27398  Harry Enfield and Chums  ->  NAO ACHEI
 40994  Der Havelkaiser  ->  NAO ACHEI
-88329  O Olho do Falcão  ->  NAO ACHEI
+88329  O Olho do Falcão  ->  6 episodios
 102434  The Head  ->  NAO ACHEI
 12998  Heartbreak High: Onde Tudo Acontece  ->  NAO ACHEI
 27501  Heaven Help Us  ->  NAO ACHEI
@@ -4161,7 +4161,7 @@ LISTA DAS SERIES PROCURADAS
 37753  One West Waikiki  ->  NAO ACHEI
 29181  Otto - Die Serie  ->  NAO ACHEI
 22179  Outside Edge  ->  NAO ACHEI
-4266  O Quinteto  ->  NAO ACHEI
+4266  O Quinteto  ->  143 episodios
 14693  A Pantera Cor de Rosa  ->  NAO ACHEI
 20507  Pirates  ->  NAO ACHEI
 2857  Politically Incorrect  ->  NAO ACHEI
@@ -4182,7 +4182,7 @@ LISTA DAS SERIES PROCURADAS
 23422  She TV  ->  NAO ACHEI
 94639  Side Effects  ->  NAO ACHEI
 3755  Irmã ao Quadrado  ->  NAO ACHEI
-1718  Guerreiros Esqueletos  ->  NAO ACHEI
+1718  Guerreiros Esqueletos  ->  9 episodios
 14717  Sky Trackers  ->  NAO ACHEI
 28111  Someone Like Me  ->  NAO ACHEI
 16298  Something Wilder  ->  NAO ACHEI
@@ -4203,7 +4203,7 @@ LISTA DAS SERIES PROCURADAS
 7961  TekWar  ->  NAO ACHEI
 14336  Próxima Parada: Thunder Alley  ->  NAO ACHEI
 1605  Thunder - Missão no Mar  ->  NAO ACHEI
-68002  Time After Time  ->  NAO ACHEI
+68002  Time After Time  ->  11 episodios
 2863  Time Team  ->  NAO ACHEI
 35838  Toen was geluk heel gewoon  ->  NAO ACHEI
 9962  Tom  ->  NAO ACHEI
@@ -4325,8 +4325,8 @@ LISTA DAS SERIES PROCURADAS
 15536  Hamish Macbeth  ->  NAO ACHEI
 2715  Hang Time  ->  NAO ACHEI
 10906  Felizes Para Sempre  ->  NAO ACHEI
-112945  The Hardy Boys  ->  NAO ACHEI
-4615  Hércules: A Lendária Jornada  ->  NAO ACHEI
+112945  The Hardy Boys  ->  23 episodios
+4615  Hércules: A Lendária Jornada  ->  111 episodios
 27711  High Sierra Search and Rescue  ->  NAO ACHEI
 11851  High Society  ->  NAO ACHEI
 137710  Histórias Que o Tempo Apagou  ->  NAO ACHEI
@@ -4383,14 +4383,14 @@ LISTA DAS SERIES PROCURADAS
 26349  My Wildest Dreams  ->  NAO ACHEI
 12912  A Ilha Misteriosa  ->  NAO ACHEI
 11894  The Naked Truth  ->  NAO ACHEI
-89572  Nancy Drew  ->  NAO ACHEI
+89572  Nancy Drew  ->  62 episodios
 11572  New York News  ->  NAO ACHEI
 3968  NewsRadio  ->  NAO ACHEI
 76179  Next of Kin  ->  NAO ACHEI
 84124  Notaufnahme  ->  NAO ACHEI
 10494  Um Homem Sem Passado  ->  NAO ACHEI
 116637  O.J. på nye eventyr  ->  NAO ACHEI
-2316  The Office  ->  NAO ACHEI
+2316  The Office  ->  189 episodios
 50  Asas nos Pés  ->  NAO ACHEI
 12195  Pacific Drive  ->  NAO ACHEI
 3961  The Parent 'Hood  ->  NAO ACHEI
@@ -4398,7 +4398,7 @@ LISTA DAS SERIES PROCURADAS
 10155  Partners  ->  NAO ACHEI
 9800  Pick Your Brain  ->  NAO ACHEI
 9837  Pig Sty  ->  NAO ACHEI
-2228  Pinky e o Cérebro  ->  NAO ACHEI
+2228  Pinky e o Cérebro  ->  65 episodios
 3665  Platypus Man  ->  NAO ACHEI
 1379  O Guarda-Costas  ->  NAO ACHEI
 23367  The Preston Episodes  ->  NAO ACHEI
@@ -4428,7 +4428,7 @@ LISTA DAS SERIES PROCURADAS
 3534  Comando Espacial  ->  NAO ACHEI
 86548  Der Spritzen-Karli  ->  NAO ACHEI
 63221  Die Stadtindianer  ->  NAO ACHEI
-1855  Jornada nas Estrelas: Voyager  ->  NAO ACHEI
+1855  Jornada nas Estrelas: Voyager  ->  168 episodios
 20745  Stockinger  ->  NAO ACHEI
 14901  Um Homem de Sorte  ->  NAO ACHEI
 40835  Die Straßen von Berlin  ->  NAO ACHEI
@@ -4455,16 +4455,16 @@ LISTA DAS SERIES PROCURADAS
 40709  Die Viersteins  ->  NAO ACHEI
 30162  Voor hete vuren  ->  NAO ACHEI
 90690  WMAC Masters  ->  NAO ACHEI
-210232  The Watcher  ->  NAO ACHEI
+210232  The Watcher  ->  7 episodios
 28010  Wax Cracks Cannes  ->  NAO ACHEI
-2297  Dupla do Barulho  ->  NAO ACHEI
+2297  Dupla do Barulho  ->  95 episodios
 40649  Westerdeich  ->  NAO ACHEI
 35582  Baguncinha  ->  NAO ACHEI
 23751  A Whole New Ballgame  ->  NAO ACHEI
 2152  Wishbone  ->  NAO ACHEI
 6514  Women of the House  ->  NAO ACHEI
 24589  The Wright Verdicts  ->  NAO ACHEI
-4616  Xena: A Princesa Guerreira  ->  NAO ACHEI
+4616  Xena: A Princesa Guerreira  ->  134 episodios
 123297  Zappek  ->  NAO ACHEI
 34663  Zenki  ->  NAO ACHEI
 80753  Ternuras e Arrufos  ->  NAO ACHEI
@@ -4529,7 +4529,7 @@ LISTA DAS SERIES PROCURADAS
 10272  EZ Streets  ->  NAO ACHEI
 15839  Esquadrão Pássaro  ->  NAO ACHEI
 1716  Edição de Amanhã  ->  NAO ACHEI
-2140  Raymond e Companhia  ->  NAO ACHEI
+2140  Raymond e Companhia  ->  209 episodios
 19089  The Faculty  ->  NAO ACHEI
 34856  Familiesagaen De syv søstre  ->  NAO ACHEI
 63096  Feuerbach  ->  NAO ACHEI
@@ -4548,7 +4548,7 @@ LISTA DAS SERIES PROCURADAS
 25158  Goudkust  ->  NAO ACHEI
 49871  Gözlerinde Son Gece  ->  NAO ACHEI
 215881  Gottschalks Haus-Party  ->  NAO ACHEI
-537  Ei Arnold!  ->  NAO ACHEI
+537  Ei Arnold!  ->  100 episodios
 10498  Perigo Iminente  ->  NAO ACHEI
 52260  Home & Family  ->  NAO ACHEI
 10483  Homeboys in Outer Space  ->  NAO ACHEI
@@ -4560,8 +4560,8 @@ LISTA DAS SERIES PROCURADAS
 216580  Os Imparáveis  ->  NAO ACHEI
 36857  In naam der koningin  ->  NAO ACHEI
 138  Guerras no Jornal  ->  NAO ACHEI
-134365  Insiders  ->  NAO ACHEI
-3097  Homem de Ferro  ->  NAO ACHEI
+134365  Insiders  ->  14 episodios
+3097  Homem de Ferro  ->  26 episodios
 80535  Island  ->  NAO ACHEI
 3138  Jack and Jeremy's Real Lives  ->  NAO ACHEI
 2312  The Jamie Foxx Show  ->  NAO ACHEI
@@ -4571,7 +4571,7 @@ LISTA DAS SERIES PROCURADAS
 3940  Judge Judy  ->  NAO ACHEI
 2118  Jumanji  ->  NAO ACHEI
 53818  Kalbimi Kira Kira  ->  NAO ACHEI
-1835  Kenan e Kel: Dois Caras Muito Doidos  ->  NAO ACHEI
+1835  Kenan e Kel: Dois Caras Muito Doidos  ->  60 episodios
 3576  Kindred: Irmãos de Sangue  ->  NAO ACHEI
 40634  Klinik unter Palmen  ->  NAO ACHEI
 30848  L.A. Firefighters  ->  NAO ACHEI
@@ -4613,7 +4613,7 @@ LISTA DAS SERIES PROCURADAS
 474  Nash Bridges  ->  NAO ACHEI
 1847  Never Mind the Buzzcocks  ->  NAO ACHEI
 5315  Robin Hood  ->  NAO ACHEI
-15621  The Newsroom  ->  NAO ACHEI
+15621  The Newsroom  ->  25 episodios
 10234  Nick Freno: Licensed Teacher  ->  NAO ACHEI
 11816  Les exploits d'Arsène Lupin  ->  NAO ACHEI
 158767  Nudlar och 08:or  ->  NAO ACHEI
@@ -4714,15 +4714,15 @@ LISTA DAS SERIES PROCURADAS
 39487  Arsenio  ->  NAO ACHEI
 133438  As Aventuras do Camilo  ->  NAO ACHEI
 11315  Bailey  ->  NAO ACHEI
-4625  As Novas Aventuras do Batman  ->  NAO ACHEI
+4625  As Novas Aventuras do Batman  ->  24 episodios
 2575  Between Brothers  ->  NAO ACHEI
-100010  Big Sky  ->  NAO ACHEI
+100010  Big Sky  ->  47 episodios
 25425  Bloomin' Marvellous  ->  NAO ACHEI
 231198  Born to Run  ->  NAO ACHEI
 63  Brass Eye  ->  NAO ACHEI
 24121  The Broker's Man  ->  NAO ACHEI
 15215  A Esquadra de Brooklyn  ->  NAO ACHEI
-95  Buffy, the Hunt-Vampires  ->  NAO ACHEI
+95  Buffy, the Hunt-Vampires  ->  144 episodios
 23269  Built to Last  ->  NAO ACHEI
 26634  Esquadrão C-16  ->  NAO ACHEI
 29571  Die Camper  ->  NAO ACHEI
@@ -4738,7 +4738,7 @@ LISTA DAS SERIES PROCURADAS
 327811  Cuidado com o Fantasma  ->  NAO ACHEI
 48516  Dad  ->  NAO ACHEI
 2131  Daria  ->  NAO ACHEI
-2327  Dawson's Creek  ->  NAO ACHEI
+2327  Dawson's Creek  ->  128 episodios
 24209  Dellaventura  ->  NAO ACHEI
 3461  Dharma e Greg  ->  NAO ACHEI
 53336  Emma åklagare  ->  NAO ACHEI
@@ -4770,7 +4770,7 @@ LISTA DAS SERIES PROCURADAS
 53815  Intizar  ->  NAO ACHEI
 236378  Irma & Gerd  ->  NAO ACHEI
 26072  The Jenny McCarthy Show  ->  NAO ACHEI
-73816  Jenny  ->  NAO ACHEI
+73816  Jenny  ->  40 episodios
 201099  Jiskefet  ->  NAO ACHEI
 11216  Ladrão Que Rouba Ladrão  ->  NAO ACHEI
 2405  Johnny Bravo  ->  NAO ACHEI
@@ -4790,7 +4790,7 @@ LISTA DAS SERIES PROCURADAS
 9735  Light Lunch  ->  NAO ACHEI
 21685  Lost on Earth  ->  NAO ACHEI
 22169  Loved by You  ->  NAO ACHEI
-38207  The Lying Game  ->  NAO ACHEI
+38207  The Lying Game  ->  20 episodios
 60754  Ein Mann steht seine Frau  ->  NAO ACHEI
 10045  Meego  ->  NAO ACHEI
 216764  Meu Querido Avô  ->  NAO ACHEI
@@ -4833,7 +4833,7 @@ LISTA DAS SERIES PROCURADAS
 12299  Sessions at West 54th  ->  NAO ACHEI
 17753  Skärgårdsdoktorn  ->  NAO ACHEI
 4293  Sleepwalkers  ->  NAO ACHEI
-2291  Gênio do Barulho  ->  NAO ACHEI
+2291  Gênio do Barulho  ->  50 episodios
 51697  Snoken  ->  NAO ACHEI
 258898  Social Studies  ->  NAO ACHEI
 12473  S.O.F.: Força Especial  ->  NAO ACHEI
@@ -4843,7 +4843,7 @@ LISTA DAS SERIES PROCURADAS
 10331  Spawn  ->  NAO ACHEI
 13479  Spy Game  ->  NAO ACHEI
 40930  St. Angela  ->  NAO ACHEI
-4629  Stargate SG-1  ->  NAO ACHEI
+4629  Stargate SG-1  ->  212 episodios
 73437  Stuff the White Rabbit  ->  NAO ACHEI
 16084  Sunnyside Farm  ->  NAO ACHEI
 2254  Sunset Beach  ->  NAO ACHEI
@@ -4959,7 +4959,7 @@ LISTA DAS SERIES PROCURADAS
 326266  Le vagabond  ->  NAO ACHEI
 21051  Blah Blah Blah  ->  NAO ACHEI
 43904  The Comedy Sale  ->  NAO ACHEI
-4793  Os Novos Caça-Fantasmas  ->  NAO ACHEI
+4793  Os Novos Caça-Fantasmas  ->  40 episodios
 62226  Die Fischer von Moorhövd  ->  NAO ACHEI
 65286  Großer Mann was nun?  ->  NAO ACHEI
 63045  Kurklinik Rosenau  ->  NAO ACHEI
@@ -4970,7 +4970,7 @@ LISTA DAS SERIES PROCURADAS
 70544  Reinikainen  ->  NAO ACHEI
 28753  Room for Romance  ->  NAO ACHEI
 102344  Solar Empire  ->  NAO ACHEI
-2190  South Park  ->  NAO ACHEI
+2190  South Park  ->  292 episodios
 20256  State Coroner  ->  NAO ACHEI
 54984  Trazan Apansson  ->  NAO ACHEI
 337180  De victorie  ->  NAO ACHEI
@@ -5087,7 +5087,7 @@ LISTA DAS SERIES PROCURADAS
 71224  Periodistas  ->  NAO ACHEI
 300909  Puerta con puerta  ->  NAO ACHEI
 316139  Paths of the Gods  ->  NAO ACHEI
-100412  The Baby-Sitters Club  ->  NAO ACHEI
+100412  The Baby-Sitters Club  ->  18 episodios
 17018  Wild Rescues  ->  NAO ACHEI
 10518  Clue Club  ->  NAO ACHEI
 33244  Corwin  ->  NAO ACHEI
@@ -5104,7 +5104,7 @@ LISTA DAS SERIES PROCURADAS
 278515  När karusellerna sover  ->  NAO ACHEI
 320059  The Other Side  ->  NAO ACHEI
 27424  The Paranormal Borderline  ->  NAO ACHEI
-69050  Riverdale  ->  NAO ACHEI
+69050  Riverdale  ->  137 episodios
 40799  SK Babies  ->  NAO ACHEI
 430  Sam e Max: Detectives Independentes  ->  NAO ACHEI
 27631  Swiebertje  ->  NAO ACHEI
@@ -5118,14 +5118,14 @@ LISTA DAS SERIES PROCURADAS
 16836  The Dame Edna Experience  ->  NAO ACHEI
 13696  Dame Edna's Neighbourhood Watch  ->  NAO ACHEI
 27355  The Danny Baker Show  ->  NAO ACHEI
-217667  Eric  ->  NAO ACHEI
-931  He-Man e os Defensores do Universo  ->  NAO ACHEI
+217667  Eric  ->  6 episodios
+931  He-Man e os Defensores do Universo  ->  130 episodios
 22998  Hello Mum  ->  NAO ACHEI
 318300  Jardim da Celeste  ->  NAO ACHEI
 197369  Make a Wish  ->  NAO ACHEI
 4719  Loucademia de Polícia  ->  NAO ACHEI
 14213  Popular Mechanics for Kids  ->  NAO ACHEI
-1546  Hora do Recreio  ->  NAO ACHEI
+1546  Hora do Recreio  ->  65 episodios
 14755  She-Ra: A Princesa do Poder  ->  NAO ACHEI
 5931  Style with Elsa Klensch  ->  NAO ACHEI
 590  Swat Kats: O Esquadrão Radical  ->  NAO ACHEI
@@ -5193,7 +5193,7 @@ LISTA DAS SERIES PROCURADAS
 211835  Na Paz dos Anjos  ->  NAO ACHEI
 155139  Patika  ->  NAO ACHEI
 523  Pensacola: Asas de Ouro  ->  NAO ACHEI
-4568  Ana Pimentinha  ->  NAO ACHEI
+4568  Ana Pimentinha  ->  65 episodios
 11924  Rejseholdet  ->  NAO ACHEI
 27441  The Return of the Psammead  ->  NAO ACHEI
 2148  TV Offal  ->  NAO ACHEI
@@ -5266,7 +5266,7 @@ LISTA DAS SERIES PROCURADAS
 20561  Mortimer's Patch  ->  NAO ACHEI
 11019  Sport Billy - A Cambada em Ritmo Acelerado  ->  NAO ACHEI
 247278  Stúrovci  ->  NAO ACHEI
-51817  As Tartarugas Ninja  ->  NAO ACHEI
+51817  As Tartarugas Ninja  ->  123 episodios
 3579  Os Castores Pirados  ->  NAO ACHEI
 31820  Diva  ->  NAO ACHEI
 81783  Große Freiheit  ->  NAO ACHEI
@@ -5314,7 +5314,7 @@ LISTA DAS SERIES PROCURADAS
 20721  Casanova '73  ->  NAO ACHEI
 329429  Margens de Erro  ->  NAO ACHEI
 47833  The Fear  ->  NAO ACHEI
-2822  Felicity  ->  NAO ACHEI
+2822  Felicity  ->  84 episodios
 1492  A Rota de Howard  ->  NAO ACHEI
 137069  The Media Show  ->  NAO ACHEI
 22524  Mitch  ->  NAO ACHEI
@@ -5330,7 +5330,7 @@ LISTA DAS SERIES PROCURADAS
 4397  V.I.P.  ->  NAO ACHEI
 11810  50 Grand Slam  ->  NAO ACHEI
 26465  All Over the Shop  ->  NAO ACHEI
-79130  Another Life  ->  NAO ACHEI
+79130  Another Life  ->  30 episodios
 17913  Ask Harriet  ->  NAO ACHEI
 218152  A Banqueira do Povo  ->  NAO ACHEI
 3914  Body Language  ->  NAO ACHEI
@@ -5403,7 +5403,7 @@ LISTA DAS SERIES PROCURADAS
 70962  The Justice Game  ->  NAO ACHEI
 51258  A Elefanta Curiosa  ->  NAO ACHEI
 51071  Bors  ->  NAO ACHEI
-1450  The Closer  ->  NAO ACHEI
+1450  The Closer  ->  109 episodios
 65513  Cluedo - En mordgåta  ->  NAO ACHEI
 21160  Damon  ->  NAO ACHEI
 36854  Familie Oudenrijn  ->  NAO ACHEI
@@ -5436,7 +5436,7 @@ LISTA DAS SERIES PROCURADAS
 277548  Campeão  ->  NAO ACHEI
 85747  Cara & Coroa  ->  NAO ACHEI
 3863  Countdown  ->  NAO ACHEI
-1794  Defensores da Terra  ->  NAO ACHEI
+1794  Defensores da Terra  ->  19 episodios
 35614  Dossier Verhulst  ->  NAO ACHEI
 45299  Excess Baggage  ->  NAO ACHEI
 46120  Fera Ferida  ->  NAO ACHEI
@@ -5531,7 +5531,7 @@ LISTA DAS SERIES PROCURADAS
 47999  13 posterunek  ->  NAO ACHEI
 139082  First Love - Die große Liebe  ->  NAO ACHEI
 10260  Missão: Mágica!  ->  NAO ACHEI
-1398  Família Soprano  ->  NAO ACHEI
+1398  Família Soprano  ->  86 episodios
 24970  Beat Route  ->  NAO ACHEI
 5949  Brain Game  ->  NAO ACHEI
 13907  Bustin' Loose  ->  NAO ACHEI
@@ -5599,7 +5599,7 @@ LISTA DAS SERIES PROCURADAS
 219330  Até Que a Lei os Separe  ->  NAO ACHEI
 18303  Ultraman: Towards the Future  ->  NAO ACHEI
 63697  Die Unbestechliche  ->  NAO ACHEI
-12826  Bicudo, o Lobisomem  ->  NAO ACHEI
+12826  Bicudo, o Lobisomem  ->  24 episodios
 369  Masked Rider - O Cavaleiro Mascarado  ->  NAO ACHEI
 328329  Spanarna  ->  NAO ACHEI
 2198  101 Dálmatas  ->  NAO ACHEI
@@ -5660,7 +5660,7 @@ LISTA DAS SERIES PROCURADAS
 334360  De Gaulle ou l'éternel défi  ->  NAO ACHEI
 22887  Action Man  ->  NAO ACHEI
 37629  Barrymore  ->  NAO ACHEI
-513  Batman do Futuro  ->  NAO ACHEI
+513  Batman do Futuro  ->  49 episodios
 1263  Benji, Zax & the Alien Prince  ->  NAO ACHEI
 7055  Beto Rockfeller  ->  NAO ACHEI
 13682  The Big Time  ->  NAO ACHEI
@@ -5730,7 +5730,7 @@ LISTA DAS SERIES PROCURADAS
 133365  Fabulák  ->  NAO ACHEI
 12201  Family and Friends  ->  NAO ACHEI
 19217  Four on the Floor  ->  NAO ACHEI
-615  Futurama  ->  NAO ACHEI
+615  Futurama  ->  189 episodios
 95544  A Gata Comeu  ->  NAO ACHEI
 283048  Gente Fina  ->  NAO ACHEI
 15221  Heartburn Hotel  ->  NAO ACHEI
@@ -5766,7 +5766,7 @@ LISTA DAS SERIES PROCURADAS
 11202  Shindig!  ->  NAO ACHEI
 13888  Stressed Eric  ->  NAO ACHEI
 233153  Så hatten passer  ->  NAO ACHEI
-42680  Sítio do Picapau Amarelo  ->  NAO ACHEI
+42680  Sítio do Picapau Amarelo  ->  103 episodios
 50935  TV a város szélén  ->  NAO ACHEI
 703  Tarzan, o Rei da Selva  ->  NAO ACHEI
 14506  Thuis  ->  NAO ACHEI
@@ -5864,7 +5864,7 @@ LISTA DAS SERIES PROCURADAS
 23551  Richard the Lionheart  ->  NAO ACHEI
 14977  Seaway  ->  NAO ACHEI
 294607  Trinity  ->  NAO ACHEI
-4454  Will & Grace  ->  NAO ACHEI
+4454  Will & Grace  ->  240 episodios
 14940  Wind on Water  ->  NAO ACHEI
 239283  Brutal TV  ->  NAO ACHEI
 60643  La Chacala  ->  NAO ACHEI
@@ -5885,7 +5885,7 @@ LISTA DAS SERIES PROCURADAS
 80342  Zugriff  ->  NAO ACHEI
 297338  Behind Closed Doors with Joan Lunden  ->  NAO ACHEI
 12492  A Família Grunt  ->  NAO ACHEI
-1981  Charmed: Jovens Bruxas  ->  NAO ACHEI
+1981  Charmed: Jovens Bruxas  ->  178 episodios
 24364  How'd They Do That?  ->  NAO ACHEI
 1939  Kissyfur  ->  NAO ACHEI
 120823  Kongeriget  ->  NAO ACHEI
@@ -5922,7 +5922,7 @@ LISTA DAS SERIES PROCURADAS
 30016  R.C.M.P.  ->  NAO ACHEI
 13799  Roger and the Rottentrolls  ->  NAO ACHEI
 10853  Saturday Night Live with Howard Cosell  ->  NAO ACHEI
-105  Sex and the City  ->  NAO ACHEI
+105  Sex and the City  ->  94 episodios
 24873  Sins of the City  ->  NAO ACHEI
 9594  Sutherland's Law  ->  NAO ACHEI
 118667  Velipuolikuu  ->  NAO ACHEI
@@ -6113,7 +6113,7 @@ LISTA DAS SERIES PROCURADAS
 26875  It's Dark Outside  ->  NAO ACHEI
 25197  Just Jimmy  ->  NAO ACHEI
 41083  Kommissar Freytag  ->  NAO ACHEI
-6547  Maria Mercedes  ->  NAO ACHEI
+6547  Maria Mercedes  ->  98 episodios
 28569  The Men from Room 13  ->  NAO ACHEI
 5657  Metal Mickey  ->  NAO ACHEI
 11867  Never Mind the Quality, Feel the Width  ->  NAO ACHEI
@@ -6143,7 +6143,7 @@ LISTA DAS SERIES PROCURADAS
 205859  Vilse i pannkakan  ->  NAO ACHEI
 2167  All Saints  ->  NAO ACHEI
 39921  Die Anrheiner  ->  NAO ACHEI
-51675  Black Box  ->  NAO ACHEI
+51675  Black Box  ->  13 episodios
 10821  As Pistas de Blue  ->  NAO ACHEI
 13548  The Borderers  ->  NAO ACHEI
 256661  A Certain Justice  ->  NAO ACHEI
@@ -6264,7 +6264,7 @@ LISTA DAS SERIES PROCURADAS
 23795  Hit and Run  ->  NAO ACHEI
 325811  The House on the Hill  ->  NAO ACHEI
 30254  Inquiring Minds  ->  NAO ACHEI
-4238  O Rei do Bairro  ->  NAO ACHEI
+4238  O Rei do Bairro  ->  207 episodios
 63559  Konsul Möllers Erben  ->  NAO ACHEI
 3735  Friday Night Videos  ->  NAO ACHEI
 21966  Living in Captivity  ->  NAO ACHEI
@@ -6275,7 +6275,7 @@ LISTA DAS SERIES PROCURADAS
 20532  BBC Play of the Month  ->  NAO ACHEI
 14592  The Shari Lewis Show  ->  NAO ACHEI
 29945  Starr and Company  ->  NAO ACHEI
-52  De Volta aos Anos 70  ->  NAO ACHEI
+52  De Volta aos Anos 70  ->  200 episodios
 4326  Video Power  ->  NAO ACHEI
 226352  Il circolo Pickwick  ->  NAO ACHEI
 2003  Sports Night  ->  NAO ACHEI
@@ -6328,7 +6328,7 @@ LISTA DAS SERIES PROCURADAS
 47265  P.S.  ->  NAO ACHEI
 86864  Real TV  ->  NAO ACHEI
 12188  Os Mistérios de Ruth Rendell  ->  NAO ACHEI
-39269  Scandal!  ->  NAO ACHEI
+39269  Scandal!  ->  124 episodios
 3005  Squirt  ->  NAO ACHEI
 30565  Super Adventure Team  ->  NAO ACHEI
 247956  Szerencsekerék  ->  NAO ACHEI
@@ -6626,7 +6626,7 @@ LISTA DAS SERIES PROCURADAS
 16434  Magic Shadows  ->  NAO ACHEI
 326270  Malaventure  ->  NAO ACHEI
 100476  Le manège de Port-Barcarès  ->  NAO ACHEI
-46650  Marisol  ->  NAO ACHEI
+46650  Marisol  ->  181 episodios
 10536  The Mike Douglas Show  ->  NAO ACHEI
 237  Mortal Kombat: A Conquista  ->  NAO ACHEI
 41752  Der Nachtkurier meldet...  ->  NAO ACHEI
@@ -6685,7 +6685,7 @@ LISTA DAS SERIES PROCURADAS
 100684  Premiers baisers  ->  NAO ACHEI
 2641  O Mundo Redondo de Olie  ->  NAO ACHEI
 204840  S. O. S.  ->  NAO ACHEI
-733  A Bruxinha Sabrina  ->  NAO ACHEI
+733  A Bruxinha Sabrina  ->  44 episodios
 86323  So ein Zirkus  ->  NAO ACHEI
 230175  Under the Sun  ->  NAO ACHEI
 3093  Space Island One  ->  NAO ACHEI
@@ -6791,7 +6791,7 @@ LISTA DAS SERIES PROCURADAS
 14623  The Catlins  ->  NAO ACHEI
 11450  Crapston Villas  ->  NAO ACHEI
 223193  Les enfants des autres  ->  NAO ACHEI
-157231  Fascinação  ->  NAO ACHEI
+157231  Fascinação  ->  80 episodios
 12080  Het klokhuis  ->  NAO ACHEI
 1538  Malibu, CA  ->  NAO ACHEI
 31500  Miranda  ->  NAO ACHEI
@@ -6812,7 +6812,7 @@ LISTA DAS SERIES PROCURADAS
 11100  Godzilla: A Série  ->  NAO ACHEI
 3107  Gullah, Gullah Island  ->  NAO ACHEI
 10871  Hotel Cæsar  ->  NAO ACHEI
-2936  Tutubarão  ->  NAO ACHEI
+2936  Tutubarão  ->  16 episodios
 8861  Jackanory  ->  NAO ACHEI
 63108  Lisa Falk - Eine Frau für alle Fälle  ->  NAO ACHEI
 62587  Mordkommission  ->  NAO ACHEI
@@ -6823,7 +6823,7 @@ LISTA DAS SERIES PROCURADAS
 25630  Safari to Adventure  ->  NAO ACHEI
 16615  Treasure  ->  NAO ACHEI
 5266  University Challenge  ->  NAO ACHEI
-12266  A Corrida Espacial do Zé Colméia  ->  NAO ACHEI
+12266  A Corrida Espacial do Zé Colméia  ->  13 episodios
 50934  Az öt zsaru  ->  NAO ACHEI
 11762  Codco  ->  NAO ACHEI
 5246  Godzilla  ->  NAO ACHEI
@@ -6874,7 +6874,7 @@ LISTA DAS SERIES PROCURADAS
 203260  Vivere  ->  NAO ACHEI
 36076  Vreemde praktijken  ->  NAO ACHEI
 38630  De weg  ->  NAO ACHEI
-69581  A Bruxinha Atrapalhada  ->  NAO ACHEI
+69581  A Bruxinha Atrapalhada  ->  51 episodios
 23270  Chicken Soup for the Soul  ->  NAO ACHEI
 1570  As Aventuras de Tintim  ->  NAO ACHEI
 10129  The Alan Thicke Show  ->  NAO ACHEI
@@ -6901,7 +6901,7 @@ LISTA DAS SERIES PROCURADAS
 33809  People and Places  ->  NAO ACHEI
 974  Uma Turma da Pesada  ->  NAO ACHEI
 29861  Scene at 6:30  ->  NAO ACHEI
-126280  Sex/Life  ->  NAO ACHEI
+126280  Sex/Life  ->  14 episodios
 1657  Te Karere  ->  NAO ACHEI
 11608  Thank Your Lucky Stars  ->  NAO ACHEI
 33278  A Third Testament  ->  NAO ACHEI
@@ -6971,7 +6971,7 @@ LISTA DAS SERIES PROCURADAS
 14300  So Graham Norton  ->  NAO ACHEI
 16686  Spatz  ->  NAO ACHEI
 766  This Morning  ->  NAO ACHEI
-13800  Os Bárbaros  ->  NAO ACHEI
+13800  Os Bárbaros  ->  16 episodios
 57749  Village Hall  ->  NAO ACHEI
 69162  Vinterbyøster  ->  NAO ACHEI
 1584  Desenhos Incríveis - O Show  ->  NAO ACHEI
@@ -7001,7 +7001,7 @@ LISTA DAS SERIES PROCURADAS
 227441  Cilla  ->  NAO ACHEI
 33479  Down Home Country  ->  NAO ACHEI
 29393  Exhibit A: Secrets of Forensic Science  ->  NAO ACHEI
-1434  Uma Família da Pesada  ->  NAO ACHEI
+1434  Uma Família da Pesada  ->  417 episodios
 251979  Food for Thought  ->  NAO ACHEI
 301282  Galton and Simpson Comedy  ->  NAO ACHEI
 25307  The Galton & Simpson Playhouse  ->  NAO ACHEI
@@ -7039,7 +7039,7 @@ LISTA DAS SERIES PROCURADAS
 9641  Beat the Crusher  ->  NAO ACHEI
 41251  Berliner Weiße mit Schuß  ->  NAO ACHEI
 113932  Brigade spéciale  ->  NAO ACHEI
-606  Du, Dudu e Edu  ->  NAO ACHEI
+606  Du, Dudu e Edu  ->  66 episodios
 22285  Frankie's On...  ->  NAO ACHEI
 62941  Från A till Ö  ->  NAO ACHEI
 41196  Hausmeister Krause - Ordnung muss sein  ->  NAO ACHEI
@@ -7416,7 +7416,7 @@ LISTA DAS SERIES PROCURADAS
 28135  Can We Still Be Friends?  ->  NAO ACHEI
 650  Concentration  ->  NAO ACHEI
 158804  En dag i taget  ->  NAO ACHEI
-2073  Mission Hill  ->  NAO ACHEI
+2073  Mission Hill  ->  13 episodios
 86388  Going Out  ->  NAO ACHEI
 12296  Good Day L.A.  ->  NAO ACHEI
 116930  Meu Pai é Inventor  ->  NAO ACHEI
@@ -7690,7 +7690,7 @@ LISTA DAS SERIES PROCURADAS
 27043  Misguided Angels  ->  NAO ACHEI
 14736  Motormouth  ->  NAO ACHEI
 638  Começar de Novo  ->  NAO ACHEI
-12656  Rosalinda  ->  NAO ACHEI
+12656  Rosalinda  ->  75 episodios
 58948  Stage a Number  ->  NAO ACHEI
 130467  Threesome  ->  NAO ACHEI
 44029  Unzipped  ->  NAO ACHEI
@@ -7720,7 +7720,7 @@ LISTA DAS SERIES PROCURADAS
 16303  Oh, Grow Up  ->  NAO ACHEI
 226993  Perigosas Peruas  ->  NAO ACHEI
 3151  Popularidade  ->  NAO ACHEI
-117928  Pérola Negra  ->  NAO ACHEI
+117928  Pérola Negra  ->  204 episodios
 24923  Ryan International  ->  NAO ACHEI
 39432  Stand by for Crime  ->  NAO ACHEI
 215701  Tato de América  ->  NAO ACHEI
@@ -7731,7 +7731,7 @@ LISTA DAS SERIES PROCURADAS
 220786  Vira Lata  ->  NAO ACHEI
 9526  Warrior Queen  ->  NAO ACHEI
 341540  Aleksa Santic  ->  NAO ACHEI
-1300  Os Vingadores  ->  NAO ACHEI
+1300  Os Vingadores  ->  13 episodios
 2850  Bad Girls  ->  NAO ACHEI
 26545  Coping with...  ->  NAO ACHEI
 28322  The Elgin Hour  ->  NAO ACHEI
@@ -7739,7 +7739,7 @@ LISTA DAS SERIES PROCURADAS
 21230  G Force  ->  NAO ACHEI
 23220  Enriquecer  ->  NAO ACHEI
 9344  Gruey  ->  NAO ACHEI
-2734  Lei & Ordem: Investigação Especial  ->  NAO ACHEI
+2734  Lei & Ordem: Investigação Especial  ->  549 episodios
 1965  The Mick Molloy Show  ->  NAO ACHEI
 11016  Hulk Hogan's Rock 'n' Wrestling  ->  NAO ACHEI
 330101  Sea Dragon  ->  NAO ACHEI
@@ -7868,7 +7868,7 @@ LISTA DAS SERIES PROCURADAS
 10384  Shasta McNasty  ->  NAO ACHEI
 35215  Simon and the Witch  ->  NAO ACHEI
 3200  Mano a Mana  ->  NAO ACHEI
-387  Bob Esponja  ->  NAO ACHEI
+387  Bob Esponja  ->  581 episodios
 78147  Sally Hemings: Um Escândalo Americano  ->  NAO ACHEI
 10079  Homem-Aranha: Ação Sem Limites  ->  NAO ACHEI
 207462  Con toda el alma  ->  NAO ACHEI
@@ -8285,12 +8285,12 @@ LISTA DAS SERIES PROCURADAS
 297429  Derbez en cuando  ->  NAO ACHEI
 229338  O Direito de Nascer  ->  NAO ACHEI
 42856  Desencuentro  ->  NAO ACHEI
-12688  O Diário de Daniela  ->  NAO ACHEI
+12688  O Diário de Daniela  ->  101 episodios
 13631  Ding Dong School  ->  NAO ACHEI
 16169  Esmeralda  ->  NAO ACHEI
 310246  Gente bien  ->  NAO ACHEI
 40871  Giornalisti  ->  NAO ACHEI
-33960  Gotinha de Amor  ->  NAO ACHEI
+33960  Gotinha de Amor  ->  106 episodios
 11420  The Herb Shriner Show  ->  NAO ACHEI
 11438  The Idiot Box  ->  NAO ACHEI
 6473  It's in the Bag  ->  NAO ACHEI
@@ -8309,13 +8309,13 @@ LISTA DAS SERIES PROCURADAS
 32396  Mujeres engañadas  ->  NAO ACHEI
 230959  No tengo madre  ->  NAO ACHEI
 211443  Para toda la vida  ->  NAO ACHEI
-66344  Paixão e Poder  ->  NAO ACHEI
+66344  Paixão e Poder  ->  137 episodios
 93659  Petra Delicado  ->  NAO ACHEI
 75327  La pobre Señorita Limantour  ->  NAO ACHEI
 19340  Pobre niña rica  ->  NAO ACHEI
 14438  Powerhouse  ->  NAO ACHEI
 106835  El premio mayor  ->  NAO ACHEI
-12592  O Privilégio de Amar  ->  NAO ACHEI
+12592  O Privilégio de Amar  ->  166 episodios
 201036  Pueblo chico, infierno grande  ->  NAO ACHEI
 12976  Meus Quinze Anos  ->  NAO ACHEI
 11879  Reach for the Top  ->  NAO ACHEI
@@ -8362,14 +8362,14 @@ LISTA DAS SERIES PROCURADAS
 12770  Coração Selvagem  ->  NAO ACHEI
 61932  Cucumber  ->  NAO ACHEI
 312653  Encadenados  ->  NAO ACHEI
-4620  Eureka  ->  NAO ACHEI
+4620  Eureka  ->  42 episodios
 117452  De familie Knots  ->  NAO ACHEI
 326716  Girl in a Black Bikini  ->  NAO ACHEI
 32941  Háblame de amor  ->  NAO ACHEI
 19350  It's Awfully Bad for Your Eyes, Darling  ->  NAO ACHEI
 42130  John Klings Abenteuer  ->  NAO ACHEI
 33965  A Loja dos Bichinhos  ->  NAO ACHEI
-2004  Malcolm  ->  NAO ACHEI
+2004  Malcolm  ->  129 episodios
 11541  Math Patrol  ->  NAO ACHEI
 14429  Mathmakers  ->  NAO ACHEI
 8793  Mente Assassina  ->  NAO ACHEI
@@ -8396,13 +8396,13 @@ LISTA DAS SERIES PROCURADAS
 29016  Brutally Normal  ->  NAO ACHEI
 55937  Male of the Species  ->  NAO ACHEI
 255530  Teen Angel Returns  ->  NAO ACHEI
-2985  Andrômeda  ->  NAO ACHEI
+2985  Andrômeda  ->  109 episodios
 25127  The Ant & Dec Show  ->  NAO ACHEI
 10988  BackBerner  ->  NAO ACHEI
 20863  Barmy Aunt Boomerang  ->  NAO ACHEI
 311364  Buscando el paraíso  ->  NAO ACHEI
 10667  Busman's Holiday  ->  NAO ACHEI
-84469  Cowboy Bebop  ->  NAO ACHEI
+84469  Cowboy Bebop  ->  10 episodios
 17440  Cuando llega el amor  ->  NAO ACHEI
 11845  Dink, o Pequeno Dinossauro  ->  NAO ACHEI
 2158  Dinosaucers  ->  NAO ACHEI
@@ -8602,7 +8602,7 @@ LISTA DAS SERIES PROCURADAS
 211453  A Fera  ->  NAO ACHEI
 4479  Flying Rhino Junior High  ->  NAO ACHEI
 327536  The General Motors Playwrights Theater  ->  NAO ACHEI
-177  Eu Sou o Máximo  ->  NAO ACHEI
+177  Eu Sou o Máximo  ->  79 episodios
 41708  Juana Iris  ->  NAO ACHEI
 70812  Manège  ->  NAO ACHEI
 27725  Marjorie and Men  ->  NAO ACHEI
@@ -8615,7 +8615,7 @@ LISTA DAS SERIES PROCURADAS
 14710  Les shadoks  ->  NAO ACHEI
 11593  Shalom Sesame  ->  NAO ACHEI
 10684  Sherlock Holmes in the 22nd Century  ->  NAO ACHEI
-67419  Victoria  ->  NAO ACHEI
+67419  Victoria  ->  17 episodios
 26956  Win Beadle's Money  ->  NAO ACHEI
 13886  Xyber 9  ->  NAO ACHEI
 30574  Zazoo U  ->  NAO ACHEI
@@ -8629,7 +8629,7 @@ LISTA DAS SERIES PROCURADAS
 194543  Denise  ->  NAO ACHEI
 278539  The Gospels  ->  NAO ACHEI
 35101  The All-Night Show  ->  NAO ACHEI
-2568  Os Oblongs  ->  NAO ACHEI
+2568  Os Oblongs  ->  12 episodios
 216531  Pelito  ->  NAO ACHEI
 45582  The Phantom Eye  ->  NAO ACHEI
 319310  A Ponte dos Suspiros  ->  NAO ACHEI
@@ -8677,7 +8677,7 @@ LISTA DAS SERIES PROCURADAS
 28344  Casting Couch  ->  NAO ACHEI
 311484  Clarisa  ->  NAO ACHEI
 33684  Comedy Café  ->  NAO ACHEI
-2085  Coragem, o Cão Covarde  ->  NAO ACHEI
+2085  Coragem, o Cão Covarde  ->  51 episodios
 306183  DKDA: Sueños de juventud  ->  NAO ACHEI
 107019  De frente al sol  ->  NAO ACHEI
 113497  Les Deschiens  ->  NAO ACHEI
@@ -8749,7 +8749,7 @@ LISTA DAS SERIES PROCURADAS
 49697  Zilyoner  ->  NAO ACHEI
 107160  La mujer del presidente  ->  NAO ACHEI
 101434  I racconti del maresciallo  ->  NAO ACHEI
-44  As Aventuras de Sonic  ->  NAO ACHEI
+44  As Aventuras de Sonic  ->  23 episodios
 25794  The Adventures of Swiss Family Robinson  ->  NAO ACHEI
 296703  El amor nunca muere  ->  NAO ACHEI
 315960  El amor tiene cara de mujer  ->  NAO ACHEI
@@ -8910,7 +8910,7 @@ LISTA DAS SERIES PROCURADAS
 32585  Pobre diabla  ->  NAO ACHEI
 318797  El precio del cielo  ->  NAO ACHEI
 207677  Primer amor  ->  NAO ACHEI
-12637  Rebelde  ->  NAO ACHEI
+12637  Rebelde  ->  440 episodios
 12798  Desprezo  ->  NAO ACHEI
 312948  El rincón de los prodigios  ->  NAO ACHEI
 219970  Señorita Andrea  ->  NAO ACHEI
@@ -8982,7 +8982,7 @@ LISTA DAS SERIES PROCURADAS
 228347  Atrapada  ->  NAO ACHEI
 71097  Carrossel das Américas  ->  NAO ACHEI
 312310  Cenizas y diamantes  ->  NAO ACHEI
-13023  Chapolin  ->  NAO ACHEI
+13023  Chapolin  ->  249 episodios
 312458  El cristal empañado  ->  NAO ACHEI
 117422  Dos vidas  ->  NAO ACHEI
 60358  Días sin luna  ->  NAO ACHEI
@@ -9010,7 +9010,7 @@ LISTA DAS SERIES PROCURADAS
 22556  De zevensprong  ->  NAO ACHEI
 10386  Webriot  ->  NAO ACHEI
 68948  ¡Ala... Dina!  ->  NAO ACHEI
-20992  Sonic Underground  ->  NAO ACHEI
+20992  Sonic Underground  ->  40 episodios
 284862  Wilfred and Eileen  ->  NAO ACHEI
 108986  Abierto 24 horas  ->  NAO ACHEI
 157146  Alta comedia  ->  NAO ACHEI
@@ -9099,8 +9099,8 @@ LISTA DAS SERIES PROCURADAS
 55645  Bamse - Världens starkaste björn!  ->  NAO ACHEI
 1360  The Brothers Garcia  ->  NAO ACHEI
 4413  Mundo Giz  ->  NAO ACHEI
-79  Dora, a Aventureira  ->  NAO ACHEI
-4630  Os Padrinhos Mágicos  ->  NAO ACHEI
+79  Dora, a Aventureira  ->  74 episodios
+4630  Os Padrinhos Mágicos  ->  198 episodios
 40855  Hotel Elfie  ->  NAO ACHEI
 12983  In de Gloria  ->  NAO ACHEI
 3793  Invasor Zim  ->  NAO ACHEI
@@ -9112,7 +9112,7 @@ LISTA DAS SERIES PROCURADAS
 97248  Slisse & Cesar  ->  NAO ACHEI
 12077  The Strangerers  ->  NAO ACHEI
 1190  Taina  ->  NAO ACHEI
-66840  Bull  ->  NAO ACHEI
+66840  Bull  ->  125 episodios
 63050  Der Fotograf oder Das Auge Gottes  ->  NAO ACHEI
 41484  Die liebe Familie  ->  NAO ACHEI
 65385  Oppen und Ehrlich  ->  NAO ACHEI
@@ -9158,7 +9158,7 @@ LISTA DAS SERIES PROCURADAS
 98470  Escalona  ->  NAO ACHEI
 5439  Eurotrash  ->  NAO ACHEI
 1822  George e Marta  ->  NAO ACHEI
-4586  Gilmore Girls: Tal Mãe, Tal Filha  ->  NAO ACHEI
+4586  Gilmore Girls: Tal Mãe, Tal Filha  ->  153 episodios
 28842  Harry Hill  ->  NAO ACHEI
 59668  The Keith Harris Show  ->  NAO ACHEI
 79395  Luz María  ->  NAO ACHEI
@@ -9177,7 +9177,7 @@ LISTA DAS SERIES PROCURADAS
 38962  Channel 4 News  ->  NAO ACHEI
 323904  Dona Santa  ->  NAO ACHEI
 6282  Evening  ->  NAO ACHEI
-16183  A Grande Família  ->  NAO ACHEI
+16183  A Grande Família  ->  359 episodios
 2733  In a Heartbeat  ->  NAO ACHEI
 10550  The Lyricist Lounge Show  ->  NAO ACHEI
 2337  Musikladen  ->  NAO ACHEI
@@ -9208,7 +9208,7 @@ LISTA DAS SERIES PROCURADAS
 5389  Internet Tonight  ->  NAO ACHEI
 9886  Showtime at the Apollo  ->  NAO ACHEI
 2197  Jam  ->  NAO ACHEI
-896  O Mundo Perdido  ->  NAO ACHEI
+896  O Mundo Perdido  ->  65 episodios
 60644  La malquerida  ->  NAO ACHEI
 242698  Max und Moritz  ->  NAO ACHEI
 10575  Me llaman Lolita  ->  NAO ACHEI
@@ -9242,7 +9242,7 @@ LISTA DAS SERIES PROCURADAS
 9051  La mujer en el espejo  ->  NAO ACHEI
 5748  The New Edge  ->  NAO ACHEI
 67833  Nightcap  ->  NAO ACHEI
-67697  Search Party  ->  NAO ACHEI
+67697  Search Party  ->  39 episodios
 36850  La viuda de Blanco  ->  NAO ACHEI
 39315  Yo amo a Paquita Gallego  ->  NAO ACHEI
 22782  Brak Presents the Brak Show Starring Brak  ->  NAO ACHEI
@@ -9296,7 +9296,7 @@ LISTA DAS SERIES PROCURADAS
 16874  Reaching for the Skies  ->  NAO ACHEI
 131633  Safari  ->  NAO ACHEI
 19240  Sesamstraat  ->  NAO ACHEI
-93288  Starstruck  ->  NAO ACHEI
+93288  Starstruck  ->  12 episodios
 17786  The Sunday Show  ->  NAO ACHEI
 41565  Teneramente Licia  ->  NAO ACHEI
 5702  Young Talent Time  ->  NAO ACHEI
@@ -9324,7 +9324,7 @@ LISTA DAS SERIES PROCURADAS
 113906  Robotix  ->  NAO ACHEI
 235548  O Sétimo Portal  ->  NAO ACHEI
 11528  Telescope  ->  NAO ACHEI
-75450  Titans  ->  NAO ACHEI
+75450  Titans  ->  49 episodios
 94559  My Brother Jonathan  ->  NAO ACHEI
 22450  Wet & Waan  ->  NAO ACHEI
 1645  Burke's Backyard  ->  NAO ACHEI
@@ -9342,7 +9342,7 @@ LISTA DAS SERIES PROCURADAS
 30215  Saturday Morning Live  ->  NAO ACHEI
 13840  Schloss Einstein  ->  NAO ACHEI
 2360  Spyder Games  ->  NAO ACHEI
-314  Star Trek: Enterprise  ->  NAO ACHEI
+314  Star Trek: Enterprise  ->  97 episodios
 31334  Talaash  ->  NAO ACHEI
 13545  The Undersea Adventures of Captain Nemo  ->  NAO ACHEI
 17663  The Blame Game  ->  NAO ACHEI
@@ -9392,8 +9392,8 @@ LISTA DAS SERIES PROCURADAS
 12915  Hoosier Millionaire  ->  NAO ACHEI
 17711  In the Mind of...  ->  NAO ACHEI
 25009  International Cabaret  ->  NAO ACHEI
-9834  O Pequeno Urso  ->  NAO ACHEI
-259883  Marcas da Paixão  ->  NAO ACHEI
+9834  O Pequeno Urso  ->  81 episodios
+259883  Marcas da Paixão  ->  40 episodios
 313299  Marionetas  ->  NAO ACHEI
 313332  Martín Garatuza  ->  NAO ACHEI
 315681  El milagro de vivir  ->  NAO ACHEI
@@ -9442,7 +9442,7 @@ LISTA DAS SERIES PROCURADAS
 285734  A donde va Soledad  ->  NAO ACHEI
 4202  Bette  ->  NAO ACHEI
 127  Boston Public  ->  NAO ACHEI
-1431  CSI: Investigação Criminal  ->  NAO ACHEI
+1431  CSI: Investigação Criminal  ->  329 episodios
 20843  Comin' Atcha!  ->  NAO ACHEI
 37016  DAG  ->  NAO ACHEI
 396  The District  ->  NAO ACHEI
@@ -9466,7 +9466,7 @@ LISTA DAS SERIES PROCURADAS
 30686  The Mob: O Gang  ->  NAO ACHEI
 24323  The More We Are Together  ->  NAO ACHEI
 22799  My Man Joe  ->  NAO ACHEI
-2027  Mysterious Ways  ->  NAO ACHEI
+2027  Mysterious Ways  ->  22 episodios
 4531  Visões Noturnas  ->  NAO ACHEI
 6727  Nikki  ->  NAO ACHEI
 4133  The Trouble with Normal  ->  NAO ACHEI
@@ -9475,7 +9475,7 @@ LISTA DAS SERIES PROCURADAS
 341714  På gränsen  ->  NAO ACHEI
 41044  Ravioli  ->  NAO ACHEI
 53359  Russen  ->  NAO ACHEI
-83125  Cursed  ->  NAO ACHEI
+83125  Cursed  ->  10 episodios
 1616  The $treet  ->  NAO ACHEI
 3160  Theodore Tugboat  ->  NAO ACHEI
 23776  Those Kids  ->  NAO ACHEI
@@ -9484,20 +9484,20 @@ LISTA DAS SERIES PROCURADAS
 35936  Wenn Engel reisen  ->  NAO ACHEI
 4599  Sim, Amor  ->  NAO ACHEI
 105346  La reina de Queens  ->  NAO ACHEI
-1487  Super Choque  ->  NAO ACHEI
-668  X-Men: Evolution  ->  NAO ACHEI
+1487  Super Choque  ->  52 episodios
+668  X-Men: Evolution  ->  51 episodios
 46663  The Adventures of Francie and Josie  ->  NAO ACHEI
 8955  All Our Yesterdays  ->  NAO ACHEI
 38436  All You Need Is Love  ->  NAO ACHEI
 16570  All Your Own  ->  NAO ACHEI
 247934  Andy Pandy  ->  NAO ACHEI
 24607  Animal, Vegetable, Mineral?  ->  NAO ACHEI
-61239  Aquarius  ->  NAO ACHEI
+61239  Aquarius  ->  52 episodios
 4364  The Arthur Askey Show  ->  NAO ACHEI
 626  B and B  ->  NAO ACHEI
 24697  Before Your Very Eyes  ->  NAO ACHEI
 64359  Byl jednou jeden dum  ->  NAO ACHEI
-58710  Carinha de Anjo  ->  NAO ACHEI
+58710  Carinha de Anjo  ->  177 episodios
 289939  Cidade Perdida  ->  NAO ACHEI
 30104  Don't Do It Dempsey  ->  NAO ACHEI
 258452  Girasoles para Lucía  ->  NAO ACHEI
@@ -9523,7 +9523,7 @@ LISTA DAS SERIES PROCURADAS
 15084  In the Life  ->  NAO ACHEI
 23695  Menace  ->  NAO ACHEI
 27544  One Size Fits All  ->  NAO ACHEI
-1274  A Sete Palmos  ->  NAO ACHEI
+1274  A Sete Palmos  ->  63 episodios
 2805  Soul Food  ->  NAO ACHEI
 40916  Wolkenstein  ->  NAO ACHEI
 90261  World War II: The War Chronicles  ->  NAO ACHEI
@@ -9538,7 +9538,7 @@ LISTA DAS SERIES PROCURADAS
 21653  Call Red  ->  NAO ACHEI
 29248  Call the Gun Expert  ->  NAO ACHEI
 7013  Clarkson's Car Years  ->  NAO ACHEI
-80055  Advogados ao Barulho  ->  NAO ACHEI
+80055  Advogados ao Barulho  ->  10 episodios
 201523  Golpe bajo  ->  NAO ACHEI
 128694  Gálvölgyi Show  ->  NAO ACHEI
 91954  Kullamannen  ->  NAO ACHEI
@@ -9640,7 +9640,7 @@ LISTA DAS SERIES PROCURADAS
 75491  Tonight at the London Palladium  ->  NAO ACHEI
 37588  Working the Web  ->  NAO ACHEI
 43985  You Made It  ->  NAO ACHEI
-26453  Trigun  ->  NAO ACHEI
+26453  Trigun  ->  26 episodios
 708  WCW Thunder  ->  NAO ACHEI
 14879  Club Buggery  ->  NAO ACHEI
 67280  Divorce  ->  NAO ACHEI
@@ -9711,7 +9711,7 @@ LISTA DAS SERIES PROCURADAS
 95298  De paradijsvogels  ->  NAO ACHEI
 9538  Pig's Breakfast  ->  NAO ACHEI
 313373  Pobre juventud  ->  NAO ACHEI
-252100  Postcards  ->  NAO ACHEI
+252100  Postcards  ->  6 episodios
 6249  Rock Concert  ->  NAO ACHEI
 291280  Showstoppers  ->  NAO ACHEI
 136854  Tijl Uilenspiegel  ->  NAO ACHEI
@@ -9770,7 +9770,7 @@ LISTA DAS SERIES PROCURADAS
 38154  Tony Brown's Journal  ->  NAO ACHEI
 154817  The Tyrant King  ->  NAO ACHEI
 49965  Ultra Vista!  ->  NAO ACHEI
-207334  The Veil  ->  NAO ACHEI
+207334  The Veil  ->  6 episodios
 26290  O Salva-Vidas Voador  ->  NAO ACHEI
 30773  O Show do Zé Colméia  ->  NAO ACHEI
 130737  Pobre Pablo  ->  NAO ACHEI
@@ -9818,7 +9818,7 @@ LISTA DAS SERIES PROCURADAS
 63299  Ida Rogalski  ->  NAO ACHEI
 34889  The Machine Gunners  ->  NAO ACHEI
 333659  La María  ->  NAO ACHEI
-7225  Merlin  ->  NAO ACHEI
+7225  Merlin  ->  65 episodios
 75944  Mosaic  ->  NAO ACHEI
 13996  The O-Zone  ->  NAO ACHEI
 337377  La potra zaina  ->  NAO ACHEI
@@ -9832,7 +9832,7 @@ LISTA DAS SERIES PROCURADAS
 4728  CBS Television Quiz  ->  NAO ACHEI
 50939  Csattanó  ->  NAO ACHEI
 51900  To galazio diamanti  ->  NAO ACHEI
-240  As Aventuras de Jackie Chan  ->  NAO ACHEI
+240  As Aventuras de Jackie Chan  ->  94 episodios
 63376  Jörg Preda berichtet  ->  NAO ACHEI
 11674  Some of My Best Friends  ->  NAO ACHEI
 17080  Kristin  ->  NAO ACHEI
@@ -9854,7 +9854,7 @@ LISTA DAS SERIES PROCURADAS
 27098  Hij & Julia  ->  NAO ACHEI
 5231  Jailbreak  ->  NAO ACHEI
 41002  Die Komiker  ->  NAO ACHEI
-72340  Little Women  ->  NAO ACHEI
+72340  Little Women  ->  3 episodios
 64419  Max & Lisa  ->  NAO ACHEI
 27050  Memoirs  ->  NAO ACHEI
 48159  Monitor  ->  NAO ACHEI
@@ -9866,7 +9866,7 @@ LISTA DAS SERIES PROCURADAS
 293831  Second City Firsts  ->  NAO ACHEI
 18226  Sports Geniuses  ->  NAO ACHEI
 9104  Taxi Orange  ->  NAO ACHEI
-101918  Valeria  ->  NAO ACHEI
+101918  Valeria  ->  24 episodios
 28548  Yes, It's the Cathode-Ray Tube Show!  ->  NAO ACHEI
 12327  100 Centre Street  ->  NAO ACHEI
 36638  71° nord  ->  NAO ACHEI
@@ -9943,7 +9943,7 @@ LISTA DAS SERIES PROCURADAS
 10810  Eye Bet  ->  NAO ACHEI
 297631  Gabriela, Cravo e Canela  ->  NAO ACHEI
 17144  Hollywood on Television  ->  NAO ACHEI
-156902  Kaleidoscope  ->  NAO ACHEI
+156902  Kaleidoscope  ->  9 episodios
 23673  The Kenneth Williams Show  ->  NAO ACHEI
 24233  The Lighter Side  ->  NAO ACHEI
 29026  Looks Familiar  ->  NAO ACHEI
@@ -9971,7 +9971,7 @@ LISTA DAS SERIES PROCURADAS
 313124  Cicatrices del alma  ->  NAO ACHEI
 4546  Segura a Onda  ->  NAO ACHEI
 40593  Einmal Prinz zu sein  ->  NAO ACHEI
-113600  Equinox  ->  NAO ACHEI
+113600  Equinox  ->  6 episodios
 39570  Expedition: Robinson  ->  NAO ACHEI
 1052  Fat Friends  ->  NAO ACHEI
 4097  Finders Keepers  ->  NAO ACHEI
@@ -9984,7 +9984,7 @@ LISTA DAS SERIES PROCURADAS
 100925  De Kris Pusaka  ->  NAO ACHEI
 2577  The Late Late Show  ->  NAO ACHEI
 10341  Livewire  ->  NAO ACHEI
-68324  The Lodge  ->  NAO ACHEI
+68324  The Lodge  ->  25 episodios
 40094  National Enquirer TV  ->  NAO ACHEI
 22614  Nice Time  ->  NAO ACHEI
 2008  Mexericos  ->  NAO ACHEI
@@ -10038,7 +10038,7 @@ LISTA DAS SERIES PROCURADAS
 319201  Entre brumas  ->  NAO ACHEI
 32611  Eugenie Sandler P.I.  ->  NAO ACHEI
 27709  For Better or for Worse  ->  NAO ACHEI
-60640  La gata  ->  NAO ACHEI
+60640  La gata  ->  37 episodios
 211445  Las gemelas  ->  NAO ACHEI
 24507  Gert and Daisy  ->  NAO ACHEI
 316082  Grotbags  ->  NAO ACHEI
@@ -10084,7 +10084,7 @@ LISTA DAS SERIES PROCURADAS
 101694  Les enquêtes d'Éloïse Rome  ->  NAO ACHEI
 29731  The Egg and I  ->  NAO ACHEI
 37189  F.L. Vek  ->  NAO ACHEI
-80748  FBi  ->  NAO ACHEI
+80748  FBi  ->  158 episodios
 25371  Flipside  ->  NAO ACHEI
 12571  Først & sist  ->  NAO ACHEI
 3718  Get Your Own Back  ->  NAO ACHEI
@@ -10271,7 +10271,7 @@ LISTA DAS SERIES PROCURADAS
 51760  Pyrus i alletiders eventyr  ->  NAO ACHEI
 21064  Shadow of the Stone  ->  NAO ACHEI
 327696  Sunday Premiere  ->  NAO ACHEI
-34524  O Garoto do Futuro  ->  NAO ACHEI
+34524  O Garoto do Futuro  ->  100 episodios
 10249  Totally Hoops  ->  NAO ACHEI
 39354  Pais Desesperados  ->  NAO ACHEI
 19842  What's for Dinner?  ->  NAO ACHEI
@@ -10318,7 +10318,7 @@ LISTA DAS SERIES PROCURADAS
 14269  A History of Britain  ->  NAO ACHEI
 25327  Housecall  ->  NAO ACHEI
 26374  The Les Dawson Show  ->  NAO ACHEI
-4575  Lizzie McGuire  ->  NAO ACHEI
+4575  Lizzie McGuire  ->  65 episodios
 7605  Meet the Ancestors  ->  NAO ACHEI
 26005  The Mike Harding Show  ->  NAO ACHEI
 25438  Mike Harding in Belfast  ->  NAO ACHEI
@@ -10340,7 +10340,7 @@ LISTA DAS SERIES PROCURADAS
 8510  Wuthering Heights  ->  NAO ACHEI
 27808  You Can't Win  ->  NAO ACHEI
 54321  The Forbidden Love  ->  NAO ACHEI
-2692  Eu, a Patroa e as Crianças  ->  NAO ACHEI
+2692  Eu, a Patroa e as Crianças  ->  123 episodios
 72032  Omaruru  ->  NAO ACHEI
 37765  Romuald the Reindeer  ->  NAO ACHEI
 6167  The Andy Dick Show  ->  NAO ACHEI
@@ -10383,9 +10383,9 @@ LISTA DAS SERIES PROCURADAS
 12381  Guess What?  ->  NAO ACHEI
 221801  Hjemme hos oss  ->  NAO ACHEI
 16012  I kveld med Thomas Giertsen  ->  NAO ACHEI
-1618  Liga da Justiça  ->  NAO ACHEI
+1618  Liga da Justiça  ->  52 episodios
 6198  Believer's Voice of Victory  ->  NAO ACHEI
-4601  Lei & Ordem: Crimes Premeditados  ->  NAO ACHEI
+4601  Lei & Ordem: Crimes Premeditados  ->  194 episodios
 10202  Midday  ->  NAO ACHEI
 24728  Musical Box  ->  NAO ACHEI
 12500  Rainbow  ->  NAO ACHEI
@@ -10474,7 +10474,7 @@ LISTA DAS SERIES PROCURADAS
 70394  Mother Angelica Live Classics  ->  NAO ACHEI
 46027  Estrela-Guia  ->  NAO ACHEI
 320  Fear Factor  ->  NAO ACHEI
-101512  O Gato Félix  ->  NAO ACHEI
+101512  O Gato Félix  ->  98 episodios
 26928  The Fighting Fitzgeralds  ->  NAO ACHEI
 30378  First Years  ->  NAO ACHEI
 39563  Flor salvaje  ->  NAO ACHEI
@@ -10493,7 +10493,7 @@ LISTA DAS SERIES PROCURADAS
 324830  The Revenge  ->  NAO ACHEI
 101962  Robinson Crusoë  ->  NAO ACHEI
 39676  Saans  ->  NAO ACHEI
-2723  Samurai Jack  ->  NAO ACHEI
+2723  Samurai Jack  ->  52 episodios
 300491  Señora Isabel  ->  NAO ACHEI
 248  Gêmeas em Apuros  ->  NAO ACHEI
 63793  So lebten sie alle Tage  ->  NAO ACHEI
@@ -10511,7 +10511,7 @@ LISTA DAS SERIES PROCURADAS
 13706  Dans une galaxie près de chez vous  ->  NAO ACHEI
 20040  God kveld Norge  ->  NAO ACHEI
 4359  Good Morning Australia  ->  NAO ACHEI
-2345  Kim Possible  ->  NAO ACHEI
+2345  Kim Possible  ->  85 episodios
 29036  One-Upmanship  ->  NAO ACHEI
 31624  Radio Enfer  ->  NAO ACHEI
 38848  O Clube da Ferradura  ->  NAO ACHEI
@@ -10533,12 +10533,12 @@ LISTA DAS SERIES PROCURADAS
 120487  Fullt hus  ->  NAO ACHEI
 116129  Lingo  ->  NAO ACHEI
 52948  Lola da musica  ->  NAO ACHEI
-50007  Maria Belém  ->  NAO ACHEI
+50007  Maria Belém  ->  180 episodios
 100521  Le passe-montagne  ->  NAO ACHEI
 207613  O Show do Gaguinho  ->  NAO ACHEI
 3969  Recovery  ->  NAO ACHEI
 21991  Scattergood: Friend of All  ->  NAO ACHEI
-4604  Smallville: As Aventuras do Superboy  ->  NAO ACHEI
+4604  Smallville: As Aventuras do Superboy  ->  216 episodios
 16001  Våg og vinn  ->  NAO ACHEI
 62827  Was guckst du?!  ->  NAO ACHEI
 54681  What'z up?  ->  NAO ACHEI
@@ -10567,7 +10567,7 @@ LISTA DAS SERIES PROCURADAS
 45746  Li'l Horrors  ->  NAO ACHEI
 33118  Lørdagsredaksjonen  ->  NAO ACHEI
 294018  Marius  ->  NAO ACHEI
-2530  Mr. Bean: A Série Animada  ->  NAO ACHEI
+2530  Mr. Bean: A Série Animada  ->  42 episodios
 10861  A Hora do Arrepio  ->  NAO ACHEI
 259549  Ou Nou!  ->  NAO ACHEI
 128  Pasadena  ->  NAO ACHEI
@@ -10577,7 +10577,7 @@ LISTA DAS SERIES PROCURADAS
 2028  Scariest Places on Earth  ->  NAO ACHEI
 302477  El secreto  ->  NAO ACHEI
 112712  Sex  ->  NAO ACHEI
-64435  Teachers  ->  NAO ACHEI
+64435  Teachers  ->  50 episodios
 220745  Le trompette de la Bérésina  ->  NAO ACHEI
 326015  Un pique-nique chez Osiris  ->  NAO ACHEI
 3597  UC: Undercover  ->  NAO ACHEI
@@ -10596,7 +10596,7 @@ LISTA DAS SERIES PROCURADAS
 40721  Casa famiglia  ->  NAO ACHEI
 306571  Chained  ->  NAO ACHEI
 46895  Clips  ->  NAO ACHEI
-1475  O Vidente  ->  NAO ACHEI
+1475  O Vidente  ->  81 episodios
 15119  Dick Tracy  ->  NAO ACHEI
 29280  Dok 12  ->  NAO ACHEI
 21078  Famous Jury Trials  ->  NAO ACHEI
@@ -10654,7 +10654,7 @@ LISTA DAS SERIES PROCURADAS
 11123  Combat Missions  ->  NAO ACHEI
 26849  Copy Cats  ->  NAO ACHEI
 21879  Custer's Last Stand Up  ->  NAO ACHEI
-242102  Insomnia  ->  NAO ACHEI
+242102  Insomnia  ->  6 episodios
 106344  The Korean War  ->  NAO ACHEI
 40773  Manni, o Jovem Futebolista  ->  NAO ACHEI
 157651  Matrimonios y algo más  ->  NAO ACHEI
@@ -10666,7 +10666,7 @@ LISTA DAS SERIES PROCURADAS
 157503  Peor es nada  ->  NAO ACHEI
 34056  R-17  ->  NAO ACHEI
 8775  Tom Terrific  ->  NAO ACHEI
-2808  Três Espiãs Demais  ->  NAO ACHEI
+2808  Três Espiãs Demais  ->  156 episodios
 209523  Yesterday's Dreams  ->  NAO ACHEI
 37797  The Cazalets  ->  NAO ACHEI
 19235  Elizabeth  ->  NAO ACHEI
@@ -10748,9 +10748,9 @@ LISTA DAS SERIES PROCURADAS
 91515  Velké sedlo  ->  NAO ACHEI
 10172  Citizen Baines  ->  NAO ACHEI
 10741  The Letter People  ->  NAO ACHEI
-1973  24 Horas  ->  NAO ACHEI
-219971  The Agency  ->  NAO ACHEI
-2046  Alias: Codinome Perigo  ->  NAO ACHEI
+1973  24 Horas  ->  204 episodios
+219971  The Agency  ->  20 episodios
+2046  Alias: Codinome Perigo  ->  105 episodios
 17071  All-Star Family Fortunes  ->  NAO ACHEI
 30957  The Amazing Race  ->  NAO ACHEI
 69493  Anillos de oro  ->  NAO ACHEI
@@ -10762,7 +10762,7 @@ LISTA DAS SERIES PROCURADAS
 105116  La cape et l'épée  ->  NAO ACHEI
 21303  Capt'n Sailorbird  ->  NAO ACHEI
 45574  Celebrity Homes  ->  NAO ACHEI
-1739  O Jim é Assim  ->  NAO ACHEI
+1739  O Jim é Assim  ->  182 episodios
 45327  Dawn Wells: Reel Adventures  ->  NAO ACHEI
 9816  A Educação de Max Bickford  ->  NAO ACHEI
 3237  The Ellen Show  ->  NAO ACHEI
@@ -10808,7 +10808,7 @@ LISTA DAS SERIES PROCURADAS
 3103  Bananas de Pijamas  ->  NAO ACHEI
 1763  Sorriso Metálico  ->  NAO ACHEI
 205582  Brisant  ->  NAO ACHEI
-46881  Corona de lágrimas  ->  NAO ACHEI
+46881  Corona de lágrimas  ->  75 episodios
 206407  Fabeltiere  ->  NAO ACHEI
 206440  Die Fahrschule  ->  NAO ACHEI
 11288  Foofur e seu Bando  ->  NAO ACHEI
@@ -10832,7 +10832,7 @@ LISTA DAS SERIES PROCURADAS
 11063  WWF Jakked  ->  NAO ACHEI
 10415  WWF Livewire  ->  NAO ACHEI
 71487  Weltspiegel  ->  NAO ACHEI
-1414  The Shield: Acima da Lei  ->  NAO ACHEI
+1414  The Shield: Acima da Lei  ->  89 episodios
 259613  10 om te zien  ->  NAO ACHEI
 19413  Aan tafel  ->  NAO ACHEI
 19190  Adventure Island  ->  NAO ACHEI
@@ -10859,7 +10859,7 @@ LISTA DAS SERIES PROCURADAS
 126987  Meester!  ->  NAO ACHEI
 44541  Milagros  ->  NAO ACHEI
 24917  As Aventuras da Princesa dos Mares  ->  NAO ACHEI
-89905  Normal People  ->  NAO ACHEI
+89905  Normal People  ->  12 episodios
 220963  Obrigado Doutor  ->  NAO ACHEI
 50969  Oi Pantheoi  ->  NAO ACHEI
 11179  Ponderosa  ->  NAO ACHEI
@@ -10875,7 +10875,7 @@ LISTA DAS SERIES PROCURADAS
 30298  Bobby Davro on the Box  ->  NAO ACHEI
 27133  But Seriously, It's Sheila Hancock  ->  NAO ACHEI
 53402  13o anakritiko grafeio  ->  NAO ACHEI
-86850  O Beijo do Drácula  ->  NAO ACHEI
+86850  O Beijo do Drácula  ->  3 episodios
 40815  Die Gespenster von Flatterfels  ->  NAO ACHEI
 139311  O Show do Grande Lobo Mau  ->  NAO ACHEI
 19677  Hopla  ->  NAO ACHEI
@@ -10928,7 +10928,7 @@ LISTA DAS SERIES PROCURADAS
 47119  Cleópatra  ->  NAO ACHEI
 26251  Comedy Break  ->  NAO ACHEI
 6087  Daily Tips for Modern Living  ->  NAO ACHEI
-63109  Os dez Mandamentos  ->  NAO ACHEI
+63109  Os dez Mandamentos  ->  242 episodios
 23275  The Downer Channel  ->  NAO ACHEI
 73794  Exposed  ->  NAO ACHEI
 8220  Brucutu e Sua Turma  ->  NAO ACHEI
@@ -11037,7 +11037,7 @@ LISTA DAS SERIES PROCURADAS
 7778  The Dish  ->  NAO ACHEI
 3546  Fox News Watch  ->  NAO ACHEI
 276595  Going Home  ->  NAO ACHEI
-1639  Heroes  ->  NAO ACHEI
+1639  Heroes  ->  78 episodios
 10450  Hollywood Showdown  ->  NAO ACHEI
 10116  Leap of Faith  ->  NAO ACHEI
 13296  Oliver Twist  ->  NAO ACHEI
@@ -11051,7 +11051,7 @@ LISTA DAS SERIES PROCURADAS
 230305  Sukces  ->  NAO ACHEI
 28507  Thrills  ->  NAO ACHEI
 4314  Esquadrão do Tempo  ->  NAO ACHEI
-102596  Todas as Mulheres do Mundo  ->  NAO ACHEI
+102596  Todas as Mulheres do Mundo  ->  12 episodios
 25513  Vets in Practice  ->  NAO ACHEI
 44619  Weekend Today  ->  NAO ACHEI
 57964  Wild About New Zealand  ->  NAO ACHEI
@@ -11092,7 +11092,7 @@ LISTA DAS SERIES PROCURADAS
 29407  Insomniac with Dave Attell  ->  NAO ACHEI
 29555  The Keefe Brasselle Show  ->  NAO ACHEI
 20122  Long Way to the Top  ->  NAO ACHEI
-4607  Lost  ->  NAO ACHEI
+4607  Lost  ->  120 episodios
 12446  Human Edge  ->  NAO ACHEI
 18327  Office Office  ->  NAO ACHEI
 14296  Radio Roo  ->  NAO ACHEI
@@ -11100,7 +11100,7 @@ LISTA DAS SERIES PROCURADAS
 57737  Spede show  ->  NAO ACHEI
 283775  Sweethearts  ->  NAO ACHEI
 241087  Switchback  ->  NAO ACHEI
-211288  Tracker  ->  NAO ACHEI
+211288  Tracker  ->  55 episodios
 3547  Os Universitários  ->  NAO ACHEI
 307828  Weird Homes  ->  NAO ACHEI
 259220  Wild On...  ->  NAO ACHEI
@@ -11172,7 +11172,7 @@ LISTA DAS SERIES PROCURADAS
 28743  Get Up, Stand Up  ->  NAO ACHEI
 100405  Le groupe  ->  NAO ACHEI
 23301  Happening  ->  NAO ACHEI
-416  Harvey, o Advogado  ->  NAO ACHEI
+416  Harvey, o Advogado  ->  30 episodios
 44668  Hello! Lady Lynn  ->  NAO ACHEI
 42422  Hi-5  ->  NAO ACHEI
 33979  The Howerd Confessions  ->  NAO ACHEI
@@ -11213,7 +11213,7 @@ LISTA DAS SERIES PROCURADAS
 244757  Tel père, telle flic  ->  NAO ACHEI
 15857  This Week  ->  NAO ACHEI
 4806  Titans of Tech  ->  NAO ACHEI
-39510  Touch  ->  NAO ACHEI
+39510  Touch  ->  26 episodios
 83877  Téléchat  ->  NAO ACHEI
 29490  Una voce particolare  ->  NAO ACHEI
 28216  Washingtoon  ->  NAO ACHEI
@@ -11314,7 +11314,7 @@ LISTA DAS SERIES PROCURADAS
 63762  Chronik der Familie Nägele  ->  NAO ACHEI
 36081  Dobrá voda  ->  NAO ACHEI
 40275  Don't Feed the Gondolas  ->  NAO ACHEI
-153666  A Dona  ->  NAO ACHEI
+153666  A Dona  ->  110 episodios
 221311  O Espírito da Lei  ->  NAO ACHEI
 116990  Farmen  ->  NAO ACHEI
 25856  Flight  ->  NAO ACHEI
@@ -11556,7 +11556,7 @@ LISTA DAS SERIES PROCURADAS
 21121  Max the 2000-Year-Old Mouse  ->  NAO ACHEI
 25202  Mike and Bernie's Scene  ->  NAO ACHEI
 157749  Monumental Moria  ->  NAO ACHEI
-65302  Moon World  ->  NAO ACHEI
+65302  Moon World  ->  52 episodios
 132671  N'ajustez pas votre sécheuse  ->  NAO ACHEI
 22443  Name Droppers  ->  NAO ACHEI
 287146  The New London Palladium Show  ->  NAO ACHEI
@@ -11578,7 +11578,7 @@ LISTA DAS SERIES PROCURADAS
 30471  Super Rupert  ->  NAO ACHEI
 212572  TV Go Home  ->  NAO ACHEI
 261095  Talking Film  ->  NAO ACHEI
-4602  As Visões da Raven  ->  NAO ACHEI
+4602  As Visões da Raven  ->  100 episodios
 12654  Thrill of a Lifetime  ->  NAO ACHEI
 235645  Ultimate Reality  ->  NAO ACHEI
 277312  Union libre  ->  NAO ACHEI
@@ -11719,7 +11719,7 @@ LISTA DAS SERIES PROCURADAS
 5330  Last Call with Carson Daly  ->  NAO ACHEI
 241299  Das literarische Quartett  ->  NAO ACHEI
 83698  Marcelino, Pão e Vinho  ->  NAO ACHEI
-36  Medium  ->  NAO ACHEI
+36  Medium  ->  130 episodios
 156925  Milkshake!  ->  NAO ACHEI
 221331  Molierissimo  ->  NAO ACHEI
 24587  Moonacre  ->  NAO ACHEI
@@ -11755,14 +11755,14 @@ LISTA DAS SERIES PROCURADAS
 96524  Sister Wendy's American Collection  ->  NAO ACHEI
 288779  Uma História Qualquer  ->  NAO ACHEI
 2049  All About Me  ->  NAO ACHEI
-652  O Que Há de Novo, Scooby-Doo?  ->  NAO ACHEI
+652  O Que Há de Novo, Scooby-Doo?  ->  42 episodios
 372  An American in Canada  ->  NAO ACHEI
 11034  Anatomy of a Scene  ->  NAO ACHEI
 51903  Oi axiopistoi  ->  NAO ACHEI
 96474  Blondes Gift  ->  NAO ACHEI
 20465  La bonne aventure  ->  NAO ACHEI
 322167  Boot Up  ->  NAO ACHEI
-99657  The Chair  ->  NAO ACHEI
+99657  The Chair  ->  6 episodios
 10510  The Chamber  ->  NAO ACHEI
 101016  Coluche 1 faux  ->  NAO ACHEI
 29314  Comedy Bandbox  ->  NAO ACHEI
@@ -11804,7 +11804,7 @@ LISTA DAS SERIES PROCURADAS
 12186  The Unisexers  ->  NAO ACHEI
 847  Watching Ellie  ->  NAO ACHEI
 35489  Witse  ->  NAO ACHEI
-1438  A Escuta  ->  NAO ACHEI
+1438  A Escuta  ->  60 episodios
 301226  Le club  ->  NAO ACHEI
 104219  Docteur Teyran  ->  NAO ACHEI
 37279  Edel & Starck  ->  NAO ACHEI
@@ -11860,7 +11860,7 @@ LISTA DAS SERIES PROCURADAS
 9691  Swabhimaan  ->  NAO ACHEI
 25986  The Sweet Spot  ->  NAO ACHEI
 299298  The Swish of the Curtain  ->  NAO ACHEI
-2204  Brotherhood  ->  NAO ACHEI
+2204  Brotherhood  ->  29 episodios
 25173  Ultimate 10  ->  NAO ACHEI
 40650  Vento di ponente  ->  NAO ACHEI
 45805  When I Grow Up  ->  NAO ACHEI
@@ -11959,7 +11959,7 @@ LISTA DAS SERIES PROCURADAS
 19815  Congo  ->  NAO ACHEI
 65254  Grogg  ->  NAO ACHEI
 273913  1, 2 oder 3  ->  NAO ACHEI
-4241  8 Regrinhas Básicas  ->  NAO ACHEI
+4241  8 Regrinhas Básicas  ->  52 episodios
 67003  De 9 dagen van de gier  ->  NAO ACHEI
 18473  The ABC Afternoon Playbreak  ->  NAO ACHEI
 63411  Achterbahn  ->  NAO ACHEI
@@ -11982,14 +11982,14 @@ LISTA DAS SERIES PROCURADAS
 58899  Guerra de mujeres  ->  NAO ACHEI
 28422  Hot Ticket  ->  NAO ACHEI
 10484  Open Sesame  ->  NAO ACHEI
-19515  Joana, a Virgem  ->  NAO ACHEI
+19515  Joana, a Virgem  ->  152 episodios
 16017  Juritzen direkte  ->  NAO ACHEI
 59517  Kazuko's Karaoke Klub  ->  NAO ACHEI
 1444  Kidnapped  ->  NAO ACHEI
 104370  Koschwitz  ->  NAO ACHEI
 66231  The Lounge  ->  NAO ACHEI
 16748  A Montanha Encantada  ->  NAO ACHEI
-1695  Monk: Um Detetive Diferente  ->  NAO ACHEI
+1695  Monk: Um Detetive Diferente  ->  125 episodios
 153582  Mujercitas  ->  NAO ACHEI
 26181  Oh in Colour  ->  NAO ACHEI
 81328  Outback  ->  NAO ACHEI
@@ -12023,7 +12023,7 @@ LISTA DAS SERIES PROCURADAS
 355  The Bachelor  ->  NAO ACHEI
 5907  Buck Rogers  ->  NAO ACHEI
 203994  C'est mon choix  ->  NAO ACHEI
-1620  CSI: Miami  ->  NAO ACHEI
+1620  CSI: Miami  ->  232 episodios
 51456  Calispera Greece  ->  NAO ACHEI
 246580  Le Camarguais  ->  NAO ACHEI
 12413  Chapi e Chapo  ->  NAO ACHEI
@@ -12035,7 +12035,7 @@ LISTA DAS SERIES PROCURADAS
 130987  Dead Ringers  ->  NAO ACHEI
 317107  Dos caras tiene el destino  ->  NAO ACHEI
 35734  Byli jednou dva písari  ->  NAO ACHEI
-81946  The Enemy Within  ->  NAO ACHEI
+81946  The Enemy Within  ->  13 episodios
 281292  Flix  ->  NAO ACHEI
 81619  Franz Xaver Brunnmayr  ->  NAO ACHEI
 19476  Garroway at Large  ->  NAO ACHEI
@@ -12176,7 +12176,7 @@ LISTA DAS SERIES PROCURADAS
 23699  Brain Candy  ->  NAO ACHEI
 99471  El Circo de las Montini  ->  NAO ACHEI
 10013  Do Over  ->  NAO ACHEI
-60705  Faking It  ->  NAO ACHEI
+60705  Faking It  ->  38 episodios
 18505  Queens Supreme  ->  NAO ACHEI
 295213  Svenska slut  ->  NAO ACHEI
 10930  Watatatow  ->  NAO ACHEI
@@ -12214,7 +12214,7 @@ LISTA DAS SERIES PROCURADAS
 53980  Darios Joint  ->  NAO ACHEI
 46304  De Frente com Gabi  ->  NAO ACHEI
 52018  Evening at Symphony  ->  NAO ACHEI
-1950  Everwood: Uma Segunda Chance  ->  NAO ACHEI
+1950  Everwood: Uma Segunda Chance  ->  89 episodios
 8070  Great Pretenders  ->  NAO ACHEI
 54601  Husk lige tandbørsten  ->  NAO ACHEI
 2444  MDA  ->  NAO ACHEI
@@ -12249,7 +12249,7 @@ LISTA DAS SERIES PROCURADAS
 58327  Boxing from Jamaica Arena  ->  NAO ACHEI
 18557  CBS Reports  ->  NAO ACHEI
 17458  Camera Headlines  ->  NAO ACHEI
-185  Carnivale  ->  NAO ACHEI
+185  Carnivale  ->  24 episodios
 11208  Cedric the Entertainer Presents  ->  NAO ACHEI
 6803  Champagne and Orchids  ->  NAO ACHEI
 21082  Chicagoland Mystery Players  ->  NAO ACHEI
@@ -12297,7 +12297,7 @@ LISTA DAS SERIES PROCURADAS
 62024  Schalkse ruiters  ->  NAO ACHEI
 29216  30 Minutes  ->  NAO ACHEI
 290074  Abismos de amor  ->  NAO ACHEI
-2129  As Aventuras de Jimmy Neutron: O Menino Gênio  ->  NAO ACHEI
+2129  As Aventuras de Jimmy Neutron: O Menino Gênio  ->  70 episodios
 313834  Alma de mi alma  ->  NAO ACHEI
 313880  Amar fue su pecado  ->  NAO ACHEI
 313992  Amaras a tu projimo  ->  NAO ACHEI
@@ -12326,7 +12326,7 @@ LISTA DAS SERIES PROCURADAS
 11824  The Metric Marvels  ->  NAO ACHEI
 4857  My Dad's the Prime Minister  ->  NAO ACHEI
 56747  Nangoku shônen Papuwa-kun  ->  NAO ACHEI
-44549  Nashville  ->  NAO ACHEI
+44549  Nashville  ->  124 episodios
 11360  The National Lottery: In It to Win It  ->  NAO ACHEI
 14360  Newsweek Views the News  ->  NAO ACHEI
 277304  On a tout essayé  ->  NAO ACHEI
@@ -12367,7 +12367,7 @@ LISTA DAS SERIES PROCURADAS
 395  WWE Bottom Line  ->  NAO ACHEI
 33  Coisas Que Eu Odeio Em Você  ->  NAO ACHEI
 8827  Wild America  ->  NAO ACHEI
-2593  Desaparecidos  ->  NAO ACHEI
+2593  Desaparecidos  ->  10 episodios
 5263  Crashbox  ->  NAO ACHEI
 283160  Hello Hello Hello  ->  NAO ACHEI
 4306  Oliver Beene  ->  NAO ACHEI
@@ -12411,7 +12411,7 @@ LISTA DAS SERIES PROCURADAS
 16220  Country Style  ->  NAO ACHEI
 34867  Creature Comforts  ->  NAO ACHEI
 316464  Cuatro en la trampa  ->  NAO ACHEI
-5459  Cuidado con el angel  ->  NAO ACHEI
+5459  Cuidado con el angel  ->  194 episodios
 316508  Culpas ajenas  ->  NAO ACHEI
 44003  The Hotel  ->  NAO ACHEI
 5962  Dark of Night  ->  NAO ACHEI
@@ -12560,10 +12560,10 @@ LISTA DAS SERIES PROCURADAS
 10947  The Anna Nicole Show  ->  NAO ACHEI
 7465  Breeze Block  ->  NAO ACHEI
 321620  Ha llegado un extraño  ->  NAO ACHEI
-73554  Liar  ->  NAO ACHEI
+73554  Liar  ->  12 episodios
 115646  Lisa  ->  NAO ACHEI
 21953  Love Shack  ->  NAO ACHEI
-13093  La madrastra  ->  NAO ACHEI
+13093  La madrastra  ->  110 episodios
 315892  El manantial del milagro  ->  NAO ACHEI
 76559  El mariachi  ->  NAO ACHEI
 43395  Mañana será otro día  ->  NAO ACHEI
@@ -12624,7 +12624,7 @@ LISTA DAS SERIES PROCURADAS
 21223  Windy City Jamboree  ->  NAO ACHEI
 3475  The L Word  ->  NAO ACHEI
 100174  Human Instinct  ->  NAO ACHEI
-65708  Tabu  ->  NAO ACHEI
+65708  Tabu  ->  8 episodios
 52444  Det drejer sig om -  ->  NAO ACHEI
 11947  Having It Off  ->  NAO ACHEI
 13581  La hora chanante  ->  NAO ACHEI
@@ -12866,7 +12866,7 @@ LISTA DAS SERIES PROCURADAS
 9248  tlc  ->  NAO ACHEI
 40886  Ugo  ->  NAO ACHEI
 6587  Casamento Grego: A Série  ->  NAO ACHEI
-1528  Phil do Futuro  ->  NAO ACHEI
+1528  Phil do Futuro  ->  43 episodios
 30094  Rank  ->  NAO ACHEI
 31100  Insides Out  ->  NAO ACHEI
 221486  Bookie  ->  NAO ACHEI
@@ -12880,7 +12880,7 @@ LISTA DAS SERIES PROCURADAS
 107631  Lørdagshjørnet  ->  NAO ACHEI
 51671  Na i efkairia  ->  NAO ACHEI
 12383  Snow Job  ->  NAO ACHEI
-13027  Amor Real  ->  NAO ACHEI
+13027  Amor Real  ->  97 episodios
 22052  A Go Go '66  ->  NAO ACHEI
 28334  According to Dora  ->  NAO ACHEI
 21795  The Adventures of Chich  ->  NAO ACHEI
