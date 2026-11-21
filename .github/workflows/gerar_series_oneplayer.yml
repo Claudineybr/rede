@@ -32,13 +32,14 @@ jobs:
 
       - name: Gerar HTMLs
         env:
+          PYTHONUNBUFFERED: "1"
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           PASTA_SERIES: ${{ inputs.pasta_series }}
           UNICO: ${{ inputs.arquivo_unico }}
           PASTA: ${{ inputs.pasta_saida }}
           REFAZER: ${{ inputs.refazer }}
         run: |
-          python3 - <<'PY'
+          python3 -u - <<'PY'
           import os, re, json, time, glob, html, urllib.request, urllib.parse, urllib.error
 
           KEY          = os.environ["TMDB_API_KEY"]
@@ -113,9 +114,9 @@ jobs:
                   except urllib.error.HTTPError as e:
                       if e.code == 404:
                           return None
-                      print(f"  tentativa {t+1} falhou: {e}")
+                      print(f"  ! tentativa {t+1} falhou: {e}")
                   except Exception as e:
-                      print(f"  tentativa {t+1} falhou: {e}")
+                      print(f"  ! tentativa {t+1} falhou: {e}")
                   time.sleep(2)
               return None
 
@@ -181,20 +182,27 @@ jobs:
           total = pulados = 0
           problemas = []
           relatorio = []
+          inicio = time.time()
 
-          for arq in arquivos:
+          print(f"Séries para processar: {len(arquivos)}")
+          print(f"Pasta de saída: {PASTA} | Refazer: {REFAZER}")
+          print("-" * 60)
+
+          for idx, arq in enumerate(arquivos, 1):
               stem = os.path.splitext(os.path.basename(arq))[0]
               with open(arq, encoding="utf-8", errors="ignore") as f:
                   texto = f.read()
 
               nome, numero, eps = parse_txt(texto)
               numero = numero or stem
-              print(f"\n=== {numero} | {nome} | {len(eps)} episódios ===")
+              print(f"\n[{idx}/{len(arquivos)}] {numero} | {nome} | {len(eps)} episódios")
 
               if not eps:
+                  print("  ✗ nenhum episódio encontrado")
                   problemas.append(f"{stem}: nenhum episódio encontrado")
                   continue
               if not nome and numero not in overrides:
+                  print("  ✗ sem 'SERIE:' no arquivo")
                   problemas.append(f"{stem}: sem 'SERIE:' no arquivo")
                   continue
 
@@ -204,13 +212,13 @@ jobs:
                   for (s, e) in eps
               ):
                   pulados += len(eps)
-                  print("  tudo já existe, pulando")
+                  print("  = tudo já existe, pulando")
                   continue
 
               max_temp = max(s for s, _ in eps)
               serie = achar_serie(nome, max_temp, overrides.get(numero))
               if not serie:
-                  print("  série não encontrada no TMDB")
+                  print("  ✗ série não encontrada no TMDB")
                   problemas.append(f"{stem}: '{nome}' não encontrada no TMDB")
                   continue
 
@@ -218,9 +226,11 @@ jobs:
               ano = (serie.get("first_air_date") or "")[:4]
               nome_serie_ano = f"{nome_serie} ({ano})" if ano else nome_serie
               capa_serie = (IMG + serie["poster_path"]) if serie.get("poster_path") else ""
+              print(f"  TMDB: {nome_serie_ano} (id {serie['id']}, {serie.get('number_of_seasons')} temp.)")
               relatorio.append(f"{numero} | {nome} -> TMDB {serie['id']} | {nome_serie_ano} | "
                                f"{serie.get('number_of_seasons')} temp. no TMDB, {max_temp} no txt")
 
+              gerados_serie = 0
               for (s, e), link in sorted(eps.items()):
                   destino = os.path.join(PASTA, f"{numero}s{s:02d}e{e:02d}.html")
                   if os.path.exists(destino) and not REFAZER:
@@ -251,7 +261,11 @@ jobs:
                   with open(destino, "w", encoding="utf-8") as out:
                       out.write(pagina)
                   total += 1
-              print(f"  {nome_serie_ano}: ok")
+                  gerados_serie += 1
+                  print(f"    ✓ {os.path.basename(destino)} | {titulo}")
+
+              print(f"  → {gerados_serie} gerados nesta série | total até agora: {total} "
+                    f"| {int(time.time() - inicio)}s")
 
           if relatorio:
               with open(os.path.join(PASTA, "_relatorio.txt"), "w", encoding="utf-8") as f:
@@ -260,7 +274,9 @@ jobs:
               with open(os.path.join(PASTA, "_problemas.txt"), "w", encoding="utf-8") as f:
                   f.write("\n".join(problemas) + "\n")
 
-          print(f"\nGerados: {total} | Já existiam: {pulados} | Problemas: {len(problemas)}")
+          print("\n" + "=" * 60)
+          print(f"Gerados: {total} | Já existiam: {pulados} | Problemas: {len(problemas)} "
+                f"| Tempo: {int(time.time() - inicio)}s")
           PY
 
       - name: Commit e push
