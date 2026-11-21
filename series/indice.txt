@@ -7416,7 +7416,7 @@ LISTA DAS SERIES PROCURADAS
 28135  Can We Still Be Friends?  ->  NAO ACHEI
 650  Concentration  ->  NAO ACHEI
 158804  En dag i taget  ->  NAO ACHEI
-2073  Mission Hill  ->  NAO ACHEI
+2073  Mission Hill  ->  13 episodios
 86388  Going Out  ->  NAO ACHEI
 12296  Good Day L.A.  ->  NAO ACHEI
 116930  Super Dad  ->  NAO ACHEI
@@ -7690,7 +7690,7 @@ LISTA DAS SERIES PROCURADAS
 27043  Misguided Angels  ->  NAO ACHEI
 14736  Motormouth  ->  NAO ACHEI
 638  Once and Again  ->  NAO ACHEI
-12656  Rosalinda  ->  NAO ACHEI
+12656  Rosalinda  ->  45 episodios
 58948  Stage a Number  ->  NAO ACHEI
 130467  Threesome  ->  NAO ACHEI
 44029  Unzipped  ->  NAO ACHEI
@@ -7720,7 +7720,7 @@ LISTA DAS SERIES PROCURADAS
 16303  Oh, Grow Up  ->  NAO ACHEI
 226993  Perigosas Peruas  ->  NAO ACHEI
 3151  Popular  ->  NAO ACHEI
-117928  Pérola Negra  ->  NAO ACHEI
+117928  Pérola Negra  ->  45 episodios
 24923  Ryan International  ->  NAO ACHEI
 39432  Stand by for Crime  ->  NAO ACHEI
 215701  Tato de América  ->  NAO ACHEI
@@ -7731,7 +7731,7 @@ LISTA DAS SERIES PROCURADAS
 220786  Vira Lata  ->  NAO ACHEI
 9526  Warrior Queen  ->  NAO ACHEI
 341540  Aleksa Santic  ->  NAO ACHEI
-1300  The Avengers: United They Stand  ->  NAO ACHEI
+1300  The Avengers: United They Stand  ->  13 episodios
 2850  Bad Girls  ->  NAO ACHEI
 26545  Coping with...  ->  NAO ACHEI
 28322  The Elgin Hour  ->  NAO ACHEI
@@ -7739,7 +7739,7 @@ LISTA DAS SERIES PROCURADAS
 21230  G Force  ->  NAO ACHEI
 23220  Growing Rich  ->  NAO ACHEI
 9344  Gruey  ->  NAO ACHEI
-2734  Law & Order: Special Victims Unit  ->  NAO ACHEI
+2734  Law & Order: Special Victims Unit  ->  549 episodios
 1965  The Mick Molloy Show  ->  NAO ACHEI
 11016  Hulk Hogan's Rock 'n' Wrestling  ->  NAO ACHEI
 330101  Sea Dragon  ->  NAO ACHEI
@@ -7868,7 +7868,7 @@ LISTA DAS SERIES PROCURADAS
 10384  Shasta McNasty  ->  NAO ACHEI
 35215  Simon and the Witch  ->  NAO ACHEI
 3200  Even Stevens  ->  NAO ACHEI
-387  SpongeBob SquarePants  ->  NAO ACHEI
+387  SpongeBob SquarePants  ->  551 episodios
 78147  Sally Hemings: An American Scandal  ->  NAO ACHEI
 10079  Spider-Man Unlimited  ->  NAO ACHEI
 207462  Con toda el alma  ->  NAO ACHEI
@@ -8285,12 +8285,12 @@ LISTA DAS SERIES PROCURADAS
 297429  Derbez en cuando  ->  NAO ACHEI
 229338  El derecho de nacer  ->  NAO ACHEI
 42856  Desencuentro  ->  NAO ACHEI
-12688  El diario de Daniela  ->  NAO ACHEI
+12688  El diario de Daniela  ->  45 episodios
 13631  Ding Dong School  ->  NAO ACHEI
 16169  Esmeralda  ->  NAO ACHEI
 310246  Gente bien  ->  NAO ACHEI
 40871  Giornalisti  ->  NAO ACHEI
-33960  Gotita de amor  ->  NAO ACHEI
+33960  Gotita de amor  ->  45 episodios
 11420  The Herb Shriner Show  ->  NAO ACHEI
 11438  The Idiot Box  ->  NAO ACHEI
 6473  It's in the Bag  ->  NAO ACHEI
