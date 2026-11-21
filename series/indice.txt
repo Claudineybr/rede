@@ -64,7 +64,7 @@ LISTA DAS SERIES PROCURADAS
 122461  Ford na TV  ->  NAO ACHEI
 21924  The Front Page  ->  NAO ACHEI
 23185  Front Row Center  ->  NAO ACHEI
-49009  The Goldbergs  ->  NAO ACHEI
+49009  The Goldbergs  ->  184 episodios
 28054  Hold It Please  ->  NAO ACHEI
 22015  Hollywood House  ->  NAO ACHEI
 22168  Hopalong Cassidy  ->  NAO ACHEI
@@ -17136,7 +17136,7 @@ LISTA DAS SERIES PROCURADAS
 34638  Canada's Worst Driver  ->  NAO ACHEI
 11038  Casino Cinema  ->  NAO ACHEI
 217217  Con pecado concebidas  ->  NAO ACHEI
-4685  Bromwell High  ->  NAO ACHEI
+4685  Colégio Bromwell  ->  NAO ACHEI
 31404  Celebrity Extra  ->  NAO ACHEI
 6233  Dance Factory  ->  NAO ACHEI
 1056  Doctor Who Confidential  ->  NAO ACHEI
@@ -20913,7 +20913,7 @@ LISTA DAS SERIES PROCURADAS
 24477  Bump & Grind  ->  NAO ACHEI
 47774  Crime Inc.  ->  NAO ACHEI
 28774  Daily Cooks  ->  NAO ACHEI
-36972  Dive Olly Dive!  ->  NAO ACHEI
+36972  Mergulha, Olly, Mergulha  ->  NAO ACHEI
 23479  Educated Evans  ->  NAO ACHEI
 13016  From the Ground Up with Debbie Travis  ->  NAO ACHEI
 22906  Grubstreet  ->  NAO ACHEI
@@ -77666,6 +77666,273 @@ LISTA DAS SERIES PROCURADAS
 101028  Barbara's Sins  ->  NAO ACHEI
 88024  Cidade Cruel  ->  NAO ACHEI
 252085  The Khatra Show  ->  NAO ACHEI
+11404  Think Fast  ->  NAO ACHEI
+292231  Rebound  ->  NAO ACHEI
+39204  Combat Sergeant  ->  NAO ACHEI
+105566  Twenty-One  ->  NAO ACHEI
+316809  Love and Marriage  ->  NAO ACHEI
+326977  Maya  ->  NAO ACHEI
+940  Our Place  ->  NAO ACHEI
+4198  Turn-on  ->  NAO ACHEI
+11546  The D.A.  ->  NAO ACHEI
+27945  The Moonstone  ->  NAO ACHEI
+43165  Fem myror är fler än fyra elefanter  ->  NAO ACHEI
+27807  The Smothers Brothers Show  ->  NAO ACHEI
+75194  Sunshine  ->  NAO ACHEI
+30087  In the Beginning  ->  NAO ACHEI
+312689  Foul Play  ->  NAO ACHEI
+94395  Timm Thaler  ->  NAO ACHEI
+30101  The Further Adventures of Lucky Jim  ->  NAO ACHEI
+24570  The Hamptons  ->  NAO ACHEI
+12635  Brothers  ->  NAO ACHEI
+4297  O Justiceiro  ->  NAO ACHEI
+30610  Fathers and Sons  ->  NAO ACHEI
+13783  Vanity Fair  ->  NAO ACHEI
+15026  Elvis  ->  NAO ACHEI
+785  Homens Mal-Comportados  ->  NAO ACHEI
+95386  Nurses  ->  NAO ACHEI
+92584  Eden  ->  NAO ACHEI
+24026  Family Album  ->  NAO ACHEI
+38384  Bert  ->  NAO ACHEI
+10137  Under One Roof  ->  NAO ACHEI
+69582  Party Girl  ->  NAO ACHEI
+16978  Twisted Tales  ->  NAO ACHEI
+22321  Fort Alpha  ->  NAO ACHEI
+195008  Drunter und drüber  ->  NAO ACHEI
+20124  Happiness  ->  NAO ACHEI
+233519  Vale Tudo  ->  NAO ACHEI
+15841  As Novas Aventuras do Zorro  ->  NAO ACHEI
+36953  The Fuzz  ->  NAO ACHEI
+43808  Belle et Sébastien  ->  NAO ACHEI
+4631  Cupido  ->  NAO ACHEI
+342775  Quelle famille!  ->  NAO ACHEI
+204242  Pecado Capital  ->  NAO ACHEI
+123377  Dom  ->  NAO ACHEI
+63159  Mordkommission  ->  NAO ACHEI
+24239  Down Home Country  ->  NAO ACHEI
+85053  Jammin'  ->  NAO ACHEI
+29543  Bedtime Stories  ->  NAO ACHEI
+10970  Knockout  ->  NAO ACHEI
+8932  Quiz Kids  ->  NAO ACHEI
+15913  A Deusa Vencida  ->  NAO ACHEI
+82573  Amor gitano  ->  NAO ACHEI
+53444  Marina  ->  NAO ACHEI
+7299  The Strip  ->  NAO ACHEI
+342756  Machinations  ->  NAO ACHEI
+43360  Shalom Sesame  ->  NAO ACHEI
+156325  Tabú  ->  NAO ACHEI
+104548  Alys Robi  ->  NAO ACHEI
+126538  Vitória  ->  NAO ACHEI
+23850  Nightcap  ->  NAO ACHEI
+25005  McQueen  ->  NAO ACHEI
+10229  Exposure  ->  NAO ACHEI
+33455  Floor Show  ->  NAO ACHEI
+10563  First Look  ->  NAO ACHEI
+313740  La coscienza di Zeno  ->  NAO ACHEI
+19615  A Intrusa  ->  NAO ACHEI
+37528  Gran hermano  ->  NAO ACHEI
+30221  Café Continental  ->  NAO ACHEI
+206710  Puls  ->  NAO ACHEI
+45263  Wuthering Heights  ->  NAO ACHEI
+40300  Midday  ->  NAO ACHEI
+75603  Versus  ->  NAO ACHEI
+307875  Le maillon faible  ->  NAO ACHEI
+67075  100%  ->  NAO ACHEI
+33603  Country Joy  ->  NAO ACHEI
+120447  Delilah  ->  NAO ACHEI
+1371  Hi-5  ->  NAO ACHEI
+12284  The Jury  ->  NAO ACHEI
+20138  Prime Time  ->  NAO ACHEI
+3482  Beautiful People  ->  NAO ACHEI
+27525  Fame for 15  ->  NAO ACHEI
+322369  Taste  ->  NAO ACHEI
+26973  Crime e Castigo  ->  NAO ACHEI
+156464  Morning live  ->  NAO ACHEI
+67517  Tracks  ->  NAO ACHEI
+4449  Dead Ringers  ->  NAO ACHEI
+66263  The Secret  ->  NAO ACHEI
+51061  Fangerne på fortet  ->  NAO ACHEI
+196880  A Closer Look  ->  NAO ACHEI
+21735  7  ->  NAO ACHEI
+66359  Misteri Gunung Merapi  ->  NAO ACHEI
+336503  Zig-Zag  ->  NAO ACHEI
+134238  Disclosure  ->  NAO ACHEI
+58859  The Winners  ->  NAO ACHEI
+87356  Cheat!: Pringles Gamers Guide  ->  NAO ACHEI
+249774  De pappenheimers  ->  NAO ACHEI
+228260  Entre amigos  ->  NAO ACHEI
+28428  Star Dates  ->  NAO ACHEI
+336064  Into the Fire  ->  NAO ACHEI
+55058  Anything Goes  ->  NAO ACHEI
+333658  The Blobs  ->  NAO ACHEI
+35242  Family Secrets  ->  NAO ACHEI
+211514  Significant Others  ->  NAO ACHEI
+26368  Just So Stories  ->  NAO ACHEI
+28159  Romance  ->  NAO ACHEI
+18279  Horizons  ->  NAO ACHEI
+4082  The Call  ->  NAO ACHEI
+38910  O Rei do Mundo Baixo  ->  NAO ACHEI
+4480  Eyes: Controle de Risco  ->  NAO ACHEI
+155704  Masterspy  ->  NAO ACHEI
+59394  The Quarters  ->  NAO ACHEI
+72746  Caught  ->  NAO ACHEI
+29276  Urwisy z Doliny Mlynów  ->  NAO ACHEI
+61994  Reality Bites  ->  NAO ACHEI
+12068  The World Is Yours  ->  NAO ACHEI
+18015  Futuro Selvagem  ->  NAO ACHEI
+73798  Making a Scene  ->  NAO ACHEI
+17665  Back in the Day  ->  NAO ACHEI
+11749  Olé, Ollie  ->  NAO ACHEI
+342760  Pyramide  ->  NAO ACHEI
+39141  180°  ->  NAO ACHEI
+42023  Tricky Business  ->  NAO ACHEI
+94423  2020  ->  NAO ACHEI
+59015  Supersonic  ->  NAO ACHEI
+179  Declassified  ->  NAO ACHEI
+2066  Love to Love  ->  NAO ACHEI
+39911  Skating's Next Star  ->  NAO ACHEI
+53669  Shnaim  ->  NAO ACHEI
+263377  Sweet Dreams  ->  NAO ACHEI
+8843  Sports Tonight  ->  NAO ACHEI
+48086  Zakrecone  ->  NAO ACHEI
+292678  The Ten Commandments  ->  NAO ACHEI
+13924  The Search  ->  NAO ACHEI
+11705  Raise the Roof  ->  NAO ACHEI
+114511  La promesse  ->  NAO ACHEI
+126807  Car Wars  ->  NAO ACHEI
+23503  Teen Town  ->  NAO ACHEI
+137167  As the Bell Rings  ->  NAO ACHEI
+50971  Bäckström  ->  NAO ACHEI
+275674  Trinayani  ->  NAO ACHEI
+285840  Entre Mãe e Filha  ->  NAO ACHEI
+95558  O Poder  ->  NAO ACHEI
+13832  The Time of Your Life  ->  NAO ACHEI
+38578  Dubbelleven  ->  NAO ACHEI
+45301  Terapia de Casal  ->  NAO ACHEI
+289824  Between the Sheets  ->  NAO ACHEI
+30820  Kids by the Dozen  ->  NAO ACHEI
+109368  El regreso  ->  NAO ACHEI
+59182  Talent Suomi  ->  NAO ACHEI
+334879  Sur le fil  ->  NAO ACHEI
+283871  Swarajya Janani Jijamata  ->  NAO ACHEI
+341799  The Elric Saga  ->  NAO ACHEI
+5927  Stylista  ->  NAO ACHEI
+213834  Mulheres Assassinas  ->  NAO ACHEI
+28194  Model Latina  ->  NAO ACHEI
+119081  Teenage Boss  ->  NAO ACHEI
+214096  BitterSweet  ->  NAO ACHEI
+216711  Honey Trap  ->  NAO ACHEI
+197577  113  ->  NAO ACHEI
+68681  Black Widows  ->  NAO ACHEI
+29798  Repossessed  ->  NAO ACHEI
+132919  Pán profesor  ->  NAO ACHEI
+43407  Vober Hat  ->  NAO ACHEI
+123086  Coach Me If You Can  ->  NAO ACHEI
+31143  Los exitosos Pells  ->  NAO ACHEI
+51149  U Turn  ->  NAO ACHEI
+78581  The Noise  ->  NAO ACHEI
+342816  Animation vs. Minecraft Shorts  ->  NAO ACHEI
+338430  Assassins  ->  NAO ACHEI
+20259  Rebecca  ->  NAO ACHEI
+280624  La vie de château  ->  NAO ACHEI
+31352  The Haunted  ->  NAO ACHEI
+202765  Alter Ego  ->  NAO ACHEI
+230049  Nachbarschaftsstreit  ->  NAO ACHEI
+15577  Fast Friends  ->  NAO ACHEI
+315829  Women  ->  NAO ACHEI
+233986  Hell in the Pacific  ->  NAO ACHEI
+132566  Frogger  ->  NAO ACHEI
+46266  Sal y Pimienta  ->  NAO ACHEI
+245679  Adulting  ->  NAO ACHEI
+251304  Der zweite Weltkrieg  ->  NAO ACHEI
+321615  Stalked  ->  NAO ACHEI
+6586  The Last Word  ->  NAO ACHEI
+84583  Alone in the Wild  ->  NAO ACHEI
+122964  Influencers  ->  NAO ACHEI
+300481  Cartoon Network Dance Club  ->  NAO ACHEI
+278329  Apoorvaragam  ->  NAO ACHEI
+205342  PLUS  ->  NAO ACHEI
+32281  The Kudlow Report  ->  NAO ACHEI
+121283  Nazi Fugitives  ->  NAO ACHEI
+203267  Fight or Flight  ->  NAO ACHEI
+59252  Hairy Bikers  ->  NAO ACHEI
+32781  Xia Ke Xing  ->  NAO ACHEI
+14701  MvP  ->  NAO ACHEI
+64039  Rabia  ->  NAO ACHEI
+27439  Charlie  ->  NAO ACHEI
+90896  Crème de la Crème  ->  NAO ACHEI
+195441  Minuto para ganar  ->  NAO ACHEI
+15062  Hot Seat  ->  NAO ACHEI
+212752  Unbreakable  ->  NAO ACHEI
+14930  Evolution  ->  NAO ACHEI
+18492  Oka Tokat  ->  NAO ACHEI
+126365  War Stories  ->  NAO ACHEI
+215372  Família em Primeiro Lugar  ->  NAO ACHEI
+30646  The Summit  ->  NAO ACHEI
+16632  Future Fighting Machines  ->  NAO ACHEI
+118101  Hackers  ->  NAO ACHEI
+227151  Die Kanarischen Inseln  ->  NAO ACHEI
+11214  Jumble  ->  NAO ACHEI
+293356  Emprises  ->  NAO ACHEI
+51323  Vuc tham tình yêu  ->  NAO ACHEI
+342698  Deffner & Zschäpitz  ->  NAO ACHEI
+17106  Couch Potato  ->  NAO ACHEI
+294997  Hamsayeha  ->  NAO ACHEI
+242465  Serial Killer  ->  NAO ACHEI
+9090  Explore  ->  NAO ACHEI
+342694  Library - Ek Anokhi Varta  ->  NAO ACHEI
+238634  GoGoGo  ->  NAO ACHEI
+38083  Kakadu  ->  NAO ACHEI
+342754  Nascar Cup Series  ->  NAO ACHEI
+86136  The Code  ->  NAO ACHEI
+57923  Mongkut Dok Som  ->  NAO ACHEI
+50854  Majurat See Nam Pueng  ->  NAO ACHEI
+243821  The Queen's Ploy  ->  NAO ACHEI
+322302  Pop Culture Jeopardy!  ->  NAO ACHEI
+262630  O Detetive  ->  NAO ACHEI
+70415  Buying Hawaii  ->  NAO ACHEI
+314565  The Rebels  ->  NAO ACHEI
+82347  To Catch a Killer  ->  NAO ACHEI
+342720  Saviour  ->  NAO ACHEI
+290163  Lucky Bastards  ->  NAO ACHEI
+120158  De Drop  ->  NAO ACHEI
+327341  Fufforial  ->  NAO ACHEI
+77224  Fleur bleue  ->  NAO ACHEI
+209905  Land of the Eagle  ->  NAO ACHEI
+342798  High Valley  ->  NAO ACHEI
+21847  Mondenii  ->  NAO ACHEI
+119483  Outsider  ->  NAO ACHEI
+334995  Guiby Le Superbébé  ->  NAO ACHEI
+342710  Das Buch meines Lebens  ->  NAO ACHEI
+342836  Phaguner Mohona  ->  NAO ACHEI
+72189  Belle époque  ->  NAO ACHEI
+342809  Im Grunde Mord  ->  NAO ACHEI
+290153  33  ->  NAO ACHEI
+317195  War Room  ->  NAO ACHEI
+320788  Una fiesta de muerte  ->  NAO ACHEI
+307664  2025  ->  NAO ACHEI
+201890  Flex  ->  NAO ACHEI
+8413  Banana Split  ->  NAO ACHEI
+108657  A Girl Named Zat  ->  NAO ACHEI
+342817  The Powerpuff Girls Strongest Battlegrounds Show  ->  NAO ACHEI
+24409  Speedweek  ->  NAO ACHEI
+3644  Today's Business  ->  NAO ACHEI
+342696  Plein  ->  NAO ACHEI
+342772  It Followed Me Home  ->  NAO ACHEI
+202119  Movie Talk  ->  NAO ACHEI
+153805  Fermont  ->  NAO ACHEI
+334848  Mauvaise influence  ->  NAO ACHEI
+250852  LE GRAND CHANTIER RONA  ->  NAO ACHEI
+89694  Les Testeurs  ->  NAO ACHEI
+137463  Scottish Premiership  ->  NAO ACHEI
+79191  This Is It  ->  NAO ACHEI
+242160  Reaching for the Stars  ->  NAO ACHEI
+35963  American Muscle Car  ->  NAO ACHEI
+22154  Barely Legal  ->  NAO ACHEI
+41106  Eppur si muove  ->  NAO ACHEI
+294793  Secrets d'actualité  ->  NAO ACHEI
+301066  Secrets of the Brain  ->  NAO ACHEI
+31010  Moby Dick  ->  NAO ACHEI
 101200  ->  NAO ACHEI
 115734  ->  NAO ACHEI
 118267  ->  NAO ACHEI
