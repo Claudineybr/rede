@@ -488,7 +488,7 @@ LISTA DAS SERIES PROCURADAS
 13232  Patrulheiros do Oeste  ->  NAO ACHEI
 28376  Those Whiting Girls  ->  NAO ACHEI
 30226  Top Secret  ->  NAO ACHEI
-65628  Wanted  ->  NAO ACHEI
+65628  Wanted  ->  18 episodios
 39700  Adventure Theater  ->  NAO ACHEI
 14590  The Adventures of Dr. Fu Manchu  ->  NAO ACHEI
 13476  As Aventuras de Hiram Holliday  ->  NAO ACHEI
@@ -620,10 +620,10 @@ LISTA DAS SERIES PROCURADAS
 21558  The Walter Winchell File  ->  NAO ACHEI
 59144  What's It For  ->  NAO ACHEI
 13981  Vigilantes dos Céus  ->  NAO ACHEI
-4681  Zorro  ->  NAO ACHEI
+4681  Zorro  ->  78 episodios
 90251  War in the Air  ->  NAO ACHEI
 925  Porta 77  ->  NAO ACHEI
-202097  Accused  ->  NAO ACHEI
+202097  Accused  ->  23 episodios
 11291  The Adventures of Tugboat Annie  ->  NAO ACHEI
 14696  The Ann Sothern Show  ->  NAO ACHEI
 24705  Anybody Can Play  ->  NAO ACHEI
@@ -762,7 +762,7 @@ LISTA DAS SERIES PROCURADAS
 14182  Wichita Town  ->  NAO ACHEI
 14369  About Faces  ->  NAO ACHEI
 106  The Andy Griffith Show  ->  NAO ACHEI
-2426  Angel  ->  NAO ACHEI
+2426  Angel  ->  110 episodios
 11437  The Aquanauts  ->  NAO ACHEI
 21672  Assignment: Underwater  ->  NAO ACHEI
 14866  The Barbara Stanwyck Show  ->  NAO ACHEI
@@ -824,7 +824,7 @@ LISTA DAS SERIES PROCURADAS
 56356  Winston Churchill: The Valiant Years  ->  NAO ACHEI
 11950  Video Village  ->  NAO ACHEI
 3524  The Westerner  ->  NAO ACHEI
-280511  The Witness  ->  NAO ACHEI
+280511  The Witness  ->  3 episodios
 24980  World of Giants  ->  NAO ACHEI
 13363  1, 2, 3 Go  ->  NAO ACHEI
 7472  Distrito 87  ->  NAO ACHEI
@@ -877,7 +877,7 @@ LISTA DAS SERIES PROCURADAS
 29369  Tallahassee 7000  ->  NAO ACHEI
 8245  Os Corruptos  ->  NAO ACHEI
 22486  Three Live Wires  ->  NAO ACHEI
-4232  Manda Chuva  ->  NAO ACHEI
+4232  Manda Chuva  ->  30 episodios
 2141  Two of a Kind  ->  NAO ACHEI
 15146  'Way Out  ->  NAO ACHEI
 15049  Westinghouse Playhouse  ->  NAO ACHEI
@@ -911,7 +911,7 @@ LISTA DAS SERIES PROCURADAS
 4877  Hugh and I  ->  NAO ACHEI
 20982  I'm Dickens, He's Fenster  ->  NAO ACHEI
 8598  It's a Man's World  ->  NAO ACHEI
-2362  Os Jetsons  ->  NAO ACHEI
+2362  Os Jetsons  ->  24 episodios
 16199  The Lloyd Bridges Show  ->  NAO ACHEI
 2144  O Show da Lucy  ->  NAO ACHEI
 10954  O Homem do Mundo  ->  NAO ACHEI
@@ -971,7 +971,7 @@ LISTA DAS SERIES PROCURADAS
 14086  Mr. Novak  ->  NAO ACHEI
 3882  Meu Marciano Favorito  ->  NAO ACHEI
 16190  The New Phil Silvers Show  ->  NAO ACHEI
-21561  Quinta Dimensão  ->  NAO ACHEI
+21561  Quinta Dimensão  ->  143 episodios
 12444  Patty Duke Show  ->  NAO ACHEI
 7565  People Will Talk  ->  NAO ACHEI
 3346  Petticoat Junction  ->  NAO ACHEI
@@ -985,11 +985,11 @@ LISTA DAS SERIES PROCURADAS
 79508  Tim Frazer  ->  NAO ACHEI
 2705  As Viagens de Jaimie  ->  NAO ACHEI
 24608  Vacation Playhouse  ->  NAO ACHEI
-14009  A Família Addams  ->  NAO ACHEI
+14009  A Família Addams  ->  22 episodios
 962  Jonny Quest  ->  39 episodios
 4547  Outro Mundo  ->  NAO ACHEI
 14122  The Baileys of Balboa  ->  NAO ACHEI
-4482  A Feiticeira  ->  NAO ACHEI
+4482  A Feiticeira  ->  252 episodios
 22697  The Big Noise  ->  NAO ACHEI
 19326  The Big Pull  ->  NAO ACHEI
 16364  The Bing Crosby Show  ->  NAO ACHEI
