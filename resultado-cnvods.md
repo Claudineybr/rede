@@ -1,0 +1,752 @@
+# Filmes no cnvods (achados pelo nome)
+
+**1000 testados - 745 achados - 255 sem resultado**
+
+| Filme | Ano | ID | Link |
+|---|---|---|---|
+| (500) Dias com Ela | 2009 | tt1022603 | https://play-1.cnvods.com/m/%28500%29%20Dias%20com%20Ela_2009_tt1022603.mp4 |
+| 007 - Operação Skyfall | 2012 | tt1074638 | https://play-1.cnvods.com/m/007%20-%20Opera%C3%A7%C3%A3o%20Skyfall_2012_tt1074638.mp4 |
+| 007 - Quantum of Solace | 2008 | tt0830515 | https://play-1.cnvods.com/m/007%20-%20Quantum%20of%20Solace_2008_tt0830515.mp4 |
+| 007 Contra GoldenEye | 1995 | tt0113189 | https://play-1.cnvods.com/m/007%20Contra%20GoldenEye_1995_tt0113189.mp4 |
+| 007 Contra Spectre | 2015 | tt2379713 | https://play-1.cnvods.com/m/007%20Contra%20Spectre_2015_tt2379713.mp4 |
+| 10 Coisas que Eu Odeio em Você | 1999 | tt0147800 | https://play-1.cnvods.com/m/10%20Coisas%20que%20Eu%20Odeio%20em%20Voc%C3%AA_1999_tt0147800.mp4 |
+| 12 Anos de Escravidão | 2013 | tt2024544 | https://play-1.cnvods.com/m/12%20Anos%20de%20Escravid%C3%A3o_2013_tt2024544.mp4 |
+| 12 Homens e uma Sentença | 1957 | tt0050083 | https://play-1.cnvods.com/m/12%20Homens%20e%20uma%20Senten%C3%A7a_1957_tt0050083.mp4 |
+| 1408 | 2007 | tt0450385 | https://play-1.cnvods.com/m/1408_2007_tt0450385.mp4 |
+| 2012 | 2009 | tt1190080 | https://play-1.cnvods.com/m/2012_2009_tt1190080.mp4 |
+| 300: A Ascensão do Império | 2014 | tt1253863 | https://play-1.cnvods.com/m/300%3A%20A%20Ascens%C3%A3o%20do%20Imp%C3%A9rio_2014_tt1253863.mp4 |
+| 60 Segundos | 2000 | tt0187078 | https://play-1.cnvods.com/m/60%20Segundos_2000_tt0187078.mp4 |
+| 8 Mile: Rua das Ilusões | 2002 | tt0298203 | https://play-1.cnvods.com/m/8%20Mile%3A%20Rua%20das%20Ilus%C3%B5es_2002_tt0298203.mp4 |
+| A Baleia | 2022 | tt13833688 | https://play-1.cnvods.com/m/A%20Baleia_2022_tt13833688.mp4 |
+| A Bruxa de Blair | 1999 | tt0185937 | https://play-1.cnvods.com/m/A%20Bruxa%20de%20Blair_1999_tt0185937.mp4 |
+| A Chegada | 2016 | tt2543164 | https://play-1.cnvods.com/m/A%20Chegada_2016_tt2543164.mp4 |
+| A Culpa é das Estrelas | 2014 | tt2582846 | https://play-1.cnvods.com/m/A%20Culpa%20%C3%A9%20das%20Estrelas_2014_tt2582846.mp4 |
+| A Entidade | 2012 | tt1922777 | https://play-1.cnvods.com/m/A%20Entidade_2012_tt1922777.mp4 |
+| A Entrevista | 2014 | tt2788710 | https://play-1.cnvods.com/m/A%20Entrevista_2014_tt2788710.mp4 |
+| A Era do Gelo | 2002 | tt0268380 | https://play-1.cnvods.com/m/A%20Era%20do%20Gelo_2002_tt0268380.mp4 |
+| A Era do Gelo 2 | 2006 | tt0438097 | https://play-1.cnvods.com/m/A%20Era%20do%20Gelo%202_2006_tt0438097.mp4 |
+| A Era do Gelo 3 | 2009 | tt1080016 | https://play-1.cnvods.com/m/A%20Era%20do%20Gelo%203_2009_tt1080016.mp4 |
+| A Escolha Perfeita | 2012 | tt1981677 | https://play-1.cnvods.com/m/A%20Escolha%20Perfeita_2012_tt1981677.mp4 |
+| A Espiã Que Sabia de Menos | 2015 | tt3079380 | https://play-1.cnvods.com/m/A%20Espi%C3%A3%20Que%20Sabia%20de%20Menos_2015_tt3079380.mp4 |
+| A Estrada | 2009 | tt0898367 | https://play-1.cnvods.com/m/A%20Estrada_2009_tt0898367.mp4 |
+| A Fantástica Fábrica de Chocolate | 2005 | tt0367594 | https://play-1.cnvods.com/m/A%20Fant%C3%A1stica%20F%C3%A1brica%20de%20Chocolate_2005_tt0367594.mp4 |
+| A Favorita | 2018 | tt5083738 | https://play-1.cnvods.com/m/A%20Favorita_2018_tt5083738.mp4 |
+| A Forma da Água | 2017 | tt5580390 | https://play-1.cnvods.com/m/A%20Forma%20da%20%C3%81gua_2017_tt5580390.mp4 |
+| A Grande Aposta | 2015 | tt1596363 | https://play-1.cnvods.com/m/A%20Grande%20Aposta_2015_tt1596363.mp4 |
+| A Hora do Pesadelo | 1984 | tt0087800 | https://play-1.cnvods.com/m/A%20Hora%20do%20Pesadelo_1984_tt0087800.mp4 |
+| A Hora do Rush | 1998 | tt0120812 | https://play-1.cnvods.com/m/A%20Hora%20do%20Rush_1998_tt0120812.mp4 |
+| A Hora do Rush 2 | 2001 | tt0266915 | https://play-1.cnvods.com/m/A%20Hora%20do%20Rush%202_2001_tt0266915.mp4 |
+| A Identidade Bourne | 2002 | tt0258463 | https://play-1.cnvods.com/m/A%20Identidade%20Bourne_2002_tt0258463.mp4 |
+| A Ilha | 2005 | tt0399201 | https://play-1.cnvods.com/m/A%20Ilha_2005_tt0399201.mp4 |
+| A Invenção de Hugo Cabret | 2011 | tt0970179 | https://play-1.cnvods.com/m/A%20Inven%C3%A7%C3%A3o%20de%20Hugo%20Cabret_2011_tt0970179.mp4 |
+| A Lenda do Tesouro Perdido | 2004 | tt0368891 | https://play-1.cnvods.com/m/A%20Lenda%20do%20Tesouro%20Perdido_2004_tt0368891.mp4 |
+| A Lenda do Tesouro Perdido: Livro dos Segredos | 2007 | tt0465234 | https://play-1.cnvods.com/m/A%20Lenda%20do%20Tesouro%20Perdido%3A%20Livro%20dos%20Segredos_2007_tt0465234.mp4 |
+| A Mentira | 2010 | tt1282140 | https://play-1.cnvods.com/m/A%20Mentira_2010_tt1282140.mp4 |
+| A Múmia | 1999 | tt0120616 | https://play-1.cnvods.com/m/A%20M%C3%BAmia_1999_tt0120616.mp4 |
+| A Noite do Jogo | 2018 | tt2704998 | https://play-1.cnvods.com/m/A%20Noite%20do%20Jogo_2018_tt2704998.mp4 |
+| A Noiva Cadáver | 2005 | tt0121164 | https://play-1.cnvods.com/m/A%20Noiva%20Cad%C3%A1ver_2005_tt0121164.mp4 |
+| A Noviça Rebelde | 1965 | tt0059742 | https://play-1.cnvods.com/m/A%20Novi%C3%A7a%20Rebelde_1965_tt0059742.mp4 |
+| A Origem | 2010 | tt1375666 | https://play-1.cnvods.com/m/A%20Origem_2010_tt1375666.mp4 |
+| A Outra Face | 1997 | tt0119094 | https://play-1.cnvods.com/m/A%20Outra%20Face_1997_tt0119094.mp4 |
+| A Paixão de Cristo | 2004 | tt0335345 | https://play-1.cnvods.com/m/A%20Paix%C3%A3o%20de%20Cristo_2004_tt0335345.mp4 |
+| A Pequena Sereia | 1989 | tt0097757 | https://play-1.cnvods.com/m/A%20Pequena%20Sereia_1989_tt0097757.mp4 |
+| A Perseguição | 2011 | tt1601913 | https://play-1.cnvods.com/m/A%20Persegui%C3%A7%C3%A3o_2011_tt1601913.mp4 |
+| A Praia | 2000 | tt0163978 | https://play-1.cnvods.com/m/A%20Praia_2000_tt0163978.mp4 |
+| A Primeira Noite de um Homem | 1967 | tt0061722 | https://play-1.cnvods.com/m/A%20Primeira%20Noite%20de%20um%20Homem_1967_tt0061722.mp4 |
+| A Princesa Prometida | 1987 | tt0093779 | https://play-1.cnvods.com/m/A%20Princesa%20Prometida_1987_tt0093779.mp4 |
+| A Proposta | 2009 | tt1041829 | https://play-1.cnvods.com/m/A%20Proposta_2009_tt1041829.mp4 |
+| A Qualquer Custo | 2016 | tt2582782 | https://play-1.cnvods.com/m/A%20Qualquer%20Custo_2016_tt2582782.mp4 |
+| A Rede Social | 2010 | tt1285016 | https://play-1.cnvods.com/m/A%20Rede%20Social_2010_tt1285016.mp4 |
+| A Rocha | 1996 | tt0117500 | https://play-1.cnvods.com/m/A%20Rocha_1996_tt0117500.mp4 |
+| A Saga Crepúsculo: Amanhecer - Parte 1 | 2011 | tt1324999 | https://play-1.cnvods.com/m/A%20Saga%20Crep%C3%BAsculo%3A%20Amanhecer%20-%20Parte%201_2011_tt1324999.mp4 |
+| A Saga Crepúsculo: Amanhecer - Parte 2 | 2012 | tt1673434 | https://play-1.cnvods.com/m/A%20Saga%20Crep%C3%BAsculo%3A%20Amanhecer%20-%20Parte%202_2012_tt1673434.mp4 |
+| A Saga Crepúsculo: Lua Nova | 2009 | tt1259571 | https://play-1.cnvods.com/m/A%20Saga%20Crep%C3%BAsculo%3A%20Lua%20Nova_2009_tt1259571.mp4 |
+| A Separação | 2011 | tt1832382 | https://play-1.cnvods.com/m/A%20Separa%C3%A7%C3%A3o_2011_tt1832382.mp4 |
+| A Substância | 2024 | tt17526714 | https://play-1.cnvods.com/m/A%20Subst%C3%A2ncia_2024_tt17526714.mp4 |
+| A Supremacia Bourne | 2004 | tt0372183 | https://play-1.cnvods.com/m/A%20Supremacia%20Bourne_2004_tt0372183.mp4 |
+| A Série Divergente: Insurgente | 2015 | tt2908446 | https://play-1.cnvods.com/m/A%20S%C3%A9rie%20Divergente%3A%20Insurgente_2015_tt2908446.mp4 |
+| A Teoria de Tudo | 2014 | tt2980516 | https://play-1.cnvods.com/m/A%20Teoria%20de%20Tudo_2014_tt2980516.mp4 |
+| A Viagem | 2012 | tt1371111 | https://play-1.cnvods.com/m/A%20Viagem_2012_tt1371111.mp4 |
+| A Vida de Brian | 1979 | tt0079470 | https://play-1.cnvods.com/m/A%20Vida%20de%20Brian_1979_tt0079470.mp4 |
+| A Vida Secreta de Walter Mitty | 2013 | tt0359950 | https://play-1.cnvods.com/m/A%20Vida%20Secreta%20de%20Walter%20Mitty_2013_tt0359950.mp4 |
+| A Vida é Bela | 1997 | tt0118799 | https://play-1.cnvods.com/m/A%20Vida%20%C3%A9%20Bela_1997_tt0118799.mp4 |
+| A Vila | 2004 | tt0368447 | https://play-1.cnvods.com/m/A%20Vila_2004_tt0368447.mp4 |
+| A Órfã | 2009 | tt1148204 | https://play-1.cnvods.com/m/A%20%C3%93rf%C3%A3_2009_tt1148204.mp4 |
+| Ace Ventura: Um Detetive Diferente | 1994 | tt0109040 | https://play-1.cnvods.com/m/Ace%20Ventura%3A%20Um%20Detetive%20Diferente_1994_tt0109040.mp4 |
+| Adoráveis Mulheres | 2019 | tt3281548 | https://play-1.cnvods.com/m/Ador%C3%A1veis%20Mulheres_2019_tt3281548.mp4 |
+| Adrenalina | 2006 | tt0479884 | https://play-1.cnvods.com/m/Adrenalina_2006_tt0479884.mp4 |
+| Advogado do Diabo | 1997 | tt0118971 | https://play-1.cnvods.com/m/Advogado%20do%20Diabo_1997_tt0118971.mp4 |
+| Adão Negro | 2022 | tt6443346 | https://play-1.cnvods.com/m/Ad%C3%A3o%20Negro_2022_tt6443346.mp4 |
+| Agente Oculto | 2022 | tt1649418 | https://play-1.cnvods.com/m/Agente%20Oculto_2022_tt1649418.mp4 |
+| Aladdin | 1992 | tt0103639 | https://play-1.cnvods.com/m/Aladdin_1992_tt0103639.mp4 |
+| Aladdin | 2019 | tt6139732 | https://play-1.cnvods.com/m/Aladdin_2019_tt6139732.mp4 |
+| Alice no País das Maravilhas | 2010 | tt1014759 | https://play-1.cnvods.com/m/Alice%20no%20Pa%C3%ADs%20das%20Maravilhas_2010_tt1014759.mp4 |
+| Alien - O 8º Passageiro | 1979 | tt0078748 | https://play-1.cnvods.com/m/Alien%20-%20O%208%C2%BA%20Passageiro_1979_tt0078748.mp4 |
+| Alien 3 | 1992 | tt0103644 | https://play-1.cnvods.com/m/Alien%203_1992_tt0103644.mp4 |
+| Alien: Covenant | 2017 | tt2316204 | https://play-1.cnvods.com/m/Alien%3A%20Covenant_2017_tt2316204.mp4 |
+| Alien: Romulus | 2024 | tt18412256 | https://play-1.cnvods.com/m/Alien%3A%20Romulus_2024_tt18412256.mp4 |
+| Aliens: O Resgate | 1986 | tt0090605 | https://play-1.cnvods.com/m/Aliens%3A%20O%20Resgate_1986_tt0090605.mp4 |
+| Alita: Anjo de Combate | 2019 | tt0437086 | https://play-1.cnvods.com/m/Alita%3A%20Anjo%20de%20Combate_2019_tt0437086.mp4 |
+| Além da Escuridão: Star Trek | 2013 | tt1408101 | https://play-1.cnvods.com/m/Al%C3%A9m%20da%20Escurid%C3%A3o%3A%20Star%20Trek_2013_tt1408101.mp4 |
+| Amizade Colorida | 2011 | tt1632708 | https://play-1.cnvods.com/m/Amizade%20Colorida_2011_tt1632708.mp4 |
+| Amnésia | 2000 | tt0209144 | https://play-1.cnvods.com/m/Amn%C3%A9sia_2000_tt0209144.mp4 |
+| Amor a Toda Prova | 2011 | tt1570728 | https://play-1.cnvods.com/m/Amor%20a%20Toda%20Prova_2011_tt1570728.mp4 |
+| Amor Sem Escalas | 2009 | tt1193138 | https://play-1.cnvods.com/m/Amor%20Sem%20Escalas_2009_tt1193138.mp4 |
+| Amor à Queima Roupa | 1993 | tt0108399 | https://play-1.cnvods.com/m/Amor%20%C3%A0%20Queima%20Roupa_1993_tt0108399.mp4 |
+| Animais Fantásticos e Onde Habitam | 2016 | tt3183660 | https://play-1.cnvods.com/m/Animais%20Fant%C3%A1sticos%20e%20Onde%20Habitam_2016_tt3183660.mp4 |
+| Animais Fantásticos: Os Crimes de Grindelwald | 2018 | tt4123430 | https://play-1.cnvods.com/m/Animais%20Fant%C3%A1sticos%3A%20Os%20Crimes%20de%20Grindelwald_2018_tt4123430.mp4 |
+| Animais Noturnos | 2016 | tt4550098 | https://play-1.cnvods.com/m/Animais%20Noturnos_2016_tt4550098.mp4 |
+| Aniquilação | 2018 | tt2798920 | https://play-1.cnvods.com/m/Aniquila%C3%A7%C3%A3o_2018_tt2798920.mp4 |
+| Anjos da Lei 2 | 2014 | tt2294449 | https://play-1.cnvods.com/m/Anjos%20da%20Lei%202_2014_tt2294449.mp4 |
+| Anjos da Noite | 2003 | tt0320691 | https://play-1.cnvods.com/m/Anjos%20da%20Noite_2003_tt0320691.mp4 |
+| Anjos e Demônios | 2009 | tt0808151 | https://play-1.cnvods.com/m/Anjos%20e%20Dem%C3%B4nios_2009_tt0808151.mp4 |
+| Anora | 2024 | tt28607951 | https://play-1.cnvods.com/m/Anora_2024_tt28607951.mp4 |
+| Antes do Amanhecer | 1995 | tt0112471 | https://play-1.cnvods.com/m/Antes%20do%20Amanhecer_1995_tt0112471.mp4 |
+| Anônimo | 2021 | tt7888964 | https://play-1.cnvods.com/m/An%C3%B4nimo_2021_tt7888964.mp4 |
+| Apertem os Cintos, o Piloto Sumiu | 1980 | tt0080339 | https://play-1.cnvods.com/m/Apertem%20os%20Cintos%2C%20o%20Piloto%20Sumiu_1980_tt0080339.mp4 |
+| Apocalypse Now | 1979 | tt0078788 | https://play-1.cnvods.com/m/Apocalypse%20Now_1979_tt0078788.mp4 |
+| Apocalypto | 2006 | tt0472043 | https://play-1.cnvods.com/m/Apocalypto_2006_tt0472043.mp4 |
+| Apollo 13: Do Desastre ao Triunfo | 1995 | tt0112384 | https://play-1.cnvods.com/m/Apollo%2013%3A%20Do%20Desastre%20ao%20Triunfo_1995_tt0112384.mp4 |
+| Aquaman | 2018 | tt1477834 | https://play-1.cnvods.com/m/Aquaman_2018_tt1477834.mp4 |
+| Argo | 2012 | tt1024648 | https://play-1.cnvods.com/m/Argo_2012_tt1024648.mp4 |
+| Armageddon | 1998 | tt0120591 | https://play-1.cnvods.com/m/Armageddon_1998_tt0120591.mp4 |
+| As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa | 2005 | tt0363771 | https://play-1.cnvods.com/m/As%20Cr%C3%B4nicas%20de%20N%C3%A1rnia%3A%20O%20Le%C3%A3o%2C%20a%20Feiticeira%20e%20o%20Guarda-Roupa_2005_tt0363771.mp4 |
+| As Duas Faces de um Crime | 1996 | tt0117381 | https://play-1.cnvods.com/m/As%20Duas%20Faces%20de%20um%20Crime_1996_tt0117381.mp4 |
+| As Vantagens de Ser Invisível | 2012 | tt1659337 | https://play-1.cnvods.com/m/As%20Vantagens%20de%20Ser%20Invis%C3%ADvel_2012_tt1659337.mp4 |
+| Assassinato no Expresso do Oriente | 2017 | tt3402236 | https://play-1.cnvods.com/m/Assassinato%20no%20Expresso%20do%20Oriente_2017_tt3402236.mp4 |
+| Assassinos da Lua das Flores | 2023 | tt5537002 | https://play-1.cnvods.com/m/Assassinos%20da%20Lua%20das%20Flores_2023_tt5537002.mp4 |
+| Assassinos por Natureza | 1994 | tt0110632 | https://play-1.cnvods.com/m/Assassinos%20por%20Natureza_1994_tt0110632.mp4 |
+| Atirador | 2007 | tt0822854 | https://play-1.cnvods.com/m/Atirador_2007_tt0822854.mp4 |
+| Atração Perigosa | 2010 | tt0840361 | https://play-1.cnvods.com/m/Atra%C3%A7%C3%A3o%20Perigosa_2010_tt0840361.mp4 |
+| Austin Powers: O Agente 'Bond' Cama | 1999 | tt0145660 | https://play-1.cnvods.com/m/Austin%20Powers%3A%20O%20Agente%20%27Bond%27%20Cama_1999_tt0145660.mp4 |
+| Avatar | 2009 | tt0499549 | https://play-1.cnvods.com/m/Avatar_2009_tt0499549.mp4 |
+| Avatar: O Caminho da Água | 2022 | tt1630029 | https://play-1.cnvods.com/m/Avatar%3A%20O%20Caminho%20da%20%C3%81gua_2022_tt1630029.mp4 |
+| Babel | 2006 | tt0449467 | https://play-1.cnvods.com/m/Babel_2006_tt0449467.mp4 |
+| Barbarian | 2022 | tt15791034 | https://play-1.cnvods.com/m/Barbarian_2022_tt15791034.mp4 |
+| Barbie | 2023 | tt1517268 | https://play-1.cnvods.com/m/Barbie_2023_tt1517268.mp4 |
+| Bastardos Inglórios | 2009 | tt0361748 | https://play-1.cnvods.com/m/Bastardos%20Ingl%C3%B3rios_2009_tt0361748.mp4 |
+| Batman | 2022 | tt1877830 | https://play-1.cnvods.com/m/Batman_2022_tt1877830.mp4 |
+| Batman | 1989 | tt0096895 | https://play-1.cnvods.com/m/Batman_1989_tt0096895.mp4 |
+| Batman & Robin | 1997 | tt0118688 | https://play-1.cnvods.com/m/Batman%20%26%20Robin_1997_tt0118688.mp4 |
+| Batman Begins | 2005 | tt0372784 | https://play-1.cnvods.com/m/Batman%20Begins_2005_tt0372784.mp4 |
+| Batman Eternamente | 1995 | tt0112462 | https://play-1.cnvods.com/m/Batman%20Eternamente_1995_tt0112462.mp4 |
+| Batman vs Superman: A Origem da Justiça | 2016 | tt2975590 | https://play-1.cnvods.com/m/Batman%20vs%20Superman%3A%20A%20Origem%20da%20Justi%C3%A7a_2016_tt2975590.mp4 |
+| Batman: O Cavaleiro das Trevas | 2008 | tt0468569 | https://play-1.cnvods.com/m/Batman%3A%20O%20Cavaleiro%20das%20Trevas_2008_tt0468569.mp4 |
+| Batman: O Retorno | 1992 | tt0103776 | https://play-1.cnvods.com/m/Batman%3A%20O%20Retorno_1992_tt0103776.mp4 |
+| Beauty and the Beast | 1991 | tt0101414 | https://play-1.cnvods.com/m/Beauty%20and%20the%20Beast_1991_tt0101414.mp4 |
+| Beauty and the Beast | 2017 | tt2771200 | https://play-1.cnvods.com/m/Beauty%20and%20the%20Beast_2017_tt2771200.mp4 |
+| Bela Vingança | 2020 | tt9620292 | https://play-1.cnvods.com/m/Bela%20Vingan%C3%A7a_2020_tt9620292.mp4 |
+| Bird Box | 2018 | tt2737304 | https://play-1.cnvods.com/m/Bird%20Box_2018_tt2737304.mp4 |
+| Birdman ou (A Inesperada Virtude da Ignorância) | 2014 | tt2562232 | https://play-1.cnvods.com/m/Birdman%20ou%20%28A%20Inesperada%20Virtude%20da%20Ignor%C3%A2ncia%29_2014_tt2562232.mp4 |
+| Blade Runner 2049 | 2017 | tt1856101 | https://play-1.cnvods.com/m/Blade%20Runner%202049_2017_tt1856101.mp4 |
+| Blade: O Caçador de Vampiros | 1998 | tt0120611 | https://play-1.cnvods.com/m/Blade%3A%20O%20Ca%C3%A7ador%20de%20Vampiros_1998_tt0120611.mp4 |
+| Bohemian Rhapsody | 2018 | tt1727824 | https://play-1.cnvods.com/m/Bohemian%20Rhapsody_2018_tt1727824.mp4 |
+| Branca de Neve | 2025 | tt6208148 | https://play-1.cnvods.com/m/Branca%20de%20Neve_2025_tt6208148.mp4 |
+| Branca de Neve e o Caçador | 2012 | tt1735898 | https://play-1.cnvods.com/m/Branca%20de%20Neve%20e%20o%20Ca%C3%A7ador_2012_tt1735898.mp4 |
+| Brilho Eterno de uma Mente sem Lembranças | 2004 | tt0338013 | https://play-1.cnvods.com/m/Brilho%20Eterno%20de%20uma%20Mente%20sem%20Lembran%C3%A7as_2004_tt0338013.mp4 |
+| Busca Implacável 2 | 2012 | tt1397280 | https://play-1.cnvods.com/m/Busca%20Implac%C3%A1vel%202_2012_tt1397280.mp4 |
+| Cantando na Chuva | 1952 | tt0045152 | https://play-1.cnvods.com/m/Cantando%20na%20Chuva_1952_tt0045152.mp4 |
+| Capitã Marvel | 2019 | tt4154664 | https://play-1.cnvods.com/m/Capit%C3%A3%20Marvel_2019_tt4154664.mp4 |
+| Capitão América 2: O Soldado Invernal | 2014 | tt1843866 | https://play-1.cnvods.com/m/Capit%C3%A3o%20Am%C3%A9rica%202%3A%20O%20Soldado%20Invernal_2014_tt1843866.mp4 |
+| Capitão América: Guerra Civil | 2016 | tt3498820 | https://play-1.cnvods.com/m/Capit%C3%A3o%20Am%C3%A9rica%3A%20Guerra%20Civil_2016_tt3498820.mp4 |
+| Capitão América: O Primeiro Vingador | 2011 | tt0458339 | https://play-1.cnvods.com/m/Capit%C3%A3o%20Am%C3%A9rica%3A%20O%20Primeiro%20Vingador_2011_tt0458339.mp4 |
+| Capitão Phillips | 2013 | tt1535109 | https://play-1.cnvods.com/m/Capit%C3%A3o%20Phillips_2013_tt1535109.mp4 |
+| Carga Explosiva | 2002 | tt0293662 | https://play-1.cnvods.com/m/Carga%20Explosiva_2002_tt0293662.mp4 |
+| Carros | 2006 | tt0317219 | https://play-1.cnvods.com/m/Carros_2006_tt0317219.mp4 |
+| Carros 2 | 2011 | tt1216475 | https://play-1.cnvods.com/m/Carros%202_2011_tt1216475.mp4 |
+| Casamento Sangrento | 2019 | tt7798634 | https://play-1.cnvods.com/m/Casamento%20Sangrento_2019_tt7798634.mp4 |
+| Cassino | 1995 | tt0112641 | https://play-1.cnvods.com/m/Cassino_1995_tt0112641.mp4 |
+| Caça-Fantasmas | 2016 | tt1289401 | https://play-1.cnvods.com/m/Ca%C3%A7a-Fantasmas_2016_tt1289401.mp4 |
+| Chamas da Vingança | 2004 | tt0328107 | https://play-1.cnvods.com/m/Chamas%20da%20Vingan%C3%A7a_2004_tt0328107.mp4 |
+| Chappie | 2015 | tt1823672 | https://play-1.cnvods.com/m/Chappie_2015_tt1823672.mp4 |
+| Chinatown | 1974 | tt0071315 | https://play-1.cnvods.com/m/Chinatown_1974_tt0071315.mp4 |
+| Chumbo Grosso | 2007 | tt0425112 | https://play-1.cnvods.com/m/Chumbo%20Grosso_2007_tt0425112.mp4 |
+| Cidadão Kane | 1941 | tt0033467 | https://play-1.cnvods.com/m/Cidad%C3%A3o%20Kane_1941_tt0033467.mp4 |
+| Cinquenta Tons de Cinza | 2015 | tt2322441 | https://play-1.cnvods.com/m/Cinquenta%20Tons%20de%20Cinza_2015_tt2322441.mp4 |
+| Cisne Negro | 2010 | tt0947798 | https://play-1.cnvods.com/m/Cisne%20Negro_2010_tt0947798.mp4 |
+| Click | 2006 | tt0389860 | https://play-1.cnvods.com/m/Click_2006_tt0389860.mp4 |
+| Cloverfield: Monstro | 2008 | tt1060277 | https://play-1.cnvods.com/m/Cloverfield%3A%20Monstro_2008_tt1060277.mp4 |
+| Clube da Luta | 1999 | tt0137523 | https://play-1.cnvods.com/m/Clube%20da%20Luta_1999_tt0137523.mp4 |
+| Clube de Compras Dallas | 2013 | tt0790636 | https://play-1.cnvods.com/m/Clube%20de%20Compras%20Dallas_2013_tt0790636.mp4 |
+| Clube dos Cinco | 1985 | tt0088847 | https://play-1.cnvods.com/m/Clube%20dos%20Cinco_1985_tt0088847.mp4 |
+| Collateral | 2004 | tt0369339 | https://play-1.cnvods.com/m/Collateral_2004_tt0369339.mp4 |
+| Com a Bola Toda | 2004 | tt0364725 | https://play-1.cnvods.com/m/Com%20a%20Bola%20Toda_2004_tt0364725.mp4 |
+| Como Enlouquecer seu Chefe | 1999 | tt0151804 | https://play-1.cnvods.com/m/Como%20Enlouquecer%20seu%20Chefe_1999_tt0151804.mp4 |
+| Como Eu Era Antes de Você | 2016 | tt2674426 | https://play-1.cnvods.com/m/Como%20Eu%20Era%20Antes%20de%20Voc%C3%AA_2016_tt2674426.mp4 |
+| Como Perder um Homem em 10 Dias | 2003 | tt0251127 | https://play-1.cnvods.com/m/Como%20Perder%20um%20Homem%20em%2010%20Dias_2003_tt0251127.mp4 |
+| Como Treinar o Seu Dragão | 2010 | tt0892769 | https://play-1.cnvods.com/m/Como%20Treinar%20o%20Seu%20Drag%C3%A3o_2010_tt0892769.mp4 |
+| Conclave | 2024 | tt20215234 | https://play-1.cnvods.com/m/Conclave_2024_tt20215234.mp4 |
+| Constantine | 2005 | tt0360486 | https://play-1.cnvods.com/m/Constantine_2005_tt0360486.mp4 |
+| Conta Comigo | 1986 | tt0092005 | https://play-1.cnvods.com/m/Conta%20Comigo_1986_tt0092005.mp4 |
+| Contato | 1997 | tt0118884 | https://play-1.cnvods.com/m/Contato_1997_tt0118884.mp4 |
+| Contra o Tempo | 2011 | tt0945513 | https://play-1.cnvods.com/m/Contra%20o%20Tempo_2011_tt0945513.mp4 |
+| Contágio | 2011 | tt1598778 | https://play-1.cnvods.com/m/Cont%C3%A1gio_2011_tt1598778.mp4 |
+| Coraline e o Mundo Secreto | 2009 | tt0327597 | https://play-1.cnvods.com/m/Coraline%20e%20o%20Mundo%20Secreto_2009_tt0327597.mp4 |
+| Coração Valente | 1995 | tt0112573 | https://play-1.cnvods.com/m/Cora%C3%A7%C3%A3o%20Valente_1995_tt0112573.mp4 |
+| Corações de Ferro | 2014 | tt2713180 | https://play-1.cnvods.com/m/Cora%C3%A7%C3%B5es%20de%20Ferro_2014_tt2713180.mp4 |
+| Coringa | 2019 | tt7286456 | https://play-1.cnvods.com/m/Coringa_2019_tt7286456.mp4 |
+| Corpo Fechado | 2000 | tt0217869 | https://play-1.cnvods.com/m/Corpo%20Fechado_2000_tt0217869.mp4 |
+| Corra! | 2017 | tt5052448 | https://play-1.cnvods.com/m/Corra%21_2017_tt5052448.mp4 |
+| Crepúsculo | 2008 | tt1099212 | https://play-1.cnvods.com/m/Crep%C3%BAsculo_2008_tt1099212.mp4 |
+| Crepúsculo dos Deuses | 1950 | tt0043014 | https://play-1.cnvods.com/m/Crep%C3%BAsculo%20dos%20Deuses_1950_tt0043014.mp4 |
+| Cruella | 2021 | tt3228774 | https://play-1.cnvods.com/m/Cruella_2021_tt3228774.mp4 |
+| Cruzada | 2005 | tt0320661 | https://play-1.cnvods.com/m/Cruzada_2005_tt0320661.mp4 |
+| Cubo | 1997 | tt0123755 | https://play-1.cnvods.com/m/Cubo_1997_tt0123755.mp4 |
+| Curtindo a Vida Adoidado | 1986 | tt0091042 | https://play-1.cnvods.com/m/Curtindo%20a%20Vida%20Adoidado_1986_tt0091042.mp4 |
+| Cães de Aluguel | 1992 | tt0105236 | https://play-1.cnvods.com/m/C%C3%A3es%20de%20Aluguel_1992_tt0105236.mp4 |
+| Cães de Guerra | 2016 | tt2005151 | https://play-1.cnvods.com/m/C%C3%A3es%20de%20Guerra_2016_tt2005151.mp4 |
+| Círculo de Fogo | 2013 | tt1663662 | https://play-1.cnvods.com/m/C%C3%ADrculo%20de%20Fogo_2013_tt1663662.mp4 |
+| Círculo de Fogo | 2001 | tt0215750 | https://play-1.cnvods.com/m/C%C3%ADrculo%20de%20Fogo_2001_tt0215750.mp4 |
+| Código de Conduta | 2009 | tt1197624 | https://play-1.cnvods.com/m/C%C3%B3digo%20de%20Conduta_2009_tt1197624.mp4 |
+| Dança com Lobos | 1990 | tt0099348 | https://play-1.cnvods.com/m/Dan%C3%A7a%20com%20Lobos_1990_tt0099348.mp4 |
+| De Olhos Bem Fechados | 1999 | tt0120663 | https://play-1.cnvods.com/m/De%20Olhos%20Bem%20Fechados_1999_tt0120663.mp4 |
+| De Volta ao Jogo | 2014 | tt2911666 | https://play-1.cnvods.com/m/De%20Volta%20ao%20Jogo_2014_tt2911666.mp4 |
+| De Volta para o Futuro | 1985 | tt0088763 | https://play-1.cnvods.com/m/De%20Volta%20para%20o%20Futuro_1985_tt0088763.mp4 |
+| Deadpool | 2016 | tt1431045 | https://play-1.cnvods.com/m/Deadpool_2016_tt1431045.mp4 |
+| Deadpool & Wolverine | 2024 | tt6263850 | https://play-1.cnvods.com/m/Deadpool%20%26%20Wolverine_2024_tt6263850.mp4 |
+| Deadpool 2 | 2018 | tt5463162 | https://play-1.cnvods.com/m/Deadpool%202_2018_tt5463162.mp4 |
+| Desconhecido | 2011 | tt1401152 | https://play-1.cnvods.com/m/Desconhecido_2011_tt1401152.mp4 |
+| Detona Ralph | 2012 | tt1772341 | https://play-1.cnvods.com/m/Detona%20Ralph_2012_tt1772341.mp4 |
+| Dia de Treinamento | 2001 | tt0139654 | https://play-1.cnvods.com/m/Dia%20de%20Treinamento_2001_tt0139654.mp4 |
+| Diamante de Sangue | 2006 | tt0450259 | https://play-1.cnvods.com/m/Diamante%20de%20Sangue_2006_tt0450259.mp4 |
+| Dirty Dancing: Ritmo Quente | 1987 | tt0092890 | https://play-1.cnvods.com/m/Dirty%20Dancing%3A%20Ritmo%20Quente_1987_tt0092890.mp4 |
+| Distrito 9 | 2009 | tt1136608 | https://play-1.cnvods.com/m/Distrito%209_2009_tt1136608.mp4 |
+| Divergente | 2014 | tt1840309 | https://play-1.cnvods.com/m/Divergente_2014_tt1840309.mp4 |
+| Divertida Mente | 2015 | tt2096673 | https://play-1.cnvods.com/m/Divertida%20Mente_2015_tt2096673.mp4 |
+| Divertida Mente 2 | 2024 | tt22022452 | https://play-1.cnvods.com/m/Divertida%20Mente%202_2024_tt22022452.mp4 |
+| Diário de uma Paixão | 2004 | tt0332280 | https://play-1.cnvods.com/m/Di%C3%A1rio%20de%20uma%20Paix%C3%A3o_2004_tt0332280.mp4 |
+| Django Livre | 2012 | tt1853728 | https://play-1.cnvods.com/m/Django%20Livre_2012_tt1853728.mp4 |
+| Dois Caras Legais | 2016 | tt3799694 | https://play-1.cnvods.com/m/Dois%20Caras%20Legais_2016_tt3799694.mp4 |
+| Donnie Brasco | 1997 | tt0119008 | https://play-1.cnvods.com/m/Donnie%20Brasco_1997_tt0119008.mp4 |
+| Doutor Estranho | 2016 | tt1211837 | https://play-1.cnvods.com/m/Doutor%20Estranho_2016_tt1211837.mp4 |
+| Doutor Estranho no Multiverso da Loucura | 2022 | tt9419884 | https://play-1.cnvods.com/m/Doutor%20Estranho%20no%20Multiverso%20da%20Loucura_2022_tt9419884.mp4 |
+| Doze Homens e Outro Segredo | 2004 | tt0349903 | https://play-1.cnvods.com/m/Doze%20Homens%20e%20Outro%20Segredo_2004_tt0349903.mp4 |
+| Dr. Fantástico | 1964 | tt0057012 | https://play-1.cnvods.com/m/Dr.%20Fant%C3%A1stico_1964_tt0057012.mp4 |
+| Dredd: O Juiz do Apocalipse | 2012 | tt1343727 | https://play-1.cnvods.com/m/Dredd%3A%20O%20Juiz%20do%20Apocalipse_2012_tt1343727.mp4 |
+| Drive | 2011 | tt0780504 | https://play-1.cnvods.com/m/Drive_2011_tt0780504.mp4 |
+| Drácula de Bram Stoker | 1992 | tt0103874 | https://play-1.cnvods.com/m/Dr%C3%A1cula%20de%20Bram%20Stoker_1992_tt0103874.mp4 |
+| Duna | 2021 | tt1160419 | https://play-1.cnvods.com/m/Duna_2021_tt1160419.mp4 |
+| Dungeons & Dragons: Honra Entre Rebeldes | 2023 | tt2906216 | https://play-1.cnvods.com/m/Dungeons%20%26%20Dragons%3A%20Honra%20Entre%20Rebeldes_2023_tt2906216.mp4 |
+| Dunkirk | 2017 | tt5013056 | https://play-1.cnvods.com/m/Dunkirk_2017_tt5013056.mp4 |
+| Dupla Explosiva | 2017 | tt1959563 | https://play-1.cnvods.com/m/Dupla%20Explosiva_2017_tt1959563.mp4 |
+| Duro de Matar | 1988 | tt0095016 | https://play-1.cnvods.com/m/Duro%20de%20Matar_1988_tt0095016.mp4 |
+| Duro de Matar 2 | 1990 | tt0099423 | https://play-1.cnvods.com/m/Duro%20de%20Matar%202_1990_tt0099423.mp4 |
+| Duro de Matar 3: A Vingança | 1995 | tt0112864 | https://play-1.cnvods.com/m/Duro%20de%20Matar%203%3A%20A%20Vingan%C3%A7a_1995_tt0112864.mp4 |
+| Duro de Matar 4.0 | 2007 | tt0337978 | https://play-1.cnvods.com/m/Duro%20de%20Matar%204.0_2007_tt0337978.mp4 |
+| Déjà Vu | 2006 | tt0453467 | https://play-1.cnvods.com/m/D%C3%A9j%C3%A0%20Vu_2006_tt0453467.mp4 |
+| E.T.: O Extraterrestre | 1982 | tt0083866 | https://play-1.cnvods.com/m/E.T.%3A%20O%20Extraterrestre_1982_tt0083866.mp4 |
+| Eclipse | 2010 | tt1325004 | https://play-1.cnvods.com/m/Eclipse_2010_tt1325004.mp4 |
+| Eclipse Mortal | 2000 | tt0134847 | https://play-1.cnvods.com/m/Eclipse%20Mortal_2000_tt0134847.mp4 |
+| Edward Mãos de Tesoura | 1990 | tt0099487 | https://play-1.cnvods.com/m/Edward%20M%C3%A3os%20de%20Tesoura_1990_tt0099487.mp4 |
+| Efeito Borboleta | 2004 | tt0289879 | https://play-1.cnvods.com/m/Efeito%20Borboleta_2004_tt0289879.mp4 |
+| El Camino: Um Filme de Breaking Bad | 2019 | tt9243946 | https://play-1.cnvods.com/m/El%20Camino%3A%20Um%20Filme%20de%20Breaking%20Bad_2019_tt9243946.mp4 |
+| Elysium | 2013 | tt1535108 | https://play-1.cnvods.com/m/Elysium_2013_tt1535108.mp4 |
+| Em Ritmo de Fuga | 2017 | tt3890160 | https://play-1.cnvods.com/m/Em%20Ritmo%20de%20Fuga_2017_tt3890160.mp4 |
+| Encanto | 2021 | tt2953050 | https://play-1.cnvods.com/m/Encanto_2021_tt2953050.mp4 |
+| Encontro Marcado | 1998 | tt0119643 | https://play-1.cnvods.com/m/Encontro%20Marcado_1998_tt0119643.mp4 |
+| Encontros e Desencontros | 2003 | tt0335266 | https://play-1.cnvods.com/m/Encontros%20e%20Desencontros_2003_tt0335266.mp4 |
+| Ender's Game: O Jogo do Exterminador | 2013 | tt1731141 | https://play-1.cnvods.com/m/Ender%27s%20Game%3A%20O%20Jogo%20do%20Exterminador_2013_tt1731141.mp4 |
+| Enrolados | 2010 | tt0398286 | https://play-1.cnvods.com/m/Enrolados_2010_tt0398286.mp4 |
+| Entre Facas e Segredos | 2019 | tt8946378 | https://play-1.cnvods.com/m/Entre%20Facas%20e%20Segredos_2019_tt8946378.mp4 |
+| Entrevista com o Vampiro | 1994 | tt0110148 | https://play-1.cnvods.com/m/Entrevista%20com%20o%20Vampiro_1994_tt0110148.mp4 |
+| Equilibrium | 2002 | tt0238380 | https://play-1.cnvods.com/m/Equilibrium_2002_tt0238380.mp4 |
+| Escola de Rock | 2003 | tt0332379 | https://play-1.cnvods.com/m/Escola%20de%20Rock_2003_tt0332379.mp4 |
+| Esposa de Mentirinha | 2011 | tt1564367 | https://play-1.cnvods.com/m/Esposa%20de%20Mentirinha_2011_tt1564367.mp4 |
+| Esquadrão Classe A | 2010 | tt0429493 | https://play-1.cnvods.com/m/Esquadr%C3%A3o%20Classe%20A_2010_tt0429493.mp4 |
+| Esquadrão Suicida | 2016 | tt1386697 | https://play-1.cnvods.com/m/Esquadr%C3%A3o%20Suicida_2016_tt1386697.mp4 |
+| Esqueceram de Mim 2: Perdido em Nova York | 1992 | tt0104431 | https://play-1.cnvods.com/m/Esqueceram%20de%20Mim%202%3A%20Perdido%20em%20Nova%20York_1992_tt0104431.mp4 |
+| Estrada para Perdição | 2002 | tt0257044 | https://play-1.cnvods.com/m/Estrada%20para%20Perdi%C3%A7%C3%A3o_2002_tt0257044.mp4 |
+| Eu Sou a Lenda | 2007 | tt0480249 | https://play-1.cnvods.com/m/Eu%20Sou%20a%20Lenda_2007_tt0480249.mp4 |
+| Eu, Eu Mesmo e Irene | 2000 | tt0183505 | https://play-1.cnvods.com/m/Eu%2C%20Eu%20Mesmo%20e%20Irene_2000_tt0183505.mp4 |
+| Eu, Robô | 2004 | tt0343818 | https://play-1.cnvods.com/m/Eu%2C%20Rob%C3%B4_2004_tt0343818.mp4 |
+| Extermínio 2 | 2007 | tt0463854 | https://play-1.cnvods.com/m/Exterm%C3%ADnio%202_2007_tt0463854.mp4 |
+| Família do Bagulho | 2013 | tt1723121 | https://play-1.cnvods.com/m/Fam%C3%ADlia%20do%20Bagulho_2013_tt1723121.mp4 |
+| Fargo: Uma Comédia de Erros | 1996 | tt0116282 | https://play-1.cnvods.com/m/Fargo%3A%20Uma%20Com%C3%A9dia%20de%20Erros_1996_tt0116282.mp4 |
+| Feitiço do Tempo | 1993 | tt0107048 | https://play-1.cnvods.com/m/Feiti%C3%A7o%20do%20Tempo_1993_tt0107048.mp4 |
+| Fogo Contra Fogo | 1995 | tt0113277 | https://play-1.cnvods.com/m/Fogo%20Contra%20Fogo_1995_tt0113277.mp4 |
+| Frozen: Uma Aventura Congelante | 2013 | tt2294629 | https://play-1.cnvods.com/m/Frozen%3A%20Uma%20Aventura%20Congelante_2013_tt2294629.mp4 |
+| Fugindo do Inferno | 1963 | tt0057115 | https://play-1.cnvods.com/m/Fugindo%20do%20Inferno_1963_tt0057115.mp4 |
+| Furiosa: Uma Saga Mad Max | 2024 | tt12037194 | https://play-1.cnvods.com/m/Furiosa%3A%20Uma%20Saga%20Mad%20Max_2024_tt12037194.mp4 |
+| Fúria de Titãs | 2010 | tt0800320 | https://play-1.cnvods.com/m/F%C3%BAria%20de%20Tit%C3%A3s_2010_tt0800320.mp4 |
+| Garota Exemplar | 2014 | tt2267998 | https://play-1.cnvods.com/m/Garota%20Exemplar_2014_tt2267998.mp4 |
+| Gente Grande | 2010 | tt1375670 | https://play-1.cnvods.com/m/Gente%20Grande_2010_tt1375670.mp4 |
+| Gigantes de Aço | 2011 | tt0433035 | https://play-1.cnvods.com/m/Gigantes%20de%20A%C3%A7o_2011_tt0433035.mp4 |
+| Gilbert Grape: Aprendiz de Sonhador | 1993 | tt0108550 | https://play-1.cnvods.com/m/Gilbert%20Grape%3A%20Aprendiz%20de%20Sonhador_1993_tt0108550.mp4 |
+| Gladiador | 2000 | tt0172495 | https://play-1.cnvods.com/m/Gladiador_2000_tt0172495.mp4 |
+| Gladiador II | 2024 | tt9218128 | https://play-1.cnvods.com/m/Gladiador%20II_2024_tt9218128.mp4 |
+| Glass Onion: Um Mistério Knives Out | 2022 | tt11564570 | https://play-1.cnvods.com/m/Glass%20Onion%3A%20Um%20Mist%C3%A9rio%20Knives%20Out_2022_tt11564570.mp4 |
+| Godzilla | 2014 | tt0831387 | https://play-1.cnvods.com/m/Godzilla_2014_tt0831387.mp4 |
+| Godzilla vs. Kong | 2021 | tt5034838 | https://play-1.cnvods.com/m/Godzilla%20vs.%20Kong_2021_tt5034838.mp4 |
+| Golpe Duplo | 2015 | tt2381941 | https://play-1.cnvods.com/m/Golpe%20Duplo_2015_tt2381941.mp4 |
+| Gravidade | 2013 | tt1454468 | https://play-1.cnvods.com/m/Gravidade_2013_tt1454468.mp4 |
+| Grease: Nos Tempos da Brilhantina | 1978 | tt0077631 | https://play-1.cnvods.com/m/Grease%3A%20Nos%20Tempos%20da%20Brilhantina_1978_tt0077631.mp4 |
+| Green Book: O Guia | 2018 | tt6966692 | https://play-1.cnvods.com/m/Green%20Book%3A%20O%20Guia_2018_tt6966692.mp4 |
+| Gremlins | 1984 | tt0087363 | https://play-1.cnvods.com/m/Gremlins_1984_tt0087363.mp4 |
+| Guardiões da Galáxia | 2014 | tt2015381 | https://play-1.cnvods.com/m/Guardi%C3%B5es%20da%20Gal%C3%A1xia_2014_tt2015381.mp4 |
+| Guardiões da Galáxia Vol. 2 | 2017 | tt3896198 | https://play-1.cnvods.com/m/Guardi%C3%B5es%20da%20Gal%C3%A1xia%20Vol.%202_2017_tt3896198.mp4 |
+| Guardiões da Galáxia Vol. 3 | 2023 | tt6791350 | https://play-1.cnvods.com/m/Guardi%C3%B5es%20da%20Gal%C3%A1xia%20Vol.%203_2023_tt6791350.mp4 |
+| Guerra Civil | 2024 | tt17279496 | https://play-1.cnvods.com/m/Guerra%20Civil_2024_tt17279496.mp4 |
+| Guerra Mundial Z | 2013 | tt0816711 | https://play-1.cnvods.com/m/Guerra%20Mundial%20Z_2013_tt0816711.mp4 |
+| Guerreiro | 2011 | tt1291584 | https://play-1.cnvods.com/m/Guerreiro_2011_tt1291584.mp4 |
+| Han Solo: Uma História Star Wars | 2018 | tt3778644 | https://play-1.cnvods.com/m/Han%20Solo%3A%20Uma%20Hist%C3%B3ria%20Star%20Wars_2018_tt3778644.mp4 |
+| Hancock | 2008 | tt0448157 | https://play-1.cnvods.com/m/Hancock_2008_tt0448157.mp4 |
+| Hannibal | 2001 | tt0212985 | https://play-1.cnvods.com/m/Hannibal_2001_tt0212985.mp4 |
+| Harry e Sally: Feitos um para o Outro | 1989 | tt0098635 | https://play-1.cnvods.com/m/Harry%20e%20Sally%3A%20Feitos%20um%20para%20o%20Outro_1989_tt0098635.mp4 |
+| Harry Potter e a Câmara Secreta | 2002 | tt0295297 | https://play-1.cnvods.com/m/Harry%20Potter%20e%20a%20C%C3%A2mara%20Secreta_2002_tt0295297.mp4 |
+| Harry Potter e a Ordem da Fênix | 2007 | tt0373889 | https://play-1.cnvods.com/m/Harry%20Potter%20e%20a%20Ordem%20da%20F%C3%AAnix_2007_tt0373889.mp4 |
+| Harry Potter e a Pedra Filosofal | 2001 | tt0241527 | https://play-1.cnvods.com/m/Harry%20Potter%20e%20a%20Pedra%20Filosofal_2001_tt0241527.mp4 |
+| Harry Potter e o Cálice de Fogo | 2005 | tt0330373 | https://play-1.cnvods.com/m/Harry%20Potter%20e%20o%20C%C3%A1lice%20de%20Fogo_2005_tt0330373.mp4 |
+| Harry Potter e o Enigma do Príncipe | 2009 | tt0417741 | https://play-1.cnvods.com/m/Harry%20Potter%20e%20o%20Enigma%20do%20Pr%C3%ADncipe_2009_tt0417741.mp4 |
+| Harry Potter e o Prisioneiro de Azkaban | 2004 | tt0304141 | https://play-1.cnvods.com/m/Harry%20Potter%20e%20o%20Prisioneiro%20de%20Azkaban_2004_tt0304141.mp4 |
+| Hellboy | 2004 | tt0167190 | https://play-1.cnvods.com/m/Hellboy_2004_tt0167190.mp4 |
+| Hellboy II: O Exército Dourado | 2008 | tt0411477 | https://play-1.cnvods.com/m/Hellboy%20II%3A%20O%20Ex%C3%A9rcito%20Dourado_2008_tt0411477.mp4 |
+| Hereditário | 2018 | tt7784604 | https://play-1.cnvods.com/m/Heredit%C3%A1rio_2018_tt7784604.mp4 |
+| Heróis de Ressaca | 2013 | tt1213663 | https://play-1.cnvods.com/m/Her%C3%B3is%20de%20Ressaca_2013_tt1213663.mp4 |
+| História de um Casamento | 2019 | tt7653254 | https://play-1.cnvods.com/m/Hist%C3%B3ria%20de%20um%20Casamento_2019_tt7653254.mp4 |
+| Home Alone | 1990 | tt0099785 | https://play-1.cnvods.com/m/Home%20Alone_1990_tt0099785.mp4 |
+| Homem de Ferro | 2008 | tt0371746 | https://play-1.cnvods.com/m/Homem%20de%20Ferro_2008_tt0371746.mp4 |
+| Homem de Ferro 2 | 2010 | tt1228705 | https://play-1.cnvods.com/m/Homem%20de%20Ferro%202_2010_tt1228705.mp4 |
+| Homem de Ferro 3 | 2013 | tt1300854 | https://play-1.cnvods.com/m/Homem%20de%20Ferro%203_2013_tt1300854.mp4 |
+| Homem-Aranha | 2002 | tt0145487 | https://play-1.cnvods.com/m/Homem-Aranha_2002_tt0145487.mp4 |
+| Homem-Aranha 2 | 2004 | tt0316654 | https://play-1.cnvods.com/m/Homem-Aranha%202_2004_tt0316654.mp4 |
+| Homem-Aranha 3 | 2007 | tt0413300 | https://play-1.cnvods.com/m/Homem-Aranha%203_2007_tt0413300.mp4 |
+| Homem-Aranha: Através do Aranhaverso | 2023 | tt9362722 | https://play-1.cnvods.com/m/Homem-Aranha%3A%20Atrav%C3%A9s%20do%20Aranhaverso_2023_tt9362722.mp4 |
+| Homem-Aranha: De Volta ao Lar | 2017 | tt2250912 | https://play-1.cnvods.com/m/Homem-Aranha%3A%20De%20Volta%20ao%20Lar_2017_tt2250912.mp4 |
+| Homem-Aranha: Longe de Casa | 2019 | tt6320628 | https://play-1.cnvods.com/m/Homem-Aranha%3A%20Longe%20de%20Casa_2019_tt6320628.mp4 |
+| Homem-Aranha: Sem Volta para Casa | 2021 | tt10872600 | https://play-1.cnvods.com/m/Homem-Aranha%3A%20Sem%20Volta%20para%20Casa_2021_tt10872600.mp4 |
+| Homem-Formiga | 2015 | tt0478970 | https://play-1.cnvods.com/m/Homem-Formiga_2015_tt0478970.mp4 |
+| Homem-Formiga e a Vespa | 2018 | tt5095030 | https://play-1.cnvods.com/m/Homem-Formiga%20e%20a%20Vespa_2018_tt5095030.mp4 |
+| Homem-Formiga e a Vespa: Quantumania | 2023 | tt10954600 | https://play-1.cnvods.com/m/Homem-Formiga%20e%20a%20Vespa%3A%20Quantumania_2023_tt10954600.mp4 |
+| Hotel Transilvânia | 2012 | tt0837562 | https://play-1.cnvods.com/m/Hotel%20Transilv%C3%A2nia_2012_tt0837562.mp4 |
+| Hulk | 2003 | tt0286716 | https://play-1.cnvods.com/m/Hulk_2003_tt0286716.mp4 |
+| Hércules | 1997 | tt0119282 | https://play-1.cnvods.com/m/H%C3%A9rcules_1997_tt0119282.mp4 |
+| Identidade | 2003 | tt0309698 | https://play-1.cnvods.com/m/Identidade_2003_tt0309698.mp4 |
+| Ilha do Medo | 2010 | tt1130884 | https://play-1.cnvods.com/m/Ilha%20do%20Medo_2010_tt1130884.mp4 |
+| Independence Day | 1996 | tt0116629 | https://play-1.cnvods.com/m/Independence%20Day_1996_tt0116629.mp4 |
+| Indiana Jones e a Última Cruzada | 1989 | tt0097576 | https://play-1.cnvods.com/m/Indiana%20Jones%20e%20a%20%C3%9Altima%20Cruzada_1989_tt0097576.mp4 |
+| Indiana Jones e o Reino da Caveira de Cristal | 2008 | tt0367882 | https://play-1.cnvods.com/m/Indiana%20Jones%20e%20o%20Reino%20da%20Caveira%20de%20Cristal_2008_tt0367882.mp4 |
+| Indiana Jones e o Templo da Perdição | 1984 | tt0087469 | https://play-1.cnvods.com/m/Indiana%20Jones%20e%20o%20Templo%20da%20Perdi%C3%A7%C3%A3o_1984_tt0087469.mp4 |
+| Infiltrado na Klan | 2018 | tt7349662 | https://play-1.cnvods.com/m/Infiltrado%20na%20Klan_2018_tt7349662.mp4 |
+| Inimigo do Estado | 1998 | tt0120660 | https://play-1.cnvods.com/m/Inimigo%20do%20Estado_1998_tt0120660.mp4 |
+| Inimigos Públicos | 2009 | tt1152836 | https://play-1.cnvods.com/m/Inimigos%20P%C3%BAblicos_2009_tt1152836.mp4 |
+| Insônia | 2002 | tt0278504 | https://play-1.cnvods.com/m/Ins%C3%B4nia_2002_tt0278504.mp4 |
+| Interestelar | 2014 | tt0816692 | https://play-1.cnvods.com/m/Interestelar_2014_tt0816692.mp4 |
+| Intocáveis | 2011 | tt1675434 | https://play-1.cnvods.com/m/Intoc%C3%A1veis_2011_tt1675434.mp4 |
+| Intriga Internacional | 1959 | tt0053125 | https://play-1.cnvods.com/m/Intriga%20Internacional_1959_tt0053125.mp4 |
+| Invasão a Casa Branca | 2013 | tt2302755 | https://play-1.cnvods.com/m/Invas%C3%A3o%20a%20Casa%20Branca_2013_tt2302755.mp4 |
+| Invasão Zumbi | 2016 | tt5700672 | https://play-1.cnvods.com/m/Invas%C3%A3o%20Zumbi_2016_tt5700672.mp4 |
+| Invocação do Mal | 2013 | tt1457767 | https://play-1.cnvods.com/m/Invoca%C3%A7%C3%A3o%20do%20Mal_2013_tt1457767.mp4 |
+| Invocação do Mal 2 | 2016 | tt3065204 | https://play-1.cnvods.com/m/Invoca%C3%A7%C3%A3o%20do%20Mal%202_2016_tt3065204.mp4 |
+| Jason Bourne | 2016 | tt4196776 | https://play-1.cnvods.com/m/Jason%20Bourne_2016_tt4196776.mp4 |
+| Jogador Nº 1 | 2018 | tt1677720 | https://play-1.cnvods.com/m/Jogador%20N%C2%BA%201_2018_tt1677720.mp4 |
+| Jogos Mortais | 2004 | tt0387564 | https://play-1.cnvods.com/m/Jogos%20Mortais_2004_tt0387564.mp4 |
+| Jogos Vorazes | 2012 | tt1392170 | https://play-1.cnvods.com/m/Jogos%20Vorazes_2012_tt1392170.mp4 |
+| Jogos Vorazes: A Esperança - O Final | 2015 | tt1951266 | https://play-1.cnvods.com/m/Jogos%20Vorazes%3A%20A%20Esperan%C3%A7a%20-%20O%20Final_2015_tt1951266.mp4 |
+| Jogos Vorazes: A Esperança - Parte 1 | 2014 | tt1951265 | https://play-1.cnvods.com/m/Jogos%20Vorazes%3A%20A%20Esperan%C3%A7a%20-%20Parte%201_2014_tt1951265.mp4 |
+| Jogos Vorazes: Em Chamas | 2013 | tt1951264 | https://play-1.cnvods.com/m/Jogos%20Vorazes%3A%20Em%20Chamas_2013_tt1951264.mp4 |
+| John Wick 3: Parabellum | 2019 | tt6146586 | https://play-1.cnvods.com/m/John%20Wick%203%3A%20Parabellum_2019_tt6146586.mp4 |
+| John Wick 4: Baba Yaga | 2023 | tt10366206 | https://play-1.cnvods.com/m/John%20Wick%204%3A%20Baba%20Yaga_2023_tt10366206.mp4 |
+| John Wick: Um Novo Dia para Matar | 2017 | tt4425200 | https://play-1.cnvods.com/m/John%20Wick%3A%20Um%20Novo%20Dia%20para%20Matar_2017_tt4425200.mp4 |
+| Joias Brutas | 2019 | tt5727208 | https://play-1.cnvods.com/m/Joias%20Brutas_2019_tt5727208.mp4 |
+| Jojo Rabbit | 2019 | tt2584384 | https://play-1.cnvods.com/m/Jojo%20Rabbit_2019_tt2584384.mp4 |
+| Jumper | 2008 | tt0489099 | https://play-1.cnvods.com/m/Jumper_2008_tt0489099.mp4 |
+| Juno | 2007 | tt0467406 | https://play-1.cnvods.com/m/Juno_2007_tt0467406.mp4 |
+| Jurassic Park | 1993 | tt0107290 | https://play-1.cnvods.com/m/Jurassic%20Park_1993_tt0107290.mp4 |
+| Jurassic Park III | 2001 | tt0163025 | https://play-1.cnvods.com/m/Jurassic%20Park%20III_2001_tt0163025.mp4 |
+| Jurassic World: O Mundo dos Dinossauros | 2015 | tt0369610 | https://play-1.cnvods.com/m/Jurassic%20World%3A%20O%20Mundo%20dos%20Dinossauros_2015_tt0369610.mp4 |
+| Jurassic World: Reino Ameaçado | 2018 | tt4881806 | https://play-1.cnvods.com/m/Jurassic%20World%3A%20Reino%20Amea%C3%A7ado_2018_tt4881806.mp4 |
+| Kick-Ass 2 | 2013 | tt1650554 | https://play-1.cnvods.com/m/Kick-Ass%202_2013_tt1650554.mp4 |
+| Kick-Ass: Quebrando Tudo | 2010 | tt1250777 | https://play-1.cnvods.com/m/Kick-Ass%3A%20Quebrando%20Tudo_2010_tt1250777.mp4 |
+| Kill Bill: Volume 1 | 2003 | tt0266697 | https://play-1.cnvods.com/m/Kill%20Bill%3A%20Volume%201_2003_tt0266697.mp4 |
+| Kill Bill: Volume 2 | 2004 | tt0378194 | https://play-1.cnvods.com/m/Kill%20Bill%3A%20Volume%202_2004_tt0378194.mp4 |
+| King Kong | 2005 | tt0360717 | https://play-1.cnvods.com/m/King%20Kong_2005_tt0360717.mp4 |
+| Kingsman: O Círculo Dourado | 2017 | tt4649466 | https://play-1.cnvods.com/m/Kingsman%3A%20O%20C%C3%ADrculo%20Dourado_2017_tt4649466.mp4 |
+| Kong: A Ilha da Caveira | 2017 | tt3731562 | https://play-1.cnvods.com/m/Kong%3A%20A%20Ilha%20da%20Caveira_2017_tt3731562.mp4 |
+| Kung Fu Panda | 2008 | tt0441773 | https://play-1.cnvods.com/m/Kung%20Fu%20Panda_2008_tt0441773.mp4 |
+| Kung Fu Panda 2 | 2011 | tt1302011 | https://play-1.cnvods.com/m/Kung%20Fu%20Panda%202_2011_tt1302011.mp4 |
+| Lady Bird: A Hora de Voar | 2017 | tt4925292 | https://play-1.cnvods.com/m/Lady%20Bird%3A%20A%20Hora%20de%20Voar_2017_tt4925292.mp4 |
+| Lanterna Verde | 2011 | tt1133985 | https://play-1.cnvods.com/m/Lanterna%20Verde_2011_tt1133985.mp4 |
+| Liga da Justiça | 2017 | tt0974015 | https://play-1.cnvods.com/m/Liga%20da%20Justi%C3%A7a_2017_tt0974015.mp4 |
+| Liga da Justiça de Zack Snyder | 2021 | tt12361974 | https://play-1.cnvods.com/m/Liga%20da%20Justi%C3%A7a%20de%20Zack%20Snyder_2021_tt12361974.mp4 |
+| Ligeiramente Grávidos | 2007 | tt0478311 | https://play-1.cnvods.com/m/Ligeiramente%20Gr%C3%A1vidos_2007_tt0478311.mp4 |
+| Lincoln | 2012 | tt0443272 | https://play-1.cnvods.com/m/Lincoln_2012_tt0443272.mp4 |
+| Logan | 2017 | tt3315342 | https://play-1.cnvods.com/m/Logan_2017_tt3315342.mp4 |
+| Looper: Assassinos do Futuro | 2012 | tt1276104 | https://play-1.cnvods.com/m/Looper%3A%20Assassinos%20do%20Futuro_2012_tt1276104.mp4 |
+| Lucy | 2014 | tt2872732 | https://play-1.cnvods.com/m/Lucy_2014_tt2872732.mp4 |
+| Lunar | 2009 | tt1182345 | https://play-1.cnvods.com/m/Lunar_2009_tt1182345.mp4 |
+| Mad Max: Estrada da Fúria | 2015 | tt1392190 | https://play-1.cnvods.com/m/Mad%20Max%3A%20Estrada%20da%20F%C3%BAria_2015_tt1392190.mp4 |
+| Madagascar | 2005 | tt0351283 | https://play-1.cnvods.com/m/Madagascar_2005_tt0351283.mp4 |
+| Madagascar 2 | 2008 | tt0479952 | https://play-1.cnvods.com/m/Madagascar%202_2008_tt0479952.mp4 |
+| Madrugada dos Mortos | 2004 | tt0363547 | https://play-1.cnvods.com/m/Madrugada%20dos%20Mortos_2004_tt0363547.mp4 |
+| Manchester à Beira-Mar | 2016 | tt4034228 | https://play-1.cnvods.com/m/Manchester%20%C3%A0%20Beira-Mar_2016_tt4034228.mp4 |
+| Marcas da Violência | 2005 | tt0399146 | https://play-1.cnvods.com/m/Marcas%20da%20Viol%C3%AAncia_2005_tt0399146.mp4 |
+| Marte Ataca! | 1996 | tt0116996 | https://play-1.cnvods.com/m/Marte%20Ataca%21_1996_tt0116996.mp4 |
+| Matrix | 1999 | tt0133093 | https://play-1.cnvods.com/m/Matrix_1999_tt0133093.mp4 |
+| Matrix Reloaded | 2003 | tt0234215 | https://play-1.cnvods.com/m/Matrix%20Reloaded_2003_tt0234215.mp4 |
+| Matrix Revolutions | 2003 | tt0242653 | https://play-1.cnvods.com/m/Matrix%20Revolutions_2003_tt0242653.mp4 |
+| Maze Runner: Correr ou Morrer | 2014 | tt1790864 | https://play-1.cnvods.com/m/Maze%20Runner%3A%20Correr%20ou%20Morrer_2014_tt1790864.mp4 |
+| Maze Runner: Prova de Fogo | 2015 | tt4046784 | https://play-1.cnvods.com/m/Maze%20Runner%3A%20Prova%20de%20Fogo_2015_tt4046784.mp4 |
+| Medo da Verdade | 2007 | tt0452623 | https://play-1.cnvods.com/m/Medo%20da%20Verdade_2007_tt0452623.mp4 |
+| Megamente | 2010 | tt1001526 | https://play-1.cnvods.com/m/Megamente_2010_tt1001526.mp4 |
+| Meia-Noite em Paris | 2011 | tt1605783 | https://play-1.cnvods.com/m/Meia-Noite%20em%20Paris_2011_tt1605783.mp4 |
+| Melhor é Impossível | 1997 | tt0119822 | https://play-1.cnvods.com/m/Melhor%20%C3%A9%20Imposs%C3%ADvel_1997_tt0119822.mp4 |
+| Memórias de um Assassino | 2003 | tt0353969 | https://play-1.cnvods.com/m/Mem%C3%B3rias%20de%20um%20Assassino_2003_tt0353969.mp4 |
+| Meninas Malvadas | 2004 | tt0377092 | https://play-1.cnvods.com/m/Meninas%20Malvadas_2004_tt0377092.mp4 |
+| Mestre dos Mares: O Lado Mais Distante do Mundo | 2003 | tt0311113 | https://play-1.cnvods.com/m/Mestre%20dos%20Mares%3A%20O%20Lado%20Mais%20Distante%20do%20Mundo_2003_tt0311113.mp4 |
+| Meu Malvado Favorito | 2010 | tt1323594 | https://play-1.cnvods.com/m/Meu%20Malvado%20Favorito_2010_tt1323594.mp4 |
+| Meu Malvado Favorito 2 | 2013 | tt1690953 | https://play-1.cnvods.com/m/Meu%20Malvado%20Favorito%202_2013_tt1690953.mp4 |
+| MIB: Homens de Preto | 1997 | tt0119654 | https://play-1.cnvods.com/m/MIB%3A%20Homens%20de%20Preto_1997_tt0119654.mp4 |
+| MIB: Homens de Preto II | 2002 | tt0120912 | https://play-1.cnvods.com/m/MIB%3A%20Homens%20de%20Preto%20II_2002_tt0120912.mp4 |
+| MIB: Homens de Preto III | 2012 | tt1409024 | https://play-1.cnvods.com/m/MIB%3A%20Homens%20de%20Preto%20III_2012_tt1409024.mp4 |
+| Mickey 17 | 2025 | tt12299608 | https://play-1.cnvods.com/m/Mickey%2017_2025_tt12299608.mp4 |
+| Midsommar: O Mal Não Espera a Noite | 2019 | tt8772262 | https://play-1.cnvods.com/m/Midsommar%3A%20O%20Mal%20N%C3%A3o%20Espera%20a%20Noite_2019_tt8772262.mp4 |
+| Minions | 2015 | tt2293640 | https://play-1.cnvods.com/m/Minions_2015_tt2293640.mp4 |
+| Minority Report: A Nova Lei | 2002 | tt0181689 | https://play-1.cnvods.com/m/Minority%20Report%3A%20A%20Nova%20Lei_2002_tt0181689.mp4 |
+| Missão Madrinha de Casamento | 2011 | tt1478338 | https://play-1.cnvods.com/m/Miss%C3%A3o%20Madrinha%20de%20Casamento_2011_tt1478338.mp4 |
+| Missão: Impossível | 1996 | tt0117060 | https://play-1.cnvods.com/m/Miss%C3%A3o%3A%20Imposs%C3%ADvel_1996_tt0117060.mp4 |
+| Missão: Impossível - Acerto de Contas Parte Um | 2023 | tt9603212 | https://play-1.cnvods.com/m/Miss%C3%A3o%3A%20Imposs%C3%ADvel%20-%20Acerto%20de%20Contas%20Parte%20Um_2023_tt9603212.mp4 |
+| Missão: Impossível - Efeito Fallout | 2018 | tt4912910 | https://play-1.cnvods.com/m/Miss%C3%A3o%3A%20Imposs%C3%ADvel%20-%20Efeito%20Fallout_2018_tt4912910.mp4 |
+| Missão: Impossível - Nação Secreta | 2015 | tt2381249 | https://play-1.cnvods.com/m/Miss%C3%A3o%3A%20Imposs%C3%ADvel%20-%20Na%C3%A7%C3%A3o%20Secreta_2015_tt2381249.mp4 |
+| Missão: Impossível 2 | 2000 | tt0120755 | https://play-1.cnvods.com/m/Miss%C3%A3o%3A%20Imposs%C3%ADvel%202_2000_tt0120755.mp4 |
+| Moana: Um Mar de Aventuras | 2016 | tt3521164 | https://play-1.cnvods.com/m/Moana%3A%20Um%20Mar%20de%20Aventuras_2016_tt3521164.mp4 |
+| Monstros S.A. | 2001 | tt0198781 | https://play-1.cnvods.com/m/Monstros%20S.A._2001_tt0198781.mp4 |
+| Monty Python em Busca do Cálice Sagrado | 1975 | tt0071853 | https://play-1.cnvods.com/m/Monty%20Python%20em%20Busca%20do%20C%C3%A1lice%20Sagrado_1975_tt0071853.mp4 |
+| Moonlight: Sob a Luz do Luar | 2016 | tt4975722 | https://play-1.cnvods.com/m/Moonlight%3A%20Sob%20a%20Luz%20do%20Luar_2016_tt4975722.mp4 |
+| Moonrise Kingdom | 2012 | tt1748122 | https://play-1.cnvods.com/m/Moonrise%20Kingdom_2012_tt1748122.mp4 |
+| Motoqueiro Fantasma | 2007 | tt0259324 | https://play-1.cnvods.com/m/Motoqueiro%20Fantasma_2007_tt0259324.mp4 |
+| Moulin Rouge: Amor em Vermelho | 2001 | tt0203009 | https://play-1.cnvods.com/m/Moulin%20Rouge%3A%20Amor%20em%20Vermelho_2001_tt0203009.mp4 |
+| Mulan | 1998 | tt0120762 | https://play-1.cnvods.com/m/Mulan_1998_tt0120762.mp4 |
+| Mulher-Maravilha | 2017 | tt0451279 | https://play-1.cnvods.com/m/Mulher-Maravilha_2017_tt0451279.mp4 |
+| Máquina Mortífera | 1987 | tt0093409 | https://play-1.cnvods.com/m/M%C3%A1quina%20Mort%C3%ADfera_1987_tt0093409.mp4 |
+| Mãe! | 2017 | tt5109784 | https://play-1.cnvods.com/m/M%C3%A3e%21_2017_tt5109784.mp4 |
+| Na Mira do Chefe | 2008 | tt0780536 | https://play-1.cnvods.com/m/Na%20Mira%20do%20Chefe_2008_tt0780536.mp4 |
+| Nada de Novo no Front | 2022 | tt1016150 | https://play-1.cnvods.com/m/Nada%20de%20Novo%20no%20Front_2022_tt1016150.mp4 |
+| Napoleon Dynamite | 2004 | tt0374900 | https://play-1.cnvods.com/m/Napoleon%20Dynamite_2004_tt0374900.mp4 |
+| Nascido para Matar | 1987 | tt0093058 | https://play-1.cnvods.com/m/Nascido%20para%20Matar_1987_tt0093058.mp4 |
+| No Limite do Amanhã | 2014 | tt1631867 | https://play-1.cnvods.com/m/No%20Limite%20do%20Amanh%C3%A3_2014_tt1631867.mp4 |
+| Nocaute | 2015 | tt1798684 | https://play-1.cnvods.com/m/Nocaute_2015_tt1798684.mp4 |
+| Noivo Neurótico, Noiva Nervosa | 1977 | tt0075686 | https://play-1.cnvods.com/m/Noivo%20Neur%C3%B3tico%2C%20Noiva%20Nervosa_1977_tt0075686.mp4 |
+| Noé | 2014 | tt1959490 | https://play-1.cnvods.com/m/No%C3%A9_2014_tt1959490.mp4 |
+| Náufrago | 2000 | tt0162222 | https://play-1.cnvods.com/m/N%C3%A1ufrago_2000_tt0162222.mp4 |
+| Não Olhe para Cima | 2021 | tt11286314 | https://play-1.cnvods.com/m/N%C3%A3o%20Olhe%20para%20Cima_2021_tt11286314.mp4 |
+| Nós | 2019 | tt6857112 | https://play-1.cnvods.com/m/N%C3%B3s_2019_tt6857112.mp4 |
+| O Abutre | 2014 | tt2872718 | https://play-1.cnvods.com/m/O%20Abutre_2014_tt2872718.mp4 |
+| O Agente da U.N.C.L.E. | 2015 | tt1638355 | https://play-1.cnvods.com/m/O%20Agente%20da%20U.N.C.L.E._2015_tt1638355.mp4 |
+| O Amor Não Tira Férias | 2006 | tt0457939 | https://play-1.cnvods.com/m/O%20Amor%20N%C3%A3o%20Tira%20F%C3%A9rias_2006_tt0457939.mp4 |
+| O Aviador | 2004 | tt0338751 | https://play-1.cnvods.com/m/O%20Aviador_2004_tt0338751.mp4 |
+| O Babadook | 2014 | tt2321549 | https://play-1.cnvods.com/m/O%20Babadook_2014_tt2321549.mp4 |
+| O Chamado | 2002 | tt0298130 | https://play-1.cnvods.com/m/O%20Chamado_2002_tt0298130.mp4 |
+| O Contador | 2016 | tt2140479 | https://play-1.cnvods.com/m/O%20Contador_2016_tt2140479.mp4 |
+| O Código Da Vinci | 2006 | tt0382625 | https://play-1.cnvods.com/m/O%20C%C3%B3digo%20Da%20Vinci_2006_tt0382625.mp4 |
+| O Dia Depois de Amanhã | 2004 | tt0319262 | https://play-1.cnvods.com/m/O%20Dia%20Depois%20de%20Amanh%C3%A3_2004_tt0319262.mp4 |
+| O Diabo Veste Prada | 2006 | tt0458352 | https://play-1.cnvods.com/m/O%20Diabo%20Veste%20Prada_2006_tt0458352.mp4 |
+| O Discurso do Rei | 2010 | tt1504320 | https://play-1.cnvods.com/m/O%20Discurso%20do%20Rei_2010_tt1504320.mp4 |
+| O Ditador | 2012 | tt1645170 | https://play-1.cnvods.com/m/O%20Ditador_2012_tt1645170.mp4 |
+| O Diário de Bridget Jones | 2001 | tt0243155 | https://play-1.cnvods.com/m/O%20Di%C3%A1rio%20de%20Bridget%20Jones_2001_tt0243155.mp4 |
+| O Dublê | 2024 | tt1684562 | https://play-1.cnvods.com/m/O%20Dubl%C3%AA_2024_tt1684562.mp4 |
+| O Enigma de Outro Mundo | 1982 | tt0084787 | https://play-1.cnvods.com/m/O%20Enigma%20de%20Outro%20Mundo_1982_tt0084787.mp4 |
+| O Espetacular Homem-Aranha | 2012 | tt0948470 | https://play-1.cnvods.com/m/O%20Espetacular%20Homem-Aranha_2012_tt0948470.mp4 |
+| O Espetacular Homem-Aranha 2: A Ameaça de Electro | 2014 | tt1872181 | https://play-1.cnvods.com/m/O%20Espetacular%20Homem-Aranha%202%3A%20A%20Amea%C3%A7a%20de%20Electro_2014_tt1872181.mp4 |
+| O Esquadrão Suicida | 2021 | tt6334354 | https://play-1.cnvods.com/m/O%20Esquadr%C3%A3o%20Suicida_2021_tt6334354.mp4 |
+| O Estranho Mundo de Jack | 1993 | tt0107688 | https://play-1.cnvods.com/m/O%20Estranho%20Mundo%20de%20Jack_1993_tt0107688.mp4 |
+| O Exorcista | 1973 | tt0070047 | https://play-1.cnvods.com/m/O%20Exorcista_1973_tt0070047.mp4 |
+| O Expresso Polar | 2004 | tt0338348 | https://play-1.cnvods.com/m/O%20Expresso%20Polar_2004_tt0338348.mp4 |
+| O Exterminador do Futuro | 1984 | tt0088247 | https://play-1.cnvods.com/m/O%20Exterminador%20do%20Futuro_1984_tt0088247.mp4 |
+| O Exterminador do Futuro 3: A Rebelião das Máquinas | 2003 | tt0181852 | https://play-1.cnvods.com/m/O%20Exterminador%20do%20Futuro%203%3A%20A%20Rebeli%C3%A3o%20das%20M%C3%A1quinas_2003_tt0181852.mp4 |
+| O Exterminador do Futuro: A Salvação | 2009 | tt0438488 | https://play-1.cnvods.com/m/O%20Exterminador%20do%20Futuro%3A%20A%20Salva%C3%A7%C3%A3o_2009_tt0438488.mp4 |
+| O Exterminador do Futuro: Gênesis | 2015 | tt1340138 | https://play-1.cnvods.com/m/O%20Exterminador%20do%20Futuro%3A%20G%C3%AAnesis_2015_tt1340138.mp4 |
+| O Fantástico Sr. Raposo | 2009 | tt0432283 | https://play-1.cnvods.com/m/O%20Fant%C3%A1stico%20Sr.%20Raposo_2009_tt0432283.mp4 |
+| O Farol | 2019 | tt7984734 | https://play-1.cnvods.com/m/O%20Farol_2019_tt7984734.mp4 |
+| O Fugitivo | 1993 | tt0106977 | https://play-1.cnvods.com/m/O%20Fugitivo_1993_tt0106977.mp4 |
+| O Grande Ditador | 1940 | tt0032553 | https://play-1.cnvods.com/m/O%20Grande%20Ditador_1940_tt0032553.mp4 |
+| O Grande Gatsby | 2013 | tt1343092 | https://play-1.cnvods.com/m/O%20Grande%20Gatsby_2013_tt1343092.mp4 |
+| O Grande Hotel Budapeste | 2014 | tt2278388 | https://play-1.cnvods.com/m/O%20Grande%20Hotel%20Budapeste_2014_tt2278388.mp4 |
+| O Grande Truque | 2006 | tt0482571 | https://play-1.cnvods.com/m/O%20Grande%20Truque_2006_tt0482571.mp4 |
+| O Grinch | 2000 | tt0170016 | https://play-1.cnvods.com/m/O%20Grinch_2000_tt0170016.mp4 |
+| O Gângster | 2007 | tt0765429 | https://play-1.cnvods.com/m/O%20G%C3%A2ngster_2007_tt0765429.mp4 |
+| O Hobbit: A Batalha dos Cinco Exércitos | 2014 | tt2310332 | https://play-1.cnvods.com/m/O%20Hobbit%3A%20A%20Batalha%20dos%20Cinco%20Ex%C3%A9rcitos_2014_tt2310332.mp4 |
+| O Hobbit: Uma Jornada Inesperada | 2012 | tt0903624 | https://play-1.cnvods.com/m/O%20Hobbit%3A%20Uma%20Jornada%20Inesperada_2012_tt0903624.mp4 |
+| O Homem de Aço | 2013 | tt0770828 | https://play-1.cnvods.com/m/O%20Homem%20de%20A%C3%A7o_2013_tt0770828.mp4 |
+| O Homem do Norte | 2022 | tt11138512 | https://play-1.cnvods.com/m/O%20Homem%20do%20Norte_2022_tt11138512.mp4 |
+| O Homem Invisível | 2020 | tt1051906 | https://play-1.cnvods.com/m/O%20Homem%20Invis%C3%ADvel_2020_tt1051906.mp4 |
+| O Homem nas Trevas | 2016 | tt4160708 | https://play-1.cnvods.com/m/O%20Homem%20nas%20Trevas_2016_tt4160708.mp4 |
+| O Homem Que Mudou o Jogo | 2011 | tt1210166 | https://play-1.cnvods.com/m/O%20Homem%20Que%20Mudou%20o%20Jogo_2011_tt1210166.mp4 |
+| O Iluminado | 1980 | tt0081505 | https://play-1.cnvods.com/m/O%20Iluminado_1980_tt0081505.mp4 |
+| O Ilusionista | 2006 | tt0443543 | https://play-1.cnvods.com/m/O%20Ilusionista_2006_tt0443543.mp4 |
+| O Impossível | 2012 | tt1649419 | https://play-1.cnvods.com/m/O%20Imposs%C3%ADvel_2012_tt1649419.mp4 |
+| O Incrível Hulk | 2008 | tt0800080 | https://play-1.cnvods.com/m/O%20Incr%C3%ADvel%20Hulk_2008_tt0800080.mp4 |
+| O Irlandês | 2019 | tt1302006 | https://play-1.cnvods.com/m/O%20Irland%C3%AAs_2019_tt1302006.mp4 |
+| O Jogo da Imitação | 2014 | tt2084970 | https://play-1.cnvods.com/m/O%20Jogo%20da%20Imita%C3%A7%C3%A3o_2014_tt2084970.mp4 |
+| O Lado Bom da Vida | 2012 | tt1045658 | https://play-1.cnvods.com/m/O%20Lado%20Bom%20da%20Vida_2012_tt1045658.mp4 |
+| O Lagosta | 2015 | tt3464902 | https://play-1.cnvods.com/m/O%20Lagosta_2015_tt3464902.mp4 |
+| O Legado Bourne | 2012 | tt1194173 | https://play-1.cnvods.com/m/O%20Legado%20Bourne_2012_tt1194173.mp4 |
+| O Livro de Eli | 2010 | tt1037705 | https://play-1.cnvods.com/m/O%20Livro%20de%20Eli_2010_tt1037705.mp4 |
+| O Lobo de Wall Street | 2013 | tt0993846 | https://play-1.cnvods.com/m/O%20Lobo%20de%20Wall%20Street_2013_tt0993846.mp4 |
+| O Mentiroso | 1997 | tt0119528 | https://play-1.cnvods.com/m/O%20Mentiroso_1997_tt0119528.mp4 |
+| O Menu | 2022 | tt9764362 | https://play-1.cnvods.com/m/O%20Menu_2022_tt9764362.mp4 |
+| O Mundo Perdido: Jurassic Park | 1997 | tt0119567 | https://play-1.cnvods.com/m/O%20Mundo%20Perdido%3A%20Jurassic%20Park_1997_tt0119567.mp4 |
+| O Mágico de Oz | 1939 | tt0032138 | https://play-1.cnvods.com/m/O%20M%C3%A1gico%20de%20Oz_1939_tt0032138.mp4 |
+| O Máskara | 1994 | tt0110475 | https://play-1.cnvods.com/m/O%20M%C3%A1skara_1994_tt0110475.mp4 |
+| O Nevoeiro | 2007 | tt0884328 | https://play-1.cnvods.com/m/O%20Nevoeiro_2007_tt0884328.mp4 |
+| O Operário | 2004 | tt0361862 | https://play-1.cnvods.com/m/O%20Oper%C3%A1rio_2004_tt0361862.mp4 |
+| O Patriota | 2000 | tt0187393 | https://play-1.cnvods.com/m/O%20Patriota_2000_tt0187393.mp4 |
+| O Plano Perfeito | 2006 | tt0454848 | https://play-1.cnvods.com/m/O%20Plano%20Perfeito_2006_tt0454848.mp4 |
+| O Poder e a Lei | 2011 | tt1189340 | https://play-1.cnvods.com/m/O%20Poder%20e%20a%20Lei_2011_tt1189340.mp4 |
+| O Predador | 1987 | tt0093773 | https://play-1.cnvods.com/m/O%20Predador_1987_tt0093773.mp4 |
+| O Preço do Amanhã | 2011 | tt1637688 | https://play-1.cnvods.com/m/O%20Pre%C3%A7o%20do%20Amanh%C3%A3_2011_tt1637688.mp4 |
+| O Procurado | 2008 | tt0493464 | https://play-1.cnvods.com/m/O%20Procurado_2008_tt0493464.mp4 |
+| O Profissional | 1994 | tt0110413 | https://play-1.cnvods.com/m/O%20Profissional_1994_tt0110413.mp4 |
+| O Protetor | 2014 | tt0455944 | https://play-1.cnvods.com/m/O%20Protetor_2014_tt0455944.mp4 |
+| O Quarto do Pânico | 2002 | tt0258000 | https://play-1.cnvods.com/m/O%20Quarto%20do%20P%C3%A2nico_2002_tt0258000.mp4 |
+| O Quinto Elemento | 1997 | tt0119116 | https://play-1.cnvods.com/m/O%20Quinto%20Elemento_1997_tt0119116.mp4 |
+| O Rei do Show | 2017 | tt1485796 | https://play-1.cnvods.com/m/O%20Rei%20do%20Show_2017_tt1485796.mp4 |
+| O Rei Leão | 1994 | tt0110357 | https://play-1.cnvods.com/m/O%20Rei%20Le%C3%A3o_1994_tt0110357.mp4 |
+| O Rei Leão | 2019 | tt6105098 | https://play-1.cnvods.com/m/O%20Rei%20Le%C3%A3o_2019_tt6105098.mp4 |
+| O Resgate do Soldado Ryan | 1998 | tt0120815 | https://play-1.cnvods.com/m/O%20Resgate%20do%20Soldado%20Ryan_1998_tt0120815.mp4 |
+| O Retorno da Múmia | 2001 | tt0209163 | https://play-1.cnvods.com/m/O%20Retorno%20da%20M%C3%BAmia_2001_tt0209163.mp4 |
+| O Senhor das Armas | 2005 | tt0399295 | https://play-1.cnvods.com/m/O%20Senhor%20das%20Armas_2005_tt0399295.mp4 |
+| O Senhor dos Anéis: A Sociedade do Anel | 2001 | tt0120737 | https://play-1.cnvods.com/m/O%20Senhor%20dos%20An%C3%A9is%3A%20A%20Sociedade%20do%20Anel_2001_tt0120737.mp4 |
+| O Senhor dos Anéis: As Duas Torres | 2002 | tt0167261 | https://play-1.cnvods.com/m/O%20Senhor%20dos%20An%C3%A9is%3A%20As%20Duas%20Torres_2002_tt0167261.mp4 |
+| O Sexto Sentido | 1999 | tt0167404 | https://play-1.cnvods.com/m/O%20Sexto%20Sentido_1999_tt0167404.mp4 |
+| O Silêncio dos Inocentes | 1991 | tt0102926 | https://play-1.cnvods.com/m/O%20Sil%C3%AAncio%20dos%20Inocentes_1991_tt0102926.mp4 |
+| O Talentoso Ripley | 1999 | tt0134119 | https://play-1.cnvods.com/m/O%20Talentoso%20Ripley_1999_tt0134119.mp4 |
+| O Terminal | 2004 | tt0362227 | https://play-1.cnvods.com/m/O%20Terminal_2004_tt0362227.mp4 |
+| O Turista | 2010 | tt1243957 | https://play-1.cnvods.com/m/O%20Turista_2010_tt1243957.mp4 |
+| O Ultimato Bourne | 2007 | tt0440963 | https://play-1.cnvods.com/m/O%20Ultimato%20Bourne_2007_tt0440963.mp4 |
+| O Vencedor | 2010 | tt0964517 | https://play-1.cnvods.com/m/O%20Vencedor_2010_tt0964517.mp4 |
+| O Vingador do Futuro | 1990 | tt0100802 | https://play-1.cnvods.com/m/O%20Vingador%20do%20Futuro_1990_tt0100802.mp4 |
+| O Vingador do Futuro | 2012 | tt1386703 | https://play-1.cnvods.com/m/O%20Vingador%20do%20Futuro_2012_tt1386703.mp4 |
+| O Virgem de 40 Anos | 2005 | tt0405422 | https://play-1.cnvods.com/m/O%20Virgem%20de%2040%20Anos_2005_tt0405422.mp4 |
+| O Voo | 2012 | tt1907668 | https://play-1.cnvods.com/m/O%20Voo_2012_tt1907668.mp4 |
+| O Âncora: A Lenda de Ron Burgundy | 2004 | tt0357413 | https://play-1.cnvods.com/m/O%20%C3%82ncora%3A%20A%20Lenda%20de%20Ron%20Burgundy_2004_tt0357413.mp4 |
+| O Último Samurai | 2003 | tt0325710 | https://play-1.cnvods.com/m/O%20%C3%9Altimo%20Samurai_2003_tt0325710.mp4 |
+| Oblivion | 2013 | tt1483013 | https://play-1.cnvods.com/m/Oblivion_2013_tt1483013.mp4 |
+| Oito Mulheres e um Segredo | 2018 | tt5164214 | https://play-1.cnvods.com/m/Oito%20Mulheres%20e%20um%20Segredo_2018_tt5164214.mp4 |
+| Oldboy | 2003 | tt0364569 | https://play-1.cnvods.com/m/Oldboy_2003_tt0364569.mp4 |
+| Onze Homens e um Segredo | 2001 | tt0240772 | https://play-1.cnvods.com/m/Onze%20Homens%20e%20um%20Segredo_2001_tt0240772.mp4 |
+| Operação Valquíria | 2008 | tt0985699 | https://play-1.cnvods.com/m/Opera%C3%A7%C3%A3o%20Valqu%C3%ADria_2008_tt0985699.mp4 |
+| Oppenheimer | 2023 | tt15398776 | https://play-1.cnvods.com/m/Oppenheimer_2023_tt15398776.mp4 |
+| Os Agentes do Destino | 2011 | tt1385826 | https://play-1.cnvods.com/m/Os%20Agentes%20do%20Destino_2011_tt1385826.mp4 |
+| Os Bad Boys | 1995 | tt0112442 | https://play-1.cnvods.com/m/Os%20Bad%20Boys_1995_tt0112442.mp4 |
+| Os Banshees de Inisherin | 2022 | tt11813216 | https://play-1.cnvods.com/m/Os%20Banshees%20de%20Inisherin_2022_tt11813216.mp4 |
+| Os Bons Companheiros | 1990 | tt0099685 | https://play-1.cnvods.com/m/Os%20Bons%20Companheiros_1990_tt0099685.mp4 |
+| Os Caça-Fantasmas | 1984 | tt0087332 | https://play-1.cnvods.com/m/Os%20Ca%C3%A7a-Fantasmas_1984_tt0087332.mp4 |
+| Os Fantasmas se Divertem | 1988 | tt0094721 | https://play-1.cnvods.com/m/Os%20Fantasmas%20se%20Divertem_1988_tt0094721.mp4 |
+| Os Goonies | 1985 | tt0089218 | https://play-1.cnvods.com/m/Os%20Goonies_1985_tt0089218.mp4 |
+| Os Imperdoáveis | 1992 | tt0105695 | https://play-1.cnvods.com/m/Os%20Imperdo%C3%A1veis_1992_tt0105695.mp4 |
+| Os Incríveis | 2004 | tt0317705 | https://play-1.cnvods.com/m/Os%20Incr%C3%ADveis_2004_tt0317705.mp4 |
+| Os Incríveis 2 | 2018 | tt3606756 | https://play-1.cnvods.com/m/Os%20Incr%C3%ADveis%202_2018_tt3606756.mp4 |
+| Os Indomáveis | 2007 | tt0381849 | https://play-1.cnvods.com/m/Os%20Indom%C3%A1veis_2007_tt0381849.mp4 |
+| Os Infiltrados | 2006 | tt0407887 | https://play-1.cnvods.com/m/Os%20Infiltrados_2006_tt0407887.mp4 |
+| Os Infratores | 2012 | tt1212450 | https://play-1.cnvods.com/m/Os%20Infratores_2012_tt1212450.mp4 |
+| Os Intocáveis | 1987 | tt0094226 | https://play-1.cnvods.com/m/Os%20Intoc%C3%A1veis_1987_tt0094226.mp4 |
+| Os Mercenários | 2010 | tt1320253 | https://play-1.cnvods.com/m/Os%20Mercen%C3%A1rios_2010_tt1320253.mp4 |
+| Os Mercenários 2 | 2012 | tt1764651 | https://play-1.cnvods.com/m/Os%20Mercen%C3%A1rios%202_2012_tt1764651.mp4 |
+| Os Miseráveis | 2012 | tt1707386 | https://play-1.cnvods.com/m/Os%20Miser%C3%A1veis_2012_tt1707386.mp4 |
+| Os Oito Odiados | 2015 | tt3460252 | https://play-1.cnvods.com/m/Os%20Oito%20Odiados_2015_tt3460252.mp4 |
+| Os Outros | 2001 | tt0230600 | https://play-1.cnvods.com/m/Os%20Outros_2001_tt0230600.mp4 |
+| Os Outros Caras | 2010 | tt1386588 | https://play-1.cnvods.com/m/Os%20Outros%20Caras_2010_tt1386588.mp4 |
+| Os Rejeitados | 2023 | tt14849194 | https://play-1.cnvods.com/m/Os%20Rejeitados_2023_tt14849194.mp4 |
+| Os Simpsons: O Filme | 2007 | tt0462538 | https://play-1.cnvods.com/m/Os%20Simpsons%3A%20O%20Filme_2007_tt0462538.mp4 |
+| Os Suspeitos | 2013 | tt1392214 | https://play-1.cnvods.com/m/Os%20Suspeitos_2013_tt1392214.mp4 |
+| Pantera Negra | 2018 | tt1825683 | https://play-1.cnvods.com/m/Pantera%20Negra_2018_tt1825683.mp4 |
+| Paranóia | 2007 | tt0486822 | https://play-1.cnvods.com/m/Paran%C3%B3ia_2007_tt0486822.mp4 |
+| Parasita | 2019 | tt6751668 | https://play-1.cnvods.com/m/Parasita_2019_tt6751668.mp4 |
+| Passageiros | 2016 | tt1355644 | https://play-1.cnvods.com/m/Passageiros_2016_tt1355644.mp4 |
+| Paul: O Alien Fugitivo | 2011 | tt1092026 | https://play-1.cnvods.com/m/Paul%3A%20O%20Alien%20Fugitivo_2011_tt1092026.mp4 |
+| Pearl Harbor | 2001 | tt0213149 | https://play-1.cnvods.com/m/Pearl%20Harbor_2001_tt0213149.mp4 |
+| Pecadores | 2025 | tt31193180 | https://play-1.cnvods.com/m/Pecadores_2025_tt31193180.mp4 |
+| Penetras Bons de Bico | 2005 | tt0396269 | https://play-1.cnvods.com/m/Penetras%20Bons%20de%20Bico_2005_tt0396269.mp4 |
+| Pequena Miss Sunshine | 2006 | tt0449059 | https://play-1.cnvods.com/m/Pequena%20Miss%20Sunshine_2006_tt0449059.mp4 |
+| Perdido em Marte | 2015 | tt3659388 | https://play-1.cnvods.com/m/Perdido%20em%20Marte_2015_tt3659388.mp4 |
+| Piratas do Caribe: A Maldição do Pérola Negra | 2003 | tt0325980 | https://play-1.cnvods.com/m/Piratas%20do%20Caribe%3A%20A%20Maldi%C3%A7%C3%A3o%20do%20P%C3%A9rola%20Negra_2003_tt0325980.mp4 |
+| Piratas do Caribe: A Vingança de Salazar | 2017 | tt1790809 | https://play-1.cnvods.com/m/Piratas%20do%20Caribe%3A%20A%20Vingan%C3%A7a%20de%20Salazar_2017_tt1790809.mp4 |
+| Piratas do Caribe: Navegando em Águas Misteriosas | 2011 | tt1298650 | https://play-1.cnvods.com/m/Piratas%20do%20Caribe%3A%20Navegando%20em%20%C3%81guas%20Misteriosas_2011_tt1298650.mp4 |
+| Piratas do Caribe: No Fim do Mundo | 2007 | tt0449088 | https://play-1.cnvods.com/m/Piratas%20do%20Caribe%3A%20No%20Fim%20do%20Mundo_2007_tt0449088.mp4 |
+| Piratas do Caribe: O Baú da Morte | 2006 | tt0383574 | https://play-1.cnvods.com/m/Piratas%20do%20Caribe%3A%20O%20Ba%C3%BA%20da%20Morte_2006_tt0383574.mp4 |
+| Planeta dos Macacos: A Guerra | 2017 | tt3450958 | https://play-1.cnvods.com/m/Planeta%20dos%20Macacos%3A%20A%20Guerra_2017_tt3450958.mp4 |
+| Planeta dos Macacos: A Origem | 2011 | tt1318514 | https://play-1.cnvods.com/m/Planeta%20dos%20Macacos%3A%20A%20Origem_2011_tt1318514.mp4 |
+| Planeta dos Macacos: O Confronto | 2014 | tt2103281 | https://play-1.cnvods.com/m/Planeta%20dos%20Macacos%3A%20O%20Confronto_2014_tt2103281.mp4 |
+| Poder Sem Limites | 2012 | tt1706593 | https://play-1.cnvods.com/m/Poder%20Sem%20Limites_2012_tt1706593.mp4 |
+| Ponte dos Espiões | 2015 | tt3682448 | https://play-1.cnvods.com/m/Ponte%20dos%20Espi%C3%B5es_2015_tt3682448.mp4 |
+| Predadores | 2010 | tt1424381 | https://play-1.cnvods.com/m/Predadores_2010_tt1424381.mp4 |
+| Premonição | 2000 | tt0195714 | https://play-1.cnvods.com/m/Premoni%C3%A7%C3%A3o_2000_tt0195714.mp4 |
+| Presságio | 2009 | tt0448011 | https://play-1.cnvods.com/m/Press%C3%A1gio_2009_tt0448011.mp4 |
+| Prey | 2022 | tt11866324 | https://play-1.cnvods.com/m/Prey_2022_tt11866324.mp4 |
+| Princesa Mononoke | 1997 | tt0119698 | https://play-1.cnvods.com/m/Princesa%20Mononoke_1997_tt0119698.mp4 |
+| Procurando Dory | 2016 | tt2277860 | https://play-1.cnvods.com/m/Procurando%20Dory_2016_tt2277860.mp4 |
+| Procurando Nemo | 2003 | tt0266543 | https://play-1.cnvods.com/m/Procurando%20Nemo_2003_tt0266543.mp4 |
+| Profissão de Risco | 2001 | tt0221027 | https://play-1.cnvods.com/m/Profiss%C3%A3o%20de%20Risco_2001_tt0221027.mp4 |
+| Projeto X: Uma Festa Fora de Controle | 2012 | tt1636826 | https://play-1.cnvods.com/m/Projeto%20X%3A%20Uma%20Festa%20Fora%20de%20Controle_2012_tt1636826.mp4 |
+| Prometheus | 2012 | tt1446714 | https://play-1.cnvods.com/m/Prometheus_2012_tt1446714.mp4 |
+| Príncipe da Pérsia: As Areias do Tempo | 2010 | tt0473075 | https://play-1.cnvods.com/m/Pr%C3%ADncipe%20da%20P%C3%A9rsia%3A%20As%20Areias%20do%20Tempo_2010_tt0473075.mp4 |
+| Psicopata Americano | 2000 | tt0144084 | https://play-1.cnvods.com/m/Psicopata%20Americano_2000_tt0144084.mp4 |
+| Psicose | 1960 | tt0054215 | https://play-1.cnvods.com/m/Psicose_1960_tt0054215.mp4 |
+| Pulp Fiction: Tempo de Violência | 1994 | tt0110912 | https://play-1.cnvods.com/m/Pulp%20Fiction%3A%20Tempo%20de%20Viol%C3%AAncia_1994_tt0110912.mp4 |
+| Pânico | 1996 | tt0117571 | https://play-1.cnvods.com/m/P%C3%A2nico_1996_tt0117571.mp4 |
+| Quanto Mais Quente Melhor | 1959 | tt0053291 | https://play-1.cnvods.com/m/Quanto%20Mais%20Quente%20Melhor_1959_tt0053291.mp4 |
+| Quarteto Fantástico | 2005 | tt0120667 | https://play-1.cnvods.com/m/Quarteto%20Fant%C3%A1stico_2005_tt0120667.mp4 |
+| Quarteto Fantástico e o Surfista Prateado | 2007 | tt0486576 | https://play-1.cnvods.com/m/Quarteto%20Fant%C3%A1stico%20e%20o%20Surfista%20Prateado_2007_tt0486576.mp4 |
+| Quase Famosos | 2000 | tt0181875 | https://play-1.cnvods.com/m/Quase%20Famosos_2000_tt0181875.mp4 |
+| Quase Irmãos | 2008 | tt0838283 | https://play-1.cnvods.com/m/Quase%20Irm%C3%A3os_2008_tt0838283.mp4 |
+| Quebrando a Banca | 2008 | tt0478087 | https://play-1.cnvods.com/m/Quebrando%20a%20Banca_2008_tt0478087.mp4 |
+| Queime Depois de Ler | 2008 | tt0887883 | https://play-1.cnvods.com/m/Queime%20Depois%20de%20Ler_2008_tt0887883.mp4 |
+| Quem Quer Ser um Milionário? | 2008 | tt1010048 | https://play-1.cnvods.com/m/Quem%20Quer%20Ser%20um%20Milion%C3%A1rio%3F_2008_tt1010048.mp4 |
+| Quem Vai Ficar com Mary? | 1998 | tt0129387 | https://play-1.cnvods.com/m/Quem%20Vai%20Ficar%20com%20Mary%3F_1998_tt0129387.mp4 |
+| Quero Matar Meu Chefe | 2011 | tt1499658 | https://play-1.cnvods.com/m/Quero%20Matar%20Meu%20Chefe_2011_tt1499658.mp4 |
+| Questão de Tempo | 2013 | tt2194499 | https://play-1.cnvods.com/m/Quest%C3%A3o%20de%20Tempo_2013_tt2194499.mp4 |
+| Rango | 2011 | tt1192628 | https://play-1.cnvods.com/m/Rango_2011_tt1192628.mp4 |
+| Ratatouille | 2007 | tt0382932 | https://play-1.cnvods.com/m/Ratatouille_2007_tt0382932.mp4 |
+| Red Notice | 2021 | tt7991608 | https://play-1.cnvods.com/m/Red%20Notice_2021_tt7991608.mp4 |
+| RED: Aposentados e Perigosos | 2010 | tt1245526 | https://play-1.cnvods.com/m/RED%3A%20Aposentados%20e%20Perigosos_2010_tt1245526.mp4 |
+| Resgate | 2020 | tt8936646 | https://play-1.cnvods.com/m/Resgate_2020_tt8936646.mp4 |
+| Resident Evil: O Hóspede Maldito | 2002 | tt0120804 | https://play-1.cnvods.com/m/Resident%20Evil%3A%20O%20H%C3%B3spede%20Maldito_2002_tt0120804.mp4 |
+| Ressaca de Amor | 2008 | tt0800039 | https://play-1.cnvods.com/m/Ressaca%20de%20Amor_2008_tt0800039.mp4 |
+| Rio | 2011 | tt1436562 | https://play-1.cnvods.com/m/Rio_2011_tt1436562.mp4 |
+| Robin Hood | 2010 | tt0955308 | https://play-1.cnvods.com/m/Robin%20Hood_2010_tt0955308.mp4 |
+| RoboCop: O Policial do Futuro | 1987 | tt0093870 | https://play-1.cnvods.com/m/RoboCop%3A%20O%20Policial%20do%20Futuro_1987_tt0093870.mp4 |
+| Rock'n'Rolla: A Grande Roubada | 2008 | tt1032755 | https://play-1.cnvods.com/m/Rock%27n%27Rolla%3A%20A%20Grande%20Roubada_2008_tt1032755.mp4 |
+| Rogue One: Uma História Star Wars | 2016 | tt3748528 | https://play-1.cnvods.com/m/Rogue%20One%3A%20Uma%20Hist%C3%B3ria%20Star%20Wars_2016_tt3748528.mp4 |
+| Rota de Fuga | 2013 | tt1211956 | https://play-1.cnvods.com/m/Rota%20de%20Fuga_2013_tt1211956.mp4 |
+| Rua Cloverfield, 10 | 2016 | tt1179933 | https://play-1.cnvods.com/m/Rua%20Cloverfield%2C%2010_2016_tt1179933.mp4 |
+| Rush: No Limite da Emoção | 2013 | tt1979320 | https://play-1.cnvods.com/m/Rush%3A%20No%20Limite%20da%20Emo%C3%A7%C3%A3o_2013_tt1979320.mp4 |
+| Réquiem para um Sonho | 2000 | tt0180093 | https://play-1.cnvods.com/m/R%C3%A9quiem%20para%20um%20Sonho_2000_tt0180093.mp4 |
+| Salt | 2010 | tt0944835 | https://play-1.cnvods.com/m/Salt_2010_tt0944835.mp4 |
+| Saltburn | 2023 | tt17351924 | https://play-1.cnvods.com/m/Saltburn_2023_tt17351924.mp4 |
+| Santos Justiceiros | 1999 | tt0144117 | https://play-1.cnvods.com/m/Santos%20Justiceiros_1999_tt0144117.mp4 |
+| Scott Pilgrim Contra o Mundo | 2010 | tt0446029 | https://play-1.cnvods.com/m/Scott%20Pilgrim%20Contra%20o%20Mundo_2010_tt0446029.mp4 |
+| Se Beber, Não Case! | 2009 | tt1119646 | https://play-1.cnvods.com/m/Se%20Beber%2C%20N%C3%A3o%20Case%21_2009_tt1119646.mp4 |
+| Se Beber, Não Case! Parte III | 2013 | tt1951261 | https://play-1.cnvods.com/m/Se%20Beber%2C%20N%C3%A3o%20Case%21%20Parte%20III_2013_tt1951261.mp4 |
+| Segurando as Pontas | 2008 | tt0910936 | https://play-1.cnvods.com/m/Segurando%20as%20Pontas_2008_tt0910936.mp4 |
+| Sem Escalas | 2014 | tt2024469 | https://play-1.cnvods.com/m/Sem%20Escalas_2014_tt2024469.mp4 |
+| Sem Limites | 2011 | tt1219289 | https://play-1.cnvods.com/m/Sem%20Limites_2011_tt1219289.mp4 |
+| Sempre ao Seu Lado | 2009 | tt1028532 | https://play-1.cnvods.com/m/Sempre%20ao%20Seu%20Lado_2009_tt1028532.mp4 |
+| Senhores do Crime | 2007 | tt0765443 | https://play-1.cnvods.com/m/Senhores%20do%20Crime_2007_tt0765443.mp4 |
+| Serenity: A Luta pelo Amanhã | 2005 | tt0379786 | https://play-1.cnvods.com/m/Serenity%3A%20A%20Luta%20pelo%20Amanh%C3%A3_2005_tt0379786.mp4 |
+| Sete Psicopatas e um Shih Tzu | 2012 | tt1931533 | https://play-1.cnvods.com/m/Sete%20Psicopatas%20e%20um%20Shih%20Tzu_2012_tt1931533.mp4 |
+| Sete Vidas | 2008 | tt0814314 | https://play-1.cnvods.com/m/Sete%20Vidas_2008_tt0814314.mp4 |
+| Shang-Chi e a Lenda dos Dez Anéis | 2021 | tt9376612 | https://play-1.cnvods.com/m/Shang-Chi%20e%20a%20Lenda%20dos%20Dez%20An%C3%A9is_2021_tt9376612.mp4 |
+| Shazam! | 2019 | tt0448115 | https://play-1.cnvods.com/m/Shazam%21_2019_tt0448115.mp4 |
+| Sherlock Holmes | 2009 | tt0988045 | https://play-1.cnvods.com/m/Sherlock%20Holmes_2009_tt0988045.mp4 |
+| Sherlock Holmes: O Jogo de Sombras | 2011 | tt1515091 | https://play-1.cnvods.com/m/Sherlock%20Holmes%3A%20O%20Jogo%20de%20Sombras_2011_tt1515091.mp4 |
+| Show de Vizinha | 2004 | tt0265208 | https://play-1.cnvods.com/m/Show%20de%20Vizinha_2004_tt0265208.mp4 |
+| Shrek | 2001 | tt0126029 | https://play-1.cnvods.com/m/Shrek_2001_tt0126029.mp4 |
+| Shrek 2 | 2004 | tt0298148 | https://play-1.cnvods.com/m/Shrek%202_2004_tt0298148.mp4 |
+| Shrek Terceiro | 2007 | tt0413267 | https://play-1.cnvods.com/m/Shrek%20Terceiro_2007_tt0413267.mp4 |
+| Sicario: Terra de Ninguém | 2015 | tt3397884 | https://play-1.cnvods.com/m/Sicario%3A%20Terra%20de%20Ningu%C3%A9m_2015_tt3397884.mp4 |
+| Sim Senhor | 2008 | tt1068680 | https://play-1.cnvods.com/m/Sim%20Senhor_2008_tt1068680.mp4 |
+| Simplesmente Amor | 2003 | tt0314331 | https://play-1.cnvods.com/m/Simplesmente%20Amor_2003_tt0314331.mp4 |
+| Sin City: A Cidade do Pecado | 2005 | tt0401792 | https://play-1.cnvods.com/m/Sin%20City%3A%20A%20Cidade%20do%20Pecado_2005_tt0401792.mp4 |
+| Sinais | 2002 | tt0286106 | https://play-1.cnvods.com/m/Sinais_2002_tt0286106.mp4 |
+| Sobre Meninos e Lobos | 2003 | tt0327056 | https://play-1.cnvods.com/m/Sobre%20Meninos%20e%20Lobos_2003_tt0327056.mp4 |
+| Sociedade dos Poetas Mortos | 1989 | tt0097165 | https://play-1.cnvods.com/m/Sociedade%20dos%20Poetas%20Mortos_1989_tt0097165.mp4 |
+| Sombras da Noite | 2012 | tt1077368 | https://play-1.cnvods.com/m/Sombras%20da%20Noite_2012_tt1077368.mp4 |
+| Soul | 2020 | tt2948372 | https://play-1.cnvods.com/m/Soul_2020_tt2948372.mp4 |
+| Spotlight: Segredos Revelados | 2015 | tt1895587 | https://play-1.cnvods.com/m/Spotlight%3A%20Segredos%20Revelados_2015_tt1895587.mp4 |
+| Sr. & Sra. Smith | 2005 | tt0356910 | https://play-1.cnvods.com/m/Sr.%20%26%20Sra.%20Smith_2005_tt0356910.mp4 |
+| Star Trek | 2009 | tt0796366 | https://play-1.cnvods.com/m/Star%20Trek_2009_tt0796366.mp4 |
+| Star Trek: Sem Fronteiras | 2016 | tt2660888 | https://play-1.cnvods.com/m/Star%20Trek%3A%20Sem%20Fronteiras_2016_tt2660888.mp4 |
+| Star Wars: A Ascensão Skywalker | 2019 | tt2527338 | https://play-1.cnvods.com/m/Star%20Wars%3A%20A%20Ascens%C3%A3o%20Skywalker_2019_tt2527338.mp4 |
+| Stardust: O Mistério da Estrela | 2007 | tt0486655 | https://play-1.cnvods.com/m/Stardust%3A%20O%20Mist%C3%A9rio%20da%20Estrela_2007_tt0486655.mp4 |
+| Sucker Punch: Mundo Surreal | 2011 | tt0978764 | https://play-1.cnvods.com/m/Sucker%20Punch%3A%20Mundo%20Surreal_2011_tt0978764.mp4 |
+| Sully: O Herói do Rio Hudson | 2016 | tt3263904 | https://play-1.cnvods.com/m/Sully%3A%20O%20Her%C3%B3i%20do%20Rio%20Hudson_2016_tt3263904.mp4 |
+| Sunshine: Alerta Solar | 2007 | tt0448134 | https://play-1.cnvods.com/m/Sunshine%3A%20Alerta%20Solar_2007_tt0448134.mp4 |
+| Super 8 | 2011 | tt1650062 | https://play-1.cnvods.com/m/Super%208_2011_tt1650062.mp4 |
+| Superbad: É Hoje | 2007 | tt0829482 | https://play-1.cnvods.com/m/Superbad%3A%20%C3%89%20Hoje_2007_tt0829482.mp4 |
+| Superman | 2025 | tt5950044 | https://play-1.cnvods.com/m/Superman_2025_tt5950044.mp4 |
+| Superman: O Retorno | 2006 | tt0348150 | https://play-1.cnvods.com/m/Superman%3A%20O%20Retorno_2006_tt0348150.mp4 |
+| Tarzan | 1999 | tt0120855 | https://play-1.cnvods.com/m/Tarzan_1999_tt0120855.mp4 |
+| Ted | 2012 | tt1637725 | https://play-1.cnvods.com/m/Ted_2012_tt1637725.mp4 |
+| Ted 2 | 2015 | tt2637276 | https://play-1.cnvods.com/m/Ted%202_2015_tt2637276.mp4 |
+| Tempos Modernos | 1936 | tt0027977 | https://play-1.cnvods.com/m/Tempos%20Modernos_1936_tt0027977.mp4 |
+| Terra Selvagem | 2017 | tt5362988 | https://play-1.cnvods.com/m/Terra%20Selvagem_2017_tt5362988.mp4 |
+| Terremoto: A Falha de San Andreas | 2015 | tt2126355 | https://play-1.cnvods.com/m/Terremoto%3A%20A%20Falha%20de%20San%20Andreas_2015_tt2126355.mp4 |
+| Terror em Silent Hill | 2006 | tt0384537 | https://play-1.cnvods.com/m/Terror%20em%20Silent%20Hill_2006_tt0384537.mp4 |
+| The Adam Project | 2022 | tt2463208 | https://play-1.cnvods.com/m/The%20Adam%20Project_2022_tt2463208.mp4 |
+| The Super Mario Bros. Movie | 2023 | tt6718170 | https://play-1.cnvods.com/m/The%20Super%20Mario%20Bros.%20Movie_2023_tt6718170.mp4 |
+| Thor | 2011 | tt0800369 | https://play-1.cnvods.com/m/Thor_2011_tt0800369.mp4 |
+| Thor: Amor e Trovão | 2022 | tt10648342 | https://play-1.cnvods.com/m/Thor%3A%20Amor%20e%20Trov%C3%A3o_2022_tt10648342.mp4 |
+| Thor: O Mundo Sombrio | 2013 | tt1981115 | https://play-1.cnvods.com/m/Thor%3A%20O%20Mundo%20Sombrio_2013_tt1981115.mp4 |
+| Thor: Ragnarok | 2017 | tt3501632 | https://play-1.cnvods.com/m/Thor%3A%20Ragnarok_2017_tt3501632.mp4 |
+| Titanic | 1997 | tt0120338 | https://play-1.cnvods.com/m/Titanic_1997_tt0120338.mp4 |
+| Todo Mundo em Pânico | 2000 | tt0175142 | https://play-1.cnvods.com/m/Todo%20Mundo%20em%20P%C3%A2nico_2000_tt0175142.mp4 |
+| Todo Mundo Quase Morto | 2004 | tt0365748 | https://play-1.cnvods.com/m/Todo%20Mundo%20Quase%20Morto_2004_tt0365748.mp4 |
+| Todo Poderoso | 2003 | tt0315327 | https://play-1.cnvods.com/m/Todo%20Poderoso_2003_tt0315327.mp4 |
+| Top Gun: Maverick | 2022 | tt1745960 | https://play-1.cnvods.com/m/Top%20Gun%3A%20Maverick_2022_tt1745960.mp4 |
+| Touro Indomável | 1980 | tt0081398 | https://play-1.cnvods.com/m/Touro%20Indom%C3%A1vel_1980_tt0081398.mp4 |
+| Toy Story | 1995 | tt0114709 | https://play-1.cnvods.com/m/Toy%20Story_1995_tt0114709.mp4 |
+| Toy Story 2 | 1999 | tt0120363 | https://play-1.cnvods.com/m/Toy%20Story%202_1999_tt0120363.mp4 |
+| Toy Story 3 | 2010 | tt0435761 | https://play-1.cnvods.com/m/Toy%20Story%203_2010_tt0435761.mp4 |
+| Toy Story 4 | 2019 | tt1979376 | https://play-1.cnvods.com/m/Toy%20Story%204_2019_tt1979376.mp4 |
+| Trainspotting: Sem Limites | 1996 | tt0117951 | https://play-1.cnvods.com/m/Trainspotting%3A%20Sem%20Limites_1996_tt0117951.mp4 |
+| Transformers | 2007 | tt0418279 | https://play-1.cnvods.com/m/Transformers_2007_tt0418279.mp4 |
+| Transformers: A Era da Extinção | 2014 | tt2109248 | https://play-1.cnvods.com/m/Transformers%3A%20A%20Era%20da%20Extin%C3%A7%C3%A3o_2014_tt2109248.mp4 |
+| Transformers: A Vingança dos Derrotados | 2009 | tt1055369 | https://play-1.cnvods.com/m/Transformers%3A%20A%20Vingan%C3%A7a%20dos%20Derrotados_2009_tt1055369.mp4 |
+| Transformers: O Lado Oculto da Lua | 2011 | tt1399103 | https://play-1.cnvods.com/m/Transformers%3A%20O%20Lado%20Oculto%20da%20Lua_2011_tt1399103.mp4 |
+| Trapaça | 2013 | tt1800241 | https://play-1.cnvods.com/m/Trapa%C3%A7a_2013_tt1800241.mp4 |
+| Trem-Bala | 2022 | tt12593682 | https://play-1.cnvods.com/m/Trem-Bala_2022_tt12593682.mp4 |
+| Treze Homens e um Novo Segredo | 2007 | tt0496806 | https://play-1.cnvods.com/m/Treze%20Homens%20e%20um%20Novo%20Segredo_2007_tt0496806.mp4 |
+| Tron: O Legado | 2010 | tt1104001 | https://play-1.cnvods.com/m/Tron%3A%20O%20Legado_2010_tt1104001.mp4 |
+| Tropas Estelares | 1997 | tt0120201 | https://play-1.cnvods.com/m/Tropas%20Estelares_1997_tt0120201.mp4 |
+| Trovão Tropical | 2008 | tt0942385 | https://play-1.cnvods.com/m/Trov%C3%A3o%20Tropical_2008_tt0942385.mp4 |
+| True Lies | 1994 | tt0111503 | https://play-1.cnvods.com/m/True%20Lies_1994_tt0111503.mp4 |
+| Truque de Mestre | 2013 | tt1670345 | https://play-1.cnvods.com/m/Truque%20de%20Mestre_2013_tt1670345.mp4 |
+| Truque de Mestre: O 2º Ato | 2016 | tt3110958 | https://play-1.cnvods.com/m/Truque%20de%20Mestre%3A%20O%202%C2%BA%20Ato_2016_tt3110958.mp4 |
+| Três Anúncios para um Crime | 2017 | tt5027774 | https://play-1.cnvods.com/m/Tr%C3%AAs%20An%C3%BAncios%20para%20um%20Crime_2017_tt5027774.mp4 |
+| Tubarão | 1975 | tt0073195 | https://play-1.cnvods.com/m/Tubar%C3%A3o_1975_tt0073195.mp4 |
+| Tudo em Todo Lugar ao Mesmo Tempo | 2022 | tt6710474 | https://play-1.cnvods.com/m/Tudo%20em%20Todo%20Lugar%20ao%20Mesmo%20Tempo_2022_tt6710474.mp4 |
+| Tá Chovendo Hambúrguer | 2009 | tt0844471 | https://play-1.cnvods.com/m/T%C3%A1%20Chovendo%20Hamb%C3%BArguer_2009_tt0844471.mp4 |
+| Um Corpo que Cai | 1958 | tt0052357 | https://play-1.cnvods.com/m/Um%20Corpo%20que%20Cai_1958_tt0052357.mp4 |
+| Um Drink no Inferno | 1996 | tt0116367 | https://play-1.cnvods.com/m/Um%20Drink%20no%20Inferno_1996_tt0116367.mp4 |
+| Um Duende em Nova York | 2003 | tt0319343 | https://play-1.cnvods.com/m/Um%20Duende%20em%20Nova%20York_2003_tt0319343.mp4 |
+| Um Estranho no Ninho | 1975 | tt0073486 | https://play-1.cnvods.com/m/Um%20Estranho%20no%20Ninho_1975_tt0073486.mp4 |
+| Um Lugar Chamado Notting Hill | 1999 | tt0125439 | https://play-1.cnvods.com/m/Um%20Lugar%20Chamado%20Notting%20Hill_1999_tt0125439.mp4 |
+| Um Lugar Silencioso | 2018 | tt6644200 | https://play-1.cnvods.com/m/Um%20Lugar%20Silencioso_2018_tt6644200.mp4 |
+| Um Maluco no Golfe | 1996 | tt0116483 | https://play-1.cnvods.com/m/Um%20Maluco%20no%20Golfe_1996_tt0116483.mp4 |
+| Um Parto de Viagem | 2010 | tt1231583 | https://play-1.cnvods.com/m/Um%20Parto%20de%20Viagem_2010_tt1231583.mp4 |
+| Um Sonho de Liberdade | 1994 | tt0111161 | https://play-1.cnvods.com/m/Um%20Sonho%20de%20Liberdade_1994_tt0111161.mp4 |
+| Um Sonho Possível | 2009 | tt0878804 | https://play-1.cnvods.com/m/Um%20Sonho%20Poss%C3%ADvel_2009_tt0878804.mp4 |
+| Uma Aventura Lego | 2014 | tt1490017 | https://play-1.cnvods.com/m/Uma%20Aventura%20Lego_2014_tt1490017.mp4 |
+| Uma Babá Quase Perfeita | 1993 | tt0107614 | https://play-1.cnvods.com/m/Uma%20Bab%C3%A1%20Quase%20Perfeita_1993_tt0107614.mp4 |
+| Uma Noite de Crime | 2013 | tt2184339 | https://play-1.cnvods.com/m/Uma%20Noite%20de%20Crime_2013_tt2184339.mp4 |
+| Uma Noite no Museu | 2006 | tt0477347 | https://play-1.cnvods.com/m/Uma%20Noite%20no%20Museu_2006_tt0477347.mp4 |
+| Uma Saída de Mestre | 2003 | tt0317740 | https://play-1.cnvods.com/m/Uma%20Sa%C3%ADda%20de%20Mestre_2003_tt0317740.mp4 |
+| Up: Altas Aventuras | 2009 | tt1049413 | https://play-1.cnvods.com/m/Up%3A%20Altas%20Aventuras_2009_tt1049413.mp4 |
+| Valente | 2012 | tt1217209 | https://play-1.cnvods.com/m/Valente_2012_tt1217209.mp4 |
+| Vanilla Sky | 2001 | tt0259711 | https://play-1.cnvods.com/m/Vanilla%20Sky_2001_tt0259711.mp4 |
+| Velocidade Máxima | 1994 | tt0111257 | https://play-1.cnvods.com/m/Velocidade%20M%C3%A1xima_1994_tt0111257.mp4 |
+| Velozes & Furiosos | 2001 | tt0232500 | https://play-1.cnvods.com/m/Velozes%20%26%20Furiosos_2001_tt0232500.mp4 |
+| Velozes & Furiosos 4 | 2009 | tt1013752 | https://play-1.cnvods.com/m/Velozes%20%26%20Furiosos%204_2009_tt1013752.mp4 |
+| Velozes & Furiosos 6 | 2013 | tt1905041 | https://play-1.cnvods.com/m/Velozes%20%26%20Furiosos%206_2013_tt1905041.mp4 |
+| Velozes & Furiosos 7 | 2015 | tt2820852 | https://play-1.cnvods.com/m/Velozes%20%26%20Furiosos%207_2015_tt2820852.mp4 |
+| Velozes & Furiosos 8 | 2017 | tt4630562 | https://play-1.cnvods.com/m/Velozes%20%26%20Furiosos%208_2017_tt4630562.mp4 |
+| Velozes & Furiosos: Desafio em Tóquio | 2006 | tt0463985 | https://play-1.cnvods.com/m/Velozes%20%26%20Furiosos%3A%20Desafio%20em%20T%C3%B3quio_2006_tt0463985.mp4 |
+| Velozes & Furiosos: Hobbs & Shaw | 2019 | tt6806448 | https://play-1.cnvods.com/m/Velozes%20%26%20Furiosos%3A%20Hobbs%20%26%20Shaw_2019_tt6806448.mp4 |
+| Venom | 2018 | tt1270797 | https://play-1.cnvods.com/m/Venom_2018_tt1270797.mp4 |
+| Venom: Tempo de Carnificina | 2021 | tt7097896 | https://play-1.cnvods.com/m/Venom%3A%20Tempo%20de%20Carnificina_2021_tt7097896.mp4 |
+| Vicky Cristina Barcelona | 2008 | tt0497465 | https://play-1.cnvods.com/m/Vicky%20Cristina%20Barcelona_2008_tt0497465.mp4 |
+| Vida | 2017 | tt5442430 | https://play-1.cnvods.com/m/Vida_2017_tt5442430.mp4 |
+| Vida de Inseto | 1998 | tt0120623 | https://play-1.cnvods.com/m/Vida%20de%20Inseto_1998_tt0120623.mp4 |
+| Vidro | 2019 | tt6823368 | https://play-1.cnvods.com/m/Vidro_2019_tt6823368.mp4 |
+| Vingadores: Guerra Infinita | 2018 | tt4154756 | https://play-1.cnvods.com/m/Vingadores%3A%20Guerra%20Infinita_2018_tt4154756.mp4 |
+| Viva: A Vida é uma Festa | 2017 | tt2380307 | https://play-1.cnvods.com/m/Viva%3A%20A%20Vida%20%C3%A9%20uma%20Festa_2017_tt2380307.mp4 |
+| Vizinhos | 2014 | tt2004420 | https://play-1.cnvods.com/m/Vizinhos_2014_tt2004420.mp4 |
+| Viúva Negra | 2021 | tt3480822 | https://play-1.cnvods.com/m/Vi%C3%BAva%20Negra_2021_tt3480822.mp4 |
+| WALL·E | 2008 | tt0910970 | https://play-1.cnvods.com/m/WALL%C2%B7E_2008_tt0910970.mp4 |
+| Watchmen: O Filme | 2009 | tt0409459 | https://play-1.cnvods.com/m/Watchmen%3A%20O%20Filme_2009_tt0409459.mp4 |
+| Whiplash: Em Busca da Perfeição | 2014 | tt2582802 | https://play-1.cnvods.com/m/Whiplash%3A%20Em%20Busca%20da%20Perfei%C3%A7%C3%A3o_2014_tt2582802.mp4 |
+| Wolverine: Imortal | 2013 | tt1430132 | https://play-1.cnvods.com/m/Wolverine%3A%20Imortal_2013_tt1430132.mp4 |
+| X-Men | 2000 | tt0120903 | https://play-1.cnvods.com/m/X-Men_2000_tt0120903.mp4 |
+| X-Men 2 | 2003 | tt0290334 | https://play-1.cnvods.com/m/X-Men%202_2003_tt0290334.mp4 |
+| X-Men Origens: Wolverine | 2009 | tt0458525 | https://play-1.cnvods.com/m/X-Men%20Origens%3A%20Wolverine_2009_tt0458525.mp4 |
+| X-Men: Apocalipse | 2016 | tt3385516 | https://play-1.cnvods.com/m/X-Men%3A%20Apocalipse_2016_tt3385516.mp4 |
+| X-Men: Dias de um Futuro Esquecido | 2014 | tt1877832 | https://play-1.cnvods.com/m/X-Men%3A%20Dias%20de%20um%20Futuro%20Esquecido_2014_tt1877832.mp4 |
+| X-Men: Primeira Classe | 2011 | tt1270798 | https://play-1.cnvods.com/m/X-Men%3A%20Primeira%20Classe_2011_tt1270798.mp4 |
+| X-Men: The Last Stand | 2006 | tt0376994 | https://play-1.cnvods.com/m/X-Men%3A%20The%20Last%20Stand_2006_tt0376994.mp4 |
+| Xeque-Mate | 2006 | tt0425210 | https://play-1.cnvods.com/m/Xeque-Mate_2006_tt0425210.mp4 |
+| Zodíaco | 2007 | tt0443706 | https://play-1.cnvods.com/m/Zod%C3%ADaco_2007_tt0443706.mp4 |
+| Zootopia | 2016 | tt2948356 | https://play-1.cnvods.com/m/Zootopia_2016_tt2948356.mp4 |
+| Zumbilândia | 2009 | tt1156398 | https://play-1.cnvods.com/m/Zumbil%C3%A2ndia_2009_tt1156398.mp4 |
+| À Procura da Felicidade | 2006 | tt0454921 | https://play-1.cnvods.com/m/%C3%80%20Procura%20da%20Felicidade_2006_tt0454921.mp4 |
+| É o Fim | 2013 | tt1245492 | https://play-1.cnvods.com/m/%C3%89%20o%20Fim_2013_tt1245492.mp4 |
+
