@@ -1,0 +1,37 @@
+SERIE: Dom
+NUMERO DA SERIE: 123377
+===================================================================
+Episodios encontrados: 24
+
+SERVIDOR: shd2
+  Temporada 1 (8 episodios): 1-8
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/1x1.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/1x2.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/1x3.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/1x4.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/1x5.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/1x6.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/1x7.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/1x8.mp4
+  Temporada 2 (8 episodios): 1-8
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/2x1.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/2x2.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/2x3.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/2x4.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/2x5.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/2x6.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/2x7.mp4
+    http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/123377/2x8.mp4
+
+SERVIDOR: shd8
+  Temporada 1 (8 episodios): 1-8
+    http://shd8.oneplayer.site/67i567uyh56r4tgyh54rteh45yhg465uhy456ju56l2q/SHD8/123377/1x1.mp4
+    http://shd8.oneplayer.site/67i567uyh56r4tgyh54rteh45yhg465uhy456ju56l2q/SHD8/123377/1x2.mp4
+    http://shd8.oneplayer.site/67i567uyh56r4tgyh54rteh45yhg465uhy456ju56l2q/SHD8/123377/1x3.mp4
+    http://shd8.oneplayer.site/67i567uyh56r4tgyh54rteh45yhg465uhy456ju56l2q/SHD8/123377/1x4.mp4
+    http://shd8.oneplayer.site/67i567uyh56r4tgyh54rteh45yhg465uhy456ju56l2q/SHD8/123377/1x5.mp4
+    http://shd8.oneplayer.site/67i567uyh56r4tgyh54rteh45yhg465uhy456ju56l2q/SHD8/123377/1x6.mp4
+    http://shd8.oneplayer.site/67i567uyh56r4tgyh54rteh45yhg465uhy456ju56l2q/SHD8/123377/1x7.mp4
+    http://shd8.oneplayer.site/67i567uyh56r4tgyh54rteh45yhg465uhy456ju56l2q/SHD8/123377/1x8.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.

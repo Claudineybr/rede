@@ -1,0 +1,14 @@
+SERIE: Candy
+NUMERO DA SERIE: 105804
+===================================================================
+Episodios encontrados: 5
+
+SERVIDOR: shd7
+  Temporada 1 (5 episodios): 1-5
+    http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/105804/1x1.mp4
+    http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/105804/1x2.mp4
+    http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/105804/1x3.mp4
+    http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/105804/1x4.mp4
+    http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/105804/1x5.mp4
+
+206/200 = o arquivo do episodio existe. 404 = nao existe.
