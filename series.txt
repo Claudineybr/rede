@@ -41961,7 +41961,7 @@ Quadras | 73735
 Ebersberg | 69546
 Jalen & Jacoby | 111218
 Risky | 121744
-Evolution | 258899
+Nova: Evolution | 258899
 The Skinner Boys: Guardians of the Lost Secrets | 76021
 Stasera Casa Mika | 230010
 Pops em Seul | 71782
@@ -53414,7 +53414,7 @@ Dekameron | 236901
 Zakumi | 297815
 Vekterne | 86853
 The Gone Game | 107694
-Kangaroo Beach | 121613
+A Praia Canguru | 121613
 Indovina chi viene a cena | 338916
 The Weekend Workshop | 211046
 DFPITV: The Ace and Blaze show | 155823
@@ -78019,33 +78019,22 @@ Demolition | 218138
 Baska Yerde Yok | 49224
 Ad Lib | 58499
 Just the Two of Us | 5463
-#1 Single | 26645
 Inside the Box | 13080
 Nicholas Nickleby | 27611
 Dance Champions | 77014
 Hotel Römantiek | 310346
-#VSéries | 88737
 Back to School | 158581
 Ghost Bait | 57974
-#Freerayshawn | 98624
-#BlackAF | 101200
 Parterapi | 119435
 When Disaster Strikes | 116282
 Football Stories | 326582
-#Fitgirls | 245190
-#millcore | 257217
 Cheerleader U | 23328
-#Luimelia | 98842
-#Hashtag | 299830
 The Wild West | 103899
 Family Food Fight | 92255
 The Masked Dancer | 113626
 Conta Comigo | 125285
-#PartiuBrasil | 125785
-#Datenight | 315248
 Capriccio! | 30421
 Killing for a Living | 23426
-#Content | 133623
 Cyanide | 154380
 Outspoken | 104676
 Must Love Kids | 29476
@@ -78064,18 +78053,14 @@ America's National Parks | 78713
 Black Magic | 71988
 Candy | 105804
 Deep Dive | 257930
-#CoupleChallenge - Das stärkste Team gewinnt | 115734
 Alter Ego | 240854
 Ultimate Cake Off | 31975
-#offline im Wald | 128177
-#STRANGELOVE | 272107
 Workshop | 48143
 The House | 47622
 Negócio Fechado | 342966
 Aloha! | 55121
 Æði | 94834
 Lock 'n' Load | 31113
-#1 Chicken | 133791
 Amanpour. | 238803
 Yüzlesme | 195350
 Busted & Disgusted | 213510
@@ -78085,14 +78070,9 @@ Stolen Voices, Buried Secrets | 40451
 Coppers | 34547
 Den blinde vinkel | 232229
 Pawn Queens | 38371
-#Follow | 220802
-#beisenherz | 278602
-#TextMeWhenYouGetHome | 204948
 Roam | 342967
 Love Triangle | 252217
-#OMG | 82792
 House of Zwide | 342892
-#Bhagar | 209329
 1+1 | 252845
 God. Family. Football. | 276636
 Libres | 233619
@@ -78105,31 +78085,21 @@ Ctyrlístek | 316643
 Asia | 55048
 neo | 69281
 90 | 291785
-#lovemilla | 317207
-#Cybersleuths: The Idaho Murders | 244442
 Ano'ng meron kay Abok? | 342993
-#LoveArmy - Où es-tu Jérôme ? | 249668
 Majurat See Nam Pueng | 50595
 Jaan Nisar | 91334
 Live | 232109
 House on the Outlands | 342932
 Joseph | 78944
-#Dead2Me | 273157
 Special Forces | 117723
-#Todas. Debanhi: una historia de redes | 285880
 Manzel 12 | 223017
-#wallraffen | 290495
 Neljän tähden illallinen | 54992
 No Going Back | 305783
 Olga | 314657
 Toonimals | 10582
-#Bikerlive | 118267
-#WaddleOn | 299345
 Het Complot | 298660
 Inside Airport Lost & Found | 298417
 Who's in the Band | 342989
-#Hatetag | 257660
-#StArt | 225877
 The First Five Years | 23225
 Die Abschlepper | 320071
 Atenção Para o Refrão | 342840
@@ -78140,36 +78110,216 @@ Ozzy Fox | 342897
 A Passion for Churches | 39140
 Hard Times | 43734
 PowerSMP | 342895
-#News | 136497
-#qt1ma | 257776
-#TheAssignment | 82206
 Curious Traveler | 342985
 Do Not Watch Alone | 342898
 1945 | 83863
-#Sti | 247804
 Louie & Yoko Build | 270952
 Aura de Peligro | 342998
 Kopen of Slopen? | 238030
 Buried Evidence | 335012
 Ide auto! | 342078
+American Travelers | 291091
+The Vanishing Women | 66704
+De Criança Para Criança | 113254
+Candid Camera | 236147
+Eye Witness | 24279
+Keep Talking | 32976
+Mr. Garlund | 32887
+Rule Britannia! | 28740
+Winners | 28695
+Live-In | 31482
+Haywire | 10232
+Truckers | 70574
+Comics | 105492
+Insiders | 337148
+Fun House | 31272
+Prey | 3602
+Até Que a Lei os Separe | 11413
+Good Morning | 1725
+Mr. Fixit | 33332
+Alive! | 216719
+The Zoo | 120693
+Blankety Blanks | 10427
+Man O Man | 14109
+Os Ossos do Barão | 245069
+Paraíso | 282339
+Homicídios Especiais | 13955
+Emma | 18156
+Tabú | 308168
+Stars on Ice | 31646
+Keynotes | 33491
+Max und Moritz | 242699
+First Look | 31384
+Big Brother | 234557
+Show Me the Money | 4135
+Cheaters | 157181
+O Beijo do Drácula | 58928
+120 Minutes | 5112
+Worst Case Scenarios | 32704
+Directions | 45855
+Isabella | 49943
+CBS Reports | 312635
+Party | 232575
+Chrysler Festival | 22708
+Now See This | 25883
+Rund um die Uhr | 96424
+Club Seven | 50526
+It's Academic | 9692
+Business World News | 41839
+Nasa mala klinika | 287126
+Chasing Farrah | 306458
+No Limits | 14857
+Mia | 287183
+Praonica | 247153
+Reencontro Com o Passado | 254628
+Super Nanny | 89910
+Demolition | 9037
+180° | 273701
+Medical Miracles | 39247
+Quizmania | 800
+#1 Single | 26645
+Pop the Question | 24052
+Prank Patrol | 32558
+The Flying Fox of Snowy Mountain | 32478
+Chor Lau-heung | 33426
+Download | 7623
+Weekend Sunrise | 35265
+Snap | 129499
+Murder | 47557
+Expedition ins Gehirn | 98318
+Drifters | 68103
+One Mic Stand | 95458
+#VSéries | 88737
+Family Style | 33596
+The Live Desk | 7602
+#Freerayshawn | 98624
+#BlackAF | 101200
+Dahil sa pag-ibig | 219599
+En helt vanlig dag | 72232
+Meera | 21769
+Random | 332286
+Sanjivani | 304833
+Zuzubalândia | 93639
+The Interrogator | 336125
+#Fitgirls | 245190
+The Estate | 226131
+#millcore | 257217
+#Luimelia | 98842
+#Hashtag | 299830
+Dedicate | 343106
+Assisted Living | 36509
+Stone Age | 343124
+Mnet Asian Music Awards | 96040
+Muqaddar | 99813
+Unraveled | 258870
+#PartiuBrasil | 125785
+#Datenight | 315248
+#Content | 133623
+Mafia | 315023
+Infinity | 235261
+Psycho | 212316
+De positivo's | 108344
+Nigel Marven's Wild Philippines | 230462
+Quicksilver | 243842
+Skamløs | 109353
+Serial Swindlers | 292670
+Fai Gam Prae | 110841
+All's Faire | 57054
+:30 Seconds | 257774
+#CoupleChallenge - Das stärkste Team gewinnt | 115734
+#offline im Wald | 128177
+#STRANGELOVE | 272107
+Mossèn Capellà | 76493
+Hardcore Profits | 321500
+Born to Shine | 40353
+#1 Chicken | 133791
+Estados Unidos Selvagem | 36957
+Snug and Cozi | 26376
+Born to Kill? | 71379
+Tara Duncan | 31155
+#Follow | 220802
+#beisenherz | 278602
+2% | 81044
+Log Jam | 343143
+Fic@ Comigo | 338508
+Goalmouth | 343131
+#TextMeWhenYouGetHome | 204948
+RPM | 96033
+#OMG | 82792
+Camp Orange | 10624
+Pishachini | 287516
+Apparences | 283964
+#Bhagar | 209329
+Sell Me the Answer | 41742
+Watch with Mother | 9251
+A Cut Above | 211840
+The Choir | 17839
+24-stjerners julekalender | 278412
+Nerve Center | 244083
+Careless | 343048
+Payday | 68429
+Lily | 291108
+Rekhne | 292059
+The Voice Generations | 158450
+#lovemilla | 317207
+#Cybersleuths: The Idaho Murders | 244442
+#LoveArmy - Où es-tu Jérôme ? | 249668
+Strachy | 248480
+Artiz Mektebi | 343098
+The Assembly | 262100
+#Dead2Me | 273157
+#Todas. Debanhi: una historia de redes | 285880
+#wallraffen | 290495
+The Chain: How the World Works | 314263
+The Voice Sri Lanka | 336712
+#Bikerlive | 118267
+#WaddleOn | 299345
+Die Promi Padel WM | 343151
+Flush | 317381
+#Hatetag | 257660
+#StArt | 225877
+The Hook | 88010
+Galactic Defense Force | 343091
+Are U Super Cereal | 343137
+#News | 136497
+Back in Time for Dinner | 78506
+Guilty Pleasures | 73512
+#qt1ma | 257776
+#TheAssignment | 82206
+Hofleverandørerne | 275326
+Pièces à conviction | 6331
+#Sti | 247804
+Nykaa Wali Shaadi | 283548
+Natt Bi | 342984
+Elin supertajný deník | 273982
+Crimetime After Primetime | 9823
+Huizenruilers | 317476
+Festivalsommar | 314706
+Asiye | 340683
 #15SecondScare | 273908
+Deadly Women 2.0 | 341780
 #BlackLove | 64624
 #killerpost | 80105
+Mensch Leute | 243834
 #somos | 126386
 #EinMomentDerBleibt | 199379
 #atherapefti | 272006
-American Travelers | 291091
 #Shelfie with Dan Hong | 70150
 #HoodDocumentary | 252647
-The Vanishing Women | 66704
 #ParangNormal Activity | 87966
+Vocea României | 56676
 #ThatThingFromBefore | 293123
 #ThisIsACoup | 325396
-De Criança Para Criança | 113254
+Babyboom | 51691
+Thik Jeno Love Story | 343068
+Brannstasjonen | 96769
+Marquee | 33418
 #hetisingewikkeld | 122958
 #WarGames | 78811
 #CasaDoCais | 75803
 #MeToo, Now What? | 76771
 #LikeMe | 96246
+Ang panday | 88221
+Dancing Queen | 17517
 #Washed | 278896
 #Metsähaaste | 276012
