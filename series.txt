@@ -12060,7 +12060,7 @@ Téva déco | 205752
 Weinerville | 495
 Wisdom | 59704
 Zoo Diaries | 1329
-Eurovision Song Contest | 28032
+Festival Eurovisão da Canção | 28032
 Headnut TV | 41033
 Pampa ilusión | 104734
 Puppets Who Kill | 3549
@@ -78310,33 +78310,22 @@ Pas si bêtes | 208583
 Dream Jobs | 343249
 Split | 239104
 The Pilot Show | 25455
-#1 Single | 26645
 Payback | 218346
 The Indestructibles | 32042
 Me TV | 38959
 Raja Rani | 130492
-#VSéries | 88737
 Kamali | 104262
-#Freerayshawn | 98624
-#BlackAF | 101200
 Moloch | 276413
 Chiller Theatre | 59261
 Un trésor dans votre maison | 328931
-#Fitgirls | 245190
 Furia | 130219
 Killer Camp | 211117
-#millcore | 257217
-#Luimelia | 98842
 Te Dou a Vida | 139001
-#Hashtag | 82884
 High & Low | 22732
 Bruce | 69802
 Kapalkundala | 343291
-#PartiuBrasil | 125785
-#Datenight | 315248
 Take Home Nanny | 30637
 Chuni Panna | 343215
-#Content | 133623
 The Cult | 83055
 Miracle | 312509
 Models of the Runway | 32326
@@ -78345,27 +78334,18 @@ The Plan | 219780
 Escola de Monstros | 131532
 Life After | 38841
 Hammertime | 208431
-#CoupleChallenge - Das stärkste Team gewinnt | 115734
 Project X | 33686
-#offline im Wald | 128177
-#STRANGELOVE | 272107
 Married at First Sight | 62705
-#1 Chicken | 133791
 Eco | 278483
 Gaston 80 | 204419
 Power Rangers Samurai | 343273
 A Tarde é Sua | 329955
 Gone | 76284
-#Follow | 220802
 Moment | 106787
 Beast Hunter | 38889
-#beisenherz | 278602
-#TextMeWhenYouGetHome | 204948
 The Restaurant Inspector | 39389
 Tuné in | 318586
-#OMG | 82792
 Don't Stop the Music | 83956
-#Bhagar | 209329
 Shabab Al Bomb | 222997
 Farma | 58141
 Play from 'A' | 343206
@@ -78375,40 +78355,25 @@ El Soffara | 222939
 Haunted Hollywood | 232871
 Korkeasaari | 241451
 ZuZu & the SuperNuffs | 343256
-#lovemilla | 317207
 Mahanadhi | 235314
 Science of Stupid | 64905
-#Cybersleuths: The Idaho Murders | 244442
 Big Stories | 119681
 My, | 138683
-#LoveArmy - Où es-tu Jérôme ? | 249668
 Gölgedekiler | 287342
 StraFactor | 194973
 Boomers | 246400
 Us | 110232
-#Dead2Me | 273157
 Peek-A-Boo, I See You! | 343264
-#Todas. Debanhi: una historia de redes | 285880
-#wallraffen | 290495
 Your Money, Their Tricks | 55930
-#Bikerlive | 118267
-#WaddleOn | 299345
 Ziwe: You'd Be an Iconic Guest | 343274
-#Hatetag | 257660
-#StArt | 225877
 4 Square | 20264
 Gettysburg | 42771
 Bandit | 21201
-#News | 136497
 1943 | 275392
-#qt1ma | 257776
 Fortsetzung folgt | 317492
-#TheAssignment | 82206
 For Sarah | 93735
 Worth the Chase | 343254
-#Sti | 247804
 The Anania Show | 343248
-#15SecondScare | 273908
 Dossiê Celebridades | 342572
 Lokal-TV Land | 342317
 A nemzet hülyéje | 341362
@@ -78417,33 +78382,166 @@ Eifeltod | 334817
 Bayhiss | 342029
 Världens Bästa Burgare | 216596
 Köksmästarna | 339426
-#BlackLove | 64624
 Újratervezés | 247946
 Kamp Fly | 332051
 Det stora tårtslaget | 323458
+Smosh Winter Games | 343271
+Hybrid | 42165
+Story | 324543
+Petticoat | 84582
+Thanksgiving | 86986
+BabyFirst Nursery Songs | 343279
+Baby u | 343275
+The Folks | 343211
+RPG | 119631
+Sacch Ka Saamna | 42348
+The Ed Wynn Show | 22750
+Sunshine | 7911
+Jogo de Damas | 31205
+Éste es mi barrio | 343316
+Marimar | 4181
+Les invisibles | 85557
+New Faces | 19536
+Double Exposure | 11125
+Big Bad World | 130057
+Rosalinda | 17346
+Life Support | 26635
+Make Your Mark | 237016
+Xchange | 4037
+World of Sport | 4157
+Eckhart | 26116
+Boule et Bill | 44157
+Nicholas | 7614
+Exposed | 20067
+Strip Search | 9397
+El enemigo | 18022
+Estafa de amor | 319294
+Rebelde Way | 158866
+Covik i po | 241307
+16 | 106302
+Who Wants to Be a Superhero? | 43848
+Rogues' Gallery | 315879
+The Mourning Brooch | 343301
+Ah Bir Zengin Olsam | 49388
+Damage Control | 12372
+My New Best Friend | 793
+Made in China | 299388
+Celebrity Playhouse | 325165
+Station X | 9525
+#1 Single | 26645
+Love to Love | 2832
+Now and Forever | 4411
+Pick Your Face | 26211
+The Re-Inventors | 17428
+Take a Letter | 31466
+Tutsak | 276208
+#VSéries | 88737
+#Freerayshawn | 98624
+#BlackAF | 101200
+Terror! | 223767
+The Boss | 239506
+Fast Life | 217982
+The Cleaner | 7547
+#Fitgirls | 245190
+#millcore | 257217
+#Luimelia | 98842
+#Hashtag | 299830
+Power to the People | 157357
+Cold Blood | 26127
+#PartiuBrasil | 125785
+#Datenight | 315248
+Offside | 315363
+#Content | 133623
+Conexão + | 103886
+The Story Of... | 254764
+Agenda | 31255
+The Well | 39643
+#CoupleChallenge - Das stärkste Team gewinnt | 115734
+Si c'était vous? | 281824
+Sambhlo Chho | 208910
+#offline im Wald | 128177
+#STRANGELOVE | 272107
+En for holdet | 227666
+De tijd van ons leven | 131344
+You Are Here | 237879
+#1 Chicken | 133791
+Rock It! | 24747
+The Children's Hour | 20733
+Animal | 137646
+Burning Bridges | 62228
+The Great Escape | 17431
+The Mighty Redcar | 343337
+Food | 229346
+Lea | 197712
+Børste og Bondegården | 343457
+#Follow | 220802
+#beisenherz | 278602
+At zijí rytíri! | 126126
+Freaks! | 225812
+Dehleez | 18682
+#TextMeWhenYouGetHome | 204948
+Tuné in | 240720
+#OMG | 82792
+Don't Stop the Music | 229177
+#Bhagar | 209329
+Masked Singer Romania | 343343
+The Singalings | 343395
+Kamala O Sreeman Prithwiraj | 343601
+Barnas Restaurant | 343387
+#lovemilla | 317207
+#Cybersleuths: The Idaho Murders | 244442
+#LoveArmy - Où es-tu Jérôme ? | 249668
+Accidental Renovators | 258308
+#Dead2Me | 273157
+Ifrit | 303654
+Cadbury Dream Factory | 343380
+#Todas. Debanhi: una historia de redes | 285880
+#wallraffen | 290495
+#Bikerlive | 118267
+#WaddleOn | 299345
+The Best of Families | 343358
+#Hatetag | 257660
+#StArt | 225877
+Hi, | 48787
+#News | 136497
+#qt1ma | 257776
+#TheAssignment | 82206
+#Sti | 247804
+#15SecondScare | 273908
+Rauls | 336108
+#BlackLove | 64624
+Cocktails and Tall Tales with Ina Garten and Melissa McCarthy | 118327
+Sabah Sabah Seda Sayan | 52604
+Seda Sultan | 52612
+People's Choice Awards | 37507
+Sekerovci | 107249
+Bartenderskolan | 339194
+The Leasing Manager | 340639
+Kebec | 85678
+Try Each Other's | 341599
 #killerpost | 80105
 #somos | 126386
 #EinMomentDerBleibt | 199379
 #atherapefti | 272006
-Smosh Winter Games | 343271
-Hybrid | 42165
+Animals Unleashed | 343375
 #Shelfie with Dan Hong | 70150
 #HoodDocumentary | 252647
-Story | 324543
-Petticoat | 84582
-Thanksgiving | 86986
+The Verdict with Judge Hatchett | 343598
+Vi är inte längre där - Sista åren med Kent | 69204
 #ParangNormal Activity | 87966
 #ThatThingFromBefore | 293123
+L'isola del Tesoro | 62503
 #ThisIsACoup | 325396
-BabyFirst Nursery Songs | 343279
-Baby u | 343275
+2050 | 102516
 #hetisingewikkeld | 122958
+Murder in the Heartland | 47217
 #WarGames | 78811
 #CasaDoCais | 75803
 #MeToo, Now What? | 76771
 #LikeMe | 96246
 #Washed | 278896
-The Folks | 343211
+RadhaKrishn | 281680
+On the Inside | 27650
+The Homecoming | 4846
+Ghostana | 84877
 #Metsähaaste | 276012
-RPG | 119631
-Sacch Ka Saamna | 42348
