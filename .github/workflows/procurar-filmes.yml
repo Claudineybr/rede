@@ -452,6 +452,6 @@ jobs:
           fi
 
           sleep 30
-          gh workflow run "procurar-filmes.yml" --repo "$REPO" --ref main \
+          gh workflow run "procurar-filmes.yml" --repo "$REPO" --ref "${{ github.ref_name }}" \
             -f auto_run=true -f lote="$LOTE_IN" -f arquivo="$ARQ_IN" \
             -f paralelo="$PAR_IN" -f retentar="$RET_IN"

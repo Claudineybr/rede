@@ -73,6 +73,9 @@ jobs:
       # -----------------------------------------------------------------
       #  1) PREPARAR A FILA
       # -----------------------------------------------------------------
+      # ⚠️ O arquivo '$ARQUIVO' (padrão: series.txt) deve conter series no formato
+      #   'Nome em portugues | numero_do_TMDB' ou 'ttXXXXXXX - link'.
+      #   Se o arquivo estiver vazio, o workflow termina sem processar nada.
       - name: Preparar lote
         id: preparar
         env:

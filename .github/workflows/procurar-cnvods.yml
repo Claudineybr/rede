@@ -262,6 +262,10 @@ jobs:
           sed -i 's/^[[:space:]]*//; s/[[:space:]]*$//' servidores.txt
           echo "Servidores testados por filme: $(awk 'END{print NR+0}' servidores.txt)"
 
+          # cnvods_bruto.tsv guarda os achados de TODAS as runs (fica no repo).
+          # O lote atual grava nele e, no final, junta com o que ja existia.
+          touch cnvods_bruto.tsv
+          cp cnvods_bruto.tsv cnvods_bruto_anterior.tsv
           : > cnvods_bruto.tsv
           : > cnvods_testados_lote.tsv
           TOTAL_LOTE=$(awk 'END{print NR+0}' lote_atual.tsv)
@@ -352,8 +356,16 @@ jobs:
             echo "==================================================================="
           } >&2
 
+          # achados do lote + achados anteriores (dedup pela URL)
+          cat cnvods_bruto_anterior.tsv cnvods_bruto.tsv \
+            | awk -F'\t' 'NF >= 6 && !visto[$5]++' > b.tmp && mv b.tmp cnvods_bruto.tsv
+          rm -f cnvods_bruto_anterior.tsv
+
+          # testados: se o filme foi achado (em qualquer run), a linha ACHOU vale
           cat cnvods_testados_lote.tsv >> cnvods_testados.tsv
-          awk -F'\t' '!visto[$1]++' cnvods_testados.tsv > t.tmp && mv t.tmp cnvods_testados.tsv
+          awk -F'\t' '{ if ($2 == "ACHOU" || !($1 in v)) v[$1] = $0 }
+                       END { for (k in v) print v[k] }' cnvods_testados.tsv \
+            | sort -t"$(printf '\t')" -k1,1 > t.tmp && mv t.tmp cnvods_testados.tsv
 
       # -----------------------------------------------------------------
       #  3) MONTAR OS TXTS
@@ -442,7 +454,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config pull.rebase true
 
-          git add cnvods_testados.tsv
+          git add cnvods_testados.tsv cnvods_bruto.tsv
           for arq in resultado-cnvods.txt resultado-cnvods.md links-cnvods.txt; do
             [ -f "$arq" ] && git add "$arq"
           done
