@@ -14,6 +14,10 @@ jobs:
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
+        with:
+          # precisa do PAT: push feito com o GITHUB_TOKEN nao dispara o
+          # workflow "Procurar filmes" (que roda no push de ids.txt)
+          token: ${{ secrets.PAT_CHAIN || secrets.GITHUB_TOKEN }}
 
       - name: Baixar dataset público do IMDb
         run: |
