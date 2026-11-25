@@ -67,6 +67,8 @@ jobs:
       # -----------------------------------------------------------------
       #  CONVERSAO: "tt0000000 + nome" -> "Nome em portugues | numero do TMDB"
       #  Usa a lista diaria gratuita do TMDB (tv_series_ids_MM_DD_AAAA).
+#  ⚠️ Necessário secret TMDB_API_KEY no repo para baixar a lista diária.
+#  Sem a key, o workflow usa apenas os dados do IMDb (mais lento/incompleto).
       # -----------------------------------------------------------------
       - name: Converter para o numero do TMDB -> series.txt
         run: |

@@ -32,7 +32,7 @@ jobs:
           # Filtra: apenas linhas com type = "movie" e id no formato tt + 7 dígitos
           # Saída: tt1234567<TAB>Nome do Filme
           awk -F'\t' '
-            NR > 1 && $2 == "movie" && $1 ~ /^tt[0-9]{7}$/ {
+            NR > 1 && $2 == "movie" && $1 ~ /^tt[0-9]{7,8}$/ {
               print $1 "\t" $3
             }
           ' title.basics.tsv >> ids.txt

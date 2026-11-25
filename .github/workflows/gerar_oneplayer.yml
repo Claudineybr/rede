@@ -23,11 +23,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Arquivo de entrada esperado: 'filmes_oneplayer.txt' com formato:
+      #   tt7896543 - https://exemplo.com/link.mp4  (um por linha)
+      # Se o arquivo não existir ou estiver vazio, nenhum HTML será gerado.
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Gerar HTMLs
+        # ⚠️ O workflow requer o secret TMDB_API_KEY no repositório.
+        #    Sem a key, nenhum HTML será gerado (os filmes serão listados em _nao_encontrados.txt).
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           ARQUIVO: ${{ inputs.arquivo_lista }}
