@@ -1,6 +1,6 @@
 ===================================================================
   CLAUFLIX - RELATORIO GERAL ACUMULADO
-  Processados: 488916 | Achados: 9975 | Descartados: 478941
+  Processados: 761928 | Achados: 9975 | Descartados: 751953
 ===================================================================
 
   Servidores onde apareceram:
