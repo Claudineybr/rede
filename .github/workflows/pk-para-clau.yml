@@ -23,9 +23,10 @@ jobs:
           path: destino
           fetch-depth: 0
 
-      # 3) Converte: tira 🕸️ PK, põe 🍿Clau, vira .html, separa filmes/séries
+      # 3) Converte: tira 🕸️ PK, põe 🍿Clau, vira .html
+      #    filmes -> oneplayer/   |   séries -> series_html/
       - name: 🔄 Converter PK -> Clau🍿 -> HTML
-        run: python3 destino/scripts/pk_to_clau.py /tmp/pk destino/pk_convertido
+        run: python3 destino/scripts/pk_to_clau.py /tmp/pk destino
 
       # 4) Commit + push
       - name: 🎬 Commit e push
@@ -33,16 +34,16 @@ jobs:
           cd destino
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add pk_convertido/filmes pk_convertido/series
+          git add oneplayer series_html
           if git diff --cached --quiet; then
             echo "Nada novo para commitar."
           else
-            git commit -m "feat: PK -> Clau🍿 em HTML (filmes/series) [skip ci]"
+            git commit -m "feat: PK -> Clau🍿 em HTML (filmes/oneplayer, series/series_html) [skip ci]"
             git push
           fi
 
       - name: 📊 Resumo
         run: |
-          echo "Filmes: $(ls destino/pk_convertido/filmes/*.html 2>/dev/null | wc -l)"
-          echo "Séries: $(ls destino/pk_convertido/series/*.html 2>/dev/null | wc -l)"
-          echo "Arquivos com 🕸️ PK restantes: $(grep -rl '🕸️ PK' destino/pk_convertido 2>/dev/null | wc -l)"
+          echo "Filmes em oneplayer/: $(ls destino/oneplayer/*.html 2>/dev/null | wc -l)"
+          echo "Séries em series_html/: $(ls destino/series_html/*.html 2>/dev/null | wc -l)"
+          echo "Arquivos com 🕸️ PK restantes: $(grep -rl '🕸️ PK' destino/oneplayer destino/series_html 2>/dev/null | wc -l)"

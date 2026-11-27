@@ -2,6 +2,10 @@
 """Clona o repo PK e converte: tira a TAG '🕸️ PK', põe '🍿Clau',
 renomeia para .html e separa filmes de séries.
 
+- Filmes  -> <destino>/oneplayer/<id>.html
+- Séries  -> <destino>/series_html/<id>s01e01.html  (padrão da pasta)
+Arquivos que já existem no destino NÃO são sobrescritos.
+
 Uso: python3 pk_to_clau.py <dir_origem> <dir_destino>
 """
 import os
@@ -11,34 +15,46 @@ import sys
 TAG_ANTIGA = "\U0001F578\uFE0F PK"   # 🕸️ PK
 TAG_NOVA = "\U0001F37FClau"          # 🍿Clau
 
+RE_SERIE = re.compile(r"^(.+)_S(\d+)E(\d+)$")
 
-def classificar(base):
-    """Retorna 'serie', 'filme' ou None."""
+
+def nome_destino(base):
+    """Retorna (categoria, nome_do_arquivo) ou (None, None) se ignorar."""
     # Séries: nome termina em _S<num>E<num>  (ex: 100088_S1E1)
-    if re.search(r"_S\d+E\d+$", base):
-        return "serie"
+    m = RE_SERIE.match(base)
+    if m:
+        ident, temporada, episodio = m.group(1), int(m.group(2)), int(m.group(3))
+        # padrão já usado em series_html/: 100010s01e01.html
+        nome = f"{ident.lower()}s{temporada:02d}e{episodio:02d}.html"
+        return "serie", nome
     # Filmes: nome é só dígitos  (ex: 1000837)
     if re.match(r"^\d+$", base):
-        return "filme"
-    return None
+        return "filme", base + ".html"
+    return None, None
 
 
 def converter(src, dst):
-    filmes_dir = os.path.join(dst, "filmes")
-    series_dir = os.path.join(dst, "series")
-    os.makedirs(filmes_dir, exist_ok=True)
-    os.makedirs(series_dir, exist_ok=True)
+    pasta_filmes = os.path.join(dst, "oneplayer")
+    pasta_series = os.path.join(dst, "series_html")
+    os.makedirs(pasta_filmes, exist_ok=True)
+    os.makedirs(pasta_series, exist_ok=True)
 
-    n_filmes = n_series = n_skip = 0
+    novos_filmes = novos_series = existentes = ignorados = 0
 
     for nome in sorted(os.listdir(src)):
         if not nome.endswith(".json"):
             continue
 
-        base = nome[:-5]
-        categoria = classificar(base)
+        categoria, nome_saida = nome_destino(nome[:-5])
         if categoria is None:
-            n_skip += 1
+            ignorados += 1
+            continue
+
+        pasta = pasta_filmes if categoria == "filme" else pasta_series
+        destino = os.path.join(pasta, nome_saida)
+
+        if os.path.exists(destino):
+            existentes += 1
             continue
 
         with open(os.path.join(src, nome), "r", encoding="utf-8") as fh:
@@ -47,19 +63,19 @@ def converter(src, dst):
         # Troca a TAG em todo o arquivo (title + JSON-LD name)
         conteudo = conteudo.replace(TAG_ANTIGA, TAG_NOVA)
 
-        destino = filmes_dir if categoria == "filme" else series_dir
-        with open(os.path.join(destino, base + ".html"), "w", encoding="utf-8") as fh:
+        with open(destino, "w", encoding="utf-8") as fh:
             fh.write(conteudo)
 
         if categoria == "filme":
-            n_filmes += 1
+            novos_filmes += 1
         else:
-            n_series += 1
+            novos_series += 1
 
-    print(f"Filmes: {n_filmes}")
-    print(f"Series: {n_series}")
-    print(f"Ignorados: {n_skip}")
-    return n_filmes, n_series
+    print(f"Filmes novos oneplayer/: {novos_filmes}")
+    print(f"Series novas series_html/: {novos_series}")
+    print(f"Ja existiam (nao sobrescritos): {existentes}")
+    print(f"Ignorados: {ignorados}")
+    return novos_filmes, novos_series, existentes
 
 
 def main():
