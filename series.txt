@@ -8979,7 +8979,7 @@ Archie e seus Mistérios | 3747
 Atrapada | 228347
 Carrossel das Américas | 71097
 Cenizas y diamantes | 312310
-Chapolin | 13023
+O Chapolin Colorado | 13023
 El cristal empañado | 312458
 Dos vidas | 117422
 Días sin luna | 60358
@@ -78536,7 +78536,6 @@ Paradise Hotel | 36109
 La academia | 250713
 Station Zero | 228529
 >Play | 243291
-#1 Single | 26645
 Warrior Challenge | 25690
 The Twins | 341923
 Cushion Kids | 30029
@@ -78546,36 +78545,22 @@ The Shape of Things | 51371
 A Is for Aardvark | 24430
 Antônia | 244589
 The Circuit | 126383
-#VSéries | 88737
 The Possessed | 343628
-#Freerayshawn | 98624
-#BlackAF | 101200
 Sathya | 275659
 House Smarts | 26155
-#Fitgirls | 245190
 Trailblazers | 7426
-#millcore | 257217
-#Luimelia | 98842
 Rang Maza Vegla | 205778
 Oh Oh ... | 50742
-#Hashtag | 299830
 I Can See Your Voice | 110494
 Spectrum | 305319
 22/7 | 93875
 I'm Alive... | 31614
-#PartiuBrasil | 125785
-#Datenight | 315248
 Taxitramas | 131848
-#Content | 133623
 Now What? | 157558
 Break Point | 334136
 2TV | 8556
-#CoupleChallenge - Das stärkste Team gewinnt | 115734
 Gaslight | 320663
 The Bar | 50459
-#offline im Wald | 128177
-#STRANGELOVE | 272107
-#1 Chicken | 133791
 What's That About? | 60184
 The Unsellables | 42281
 Danske Hollywoodfruer | 343617
@@ -78583,12 +78568,7 @@ Canada at War | 33558
 Choir of Hard Knocks | 59130
 Last Days | 82600
 Paddington Bear | 40792
-#Follow | 220802
-#beisenherz | 278602
-#TextMeWhenYouGetHome | 204948
-#OMG | 82792
 What's in a Name? | 46761
-#Bhagar | 209329
 Great Lake Warriors | 59180
 Forræder | 231478
 The Greedysaurus Gang | 343605
@@ -78596,39 +78576,23 @@ My Life Is a Lifetime Movie | 58521
 Must Be the Music | 33085
 Instant People | 22627
 Ghosting | 290126
-#lovemilla | 317207
 Ancient Americas | 260532
-#Cybersleuths: The Idaho Murders | 244442
-#LoveArmy - Où es-tu Jérôme ? | 249668
 En boca de todos | 331409
 Cows | 17085
 Birds | 226987
-#Dead2Me | 273157
 Second Account | 343705
 Crispy Concords | 343656
-#Todas. Debanhi: una historia de redes | 285880
-#wallraffen | 290495
 Red Bull Soapbox Race | 287622
-#Bikerlive | 118267
-#WaddleOn | 299345
-#Hatetag | 257660
-#StArt | 225877
 HOTPIT the Drift Series | 317358
 Salon Confessionals with Madison LeCroy | 343686
 Ham W Shaha | 223093
 The Inventors | 29637
-#News | 136497
-#qt1ma | 257776
 Welsh & Shedar | 335788
-#TheAssignment | 82206
 Kuppilat kuntoon, Kape Aihinen! | 343636
 Can You Hide...Shaq? | 343625
 Liga dos Campeões da UEFA | 343623
-#Sti | 247804
 Summer Replay | 343674
-#15SecondScare | 273908
 Corporate Love Story | 343707
-#BlackLove | 64624
 Eli Manning Presents: The Undercovers | 273408
 Stefano | 228080
 Hoje Tem História | 343393
@@ -78698,7 +78662,6 @@ Nos Passos de Jesus - Audiobook | 343492
 Finas Joias - Audiobook | 343494
 Relíquias da Universal | 343587
 Diverchido | 343503
-#PartiuViajar | 343438
 A Trajetória dos Herdeiros de Deus | 343504
 Podcast con Ellas | 343582
 A Graça Prática | 343426
@@ -78768,27 +78731,161 @@ Hoop & Leven - Levensverhalen | 343597
 Barbero Risponde | 334727
 La pelle del mondo | 316580
 Seniorsurfarna | 131289
+Great | 83752
+Further Back in Time for Dinner | 86496
+Barely Legal | 16226
+Hello! | 303849
+Come Quando Fuori Piove | 136260
+Crime Scene Solvers | 103222
+Ragnarok | 28511
+Don't Quote Me | 343710
+The Gabby Hayes Show | 17620
+Blondie | 7364
+Winners | 5734
+Magnum | 734
+Airline | 3348
+Fantasy Football League | 211245
+Dag Sinterklaas | 95659
+Stay with Me Till Morning | 343791
+Straight Up | 84999
+Alla vi barn i Bullerbyn | 105112
+Mundo de fieras | 6579
+Liebesgeschichten | 63303
+Trust Me | 17271
+The Band | 328684
+King Lear | 18941
+Club Seven | 25977
+Vasikantanssi | 343820
+Ever Increasing Faith | 41409
+Superstar | 66690
+#1 Single | 26645
+Antônia | 88373
+#VSéries | 88737
+Trapped | 325258
+#Freerayshawn | 98624
+#BlackAF | 101200
+Out of Office | 249926
+Big Bang | 228508
+Roommates | 17498
+#Fitgirls | 245190
+#millcore | 257217
+#Luimelia | 98842
+#Hashtag | 299830
+#PartiuBrasil | 125785
+#Datenight | 315248
+#Content | 133623
+Code van Coppens | 95995
+Hvem bor her? | 104322
+Profiles | 33815
+Borderline | 67387
+O Joey é Assim | 114767
+40 | 235970
+Millionaire Hot Seat | 30751
+Guru | 154086
+Reflections | 65218
+Night Sweats | 343838
+#CoupleChallenge - Das stärkste Team gewinnt | 115734
+#offline im Wald | 128177
+#STRANGELOVE | 272107
+#1 Chicken | 133791
+Mera Saaein | 343796
+Thakan | 343821
+Tarap | 103043
+Secret Dealers | 36244
+#Follow | 220802
+#beisenherz | 278602
+Filmoteca: Temas de Cine | 343781
+The 1% Club | 294440
+#TextMeWhenYouGetHome | 204948
+#OMG | 82792
+Klikkaa mua | 343725
+The Backrooms | 343831
+#Bhagar | 209329
+Clube do Livro | 343740
+Klassentreffen | 87440
+Offseason | 83513
+Super | 231236
+Siyaah Series | 343811
+Lackadaisy: A Era do Jazz | 343780
+Shikaar | 343809
+#lovemilla | 317207
+#Cybersleuths: The Idaho Murders | 244442
+Comedy Express | 327331
+#LoveArmy - Où es-tu Jérôme ? | 249668
+#Dead2Me | 273157
+Tapped Out | 215805
+#Todas. Debanhi: una historia de redes | 285880
+#wallraffen | 290495
+Behroopia | 343789
+What You Need to Know | 343825
+#Bikerlive | 118267
+#WaddleOn | 299345
+#Hatetag | 257660
+#StArt | 225877
+Bolzen | 343783
+Symphonic Show | 343715
+Chama o VAR | 343857
+#News | 136497
+#qt1ma | 257776
+#TheAssignment | 82206
+Billy Bob Thornton Presents: The Mayflower | 343799
+Atlas Jams | 343808
+Fala que Eu Te Escuto | 343775
+#Sti | 247804
+#15SecondScare | 273908
+#BlackLove | 64624
+Reunião de Pastores | 343763
+Meditação e Reflexão | 343770
+#PartiuViajar | 343438
+Dienst voor de Discipelen | 343767
+France - Thérapie de l'Amour | 343739
+Mulheres da Bíblia | 343745
+United Kingdom - Family Gathering Night | 343753
+Entrelinhas Portugal | 343764
+EBI - Fala, tia! | 343769
+Beyond the End | 343776
+Congresso para o Sucesso | 343732
+Congresso - Palestra | 343736
+Entrelinhas - Marcas de uma desilusão | 343733
+Cristiane Cardoso - Live | 343738
+Testemunhos - Troca de Espírito | 343748
+Cristiane Cardoso - Podcast | 343750
+Senegal - A fé primitiva | 284679
+Testemunhos - Revolta no Monte Sinai | 343766
+Novela Jesus - Vertical | 343594
+O Golpe | 343772
+Nederlands - Ontmoeting met God | 343734
+Nederlands - School van Geloof | 343735
+IntelliMen - Rússia | 343737
+New York - Encounter with God | 343741
+IntelliMen - Argentina | 343744
+Argentina - Encuentro con Dios | 343749
+France - Rencontre avec Dieu | 343754
+Argentina - Estudio Bíblico | 343762
+IntelliMen - Itália | 343765
+Eventos FJU - Argentina | 343743
+Segredos e Mistérios da Alma - Audiobook | 343761
+Peacock Palace | 343788
 #killerpost | 80105
 #somos | 126386
 #EinMomentDerBleibt | 199379
 #atherapefti | 272006
+DC Super Hero Girls | 64365
 #Shelfie with Dan Hong | 70150
 #HoodDocumentary | 252647
-Great | 83752
+Tanhaiyan | 116701
+Unreal Estate | 323841
 #ParangNormal Activity | 87966
-Further Back in Time for Dinner | 86496
 #ThatThingFromBefore | 293123
 #ThisIsACoup | 325396
-Barely Legal | 16226
+The Bible Project | 343778
 #hetisingewikkeld | 122958
-Hello! | 303849
 #WarGames | 78811
 #CasaDoCais | 75803
+Naik Parveen | 343822
 #MeToo, Now What? | 76771
-Come Quando Fuori Piove | 136260
+Kommissar Dupin | 343839
 #LikeMe | 96246
 #Washed | 278896
-Crime Scene Solvers | 103222
-Ragnarok | 28511
 #Metsähaaste | 276012
-Don't Quote Me | 343710
+Main Bhi Ardhangini | 343867
