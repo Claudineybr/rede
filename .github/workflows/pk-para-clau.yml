@@ -2,8 +2,6 @@ name: Clonar PK e converter para Clau🍿 HTML
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 4 * * 1'  # toda segunda 04:00 UTC
 
 jobs:
   converter:
