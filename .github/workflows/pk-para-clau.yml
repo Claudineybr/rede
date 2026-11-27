@@ -1,0 +1,48 @@
+name: Clonar PK e converter para Clau🍿 HTML
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * 1'  # toda segunda 04:00 UTC
+
+jobs:
+  converter:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # 1) Clona o repo de origem (público -> NÃO precisa de token)
+      - name: 📥 Clonar WaveLy2308/api_pobreflix_filmes
+        run: git clone --depth 1 https://github.com/WaveLy2308/api_pobreflix_filmes.git /tmp/pk
+
+      # 2) Checkout do repo destino (Claudineybr/rede) para commitar o resultado
+      - name: 📥 Checkout do repo destino
+        uses: actions/checkout@v4
+        with:
+          path: destino
+          fetch-depth: 0
+
+      # 3) Converte: tira 🕸️ PK, põe 🍿Clau, vira .html, separa filmes/séries
+      - name: 🔄 Converter PK -> Clau🍿 -> HTML
+        run: python3 destino/scripts/pk_to_clau.py /tmp/pk destino/pk_convertido
+
+      # 4) Commit + push
+      - name: 🎬 Commit e push
+        run: |
+          cd destino
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add pk_convertido/filmes pk_convertido/series
+          if git diff --cached --quiet; then
+            echo "Nada novo para commitar."
+          else
+            git commit -m "feat: PK -> Clau🍿 em HTML (filmes/series) [skip ci]"
+            git push
+          fi
+
+      - name: 📊 Resumo
+        run: |
+          echo "Filmes: $(ls destino/pk_convertido/filmes/*.html 2>/dev/null | wc -l)"
+          echo "Séries: $(ls destino/pk_convertido/series/*.html 2>/dev/null | wc -l)"
+          echo "Arquivos com 🕸️ PK restantes: $(grep -rl '🕸️ PK' destino/pk_convertido 2>/dev/null | wc -l)"
