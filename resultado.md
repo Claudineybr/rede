@@ -1,6 +1,6 @@
 # RELATORIO GERAL ACUMULADO
 
-**762030 processados - 9975 achados - 752055 descartados**
+**762201 processados - 9975 achados - 752226 descartados**
 
 | Filme | ID | Servidor | Link |
 |---|---|---|---|
